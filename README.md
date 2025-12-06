@@ -10,6 +10,7 @@ This repository reflects ongoing hardware and firmware development, and module r
 
 Follow progress at [shmoergh.com](https://www.shmoergh.com/moduleur/)
 
+![moduleur-bp](https://github.com/user-attachments/assets/ad6fa67c-86e8-4ebe-b9d9-81f88d96dbc5)
 
 ## Build options
 
