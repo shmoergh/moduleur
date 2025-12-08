@@ -46,7 +46,7 @@ BOM part numbers—especially SMD components—may become outdated. If you spot 
 ## Enclosure
 
 - [Moduleur enclosure by Shmøergh](https://github.com/shmoergh/moduleur/tree/main/enclosure)
-- [Eurorack frame](https://github.com/shmoergh/moduleur/tree/main/00-eurorack-frame)
+- [Eurorack frame](https://github.com/shmoergh/moduleur/tree/main/eurorack/frame)
 
 ## Contribution & Bug Reports
 
