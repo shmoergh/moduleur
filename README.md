@@ -33,14 +33,14 @@ BOM part numbers—especially SMD components—may become outdated. If you spot 
 
 ## Modules
 
-- [01 — Power supply](https://github.com/shmoergh/moduleur/tree/main/01-psu)
-- [02 — VCO](https://github.com/shmoergh/moduleur/tree/main/02-vco)
-- [03 — Mixer + sidechain compressor](https://github.com/shmoergh/moduleur/tree/main/03-sidechain-mixer)
-- [04 — VCF](https://github.com/shmoergh/moduleur/tree/main/04-vcf)
-- [05 — ADSR & VCA](https://github.com/shmoergh/moduleur/tree/main/05-adsr-vca)
-- [06 — Analog Bitcrusher / S&H + LFO + Output](https://github.com/shmoergh/moduleur/tree/main/06-utils-output)
-- [07 — Brain](https://github.com/shmoergh/moduleur/tree/main/07-brain)
-- [08 — Default patch](https://github.com/shmoergh/moduleur/tree/main/08-default-patch)
+- [01 — Power supply](https://github.com/shmoergh/moduleur/tree/main/modules/01-psu)
+- [02 — VCO](https://github.com/shmoergh/moduleur/tree/main/modules/02-vco)
+- [03 — Mixer + sidechain compressor](https://github.com/shmoergh/moduleur/tree/main/modules/03-sidechain-mixer)
+- [04 — VCF](https://github.com/shmoergh/moduleur/tree/main/modules/04-vcf)
+- [05 — ADSR & VCA](https://github.com/shmoergh/moduleur/tree/main/modules/05-adsr-vca)
+- [06 — Analog Bitcrusher / S&H + LFO + Output](https://github.com/shmoergh/moduleur/tree/main/modules/06-utils-output)
+- [07 — Brain](https://github.com/shmoergh/moduleur/tree/main/modules/07-brain)
+- [08 — Default patch](https://github.com/shmoergh/moduleur/tree/main/modules/08-default-patch)
 
 
 ## Enclosure
