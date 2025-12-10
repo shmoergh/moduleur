@@ -1,7 +1,32 @@
-# Hog Moduleur / Mods & utils
+# Hog Moduleur / Utils & Output
 
-TBD
+## Features
 
-## Status
+TK
 
-**IN PROGRESS**
+## Boards
+
+- [Core board](./electronics/core/) — Contains all active circuitry and handles the complete audio, CV, and logic processing for the module.
+- [UI board](./electronics/ui/) — Hosts all panel-mounted controls and connectors, providing the physical interface to the module’s Core PCB.
+
+## How to Build
+
+- Gerber files for JLCPCB ordering are in each board's `production` folder
+- BOM is also available in the respective `production` folder. All THT components are available at Mouser
+- Use the KiCad schematic and PCB layout for soldering reference
+- **Before connecting any modules**, always make sure there are no shorts between ±12V and ground.
+
+[Build guide](https://www.shmoergh.com/moduleur-build-guide)
+
+## Photos
+
+TK
+
+
+## 🧪 License
+
+Open source licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
+
+Feel free to fork, build, and tweak.
+
+[Disclaimer](https://github.com/shmoergh/moduleur)

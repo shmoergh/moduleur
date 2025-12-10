@@ -1,6 +1,6 @@
 # Hog Moduleur / VCO
 
-Eurorack compatible VCO.
+Eurorack compatible VCO for the Shmøergh Moduleur.
 
 ## Features
 
@@ -11,12 +11,31 @@ Eurorack compatible VCO.
 - Hard sync input
 - FM input
 - Two temperature compensation options for flexible DIY build (one is THT only)
-- Separate core and UI PCBs for reusability and custom UI builds
-- Gerber files for JLCPCB order
 - Designed from very common electronic components
+
+## Boards
+
+- [Core board](./electronics/core/) — Contains all active circuitry and handles the complete audio, CV, and logic processing for the module.
+- [UI board](./electronics/ui/) — Hosts all panel-mounted controls and connectors, providing the physical interface to the module’s Core PCB.
+
+## How to Build
+
+- Gerber files for JLCPCB ordering are in each board's `production` folder
+- BOM is also available in the respective `production` folder. All THT components are available at Mouser
+- Use the KiCad schematic and PCB layout for soldering reference
+- **Before connecting any modules**, always make sure there are no shorts between ±12V and ground.
+
+[Build guide](https://www.shmoergh.com/moduleur-build-guide)
 
 ## Photos
 
-<img width="1060" height="1060" alt="image" src="https://github.com/user-attachments/assets/855545c1-9dfe-4280-8cb2-11fddcb9611f" />
+TK
 
-**IN PROGRESS**
+
+## 🧪 License
+
+Open source licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
+
+Feel free to fork, build, and tweak.
+
+[Disclaimer](https://github.com/shmoergh/moduleur)

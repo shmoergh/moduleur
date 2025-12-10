@@ -1,14 +1,8 @@
-# Hog Moduleur / ADSR + VCA
-
-A combined, Eurorack compatible envelope generator and voltage controlled amplifier module for the Shmøergh Moduleur.
+# Hog Moduleur / Default Patch
 
 ## Features
 
-- Combines a full ADSR envelope generator and VCA module in one
-- Envelope times go up until 10sec (depending on the used pot values)
-- The ADSR output can be normalized to the CV of the VCA
-- Bias trimmer for VCA to set base amp level
-- LED indicator for envelope
+TK
 
 ## Boards
 
