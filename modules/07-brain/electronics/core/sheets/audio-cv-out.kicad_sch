@@ -6549,6 +6549,15 @@
 				(hide yes)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 247.65 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "803176a1-44b0-458c-9e81-013bb57bd77c")
 		)
@@ -7156,7 +7165,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" "YES"
+		(property "CHECKED" ""
 			(at 149.86 50.8 0)
 			(effects
 				(font
@@ -7569,6 +7578,15 @@
 				(hide yes)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 247.65 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "803176a1-44b0-458c-9e81-013bb57bd77d")
 		)
@@ -7775,7 +7793,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" "YES"
+		(property "CHECKED" ""
 			(at 149.86 157.48 0)
 			(effects
 				(font
@@ -8586,6 +8604,15 @@
 			)
 		)
 		(property "LCSC" "C6961"
+			(at 34.29 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 34.29 176.53 0)
 			(effects
 				(font
