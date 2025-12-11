@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "3bfbbbcd-bb76-4f0d-9608-103c8e76a068")
 	(paper "User" 350 210)
+	(title_block
+		(title "Steiner-Parker VCF")
+		(date "2025-12-11")
+		(company "Shmøergh")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:TL072"
 			(pin_names
@@ -7288,7 +7293,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" "YES"
+		(property "CHECKED" ""
 			(at 156.21 74.93 0)
 			(effects
 				(font
@@ -7420,7 +7425,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" "YES"
+		(property "CHECKED" ""
 			(at 171.45 74.93 0)
 			(effects
 				(font
@@ -7552,7 +7557,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" "YES"
+		(property "CHECKED" ""
 			(at 186.69 74.93 0)
 			(effects
 				(font
@@ -7957,7 +7962,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C22843"
 			(at 133.35 53.34 0)
 			(effects
 				(font
@@ -7975,7 +7980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "JLCPCB"
 			(at 133.35 53.34 0)
 			(effects
 				(font
@@ -8002,7 +8007,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 133.35 53.34 0)
 			(effects
 				(font
@@ -8098,7 +8103,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C22843"
 			(at 209.55 53.34 0)
 			(effects
 				(font
@@ -8116,7 +8121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "JLCPCB"
 			(at 209.55 53.34 0)
 			(effects
 				(font
@@ -8143,7 +8148,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 209.55 53.34 0)
 			(effects
 				(font
@@ -9413,7 +9418,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" "YES"
+		(property "CHECKED" ""
 			(at 224.79 59.69 90)
 			(effects
 				(font
@@ -11450,7 +11455,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" "YES"
+		(property "CHECKED" ""
 			(at 271.78 57.15 90)
 			(effects
 				(font
@@ -11590,7 +11595,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" "YES"
+		(property "CHECKED" ""
 			(at 171.45 46.99 90)
 			(effects
 				(font
@@ -12477,7 +12482,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" "YES"
+		(property "CHECKED" ""
 			(at 264.16 71.12 0)
 			(effects
 				(font
@@ -12828,7 +12833,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" "YES"
+		(property "CHECKED" ""
 			(at 252.73 146.05 0)
 			(effects
 				(font
@@ -14664,7 +14669,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" "YES"
+		(property "CHECKED" ""
 			(at 252.73 139.7 0)
 			(effects
 				(font
