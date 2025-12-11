@@ -1691,7 +1691,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25811"
+		(property "LCSC" "C22975"
 			(at 191.77 96.52 90)
 			(effects
 				(font
@@ -2105,7 +2105,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22962"
+		(property "LCSC" "C22790"
 			(at 134.62 77.47 90)
 			(effects
 				(font
@@ -2289,7 +2289,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" "YES"
+		(property "CHECKED" ""
 			(at 128.27 111.76 0)
 			(effects
 				(font
@@ -2550,7 +2550,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" "YES"
+		(property "CHECKED" ""
 			(at 171.45 111.76 90)
 			(effects
 				(font
@@ -2692,7 +2692,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25811"
+		(property "LCSC" "C22809"
 			(at 125.73 68.58 90)
 			(effects
 				(font
@@ -2822,7 +2822,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22962"
+		(property "LCSC" "C25804"
 			(at 200.66 105.41 90)
 			(effects
 				(font
