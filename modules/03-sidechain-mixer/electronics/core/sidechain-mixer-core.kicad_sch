@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "8e2e31f3-eed5-4de1-966c-f4162758c735")
 	(paper "A4")
+	(title_block
+		(title "Mixer & sidechain compressor")
+		(date "2025-12-11")
+		(company "Shmøergh")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
@@ -2219,7 +2224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 215.9 66.04 0)
 			(effects
 				(font
@@ -2388,7 +2393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 200.66 160.02 0)
 			(effects
 				(font
@@ -2506,7 +2511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 179.07 160.02 0)
 			(effects
 				(font
@@ -2924,7 +2929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 220.98 160.02 0)
 			(effects
 				(font
@@ -3042,7 +3047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 241.3 160.02 0)
 			(effects
 				(font
@@ -3169,7 +3174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 215.9 83.82 0)
 			(effects
 				(font
