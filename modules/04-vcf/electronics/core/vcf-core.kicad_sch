@@ -1768,7 +1768,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" "YES"
+		(property "CHECKED" ""
 			(at 214.63 102.87 0)
 			(effects
 				(font
@@ -1900,7 +1900,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" "YES"
+		(property "CHECKED" ""
 			(at 255.27 101.6 0)
 			(effects
 				(font
@@ -2105,7 +2105,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" "YES"
+		(property "CHECKED" ""
 			(at 200.66 160.02 0)
 			(effects
 				(font
@@ -2223,7 +2223,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" "YES"
+		(property "CHECKED" ""
 			(at 179.07 160.02 0)
 			(effects
 				(font
@@ -2341,7 +2341,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" "YES"
+		(property "CHECKED" ""
 			(at 215.9 71.12 0)
 			(effects
 				(font
@@ -2553,7 +2553,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" "YES"
+		(property "CHECKED" ""
 			(at 220.98 160.02 0)
 			(effects
 				(font
@@ -2671,7 +2671,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" "YES"
+		(property "CHECKED" ""
 			(at 241.3 160.02 0)
 			(effects
 				(font
