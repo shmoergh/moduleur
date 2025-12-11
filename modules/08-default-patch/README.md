@@ -1,13 +1,6 @@
 # Hog Moduleur / Default Patch
 
-## Features
-
-TK
-
-## Boards
-
-- [Core board](./electronics/core/) — Contains all active circuitry and handles the complete audio, CV, and logic processing for the module.
-- [UI board](./electronics/ui/) — Hosts all panel-mounted controls and connectors, providing the physical interface to the module’s Core PCB.
+An optional passive PCB which connects the modules of the Shmøergh Moduleur. This essentially creates a default patch which makes the Moduleur playable without patch cables.
 
 ## How to Build
 
