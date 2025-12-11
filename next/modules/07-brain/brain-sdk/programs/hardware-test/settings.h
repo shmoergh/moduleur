@@ -1,2 +1,0 @@
-// MIDI
-#define MIDI_CHANNEL 1
