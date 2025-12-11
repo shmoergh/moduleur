@@ -1,4 +1,4 @@
-# Hog Moduleur / PSU – ±12V Eurorack Power Supply
+# Shmøergh Moduleur / PSU – ±12V Eurorack Power Supply
 
 Eurorack compatible power supply unit for the Shmøergh Moduleur.
 

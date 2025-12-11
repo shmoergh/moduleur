@@ -1,4 +1,4 @@
-# Hog Moduleur / ADSR + VCA
+# Shmøergh Moduleur / ADSR + VCA
 
 A combined, Eurorack compatible envelope generator and voltage controlled amplifier module for the Shmøergh Moduleur.
 
@@ -10,7 +10,7 @@ A combined, Eurorack compatible envelope generator and voltage controlled amplif
 - Bias trimmer for VCA to set base amp level
 - LED indicator for envelope
 - 12HP Eurorack compatible design
-- Reverse polarity protection
+- Reverse polarity protections
 
 ## Boards
 

@@ -1,4 +1,4 @@
-# Hog Moduleur / VCF
+# Shmøergh Moduleur / VCF
 
 Dual mode Eurorack compatible diode filter based on the famous Synthacon Steiner-Parker circuit.
 

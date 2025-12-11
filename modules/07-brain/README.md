@@ -1,8 +1,26 @@
-# Hog Moduleur / Brain
+# Shmøergh Moduleur / Brain
+
+Brain is a universal digital module for the Shmøergh Moduleur which enables the development of new functions like sequencers, MIDI features, digital voices and synths and whatever comes to mind. The module uses a Raspberry Pi Pico / Pico 2 so all features of the board are available in any language (Micropython, C++, Rust). To speed up development we provide an SDK that makes it easy to use the available pots, buttons, I/O and MIDI.
 
 ## Features
 
-TK
+- Universal digital module based on Raspberry Pi Pico or Pico 2
+- Three buttons, one of them with LED
+- Two potmeters
+- Dedicated MIDI input with input protection
+- Six dimmable LED indicators
+- Two audio or CV inputs
+- Two audio or CV outputs
+- One pulse input
+- One pulse output
+- USB-C connector
+- Uses an actual Rpi Pico board under the hood
+- Brain SDK for all UI components
+- CV voltage output tuner trimmer pot
+- Software based AC/DC coupling on audio/CV output
+- Separate UI & core PCBs for reusability
+- 12HP Eurorack compatible design
+- Reverse polarity protection
 
 ## Boards
 
@@ -17,6 +35,12 @@ TK
 - **Before connecting any modules**, always make sure there are no shorts between ±12V and ground.
 
 [Build guide](https://www.shmoergh.com/moduleur-build-guide)
+
+## Firmware development
+
+The Brain SDK is a firmware and library collection for the Raspberry Pi Pico, designed to speed up the development. It provides reusable components for I/O, UI, DSP, and more, along with example programs and scripts to streamline project setup and prototyping.
+
+[Brain SDK](./brain-sdk/)
 
 ## Photos
 

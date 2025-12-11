@@ -1,4 +1,4 @@
-# Hog Moduleur / Utils & Output
+# Shmøergh Moduleur / Utils & Output
 
 Combined analog bitcrusher, LFO and an output interface with overdrive in a single Eurorack compatible module.
 

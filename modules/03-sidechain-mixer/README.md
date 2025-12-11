@@ -1,4 +1,4 @@
-# Hog Moduleur / Sidechain Mixer
+# Shmøergh Moduleur / Sidechain Mixer
 
 4 channel Eurorack compatible mixer with sidechain compressor.
 

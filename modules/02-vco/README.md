@@ -1,4 +1,4 @@
-# Hog Moduleur / VCO
+# Shmøergh Moduleur / VCO
 
 Eurorack compatible VCO for the Shmøergh Moduleur.
 
