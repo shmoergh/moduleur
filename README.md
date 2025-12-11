@@ -51,16 +51,9 @@ BOM part numbers—especially SMD components—may become outdated. If you spot 
 
 ## Contribution & Bug Reports
 
-Contributions are welcome, especially in areas where community experience can improve the reliability and longevity of the system. Useful contributions include:
+Contributions are much appreciated, especially in areas where community experience can improve the reliability and longevity of the system.
 
-- New [Brain](./modules/07-brain/) firmwares or any improvement on existing firmwares
-- Improvements on the [Brain SDK](./modules/07-brain/brain-sdk/)
-- Reporting electronics issues or unexpected behaviour in any module
-- Suggestions for improving analog or mixed-signal circuits
-- Updating outdated or unavailable part numbers in SMD or THT BOMs
-- Providing alternative UI board designs, control layouts, or enclosure adaptations
-
-If you encounter a bug or discrepancy, please open an issue in this repository and include as much detail as possible (module revision, measurements, test conditions, photos if relevant). Pull requests are encouraged for straightforward fixes such as BOM updates or documentation improvements.
+[Contributing guidelines](./CONTRIBUTING.md)
 
 ## License
 
