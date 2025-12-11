@@ -1,0 +1,8 @@
+"Reference","Qty","Value","Footprint","Part No.","Part URL","Vendor"
+"D1,D3,D4","3","LED","LED_THT:LED_D3.0mm","604-WP710A10ID","https://mou.sr/45uKc0N","Mouser"
+"D2","1","1N4001","Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal","637-1N4001 ","https://mou.sr/3DfEJyK","Mouser"
+"IC1","1","ISOLATED_DC-DC_CONV","Shmoergh_Custom_Footprints:Converter_DCDC_MeanWell_NSD10_DKMW_THT","709-NSD10-12D12 ","https://mou.sr/3ZpECrS","Mouser"
+"J1","1","Barrel_Jack_Switch","Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002","710-694106301002 ","https://mou.sr/4a9ckVQ","Mouser"
+"J2,J3,J4,J5","4","Conn_02x08_Odd_Even","Connector_IDC:IDC-Header_2x08_P2.54mm_Horizontal","737-BHR-16-VUA","https://mou.sr/4jUmWfT","Mouser"
+"R1,R2,R3","3","1k","Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","303-MF0W4FF1001A10 ","https://mou.sr/3ZzOD6G","Mouser"
+"S1","1","PB400EEQR1BLK","Shmoergh_Custom_Footprints:SW_PB400EEQR1BLK","612-PB400EEQR1BLK ","https://mou.sr/3TDv9tV","Mouser"
