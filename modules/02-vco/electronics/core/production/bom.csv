@@ -16,7 +16,7 @@ J3,IDC-Header_2x05_P2.54mm_Horizontal,1,Conn_02x05_Odd_Even,
 J4,PinHeader_1x02_P2.54mm_Vertical,1,Conn_01x02,
 J5,PinHeader_2x03_P2.54mm_Vertical,1,Conn_02x03_Odd_Even,
 J6,PinHeader_2x02_P2.54mm_Vertical,1,Conn_02x02_Counter_Clockwise,
-J8,PinHeader_1x06_P2.54mm_Vertical,1,Conn_01x06,
+J8,PinHeader_1x07_P2.54mm_Vertical,1,Conn_01x07,
 Q1,SOT-363_SC-70-6,1,BC847BS,C5380687
 Q2,SOT-23_Handsoldering,1,MMBT3906,C7420354
 Q3,TO-92_Inline_Wide,1,J111,

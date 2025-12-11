@@ -6681,7 +6681,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" "YES"
+		(property "CHECKED" ""
 			(at 86.36 157.48 0)
 			(effects
 				(font
@@ -9885,7 +9885,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" "YES"
+		(property "CHECKED" ""
 			(at 44.45 69.85 0)
 			(effects
 				(font

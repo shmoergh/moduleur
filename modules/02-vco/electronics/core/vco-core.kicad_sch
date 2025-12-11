@@ -5,9 +5,9 @@
 	(uuid "8e2e31f3-eed5-4de1-966c-f4162758c735")
 	(paper "A4")
 	(title_block
-		(title "Hog Moduleur VCO core")
-		(date "2025-10-24")
-		(rev "v0.2")
+		(title "Moduleur VCO core")
+		(date "2025-12-11")
+		(rev "v1.0")
 		(company "Shmøergh")
 	)
 	(lib_symbols
@@ -2439,7 +2439,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" "YES"
+		(property "CHECKED" ""
 			(at 255.27 101.6 0)
 			(effects
 				(font
@@ -2947,7 +2947,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" "YES"
+		(property "CHECKED" ""
 			(at 215.9 60.96 0)
 			(effects
 				(font
