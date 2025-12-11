@@ -2744,10 +2744,6 @@
 		(uuid "c17ce11a-96bc-447c-b83d-1181c4564e07")
 	)
 	(no_connect
-		(at 166.37 90.17)
-		(uuid "c261d0d4-0859-4078-b2e7-e308408a0808")
-	)
-	(no_connect
 		(at 166.37 80.01)
 		(uuid "c4490e09-2ab6-4250-ab0f-65c80d0da050")
 	)
@@ -3411,6 +3407,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 90.17) (xy 191.77 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9e19634-d03a-44c6-8ef9-22a655001e59")
+	)
+	(wire
+		(pts
 			(xy 54.61 43.18) (xy 66.04 43.18)
 		)
 		(stroke
@@ -3717,6 +3723,17 @@
 			(justify right)
 		)
 		(uuid "e7081395-b2af-4fa9-92a1-b962cd1dbe1e")
+	)
+	(hierarchical_label "BTN_3"
+		(shape output)
+		(at 191.77 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f0ea87ac-2ad8-49f7-b3b1-e05eac04ed99")
 	)
 	(hierarchical_label "GPIO_AUDIO_IN_1"
 		(shape input)

@@ -1440,6 +1440,20 @@
 		)
 		(uuid "10ca583a-d95a-49ca-9fef-47f76aa3a208")
 	)
+	(text "SAMPLE\nTO BE REMOVED"
+		(exclude_from_sim no)
+		(at 273.05 26.67 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(italic yes)
+				(color 255 0 255 1)
+			)
+		)
+		(uuid "191dca2e-0805-4296-8cd4-743c26c309f4")
+	)
 	(text "Pulse I/O"
 		(exclude_from_sim no)
 		(at 194.945 107.95 0)
@@ -1521,6 +1535,20 @@
 			(justify left)
 		)
 		(uuid "7db2316c-1243-49c5-96ae-73653c2fdc3c")
+	)
+	(text "SAMPLE\nTO BE REMOVED"
+		(exclude_from_sim no)
+		(at 303.53 26.67 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(italic yes)
+				(color 255 0 255 1)
+			)
+		)
+		(uuid "7dbdc6cf-5159-477d-8d46-79b91834337b")
 	)
 	(text "SDK Done"
 		(exclude_from_sim no)
@@ -1780,6 +1808,12 @@
 		(uuid "fa7760ee-0c94-4d2d-b523-e42be1281ed9")
 	)
 	(junction
+		(at 273.05 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2268b409-4ec7-4c44-ba21-cd3a39056f07")
+	)
+	(junction
 		(at 299.72 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1820,10 +1854,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef16a19d-4bb5-4cd5-8f6d-1a107c848fb7")
-	)
-	(no_connect
-		(at 288.29 45.72)
-		(uuid "36a1c9e5-88ea-45fc-89e4-fe5a8d1f94f0")
 	)
 	(polyline
 		(pts
@@ -1897,13 +1927,13 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 97.79) (xy 275.59 97.79)
+			(xy 292.1 45.72) (xy 288.29 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "08ef9360-bfcd-44fb-bc5c-6287cdbfe93a")
+		(uuid "0c1580e5-de40-42f1-948b-2492998d49fd")
 	)
 	(wire
 		(pts
@@ -2177,6 +2207,26 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 58.42) (xy 160.02 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "632a92d0-ae76-4e12-ad76-3d4203a5cb3b")
+	)
+	(wire
+		(pts
+			(xy 273.05 97.79) (xy 275.59 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64090f9e-1d9f-4056-ac98-739d1660b2f5")
+	)
+	(wire
+		(pts
 			(xy 288.29 100.33) (xy 290.83 100.33)
 		)
 		(stroke
@@ -2357,6 +2407,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 97.79) (xy 273.05 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a03597f4-4518-448d-a555-5e251bdf9f26")
+	)
+	(wire
+		(pts
 			(xy 88.9 86.36) (xy 101.6 86.36)
 		)
 		(stroke
@@ -2534,16 +2594,6 @@
 			(type default)
 		)
 		(uuid "c8dee91b-eb77-49d8-81ba-5b03e14917ea")
-	)
-	(wire
-		(pts
-			(xy 52.07 58.42) (xy 54.61 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce9fb101-ac71-4005-a7a2-5058020047c5")
 	)
 	(wire
 		(pts
@@ -2945,6 +2995,16 @@
 		)
 		(uuid "f367b29f-8998-4bd0-9d72-5912ce2eb65a")
 	)
+	(label "GPIO_20"
+		(at 149.86 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f86aaf11-d7d7-4338-800b-2c19369e8ccc")
+	)
 	(global_label "MIDI_5T"
 		(shape output)
 		(at 198.12 76.2 0)
@@ -3057,7 +3117,7 @@
 	)
 	(global_label "POT_2"
 		(shape input)
-		(at 271.78 95.25 180)
+		(at 271.78 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3067,7 +3127,7 @@
 		)
 		(uuid "3297a138-4a15-4151-81d6-97dfccd74810")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.0496 95.25 0)
+			(at 263.0496 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3297,28 +3357,6 @@
 			)
 		)
 	)
-	(global_label "POT_3"
-		(shape input)
-		(at 271.78 92.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "77d45d40-0b96-41eb-a120-d76d5c38415f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.0496 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "LED_3"
 		(shape output)
 		(at 271.78 64.77 180)
@@ -3403,28 +3441,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "POT_3"
-		(shape input)
-		(at 52.07 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "945055ec-58fe-4478-add9-4db554eab65a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.3396 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -3561,6 +3577,28 @@
 			)
 		)
 	)
+	(global_label "BTN_3"
+		(shape input)
+		(at 160.02 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cc72648f-38fa-461e-95d3-733ef9f6a871")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.7504 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PULSE_IN"
 		(shape input)
 		(at 292.1 77.47 0)
@@ -3607,7 +3645,7 @@
 	)
 	(global_label "POT_1"
 		(shape input)
-		(at 271.78 97.79 180)
+		(at 271.78 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3617,7 +3655,7 @@
 		)
 		(uuid "d402eee3-76bb-49fd-9697-148b42ef2d95")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.0496 97.79 0)
+			(at 263.0496 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3689,6 +3727,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BTN_3"
+		(shape input)
+		(at 292.1 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e6d87d53-e853-46a2-bb2c-e07ddc36c8bc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 300.8304 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5791,6 +5851,48 @@
 		)
 	)
 	(sheet
+		(at 293.37 19.05)
+		(size 20.32 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "58d976d6-5ff2-4f75-8bc0-3e0bd551e7f0")
+		(property "Sheetname" "LEDs"
+			(at 293.37 18.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sheets/leds.kicad_sch"
+			(at 293.37 33.6046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "brain-core"
+				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 54.61 113.03)
 		(size 34.29 7.62)
 		(exclude_from_sim no)
@@ -5948,16 +6050,6 @@
 		(pin "POT_2" input
 			(at 54.61 55.88 180)
 			(uuid "d084c7a5-aa74-4192-a6c8-73845492f6ca")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "POT_3" input
-			(at 54.61 58.42 180)
-			(uuid "56f2e473-6962-447b-8d7e-3f4000498663")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6200,6 +6292,48 @@
 		)
 	)
 	(sheet
+		(at 255.27 19.05)
+		(size 34.29 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a97d408f-9e6e-4f2a-a0b2-91646f8dc854")
+		(property "Sheetname" "Buttons"
+			(at 255.27 18.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sheets/buttons.kicad_sch"
+			(at 255.27 33.6046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "brain-core"
+				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 160.02 113.03)
 		(size 34.29 7.62)
 		(exclude_from_sim no)
@@ -6428,6 +6562,16 @@
 		(pin "BTN_2" input
 			(at 147.32 55.88 0)
 			(uuid "a32e1d6d-c0ea-4901-a864-3e311d60d6bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BTN_3" output
+			(at 147.32 58.42 0)
+			(uuid "9accef8d-3691-4d39-9bd1-82388d365ef0")
 			(effects
 				(font
 					(size 1.27 1.27)

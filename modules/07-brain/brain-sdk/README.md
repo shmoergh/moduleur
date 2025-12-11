@@ -1,6 +1,6 @@
 # Brain SDK Overview
 
-The Brain SDK is a firmware and library collection for the Raspberry Pi Pico, designed to accelerate embedded development. It provides reusable components for I/O, UI, DSP, and more, along with example programs and scripts to streamline project setup and prototyping.
+The Brain SDK is a modular firmware and library collection for the Raspberry Pi Pico, designed to accelerate embedded development. It provides reusable components for I/O, UI, DSP, and more, along with example programs and scripts to streamline project setup and prototyping.
 
 ## Features
 Brain is based on the Raspberry Pi Pico. It's a universal digital module for Eurorack synths with flexible inputs and outputs.

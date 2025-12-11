@@ -955,6 +955,14 @@
     [
       "6d9ed0a4-9ccf-4f42-8434-45714a6fdbff",
       "Pots"
+    ],
+    [
+      "a97d408f-9e6e-4f2a-a0b2-91646f8dc854",
+      "Buttons"
+    ],
+    [
+      "58d976d6-5ff2-4f75-8bc0-3e0bd551e7f0",
+      "LEDs"
     ]
   ],
   "text_variables": {}
