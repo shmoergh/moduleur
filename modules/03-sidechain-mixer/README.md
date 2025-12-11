@@ -1,6 +1,6 @@
 # Hog Moduleur / Sidechain Mixer
 
-4 channel Eurorack compatible mixer and sidechain compressor.
+4 channel Eurorack compatible mixer with sidechain compressor.
 
 ## Features
 

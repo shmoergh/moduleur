@@ -1,8 +1,19 @@
 # Hog Moduleur / Utils & Output
 
+Combined analog bitcrusher, LFO and an output interface with overdrive in a single Eurorack compatible module.
+
 ## Features
 
-TK
+- Analog bitcrusher
+- External trigger of analog bitcrusher, which allows sample & hold usage
+- Analog LFO with square and triangle output
+- LFO works from about 0.1Hz to 200Hz audio range
+- LED indicator for LFO
+- Output module to interface line level audio
+- LED based overdrive in output module
+- Optional dual-mono headphones output
+- 12HP Eurorack compatible design
+- Reverse polarity protection
 
 ## Boards
 

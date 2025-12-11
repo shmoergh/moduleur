@@ -9,6 +9,8 @@ A combined, Eurorack compatible envelope generator and voltage controlled amplif
 - The ADSR output can be normalized to the CV of the VCA
 - Bias trimmer for VCA to set base amp level
 - LED indicator for envelope
+- 12HP Eurorack compatible design
+- Reverse polarity protection
 
 ## Boards
 
