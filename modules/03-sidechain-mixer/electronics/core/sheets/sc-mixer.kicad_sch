@@ -5126,6 +5126,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor" "Mouser"
+			(at 144.78 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "15badd25-d7b3-4956-b53f-ed3d4b6d1906")
 		)
@@ -5425,7 +5434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 146.05 118.11 90)
 			(effects
 				(font
@@ -5956,7 +5965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 128.27 134.62 90)
 			(effects
 				(font
@@ -8242,7 +8251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 135.89 139.7 90)
 			(effects
 				(font
@@ -9586,7 +9595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 34.29 193.04 90)
 			(effects
 				(font
@@ -10744,7 +10753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 88.9 137.16 0)
 			(effects
 				(font
@@ -12035,6 +12044,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor" "Mouser"
+			(at 207.01 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d2f926ec-11a9-4136-960e-10d68b3d5091")
 		)
@@ -13060,7 +13078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 58.42 129.54 0)
 			(effects
 				(font
@@ -13970,7 +13988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 128.27 129.54 90)
 			(effects
 				(font
