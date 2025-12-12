@@ -3476,6 +3476,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part no." "926-LM7805CT/NOPB "
+			(at 85.09 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9f910fef-d5a3-4201-89c3-7e3c37680125")
 		)
@@ -4170,7 +4179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4liCQlU"
 			(at 88.9 92.71 0)
 			(effects
 				(font
@@ -4206,7 +4215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part no." ""
+		(property "Mouser Part no." "200-TSW10307TD"
 			(at 88.9 92.71 0)
 			(effects
 				(font
@@ -4896,7 +4905,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/3GwYxj9"
 			(at 156.21 97.79 0)
 			(effects
 				(font
@@ -4932,7 +4941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part no." ""
+		(property "Mouser Part no." "571-5103310-1"
 			(at 156.21 97.79 0)
 			(effects
 				(font
@@ -5650,7 +5659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/3IruU3e"
 			(at 92.71 109.22 0)
 			(effects
 				(font
@@ -5686,7 +5695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part no." ""
+		(property "Mouser Part no." "200-HTSW10207TS"
 			(at 92.71 109.22 0)
 			(effects
 				(font
