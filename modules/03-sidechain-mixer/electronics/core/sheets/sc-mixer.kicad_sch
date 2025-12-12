@@ -5135,6 +5135,33 @@
 				(hide yes)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 144.78 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part no." "774-06TR4AA104CP"
+			(at 144.78 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "https://mou.sr/4oMQfnb"
+			(at 144.78 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "15badd25-d7b3-4956-b53f-ed3d4b6d1906")
 		)
@@ -5425,7 +5452,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 146.05 118.11 90)
 			(effects
 				(font
@@ -5452,7 +5479,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4aLzHIM"
 			(at 146.05 118.11 0)
 			(effects
 				(font
@@ -5471,6 +5498,15 @@
 			)
 		)
 		(property "Hestore" ""
+			(at 146.05 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part no." "603-MFR-25FRF5210K"
 			(at 146.05 118.11 90)
 			(effects
 				(font
@@ -5956,7 +5992,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 128.27 134.62 90)
 			(effects
 				(font
@@ -5983,7 +6019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4aLzHIM"
 			(at 128.27 134.62 0)
 			(effects
 				(font
@@ -6002,6 +6038,15 @@
 			)
 		)
 		(property "Hestore" ""
+			(at 128.27 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part no." "603-MFR-25FRF5210K"
 			(at 128.27 134.62 90)
 			(effects
 				(font
@@ -8242,7 +8287,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 135.89 139.7 90)
 			(effects
 				(font
@@ -8269,7 +8314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4aLzHIM"
 			(at 135.89 139.7 0)
 			(effects
 				(font
@@ -8288,6 +8333,15 @@
 			)
 		)
 		(property "Hestore" ""
+			(at 135.89 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part no." "603-MFR-25FRF5210K"
 			(at 135.89 139.7 0)
 			(effects
 				(font
@@ -9586,7 +9640,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 34.29 193.04 90)
 			(effects
 				(font
@@ -9613,7 +9667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4aLzHIM"
 			(at 34.29 193.04 0)
 			(effects
 				(font
@@ -9632,6 +9686,15 @@
 			)
 		)
 		(property "Hestore" ""
+			(at 34.29 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part no." "603-MFR-25FRF5210K"
 			(at 34.29 193.04 0)
 			(effects
 				(font
@@ -10744,7 +10807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/44pTlq5"
 			(at 88.9 137.16 0)
 			(effects
 				(font
@@ -10754,6 +10817,24 @@
 			)
 		)
 		(property "Vendor" "Mouser"
+			(at 88.9 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 88.9 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part no." "774-06TR4AA103CP"
 			(at 88.9 137.16 0)
 			(effects
 				(font
@@ -12053,6 +12134,33 @@
 				(hide yes)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 207.01 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part no." "774-06TR4AA103CP"
+			(at 207.01 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "https://mou.sr/44pTlq5"
+			(at 207.01 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d2f926ec-11a9-4136-960e-10d68b3d5091")
 		)
@@ -13069,7 +13177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/44pTlq5"
 			(at 58.42 129.54 0)
 			(effects
 				(font
@@ -13080,6 +13188,24 @@
 		)
 		(property "Vendor" "Mouser"
 			(at 58.42 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 58.42 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part no." "774-06TR4AA103CP"
+			(at 58.42 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13979,7 +14105,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 128.27 129.54 90)
 			(effects
 				(font
@@ -14006,7 +14132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4aLzHIM"
 			(at 128.27 129.54 0)
 			(effects
 				(font
@@ -14025,6 +14151,15 @@
 			)
 		)
 		(property "Hestore" ""
+			(at 128.27 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part no." "603-MFR-25FRF5210K"
 			(at 128.27 129.54 90)
 			(effects
 				(font

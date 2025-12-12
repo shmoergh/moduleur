@@ -4732,7 +4732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4kxE3Vr"
 			(at 139.7 148.59 0)
 			(effects
 				(font
@@ -4741,7 +4741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 139.7 148.59 0)
 			(effects
 				(font
@@ -4751,6 +4751,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 139.7 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "200-SSW10401TMS"
 			(at 139.7 148.59 0)
 			(effects
 				(font
@@ -6771,7 +6780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4lVCZM9"
 			(at 87.63 149.86 0)
 			(effects
 				(font
@@ -6780,7 +6789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 87.63 149.86 0)
 			(effects
 				(font
@@ -6790,6 +6799,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 87.63 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "200-SSW10501TD"
 			(at 87.63 149.86 0)
 			(effects
 				(font
@@ -7316,7 +7334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4aLzHIM"
 			(at 190.5 76.2 0)
 			(effects
 				(font
@@ -7325,7 +7343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 190.5 76.2 0)
 			(effects
 				(font
@@ -7335,6 +7353,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 190.5 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "603-MFR-25FRF5210K"
 			(at 190.5 76.2 0)
 			(effects
 				(font
@@ -8111,7 +8138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4kxE3Vr"
 			(at 139.7 166.37 0)
 			(effects
 				(font
@@ -8120,7 +8147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 139.7 166.37 0)
 			(effects
 				(font
@@ -8130,6 +8157,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 139.7 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "200-SSW10401TMS"
 			(at 139.7 166.37 0)
 			(effects
 				(font
@@ -8765,7 +8801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/3PSKVAZ"
 			(at 106.68 80.01 0)
 			(effects
 				(font
@@ -8774,7 +8810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 106.68 80.01 0)
 			(effects
 				(font
@@ -8784,6 +8820,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 106.68 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "603-MFR-25FRF5220K"
 			(at 106.68 80.01 0)
 			(effects
 				(font
