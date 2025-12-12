@@ -2597,7 +2597,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4oMQfnb"
 			(at 68.58 120.65 0)
 			(effects
 				(font
@@ -2607,6 +2607,24 @@
 			)
 		)
 		(property "Vendor" "Mouser"
+			(at 68.58 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 68.58 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part no." "774-06TR4AA104CP"
 			(at 68.58 120.65 0)
 			(effects
 				(font
@@ -4564,6 +4582,33 @@
 			)
 		)
 		(property "Vendor" "Mouser"
+			(at 146.05 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 146.05 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part no." "774-06TR4AA103CP"
+			(at 146.05 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "https://mou.sr/44pTlq5"
 			(at 146.05 45.72 90)
 			(effects
 				(font

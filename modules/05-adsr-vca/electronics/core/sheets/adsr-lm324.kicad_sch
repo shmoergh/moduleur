@@ -6025,7 +6025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4oMQfnb"
 			(at 227.33 96.52 0)
 			(effects
 				(font
@@ -6036,6 +6036,24 @@
 		)
 		(property "Vendor" "Mouser"
 			(at 227.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 227.33 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part no." "774-06TR4AA104CP"
+			(at 227.33 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -2807,7 +2807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4liCQlU"
 			(at 88.9 92.71 0)
 			(effects
 				(font
@@ -2834,7 +2834,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 88.9 92.71 0)
 			(effects
 				(font
@@ -2843,7 +2843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part no." ""
+		(property "Mouser Part no." "200-TSW10307TD"
 			(at 88.9 92.71 0)
 			(effects
 				(font
@@ -3430,7 +3430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/3GwYxj9"
 			(at 156.21 97.79 0)
 			(effects
 				(font
@@ -3457,7 +3457,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 156.21 97.79 0)
 			(effects
 				(font
@@ -3466,7 +3466,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part no." ""
+		(property "Mouser Part no." "571-5103310-1"
 			(at 156.21 97.79 0)
 			(effects
 				(font
@@ -3876,7 +3876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/3IruU3e"
 			(at 92.71 109.22 0)
 			(effects
 				(font
@@ -3903,7 +3903,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 92.71 109.22 0)
 			(effects
 				(font
@@ -3912,7 +3912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part no." ""
+		(property "Mouser Part no." "200-HTSW10207TS"
 			(at 92.71 109.22 0)
 			(effects
 				(font
