@@ -1768,7 +1768,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 214.63 102.87 0)
 			(effects
 				(font
@@ -1900,7 +1900,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 255.27 101.6 0)
 			(effects
 				(font
@@ -2314,7 +2314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/40bhVZG"
+		(property "Part URL" "https://mou.sr/4puxA0F"
 			(at 215.9 71.12 0)
 			(effects
 				(font
@@ -2341,7 +2341,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 215.9 71.12 0)
 			(effects
 				(font
@@ -2368,7 +2368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part no." "474-PRT-09280"
+		(property "Part no." "200-SSW10401TMS"
 			(at 215.9 71.12 0)
 			(effects
 				(font
