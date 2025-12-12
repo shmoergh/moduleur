@@ -3064,24 +3064,24 @@
 		(uuid "192f90c8-d9c1-43d6-94f9-9c2956fd2671")
 	)
 	(no_connect
-		(at 259.08 100.33)
-		(uuid "460abc84-4cb9-4fc7-a59f-28ff0960a19c")
+		(at 259.08 107.95)
+		(uuid "517bf852-4b20-4131-99cc-32dfb2a51459")
+	)
+	(no_connect
+		(at 271.78 102.87)
+		(uuid "7ac01a4f-ae93-46f7-804d-f9f65323a184")
+	)
+	(no_connect
+		(at 271.78 105.41)
+		(uuid "85828583-f2b4-4456-9c5d-dab0a99f8d92")
 	)
 	(no_connect
 		(at 246.38 86.36)
 		(uuid "87fbcac7-50f2-4d65-9c31-2c4053908bf7")
 	)
 	(no_connect
-		(at 271.78 102.87)
-		(uuid "9e74b9fe-cd12-476f-a6ac-9a747887c492")
-	)
-	(no_connect
-		(at 271.78 105.41)
-		(uuid "b2f6d944-4db6-4ba0-b876-a710afb22263")
-	)
-	(no_connect
-		(at 271.78 107.95)
-		(uuid "b67147b0-8834-424e-8464-3bb027956ad4")
+		(at 259.08 105.41)
+		(uuid "b2fa6e62-a240-4e22-8047-2c83fd103f13")
 	)
 	(no_connect
 		(at 246.38 83.82)
@@ -3589,7 +3589,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 102.87) (xy 259.08 102.87)
+			(xy 256.54 100.33) (xy 259.08 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3769,7 +3769,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 100.33) (xy 271.78 100.33)
+			(xy 274.32 107.95) (xy 271.78 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3849,7 +3849,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 107.95) (xy 259.08 107.95)
+			(xy 256.54 102.87) (xy 259.08 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3989,7 +3989,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 105.41) (xy 259.08 105.41)
+			(xy 274.32 100.33) (xy 271.78 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4371,22 +4371,22 @@
 	)
 	(global_label "HP_IN"
 		(shape output)
-		(at 256.54 105.41 180)
+		(at 274.32 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "07eb6e51-76d2-44b2-a4cd-bc87fb692f6e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.0514 105.41 0)
+			(at 282.8086 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4525,7 +4525,7 @@
 	)
 	(global_label "CUTOFF"
 		(shape output)
-		(at 256.54 107.95 180)
+		(at 256.54 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4535,7 +4535,7 @@
 		)
 		(uuid "3299b1bb-bb14-4127-a580-8c6bee3c9e1c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.479 107.95 0)
+			(at 246.479 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4723,7 +4723,7 @@
 	)
 	(global_label "LP_IN"
 		(shape output)
-		(at 256.54 102.87 180)
+		(at 256.54 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4733,7 +4733,7 @@
 		)
 		(uuid "9e89a65c-d4fe-4126-a4c9-baf8ebf1b808")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.3538 102.87 0)
+			(at 248.3538 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4767,7 +4767,7 @@
 	)
 	(global_label "OUT"
 		(shape output)
-		(at 274.32 100.33 0)
+		(at 274.32 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4777,7 +4777,7 @@
 		)
 		(uuid "aae87c27-7ee4-44de-9e51-0ceba5fd4218")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 280.9338 100.33 0)
+			(at 280.9338 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)

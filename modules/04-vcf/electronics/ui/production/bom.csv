@@ -1,5 +1,5 @@
 ﻿Designator,Footprint,Quantity,Value,LCSC Part #
-"C1, C2",C_Disc_D5.0mm_W2.5mm_P2.50mm,2,C,
+"C1, C2",C_Disc_D5.0mm_W2.5mm_P2.50mm,2,100n,
 J1,PinSocket_2x03_P2.54mm_Vertical,1,Conn_02x03_Odd_Even,
 J2,PinSocket_2x02_P2.54mm_Vertical,1,Conn_02x02_Counter_Clockwise,
 J4,PinSocket_1x02_P2.54mm_Vertical,1,Conn_01x02,
