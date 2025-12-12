@@ -4857,134 +4857,6 @@
 	)
 	(symbol
 		(lib_id "Shmoergh-Custom-Components:SW_SPST_Push_LED")
-<<<<<<< Updated upstream
-=======
-		(at 146.05 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "24748fbf-ad97-4a60-b74b-883e5d85ac7c")
-		(property "Reference" "U_BTN3"
-			(at 145.9865 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST_Push"
-			(at 145.9865 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Shmoergh_Custom_Footprints:SPST_Circular_Pushbutton_LED"
-			(at 146.05 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 146.05 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 146.05 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" "https://mou.sr/41W2K7k"
-			(at 146.05 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Mouser"
-			(at 146.05 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 146.05 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part no." "611-D6RLRDF1LFS"
-			(at 146.05 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "5695485c-6e5f-4b51-85e5-9f6d61f82ef8")
-		)
-		(pin "L1"
-			(uuid "7290bee7-ec67-4130-87c6-5a87718d67fa")
-		)
-		(pin "2"
-			(uuid "6803628b-9982-4009-8552-981b5ed879bd")
-		)
-		(pin "1"
-			(uuid "e5b3f62b-9b31-44b8-b2f1-eae6eef9eeca")
-		)
-		(pin "3"
-			(uuid "c9e5bf7b-c659-4fc3-b388-04a0882db2d7")
-		)
-		(pin "L2"
-			(uuid "f012e74c-5267-4fdd-a595-146e7fb491ee")
-		)
-		(instances
-			(project "brain-ui"
-				(path "/ab333f71-eefa-415f-b212-ebe7a942b1c8"
-					(reference "U_BTN3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Shmoergh-Custom-Components:SW_SPST_Push_LED")
->>>>>>> Stashed changes
 		(at 100.33 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8928,7 +8800,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/3FKKllB"
+		(property "Part URL" "https://mou.sr/4afrY5O"
 			(at 40.64 144.78 0)
 			(effects
 				(font
@@ -8955,7 +8827,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part no." "603-MFR-25FBF52-470R"
+		(property "Part no." "603-MFR-25FRE52-1K"
 			(at 40.64 144.78 90)
 			(effects
 				(font
