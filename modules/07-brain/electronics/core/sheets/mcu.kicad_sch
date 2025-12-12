@@ -4443,7 +4443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/3KZtJcX"
 			(at 71.12 45.72 0)
 			(effects
 				(font
@@ -4462,6 +4462,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 71.12 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part no." "200-HTSW10307TS"
 			(at 71.12 45.72 0)
 			(effects
 				(font
@@ -4774,7 +4783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/49BoTdS"
 			(at 148.59 78.74 0)
 			(effects
 				(font
@@ -4811,6 +4820,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 148.59 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part no." "358-SC0915"
 			(at 148.59 78.74 0)
 			(effects
 				(font
