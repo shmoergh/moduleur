@@ -4638,7 +4638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/4eSbYqI"
+		(property "Part URL" ""
 			(at 240.03 26.67 0)
 			(effects
 				(font
@@ -4647,7 +4647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" ""
 			(at 240.03 26.67 0)
 			(effects
 				(font
@@ -4657,15 +4657,6 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 240.03 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part no." "200-SSW10206TD"
 			(at 240.03 26.67 0)
 			(effects
 				(font
@@ -4829,8 +4820,6 @@
 	)
 	(symbol
 		(lib_id "Shmoergh-Custom-Components:SW_SPST_Push_LED")
-<<<<<<< Updated upstream
-=======
 		(at 146.05 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4891,7 +4880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/41W2K7k"
+		(property "Part URL" ""
 			(at 146.05 138.43 0)
 			(effects
 				(font
@@ -4900,7 +4889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" ""
 			(at 146.05 138.43 0)
 			(effects
 				(font
@@ -4910,15 +4899,6 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 146.05 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part no." "611-D6RLRDF1LFS"
 			(at 146.05 138.43 0)
 			(effects
 				(font
@@ -4956,7 +4936,6 @@
 	)
 	(symbol
 		(lib_id "Shmoergh-Custom-Components:SW_SPST_Push_LED")
->>>>>>> Stashed changes
 		(at 100.33 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5017,7 +4996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/41W2K7k"
+		(property "Part URL" ""
 			(at 100.33 138.43 0)
 			(effects
 				(font
@@ -5026,7 +5005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" ""
 			(at 100.33 138.43 0)
 			(effects
 				(font
@@ -5036,15 +5015,6 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 100.33 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part no." "611-D6RLRDF1LFS"
 			(at 100.33 138.43 0)
 			(effects
 				(font
@@ -6396,7 +6366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/41W2K7k"
+		(property "Part URL" ""
 			(at 52.07 138.43 0)
 			(effects
 				(font
@@ -6405,7 +6375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" ""
 			(at 52.07 138.43 0)
 			(effects
 				(font
@@ -6415,15 +6385,6 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 52.07 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part no." "611-D6RLRDF1LFS"
 			(at 52.07 138.43 0)
 			(effects
 				(font
@@ -7199,7 +7160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/3GIDVEr"
+		(property "Part URL" ""
 			(at 240.03 43.18 0)
 			(effects
 				(font
@@ -7208,7 +7169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" ""
 			(at 240.03 43.18 0)
 			(effects
 				(font
@@ -7218,15 +7179,6 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 240.03 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part no." "200-SSW10301TD"
 			(at 240.03 43.18 0)
 			(effects
 				(font
@@ -7324,7 +7276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/4lVCZM9"
+		(property "Part URL" ""
 			(at 240.03 78.74 0)
 			(effects
 				(font
@@ -7333,7 +7285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" ""
 			(at 240.03 78.74 0)
 			(effects
 				(font
@@ -7343,15 +7295,6 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 240.03 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part no." "200-SSW10501TD"
 			(at 240.03 78.74 0)
 			(effects
 				(font
@@ -7856,7 +7799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/3GIDVEr"
+		(property "Part URL" ""
 			(at 240.03 106.68 0)
 			(effects
 				(font
@@ -7865,7 +7808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" ""
 			(at 240.03 106.68 0)
 			(effects
 				(font
@@ -7875,15 +7818,6 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 240.03 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part no." "200-SSW10301TD"
 			(at 240.03 106.68 0)
 			(effects
 				(font
@@ -8356,7 +8290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/4lBvdHe"
+		(property "Part URL" ""
 			(at 121.92 179.07 0)
 			(effects
 				(font
@@ -8365,7 +8299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" ""
 			(at 121.92 179.07 0)
 			(effects
 				(font
@@ -8375,15 +8309,6 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 121.92 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part no." "200-SSW10201TS"
 			(at 121.92 179.07 0)
 			(effects
 				(font
@@ -8791,7 +8716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/3FKKllB"
+		(property "Part URL" ""
 			(at 40.64 144.78 0)
 			(effects
 				(font
@@ -8800,7 +8725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" "JLCPCB"
 			(at 40.64 144.78 0)
 			(effects
 				(font
@@ -8811,15 +8736,6 @@
 		)
 		(property "Field4" ""
 			(at 40.64 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part no." "603-MFR-25FBF52-470R"
-			(at 40.64 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8904,7 +8820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/4eSbYqI"
+		(property "Part URL" ""
 			(at 240.03 58.42 0)
 			(effects
 				(font
@@ -8913,7 +8829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" ""
 			(at 240.03 58.42 0)
 			(effects
 				(font
@@ -8923,15 +8839,6 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 240.03 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part no." "200-SSW10206TD"
 			(at 240.03 58.42 0)
 			(effects
 				(font

@@ -1129,7 +1129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/3MWzgkZ"
+		(property "Part URL" ""
 			(at 207.01 130.81 0)
 			(effects
 				(font
@@ -1138,7 +1138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" "JLCPCB"
 			(at 207.01 130.81 0)
 			(effects
 				(font
@@ -1149,15 +1149,6 @@
 		)
 		(property "Field4" ""
 			(at 207.01 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part no." "603-MFR-25FRF52-47K"
-			(at 207.01 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1396,33 +1387,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/4febysZ"
-			(at 152.4 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part no." "637-2N3904"
-			(at 152.4 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Mouser"
-			(at 152.4 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "b84235d4-13bb-4c3d-8833-7b921b3c55b3")
 		)
@@ -1491,33 +1455,6 @@
 			)
 		)
 		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 88.9 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" "https://mou.sr/4febysZ"
-			(at 88.9 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part no." "637-2N3904"
-			(at 88.9 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Mouser"
 			(at 88.9 130.81 0)
 			(effects
 				(font
@@ -1879,33 +1816,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/4febysZ"
-			(at 215.9 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part no." "637-2N3904"
-			(at 215.9 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Mouser"
-			(at 215.9 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "39145da4-f6fa-4545-99fc-54e87d7aa0a8")
 		)
@@ -2048,33 +1958,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/4febysZ"
-			(at 88.9 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part no." "637-2N3904"
-			(at 88.9 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Mouser"
-			(at 88.9 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "49130003-6f63-49a1-a813-d07acac3e678")
 		)
@@ -2172,7 +2055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/3MWzgkZ"
+		(property "Part URL" ""
 			(at 80.01 130.81 0)
 			(effects
 				(font
@@ -2181,7 +2064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" "JLCPCB"
 			(at 80.01 130.81 0)
 			(effects
 				(font
@@ -2192,15 +2075,6 @@
 		)
 		(property "Field4" ""
 			(at 80.01 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part no." "603-MFR-25FRF52-47K"
-			(at 80.01 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2579,7 +2453,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/3MWzgkZ"
+		(property "Part URL" ""
 			(at 143.51 67.31 0)
 			(effects
 				(font
@@ -2588,7 +2462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" "JLCPCB"
 			(at 143.51 67.31 0)
 			(effects
 				(font
@@ -2599,15 +2473,6 @@
 		)
 		(property "Field4" ""
 			(at 143.51 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part no." "603-MFR-25FRF52-47K"
-			(at 143.51 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2680,33 +2545,6 @@
 			)
 		)
 		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 152.4 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" "https://mou.sr/4febysZ"
-			(at 152.4 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part no." "637-2N3904"
-			(at 152.4 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Mouser"
 			(at 152.4 67.31 0)
 			(effects
 				(font
@@ -2812,7 +2650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/4q072Ei"
+		(property "Part URL" ""
 			(at 154.94 45.72 0)
 			(effects
 				(font
@@ -2821,7 +2659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" "JLCPCB"
 			(at 154.94 45.72 0)
 			(effects
 				(font
@@ -2831,15 +2669,6 @@
 			)
 		)
 		(property "Field4" ""
-			(at 154.94 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part no." "603-MFR25SFTF52-4K7"
 			(at 154.94 45.72 0)
 			(effects
 				(font
@@ -3166,7 +2995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/3MWzgkZ"
+		(property "Part URL" ""
 			(at 143.51 130.81 0)
 			(effects
 				(font
@@ -3175,7 +3004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" "JLCPCB"
 			(at 143.51 130.81 0)
 			(effects
 				(font
@@ -3186,15 +3015,6 @@
 		)
 		(property "Field4" ""
 			(at 143.51 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part no." "603-MFR-25FRF52-47K"
-			(at 143.51 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3362,7 +3182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/4q072Ei"
+		(property "Part URL" ""
 			(at 154.94 109.22 0)
 			(effects
 				(font
@@ -3371,7 +3191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" "JLCPCB"
 			(at 154.94 109.22 0)
 			(effects
 				(font
@@ -3381,15 +3201,6 @@
 			)
 		)
 		(property "Field4" ""
-			(at 154.94 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part no." "603-MFR25SFTF52-4K7"
 			(at 154.94 109.22 0)
 			(effects
 				(font
@@ -3558,7 +3369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/4q072Ei"
+		(property "Part URL" ""
 			(at 218.44 45.72 0)
 			(effects
 				(font
@@ -3567,7 +3378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" "JLCPCB"
 			(at 218.44 45.72 0)
 			(effects
 				(font
@@ -3577,15 +3388,6 @@
 			)
 		)
 		(property "Field4" ""
-			(at 218.44 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part no." "603-MFR25SFTF52-4K7"
 			(at 218.44 45.72 0)
 			(effects
 				(font
@@ -3688,7 +3490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/3MWzgkZ"
+		(property "Part URL" ""
 			(at 207.01 67.31 0)
 			(effects
 				(font
@@ -3697,7 +3499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" "JLCPCB"
 			(at 207.01 67.31 0)
 			(effects
 				(font
@@ -3708,15 +3510,6 @@
 		)
 		(property "Field4" ""
 			(at 207.01 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part no." "603-MFR-25FRF52-47K"
-			(at 207.01 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3818,7 +3611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/4q072Ei"
+		(property "Part URL" ""
 			(at 91.44 45.72 0)
 			(effects
 				(font
@@ -3827,7 +3620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" "JLCPCB"
 			(at 91.44 45.72 0)
 			(effects
 				(font
@@ -3837,15 +3630,6 @@
 			)
 		)
 		(property "Field4" ""
-			(at 91.44 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part no." "603-MFR25SFTF52-4K7"
 			(at 91.44 45.72 0)
 			(effects
 				(font
@@ -3948,7 +3732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/4q072Ei"
+		(property "Part URL" ""
 			(at 91.44 109.22 0)
 			(effects
 				(font
@@ -3957,7 +3741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" "JLCPCB"
 			(at 91.44 109.22 0)
 			(effects
 				(font
@@ -3967,15 +3751,6 @@
 			)
 		)
 		(property "Field4" ""
-			(at 91.44 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part no." "603-MFR25SFTF52-4K7"
 			(at 91.44 109.22 0)
 			(effects
 				(font
@@ -4078,7 +3853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/4q072Ei"
+		(property "Part URL" ""
 			(at 218.44 109.22 0)
 			(effects
 				(font
@@ -4087,7 +3862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" "JLCPCB"
 			(at 218.44 109.22 0)
 			(effects
 				(font
@@ -4097,15 +3872,6 @@
 			)
 		)
 		(property "Field4" ""
-			(at 218.44 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part no." "603-MFR25SFTF52-4K7"
 			(at 218.44 109.22 0)
 			(effects
 				(font
@@ -4208,7 +3974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/3MWzgkZ"
+		(property "Part URL" ""
 			(at 80.01 67.31 0)
 			(effects
 				(font
@@ -4217,7 +3983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" "JLCPCB"
 			(at 80.01 67.31 0)
 			(effects
 				(font
@@ -4228,15 +3994,6 @@
 		)
 		(property "Field4" ""
 			(at 80.01 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part no." "603-MFR-25FRF52-47K"
-			(at 80.01 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4375,33 +4132,6 @@
 			)
 		)
 		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 215.9 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" "https://mou.sr/4febysZ"
-			(at 215.9 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part no." "637-2N3904"
-			(at 215.9 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Mouser"
 			(at 215.9 67.31 0)
 			(effects
 				(font
