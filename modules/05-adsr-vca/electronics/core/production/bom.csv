@@ -7,7 +7,7 @@ C4,CP_Elec_5x5.4,1,10u,C30110
 "D1, D2, D3",D_SOD-123,3,1N4148,C81598
 "D4, D5",D_SOD-323,2,1N5817,C5190152
 "J2, J3, J5, J8",PinHeader_2x03_P2.54mm_Vertical,4,Conn_02x03_Odd_Even,
-J4,PinHeader_2x06_P2.54mm_Vertical,1,Conn_02x06_Odd_Even,
+J4,PinSocket_1x06_P2.54mm_Vertical,1,Conn_01x06,
 J6,PinHeader_1x02_P2.54mm_Vertical,1,Conn_01x02,
 J7,IDC-Header_2x05_P2.54mm_Horizontal,1,Conn_02x05_Odd_Even,
 Q1,SOT-23,1,BC857,C20069137
