@@ -739,6 +739,12 @@
           "label": "Part No.",
           "name": "Part No.",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part no.",
+          "name": "Part no.",
+          "show": false
         }
       ],
       "filter_string": "",

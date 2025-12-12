@@ -2037,7 +2037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4liCQlU"
 			(at 213.36 114.3 0)
 			(effects
 				(font
@@ -2056,6 +2056,24 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 213.36 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 213.36 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part no." "200-TSW10307TD"
 			(at 213.36 114.3 0)
 			(effects
 				(font
@@ -2330,7 +2348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/4lnf48h"
+		(property "Part URL" "https://mou.sr/4puxA0F"
 			(at 215.9 40.64 0)
 			(effects
 				(font
@@ -2358,6 +2376,24 @@
 			)
 		)
 		(property "Part no." "200-SSW10601TS"
+			(at 215.9 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 215.9 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part no." "200-SSW10601TMS"
 			(at 215.9 40.64 0)
 			(effects
 				(font
@@ -2691,7 +2727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4liCQlU"
 			(at 213.36 92.71 0)
 			(effects
 				(font
@@ -2710,6 +2746,24 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 213.36 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 213.36 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part no." "200-TSW10307TD"
 			(at 213.36 92.71 0)
 			(effects
 				(font
@@ -2807,7 +2861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4liCQlU"
 			(at 213.36 71.12 0)
 			(effects
 				(font
@@ -2826,6 +2880,24 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 213.36 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 213.36 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part no." "200-TSW10307TD"
 			(at 213.36 71.12 0)
 			(effects
 				(font
