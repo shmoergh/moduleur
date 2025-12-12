@@ -3299,7 +3299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4iTinUl"
 			(at 179.07 55.88 0)
 			(effects
 				(font
@@ -3308,7 +3308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 179.07 55.88 0)
 			(effects
 				(font
@@ -3326,7 +3326,16 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
+			(at 179.07 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part no." "80-MMK5104J50J01L16 "
 			(at 179.07 55.88 0)
 			(effects
 				(font
@@ -6569,7 +6578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4rSWoRD"
 			(at 161.29 106.68 0)
 			(effects
 				(font
@@ -6578,7 +6587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 161.29 106.68 0)
 			(effects
 				(font
@@ -6596,7 +6605,16 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
+			(at 161.29 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part no." "80-MMK5102M50J01L4 "
 			(at 161.29 106.68 90)
 			(effects
 				(font
@@ -7070,7 +7088,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4iTinUl"
 			(at 69.85 110.49 0)
 			(effects
 				(font
@@ -7079,7 +7097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 69.85 110.49 0)
 			(effects
 				(font
@@ -7097,7 +7115,16 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
+			(at 69.85 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part no." "80-MMK5104J50J01L16 "
 			(at 69.85 110.49 0)
 			(effects
 				(font
@@ -7186,7 +7213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4rVtQ9Z"
 			(at 166.37 50.8 0)
 			(effects
 				(font
@@ -7195,7 +7222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 166.37 50.8 0)
 			(effects
 				(font
@@ -7214,6 +7241,15 @@
 			)
 		)
 		(property "CHECKED" ""
+			(at 166.37 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part no." "610-2N3819"
 			(at 166.37 50.8 90)
 			(effects
 				(font
