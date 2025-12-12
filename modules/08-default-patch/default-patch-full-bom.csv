@@ -1,0 +1,5 @@
+"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint","Datasheet","Part No.","Part URL","Vendor"
+"H1,H2,H3,H4","4","MountingHole","","Excluded from BOM","","MountingHole:MountingHole_3.2mm_M3","~","","",""
+"JP1,JP2,JP3,JP4,JP5,JP6,JP7,JP8,JP9,JP10,JP11,JP12,JP13","13","Jumper_2_Bridged","","","","Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm","~","","",""
+"J_ENV_VCA1,J_ENV_VCA2,J_FILTER1,J_MIXER1,J_UTILS_OUT1","5","Conn_01x06","","","","Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical","~","200-MTSW12009TS500 ","https://mou.sr/4afsn8k","Mouser"
+"J_VCO1,J_VCO2","2","Conn_01x07","","","","Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical","~","200-MTSW12009TS500 ","https://mou.sr/4afsn8k","Mouser"
