@@ -16,8 +16,26 @@
 
 **MODULE IS IN EXPERIMENTAL STATE! ASSUME WEIRD BEHAVIORS** 
 
-More info in KiCad files.
+## How to Build
+
+Follow the [Build guide](https://www.shmoergh.com/moduleur-build-guide)
+
+**TLDR;**
+- Gerber files for JLCPCB ordering are in each board's `production` folder
+- BOM is also available in the respective `production` folder.
+- The full BOM is in the module's root dir. All THT components are available at Mouser
+- Use the KiCad schematic and PCB layout for soldering reference
+- **Before connecting any modules**, always make sure there are no shorts between ±12V and ground.
 
 ## Photos
 
-<img width="1060" height="1060" alt="image" src="https://github.com/user-attachments/assets/4a534eff-ee44-4484-aeb4-dc26e5748cc7" />
+<img width="514" height="1026" alt="image" src="https://github.com/user-attachments/assets/4ea768fc-9d2d-4bcb-8eba-64f1a004cd3c" />
+
+
+## 🧪 License
+
+Open source licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
+
+Feel free to fork, build, and tweak.
+
+[Disclaimer](https://github.com/shmoergh/moduleur)
