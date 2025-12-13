@@ -29,12 +29,14 @@ Brain is a universal digital module for the Shmøergh Moduleur which enables the
 
 ## How to Build
 
+Follow the [Build guide](https://www.shmoergh.com/moduleur-build-guide)
+
+**TLDR;**
 - Gerber files for JLCPCB ordering are in each board's `production` folder
-- BOM is also available in the respective `production` folder. All THT components are available at Mouser
+- BOM is also available in the respective `production` folder.
+- The full BOM is in the module's root dir. All THT components are available at Mouser
 - Use the KiCad schematic and PCB layout for soldering reference
 - **Before connecting any modules**, always make sure there are no shorts between ±12V and ground.
-
-[Build guide](https://www.shmoergh.com/moduleur-build-guide)
 
 ## Firmware development
 
@@ -44,7 +46,8 @@ The Brain SDK is a firmware and library collection for the Raspberry Pi Pico, de
 
 ## Photos
 
-TK
+<img width="514" height="1026" alt="image" src="https://github.com/user-attachments/assets/4a3b6dea-2e2e-4952-b58d-fd4deb45d461" />
+
 
 
 ## 🧪 License
