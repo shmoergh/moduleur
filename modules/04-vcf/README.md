@@ -20,16 +20,18 @@ Dual mode Eurorack compatible diode filter based on the famous Synthacon Steiner
 
 ## How to Build
 
+Follow the [Build guide](https://www.shmoergh.com/moduleur-build-guide)
+
+**TLDR;**
 - Gerber files for JLCPCB ordering are in each board's `production` folder
-- BOM is also available in the respective `production` folder. All THT components are available at Mouser
+- BOM is also available in the respective `production` folder.
+- The full BOM is in the module's root dir. All THT components are available at Mouser
 - Use the KiCad schematic and PCB layout for soldering reference
 - **Before connecting any modules**, always make sure there are no shorts between ±12V and ground.
 
-[Build guide](https://www.shmoergh.com/moduleur-build-guide)
-
 ## Photos
 
-TK
+<img width="2050" height="2050" alt="image" src="https://github.com/user-attachments/assets/690c2f28-b742-4235-9632-a4d1070735f8" />
 
 
 ## 🧪 License
