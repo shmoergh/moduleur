@@ -10,6 +10,6 @@
 "R1","1","1k","","","","Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~","603-MFR-25FRE52-1K","https://mou.sr/4afrY5O","Mouser"
 "R3,R4,R7,R8,R11,R12","6","47k","","","","Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~","603-MFR-25FRF52-47K","https://mou.sr/3MWzgkZ","Mouser"
 "R5,R6,R9,R10,R13,R14","6","4.7k","","","","Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~","603-MFR25SFTF52-4K7","https://mou.sr/4q072Ei","Mouser"
-"RV_POT1,RV_POT2,RV_POT3","3","100k","","","","Shmoergh_Custom_Footprints:Potentiometer_Bourns_Single-PTV09A","~","652-PTV09A4025FB104","https://mou.sr/4694GMU","Mouser"
+"RV_POT1,RV_POT2,RV_POT3","3","100k","","","","Shmoergh_Custom_Footprints:Potentiometer_Bourns_Single-PTV09A","~","652-PTV09A4025UB104","https://mou.sr/41lYe2k","Mouser"
 "U_BTN1","1","SW_SPST_Push_LED","","","","Shmoergh_Custom_Footprints:SPST_Circular_Pushbutton_LED","","611-D6RLRDF1LFS","https://mou.sr/41W2K7k","Mouser"
-"U_BTN2","1","SW_SPST_Push","","","","Shmoergh_Custom_Footprints:SPST_Circular_Pushbutton_LED","","611-D6RLRDF1LFS","https://mou.sr/41W2K7k","Mouser"
+"U_BTN2","1","SW_SPST_Push","","","","Shmoergh_Custom_Footprints:SPST_Circular_Pushbutton_LED","","611-D6R90F2LFS","https://mou.sr/3MGXm3a","Mouser"

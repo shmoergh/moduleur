@@ -7438,7 +7438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/4694GMU"
+		(property "Part URL" "https://mou.sr/4bCOV0e"
 			(at 171.45 29.21 0)
 			(effects
 				(font
@@ -7465,7 +7465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part no." "652-PTV09A4025FB104"
+		(property "Part no." "652-PTV09A4025FA103"
 			(at 171.45 29.21 0)
 			(effects
 				(font
@@ -9264,7 +9264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/4694GMU"
+		(property "Part URL" "https://mou.sr/3VpxrOs"
 			(at 34.29 29.21 0)
 			(effects
 				(font
@@ -9291,7 +9291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part no." "652-PTV09A4025FB104"
+		(property "Part no." "652-PTV09A4025FA105"
 			(at 34.29 29.21 0)
 			(effects
 				(font
@@ -10541,7 +10541,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "A500k"
+		(property "Value" "A500k-1M"
 			(at 102.87 27.9401 0)
 			(effects
 				(font
@@ -10577,7 +10577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/4694GMU"
+		(property "Part URL" "https://mou.sr/3VpxrOs"
 			(at 105.41 29.21 0)
 			(effects
 				(font
@@ -10604,7 +10604,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part no." "652-PTV09A4025FB104"
+		(property "Part no." "652-PTV09A4025FA105"
 			(at 105.41 29.21 0)
 			(effects
 				(font

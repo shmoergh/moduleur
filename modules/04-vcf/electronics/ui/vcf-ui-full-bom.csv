@@ -11,6 +11,6 @@
 "R3","1","220k","","","","Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~","603-MFR-25FRF52100K","https://mou.sr/4hEwI4G","Mouser"
 "R4,R5,R10,R11","4","10k-1M","","","","Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~","603-MFR-25FRF52100K","https://mou.sr/4hEwI4G","Mouser"
 "R6,R7,R8,R9,R12,R13,R14","7","100k","","","","Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~","603-MFR-25FRF52-220K,603-MFR-25FRF52100K","https://mou.sr/46cEvF7,https://mou.sr/4hEwI4G","Mouser"
-"RV_CUTOFF1,RV_CUTOFF2,RV_MAIN_CUTOFF1,RV_RESO1","4","100k","","","","Shmoergh_Custom_Footprints:Potentiometer_Bourns_Single-PTV09A","~","652-PTV09A4025FB104","https://mou.sr/4694GMU","Mouser"
+"RV_CUTOFF1,RV_CUTOFF2,RV_MAIN_CUTOFF1,RV_RESO1","4","100k","","","","Shmoergh_Custom_Footprints:Potentiometer_Bourns_Single-PTV09A","~","652-PTV09A4025UB104","https://mou.sr/41lYe2k","Mouser"
 "RV_CUTOFF_BIAS1","1","10k","","","","Potentiometer_THT:Potentiometer_ACP_CA6-H2,5_Horizontal","~","774-06TR4AA103CP","https://mou.sr/44pTlq5","Mouser"
 "U1","1","TL072","","","","Package_DIP:DIP-8_W7.62mm_LongPads","http://www.ti.com/lit/ds/symlink/tl071.pdf","595-TL072CP","https://mou.sr/48zN39J","Mouser"
