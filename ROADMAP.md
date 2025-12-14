@@ -7,3 +7,5 @@ These are loosely held ideas for what's coming up next in the next version of th
 #### Add a UI board with glide to VCOs
 Create a separate UI for VCO1 and VCO2 so that there are more functions and variability that these modules can be used for. One of the features that is missing from this synth is glide. So instead of being able to set the pulse width of VCO1, introduce a glide option which has an extra glided pitch output. Here is how the two VCOs would look like after this change:
 
+<img width="1026" height="1026" alt="image" src="https://github.com/user-attachments/assets/d695613b-06ec-46b5-8f99-43da59f89b21" />
+
