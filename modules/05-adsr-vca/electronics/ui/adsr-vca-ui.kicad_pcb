@@ -1201,7 +1201,7 @@
 				)
 			)
 		)
-		(property "Value" "A500k"
+		(property "Value" "A200k-1M"
 			(at 0.1 13.379024 180)
 			(layer "F.Fab")
 			(uuid "e4aeee5b-1772-418d-bac6-22685bfbc97f")
@@ -1236,7 +1236,7 @@
 				)
 			)
 		)
-		(property "Part URL" "https://mou.sr/4694GMU"
+		(property "Part URL" "https://mou.sr/3VpxrOs"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1275,7 +1275,7 @@
 				)
 			)
 		)
-		(property "Part no." "652-PTV09A4025FB104"
+		(property "Part no." "652-PTV09A4025FA105 "
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1546,8 +1546,8 @@
 				)
 			)
 		)
-		(property "Part URL" ""
-			(at 0 0 90)
+		(property "Part URL" "https://mou.sr/3MWzgkZ"
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1559,8 +1559,8 @@
 				)
 			)
 		)
-		(property "Vendor" ""
-			(at 0 0 90)
+		(property "Vendor" "Mouser"
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1578,6 +1578,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d3e9df03-3f9a-4bb3-b885-a9d851fba95b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part no." "603-MFR-25FRF52-47K"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85b1d89e-39c7-461a-b0ef-91666875ea73")
 			(effects
 				(font
 					(size 1 1)
@@ -2298,7 +2311,7 @@
 				)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4a8lju1"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2311,7 +2324,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2330,6 +2343,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "55fa5068-c716-4529-9e95-08709b86da40")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part no." "637-2N3906"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f6a056d-8c93-45d9-8322-8407efa07d95")
 			(effects
 				(font
 					(size 1 1)
@@ -3164,7 +3190,7 @@
 				)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4hEwI4G"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3177,7 +3203,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3196,6 +3222,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b87d9d39-587d-407e-bc86-96566f7b263c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part no." "603-MFR-25FRF52100K"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6fbaa39-fd3f-45d6-92e4-d33282018ef3")
 			(effects
 				(font
 					(size 1 1)
@@ -3479,8 +3518,8 @@
 				)
 			)
 		)
-		(property "Part URL" ""
-			(at 0 0 90)
+		(property "Part URL" "https://mou.sr/4q072Ei"
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3492,8 +3531,8 @@
 				)
 			)
 		)
-		(property "Vendor" ""
-			(at 0 0 90)
+		(property "Vendor" "Mouser"
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3511,6 +3550,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f214300a-7e9e-40a5-87ea-416de8db5698")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part no." "603-MFR25SFTF52-4K7"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db0c0ccc-1549-4f48-b4ae-95ed92240969")
 			(effects
 				(font
 					(size 1 1)
@@ -4516,7 +4568,7 @@
 				)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4febysZ"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4529,7 +4581,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4548,6 +4600,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "65574faf-c359-4340-85a7-0d6ce1df9daa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part no." "637-2N3904"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d3f8fc5-f799-4478-b17b-16e81177f577")
 			(effects
 				(font
 					(size 1 1)
@@ -5974,7 +6039,7 @@
 				)
 			)
 		)
-		(property "Value" "A500k"
+		(property "Value" "A200k-1M"
 			(at 0.1 13.379024 180)
 			(layer "F.Fab")
 			(uuid "8dbdc14e-663f-448b-bfab-93e69c7f6f73")
@@ -6009,7 +6074,7 @@
 				)
 			)
 		)
-		(property "Part URL" "https://mou.sr/4694GMU"
+		(property "Part URL" "https://mou.sr/3VpxrOs"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6048,7 +6113,7 @@
 				)
 			)
 		)
-		(property "Part no." "652-PTV09A4025FB104"
+		(property "Part no." "652-PTV09A4025FA105 "
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6884,7 +6949,7 @@
 				)
 			)
 		)
-		(property "Part URL" "https://mou.sr/4694GMU"
+		(property "Part URL" "https://mou.sr/45PU5oa"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6923,7 +6988,7 @@
 				)
 			)
 		)
-		(property "Part no." "652-PTV09A4025FB104"
+		(property "Part no." "652-PTA4432015CPB103 "
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7951,7 +8016,7 @@
 				)
 			)
 		)
-		(property "Value" "A500k"
+		(property "Value" "A200k-1M"
 			(at 0.1 13.379024 180)
 			(layer "F.Fab")
 			(uuid "e9458cb2-35e4-400e-82be-71c3c1a8282a")
@@ -7986,7 +8051,7 @@
 				)
 			)
 		)
-		(property "Part URL" "https://mou.sr/4694GMU"
+		(property "Part URL" "https://mou.sr/3VpxrOs"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8025,7 +8090,7 @@
 				)
 			)
 		)
-		(property "Part no." "652-PTV09A4025FB104"
+		(property "Part no." "652-PTV09A4025FA105 "
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8294,7 +8359,7 @@
 				)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4nM6IZz"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8307,7 +8372,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8326,6 +8391,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ed023d30-abe4-4a45-81e1-eced5840df36")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part no." "200-HTSW10208TSRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3bdf475e-5324-4ec6-bcdf-6a428050490d")
 			(effects
 				(font
 					(size 1 1)

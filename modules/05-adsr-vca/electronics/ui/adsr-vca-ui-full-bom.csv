@@ -10,5 +10,5 @@
 "R1","1","100k","","","","Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~","603-MFR-25FRF52100K","https://mou.sr/4hEwI4G","Mouser"
 "R2","1","47k","","","","Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~","603-MFR-25FRF52-47K","https://mou.sr/3MWzgkZ","Mouser"
 "R3","1","4.7k","","","","Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~","603-MFR25SFTF52-4K7","https://mou.sr/4q072Ei","Mouser"
-"RV_ATTACK1,RV_DECAY1,RV_RELEASE1","3","A500k","","","","Shmoergh_Custom_Footprints:Potentiometer_Bourns_Single-PTV09A","~","652-PTV09A4025FB104","https://mou.sr/4694GMU","Mouser"
-"RV_SUSTAIN1","1","10k","","","","PTA4543-2015DPB103:TRIM_PTA4543-2015DPB103","~","652-PTV09A4025FB104","https://mou.sr/4694GMU","Mouser"
+"RV_ATTACK1,RV_DECAY1,RV_RELEASE1","3","A200k-1M","","","","Shmoergh_Custom_Footprints:Potentiometer_Bourns_Single-PTV09A","~","652-PTV09A4025FA105 ","https://mou.sr/3VpxrOs","Mouser"
+"RV_SUSTAIN1","1","10k","","","","PTA4543-2015DPB103:TRIM_PTA4543-2015DPB103","~","652-PTA4432015CPB103 ","https://mou.sr/45PU5oa","Mouser"
