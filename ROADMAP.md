@@ -1,6 +1,6 @@
 # Shmøergh Moduleur Roadmap
 
-These are loosely held ideas for what's coming up next in the next version of the Shmøergh Moduleur. Nothing is a promise here, we are experimenting constantly. If you have any ideas on how to improve this synth, please [open an issue](https://github.com/shmoergh/moduleur/issues) or [contribute](./CONTRIBUTING.md) in the [next branch](https://github.com/shmoergh/moduleur/tree/next).
+These are loosely held ideas for what's coming up in the next version of the Shmøergh Moduleur. Nothing is a promise here, we are experimenting constantly. If you have any ideas on how to improve this synth, please [open an issue](https://github.com/shmoergh/moduleur/issues) or [contribute](./CONTRIBUTING.md) in the [next branch](https://github.com/shmoergh/moduleur/tree/next).
 
 ## VCO ideas
 
