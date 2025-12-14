@@ -9,4 +9,4 @@
 "R2","1","0","","","","Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~","","",""
 "R3","1","20k","","","","Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~","603-MFR-25FRF5220K","https://mou.sr/3PSKVAZ","Mouser"
 "RV_IN1,RV_IN2,RV_IN3","3","A100k","","","","PTA3043-2010CIA503:TRIM_PTA3043-2010CIA503","~","652-PTA30432015A104 ","https://mou.sr/45jtvn7","Mouser"
-"RV_IN4,RV_IN4_GAIN1,RV_MAIN_VOL1,RV_THRESHOLD1","4","A100k","","","","Shmoergh_Custom_Footprints:Potentiometer_Bourns_Single-PTV09A","~","652-PTV09A4025FB104","https://mou.sr/4694GMU","Mouser"
+"RV_IN4,RV_IN4_GAIN1,RV_MAIN_VOL1,RV_THRESHOLD1","4","A100k","","","","Shmoergh_Custom_Footprints:Potentiometer_Bourns_Single-PTV09A","~","652-PTV09A-4025UA104 ","https://mou.sr/47O2sTG","Mouser"
