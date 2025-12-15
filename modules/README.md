@@ -33,3 +33,11 @@ We used **Bourns PTV-09A series** pots with 25mm shaft length for each module. H
 Some pots have a value range: for example the Attack, Release and Decay pots have a A200k-1M value marked in the schematics. This means you can go safely with any pot in this range — but you need to consider the implications. For example the larger the value the longer the max time for Attack/Decay/Release.
 
 On the original Moduleur design we use [Thonk Tall Trimmer Toppers](https://www.thonk.co.uk/shop/tall-trimmer-toppers/) for the small pots. They work on D-Shaft and Knurled Bourns/Alpha pots.
+
+## Powering the modules
+
+The [PSU board](./01-psu/) board provides 420mA current which is plenty for the 8 modules in the Moduleur. They are connected via 16x10 standard Eurorack cables. If you're planning to build the synth in the Moduleur enclosure you'll see that the [dedicated Moduleur PSU board](https://github.com/shmoergh/moduleur/tree/main/modules/01-psu/electronics/moduleur-enclosure) has only 4 power outputs. For these you need to create 4 custom power cables with two 2x5 headers on each. 
+
+## Video guides
+
+Some video guides are coming soon...
