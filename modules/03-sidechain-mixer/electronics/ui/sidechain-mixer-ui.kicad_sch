@@ -4584,6 +4584,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 180.34 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "efc8a84e-ed34-4def-ab90-a12251961859")
 		)
@@ -4768,6 +4777,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 139.7 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "dd5e0f57-8e34-4259-b7a3-0a0ea57dbf26")
 		)
@@ -4878,6 +4896,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 106.68 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "T"
 			(uuid "950fafcf-3216-4a51-95c0-28a1ba1c7439")
 		)
@@ -4979,6 +5006,15 @@
 			)
 		)
 		(property "Part no." "652-PTV09A-4025UA104 "
+			(at 106.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" "Knurled Shaft"
 			(at 106.68 88.9 0)
 			(effects
 				(font
@@ -5304,6 +5340,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 55.88 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "0301fb15-315d-48cd-95fb-28e232202f40")
 		)
@@ -5404,6 +5449,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 261.62 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "vco-ui"
 				(path "/ab333f71-eefa-415f-b212-ebe7a942b1c8"
@@ -5494,6 +5548,15 @@
 			)
 		)
 		(property "Part no." "200-SSW10301TD"
+			(at 40.64 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 40.64 182.88 0)
 			(effects
 				(font
@@ -5684,6 +5747,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 29.21 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "T"
 			(uuid "739de7a7-09ba-4702-9e78-47a92d61a989")
 		)
@@ -5784,6 +5856,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 200.66 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "vco-ui"
 				(path "/ab333f71-eefa-415f-b212-ebe7a942b1c8"
@@ -5874,6 +5955,15 @@
 			)
 		)
 		(property "Part no." "PJ398SM"
+			(at 29.21 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 29.21 69.85 0)
 			(effects
 				(font
@@ -5991,6 +6081,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" "Knurled Shaft"
+			(at 212.09 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "f92cc18e-4212-49a6-998e-411e119d1b69")
 		)
@@ -6092,6 +6191,15 @@
 			)
 		)
 		(property "Part no." "200-SSW10601TS"
+			(at 54.61 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 54.61 149.86 0)
 			(effects
 				(font
@@ -6275,6 +6383,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 179.07 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "vco-ui"
 				(path "/ab333f71-eefa-415f-b212-ebe7a942b1c8"
@@ -6376,6 +6493,15 @@
 			)
 		)
 		(property "Part No." ""
+			(at 55.88 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 55.88 115.57 0)
 			(effects
 				(font
@@ -6494,6 +6620,15 @@
 			)
 		)
 		(property "Part No." ""
+			(at 55.88 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 55.88 44.45 0)
 			(effects
 				(font
@@ -6816,6 +6951,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 87.63 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "66fe946e-c967-4224-afee-ba0752db4aee")
 		)
@@ -6936,6 +7080,15 @@
 			)
 		)
 		(property "Part no." "PJ398SM"
+			(at 106.68 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 106.68 30.48 0)
 			(effects
 				(font
@@ -7252,6 +7405,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" "Knurled Shaft"
+			(at 106.68 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "9b1f62b5-5612-4466-99fd-757fb4c0e406")
 		)
@@ -7370,6 +7532,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 190.5 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5dc3a37d-1028-4ec4-8b3c-0101a59f8a85")
 		)
@@ -7459,6 +7630,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 261.62 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 261.62 151.13 0)
 			(effects
 				(font
@@ -7567,6 +7747,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 86.36 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "684e270a-f46b-4335-bb0b-80392aa1cd79")
 		)
@@ -7656,6 +7845,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 220.98 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 220.98 160.02 0)
 			(effects
 				(font
@@ -7821,6 +8019,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 241.3 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "vco-ui"
 				(path "/ab333f71-eefa-415f-b212-ebe7a942b1c8"
@@ -7949,6 +8156,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 180.34 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f53363d4-988f-4ce7-ab5e-8550491ba56a")
 		)
@@ -8048,6 +8264,15 @@
 			)
 		)
 		(property "Part no." "PJ398SM"
+			(at 29.21 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 29.21 105.41 0)
 			(effects
 				(font
@@ -8166,6 +8391,15 @@
 			)
 		)
 		(property "Part no." "200-SSW10401TMS"
+			(at 139.7 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 139.7 166.37 0)
 			(effects
 				(font
@@ -8349,6 +8583,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 161.29 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5f26b17c-ae5e-4aa7-b1eb-7937cdfd3c36")
 		)
@@ -8513,6 +8756,15 @@
 			)
 		)
 		(property "Part no." "652-PTV09A-4025UA104 "
+			(at 180.34 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" "Knurled Shaft"
 			(at 180.34 76.2 0)
 			(effects
 				(font
@@ -8829,6 +9081,15 @@
 			)
 		)
 		(property "Part no." "603-MFR-25FRF5220K"
+			(at 106.68 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 106.68 80.01 0)
 			(effects
 				(font

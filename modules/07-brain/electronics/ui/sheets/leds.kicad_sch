@@ -1165,6 +1165,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 207.01 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6f08b823-547c-42fd-8929-3d9c38d2c89b")
 		)
@@ -1244,6 +1253,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 218.44 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6aa7dc72-fc87-4fcf-a798-54d8e03fe2a2")
 		)
@@ -1316,6 +1334,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 91.44 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 91.44 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1423,6 +1450,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 152.4 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b84235d4-13bb-4c3d-8833-7b921b3c55b3")
 		)
@@ -1518,6 +1554,15 @@
 			)
 		)
 		(property "Vendor" "Mouser"
+			(at 88.9 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 88.9 130.81 0)
 			(effects
 				(font
@@ -1740,6 +1785,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 218.44 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "92a1cefd-a0a8-4fd8-a9fe-1b18cd44ee50")
 		)
@@ -1898,6 +1952,15 @@
 			)
 		)
 		(property "Vendor" "Mouser"
+			(at 215.9 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 215.9 130.81 0)
 			(effects
 				(font
@@ -2075,6 +2138,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 88.9 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "49130003-6f63-49a1-a813-d07acac3e678")
 		)
@@ -2208,6 +2280,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 80.01 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7ebe3861-b03b-4bec-900a-9e0c1acefbef")
 		)
@@ -2280,6 +2361,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 154.94 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 154.94 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2615,6 +2705,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 143.51 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "74ab12c4-9812-44f8-9bc0-f13b1ecadb8b")
 		)
@@ -2707,6 +2806,15 @@
 			)
 		)
 		(property "Vendor" "Mouser"
+			(at 152.4 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 152.4 67.31 0)
 			(effects
 				(font
@@ -2840,6 +2948,15 @@
 			)
 		)
 		(property "Part no." "603-MFR25SFTF52-4K7"
+			(at 154.94 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 154.94 45.72 0)
 			(effects
 				(font
@@ -2993,6 +3110,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 91.44 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "56a419eb-e390-419f-a025-a0e8ad6e30db")
 		)
@@ -3065,6 +3191,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 154.94 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 154.94 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3194,6 +3329,15 @@
 			)
 		)
 		(property "Part no." "603-MFR-25FRF52-47K"
+			(at 143.51 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 143.51 130.81 90)
 			(effects
 				(font
@@ -3398,6 +3542,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 154.94 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c548b1b4-945c-40bd-aeb8-f3598d1c3397")
 		)
@@ -3594,6 +3747,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 218.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0d91ca7d-68ac-4c19-a54c-94fd7f1ce8e5")
 		)
@@ -3716,6 +3878,15 @@
 			)
 		)
 		(property "Part no." "603-MFR-25FRF52-47K"
+			(at 207.01 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 207.01 67.31 90)
 			(effects
 				(font
@@ -3854,6 +4025,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 91.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "95fe6edd-7420-4680-bc06-72b263d28362")
 		)
@@ -3976,6 +4156,15 @@
 			)
 		)
 		(property "Part no." "603-MFR25SFTF52-4K7"
+			(at 91.44 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 91.44 109.22 0)
 			(effects
 				(font
@@ -4114,6 +4303,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 218.44 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "54c7e6ed-f551-4321-8559-8726a1d2d4c8")
 		)
@@ -4236,6 +4434,15 @@
 			)
 		)
 		(property "Part no." "603-MFR-25FRF52-47K"
+			(at 80.01 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 80.01 67.31 90)
 			(effects
 				(font
@@ -4402,6 +4609,15 @@
 			)
 		)
 		(property "Vendor" "Mouser"
+			(at 215.9 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 215.9 67.31 0)
 			(effects
 				(font

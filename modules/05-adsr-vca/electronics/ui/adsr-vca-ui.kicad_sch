@@ -4542,6 +4542,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" "D-Shaft"
+			(at 149.86 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "fcae5aca-1f32-4b22-a91d-35395a4f8660")
 		)
@@ -4641,6 +4650,15 @@
 			)
 		)
 		(property "Part no." "PJ398SM"
+			(at 152.4 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 152.4 118.11 0)
 			(effects
 				(font
@@ -4765,6 +4783,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 191.77 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "666004d4-2b13-494a-b3a0-8ba56bf0b800")
 		)
@@ -4873,6 +4900,15 @@
 		)
 		(property "LCSC" ""
 			(at 207.01 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 207.01 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5110,6 +5146,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 261.62 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "vco-ui"
 				(path "/ab333f71-eefa-415f-b212-ebe7a942b1c8"
@@ -5200,6 +5245,15 @@
 			)
 		)
 		(property "Part no." "200-SSW10301TD"
+			(at 40.64 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 40.64 182.88 0)
 			(effects
 				(font
@@ -5390,6 +5444,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 50.8 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "T"
 			(uuid "739de7a7-09ba-4702-9e78-47a92d61a989")
 		)
@@ -5490,6 +5553,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 200.66 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "vco-ui"
 				(path "/ab333f71-eefa-415f-b212-ebe7a942b1c8"
@@ -5580,6 +5652,15 @@
 			)
 		)
 		(property "Part no." "PJ398SM"
+			(at 50.8 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 50.8 71.12 0)
 			(effects
 				(font
@@ -5687,6 +5768,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 250.19 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 250.19 102.87 0)
 			(effects
 				(font
@@ -5822,6 +5912,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 106.68 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "95e7f914-d31a-4940-9c06-6c98e9b4e9b1")
 		)
@@ -5923,6 +6022,15 @@
 			)
 		)
 		(property "Part no." "200-SSW10601TS"
+			(at 252.73 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 252.73 34.29 0)
 			(effects
 				(font
@@ -6040,6 +6148,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 179.07 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "vco-ui"
 				(path "/ab333f71-eefa-415f-b212-ebe7a942b1c8"
@@ -6145,6 +6262,15 @@
 			)
 		)
 		(property "Part no." "637-2N3906"
+			(at 204.47 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 204.47 137.16 0)
 			(effects
 				(font
@@ -6325,6 +6451,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 90.17 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "T"
 			(uuid "da9fefba-60e3-42b2-9248-23b2c0244d9c")
 		)
@@ -6438,6 +6573,15 @@
 			)
 		)
 		(property "Part no." "637-2N3904"
+			(at 204.47 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 204.47 114.3 0)
 			(effects
 				(font
@@ -6611,6 +6755,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 250.19 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 250.19 80.01 0)
 			(effects
 				(font
@@ -6803,6 +6956,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" "D-Shaft"
+			(at 106.68 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "9b1f62b5-5612-4466-99fd-757fb4c0e406")
 		)
@@ -6919,6 +7081,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 196.85 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b9d8c118-30f4-4803-b424-b13558c07ed8")
 		)
@@ -7008,6 +7179,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 261.62 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 261.62 151.13 0)
 			(effects
 				(font
@@ -7116,6 +7296,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 86.36 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "684e270a-f46b-4335-bb0b-80392aa1cd79")
 		)
@@ -7205,6 +7394,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 220.98 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 220.98 160.02 0)
 			(effects
 				(font
@@ -7362,6 +7560,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 241.3 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 241.3 160.02 0)
 			(effects
 				(font
@@ -7543,6 +7750,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 62.23 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0d4a3d3f-d4a7-428d-a9b0-2b578242d3cd")
 		)
@@ -7705,6 +7921,15 @@
 			)
 		)
 		(property "Part no." "PJ398SM"
+			(at 50.8 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 50.8 116.84 0)
 			(effects
 				(font
@@ -8020,6 +8245,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" "D-Shaft"
+			(at 149.86 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "fea9e3e7-ab76-4bc4-a3d4-815f7fbc7b2d")
 		)
@@ -8130,6 +8364,15 @@
 			)
 		)
 		(property "Part no." "603-MFR25SFTF52-4K7"
+			(at 207.01 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 207.01 104.14 0)
 			(effects
 				(font
@@ -8432,6 +8675,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 250.19 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 250.19 58.42 0)
 			(effects
 				(font
