@@ -59,6 +59,9 @@ This is a through hole component, very widely available. For this setup, you nee
 - TH2: do not place component
 - R_W2: 500Ω trimmer
 
+<img width="2886" height="462" alt="CleanShot 2025-12-15 at 21 54 36@2x" src="https://github.com/user-attachments/assets/11ce48d1-4398-466c-8a67-4195195a958e" />
+
+
 **Which one should you choose?**
 The two setups are almost identical but **option 1** (using the PTS) is a little bit more accurate. If you can solder SMD components and you have a bit more budget then we recommend that option.
 
