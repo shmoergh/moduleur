@@ -49,6 +49,10 @@ BOM part numbers—especially SMD components—may become outdated. If you spot 
 - [Eurorack frame](https://github.com/shmoergh/moduleur/tree/main/eurorack/frame)
 - [Eurorack faceplates](https://github.com/shmoergh/moduleur/tree/main/eurorack/faceplates)
 
+## Roadmap
+
+We're working on improving modules, and adding firmwares to Brain as we go. You can see our loosely held ideas in the [Roadmap](./ROADMAP.md) file.
+
 ## Contribution & Bug Reports
 
 Contributions are much appreciated, especially in areas where community experience can improve the reliability and longevity of the system.
