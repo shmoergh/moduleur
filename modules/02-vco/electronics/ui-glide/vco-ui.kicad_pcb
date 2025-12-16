@@ -12705,8 +12705,8 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "PWM"
-		(at 172.768 109.532 0)
+	(gr_text "CV OUT"
+		(at 173.276 106.611 0)
 		(layer "F.SilkS")
 		(uuid "1652f86a-7618-406d-a3b8-00c3f4238e94")
 		(effects
@@ -12848,7 +12848,7 @@
 			(justify right bottom)
 		)
 	)
-	(gr_text "PULSE WIDTH"
+	(gr_text "GLIDE"
 		(at 168.958 93.53 0)
 		(layer "F.SilkS")
 		(uuid "6ef1d228-4045-418b-98ae-2f75df47ff65")
