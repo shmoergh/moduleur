@@ -18,7 +18,7 @@ Eurorack compatible VCO for the Shmøergh Moduleur.
 - [Core board](./electronics/core/) — Contains all active circuitry and handles the complete audio, CV, and logic processing for the module.
 - [UI board](./electronics/ui/) — Hosts all panel-mounted controls and connectors, providing the physical interface to the module’s Core PCB.
 
-## How to Build
+## How to build
 
 [**Follow the build guide &rarr;**](https://www.shmoergh.com/moduleur-build-guide)
 
@@ -30,7 +30,7 @@ Eurorack compatible VCO for the Shmøergh Moduleur.
 
 All analog VCOs have a way to compensate temperature drifts. You can read about the background of this in this fantastic series of posts on Xonik.no: [part 1](https://www.xonik.no/theory/vco/expo_converter_1.html), [part 2](https://www.xonik.no/theory/vco/expo_converter_2.html), [part 3](https://www.xonik.no/theory/vco/reference_current.html).
 
-We had quite some trouble in the past finding components for temperature compensation (the classic tempco resistors are almost impossible to obtain). So we designed the Moduleur VCO in a way that there are two ways for temperature compensation, **but you need to build only one of them**. 
+We had quite some trouble in the past finding components for temperature compensation (the classic tempco resistors are almost impossible to obtain). So we designed the Moduleur VCO in a way that there are two ways for temperature compensation, **but you need to build only one of them**.
 
 #### Option 1: Using a PTS120601B100RP100 temperature sensor
 The PTS1206 is an SMD component so be prepared with your soldering skills. For this the following resistors and trimmers should be soldered (find these in the KiCAD file):

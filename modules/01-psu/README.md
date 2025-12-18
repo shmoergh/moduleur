@@ -23,7 +23,7 @@ There are two board variations available:
 
 There's a single board for each version, the boards have only through-hole (THT) components.
 
-## How to Build
+## How to build
 
 [**Follow the build guide &rarr;**](https://www.shmoergh.com/moduleur-build-guide)
 

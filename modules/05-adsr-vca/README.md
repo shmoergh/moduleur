@@ -18,7 +18,7 @@ A combined, Eurorack compatible envelope generator and voltage controlled amplif
 - [UI board](./electronics/ui/) — Hosts all panel-mounted controls and connectors, providing the physical interface to the module’s Core PCB.
 
 
-## How to Build
+## How to build
 
 [**Follow the build guide &rarr;**](https://www.shmoergh.com/moduleur-build-guide)
 

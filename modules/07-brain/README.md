@@ -28,7 +28,7 @@ Brain is a universal digital module for the Shmøergh Moduleur which enables the
 - [UI board](./electronics/ui/) — Hosts all panel-mounted controls and connectors, providing the physical interface to the module’s Core PCB.
 
 
-## How to Build
+## How to build
 
 [**Follow the build guide &rarr;**](https://www.shmoergh.com/moduleur-build-guide)
 

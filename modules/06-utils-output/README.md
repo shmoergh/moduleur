@@ -21,7 +21,7 @@ Combined analog bitcrusher, LFO and an output interface with overdrive in a sing
 - [UI board](./electronics/ui/) — Hosts all panel-mounted controls and connectors, providing the physical interface to the module’s Core PCB.
 
 
-## How to Build
+## How to build
 
 [**Follow the build guide &rarr;**](https://www.shmoergh.com/moduleur-build-guide)
 
