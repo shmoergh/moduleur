@@ -25,12 +25,11 @@ There's a single board for each version, the boards have only through-hole (THT)
 
 ## How to Build
 
-- Gerber files for JLCPCB ordering are in the `production` folders
-- BOM is also available in the `production` folders. All components are available at Mouser, no assembly required from JLCPCB
-- Use the KiCad schematic and PCB layout for soldering reference
-- **Before connecting any modules**, always make sure there are no shorts between ±12V and ground.
+[**Follow the build guide &rarr;**](https://www.shmoergh.com/moduleur-build-guide)
 
-[Build guide](https://www.shmoergh.com/moduleur-build-guide)
+## Module specific instructions
+
+There're no specific build instructions for this module. Easy-peasy.
 
 ## Photos
 
