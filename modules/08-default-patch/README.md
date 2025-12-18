@@ -2,14 +2,18 @@
 
 An optional passive PCB which connects the modules of the Shmøergh Moduleur. This essentially creates a default patch which makes the Moduleur playable without patch cables.
 
+
 ## How to Build
 
-- Gerber files for JLCPCB ordering are in each board's `production` folder
-- BOM is also available in the respective `production` folder. All THT components are available at Mouser
-- Use the KiCad schematic and PCB layout for soldering reference
-- **Before connecting any modules**, always make sure there are no shorts between ±12V and ground.
+[**Follow the build guide &rarr;**](https://www.shmoergh.com/moduleur-build-guide)
 
-[Build guide](https://www.shmoergh.com/moduleur-build-guide)
+<br>
+
+## Module specific instructions
+
+TK
+
+<br>
 
 ## Photos
 
