@@ -14,22 +14,9 @@ Follow progress at [shmoergh.com](https://www.shmoergh.com/moduleur/)
 ![moduleur-bp](https://github.com/user-attachments/assets/a9fdfeb7-7ad8-4782-806b-18bf5c98be53#gh-dark-mode-only)
 
 
-## Build options
+## Building
 
-This repository contains only a brief overview of the build process. A full, detailed build guide is available at:  https://www.shmoergh.com/moduleur-build-guide
-
-**Core boards** handle all analog and digital circuitry; **UI boards** contain only panel components. This separation allows the core electronics to be reused in alternative designs or custom enclosures.
-
-BOM part numbers—especially SMD components—may become outdated. If you spot mismatches or unavailable parts, please open an issue or submit a pull request.
-
-#### Recommended Build Sequence
-
-1. **Assemble modules in the order listed in the Modules section.**
-   Each module directory includes panel design files for 3D printing or other fabrication.
-2. **Use modules individually if needed.**
-   All analog modules follow Eurorack standards and can be installed in any Eurorack case.
-3. **Moduleur enclosure (optional).**
-   Design files are provided, but the enclosure is an advanced build. Pre‑built versions may be offered in 2026 depending on demand.
+[Read the build guide &rarr;](https://github.com/shmoergh/moduleur/wiki)
 
 ## Modules
 
