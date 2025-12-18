@@ -7,7 +7,7 @@ Eurorack compatible VCO for the Shmøergh Moduleur.
 - Raw saw generator with classic waveshaper circuits. Triangle, saw and square outputs
 - Sub oscillator and noise circuit (can be selected with a jumper)
 - Pulse width voltage control for square wave
-- High precision over about 10 octaves
+- Precision for about 7 octaves
 - Hard sync input
 - FM input
 - Two temperature compensation options for flexible DIY build (one is THT only)
