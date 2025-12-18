@@ -20,7 +20,7 @@
 
 ## How to build
 
-[**Follow the build guide &rarr;**](https://www.shmoergh.com/moduleur-build-guide)
+[**Follow the build guide &rarr;**](https://github.com/shmoergh/moduleur/wiki)
 
 <br>
 
@@ -35,10 +35,10 @@ TK
 <img width="514" height="1026" alt="image" src="https://github.com/user-attachments/assets/4ea768fc-9d2d-4bcb-8eba-64f1a004cd3c" />
 
 
-## 🧪 License
+## License
 
 Open source licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
 
 Feel free to fork, build, and tweak.
 
-[Disclaimer](https://github.com/shmoergh/moduleur)
+[Disclaimer](https://github.com/shmoergh/moduleur/blob/main/DISCLAIMER.md)

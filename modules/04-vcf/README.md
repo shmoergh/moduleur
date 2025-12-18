@@ -21,7 +21,7 @@ Dual mode Eurorack compatible diode filter based on the famous Synthacon Steiner
 
 ## How to build
 
-[**Follow the build guide &rarr;**](https://www.shmoergh.com/moduleur-build-guide)
+[**Follow the build guide &rarr;**](https://github.com/shmoergh/moduleur/wiki)
 
 <br>
 
@@ -36,10 +36,10 @@ TK
 <img width="2050" height="2050" alt="image" src="https://github.com/user-attachments/assets/690c2f28-b742-4235-9632-a4d1070735f8" />
 
 
-## 🧪 License
+## License
 
 Open source licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
 
 Feel free to fork, build, and tweak.
 
-[Disclaimer](https://github.com/shmoergh/moduleur)
+[Disclaimer](https://github.com/shmoergh/moduleur/blob/main/DISCLAIMER.md)
