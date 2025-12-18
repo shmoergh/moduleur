@@ -20,16 +20,18 @@ Combined analog bitcrusher, LFO and an output interface with overdrive in a sing
 - [Core board](./electronics/core/) — Contains all active circuitry and handles the complete audio, CV, and logic processing for the module.
 - [UI board](./electronics/ui/) — Hosts all panel-mounted controls and connectors, providing the physical interface to the module’s Core PCB.
 
+
 ## How to Build
 
-Follow the [Build guide](https://www.shmoergh.com/moduleur-build-guide)
+[**Follow the build guide &rarr;**](https://www.shmoergh.com/moduleur-build-guide)
 
-**TLDR;**
-- Gerber files for JLCPCB ordering are in each board's `production` folder
-- BOM is also available in the respective `production` folder.
-- The full BOM is in the module's root dir. All THT components are available at Mouser
-- Use the KiCad schematic and PCB layout for soldering reference
-- **Before connecting any modules**, always make sure there are no shorts between ±12V and ground.
+<br>
+
+## Module specific instructions
+
+TK
+
+<br>
 
 ## Photos
 
