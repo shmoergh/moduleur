@@ -46,12 +46,16 @@ As it's listed on page 7 of the [Pico data sheet](https://pip-assets.raspberrypi
 
 To connect the external USB-C connector and BOOTSEL button to the Pico you have two options:
 
-1. Solder the Pico using pin headers and use wires to connect up TP1, TP2, TP3 and TP6 (BOOTSEL) between the Core board and the Pico
-2. Solder the Pico directly to the Core board directly and _solder through_ the dedicated TP1, TP2, TP3 and TP6 plated holes
+<img src="https://github.com/user-attachments/assets/ee17834d-8982-42ac-9f7f-c02c82b4da5b" />
+
+**Option 1:** Solder the Pico using pin headers and use wires to connect up TP1, TP2, TP3 and TP6 (BOOTSEL) between the Core board and the Pico
+
+![IMG_8047](https://github.com/user-attachments/assets/a706d4bb-ffdc-42f1-ae92-0723b7452b8a)
+
+  
+**Option 2:** Solder the Pico directly to the Core board directly and _solder through_ the dedicated TP1, TP2, TP3 and TP6 plated holes
 
 ⚠️ **NOTE — So far the only tested method 1 which worked perfectly.**
-
-<img src="https://github.com/user-attachments/assets/ee17834d-8982-42ac-9f7f-c02c82b4da5b" />
 
 
 ### Tuning the CV output
