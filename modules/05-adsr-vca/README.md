@@ -26,7 +26,23 @@ A combined, Eurorack compatible envelope generator and voltage controlled amplif
 
 ## Module specific instructions
 
-TK
+### Setting the envelope output voltage
+
+You can set the [maximum] output voltage of the envelope using the RV_OUT_GAIN1 trimmer on the Core board. Recommended value is 8V.
+
+### Setting the base volume of the VCA
+
+1. Plug in a VCO to the VCA input
+2. Connect the output of the VCA to an oscilloscope. Alternatively you can also connect it to the input of the Output module
+3. Use the RV_VCA_BIAS2 trimmer to set turn down the volume of the VCA just so that there's nothing on the output. This will make the VCA work in a way that even the smallest control voltages will cause audible gain increase without any crosstalk.
+
+### What if I have crosstalk?
+
+It's likely that you need to turn down the base volume of the VCA using the RV_VCA_BIAS2 trimmer on the Core board.
+
+### Defaulting the ADSR output to VCA CV input
+
+It's a very common way to use an ADSR together with a VCA. To save on cables you can default the ADSR's output to the VCA's CV input by shorting the JP_DEFAULT_ENV_TO_VCA1 jumper.
 
 <br>
 
