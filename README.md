@@ -20,14 +20,14 @@ Follow progress at [shmoergh.com](https://www.shmoergh.com/moduleur/)
 
 ## Modules
 
-- [01 — Power supply](https://github.com/shmoergh/moduleur/tree/main/modules/01-psu)
-- [02 — VCO](https://github.com/shmoergh/moduleur/tree/main/modules/02-vco)
-- [03 — Mixer + sidechain compressor](https://github.com/shmoergh/moduleur/tree/main/modules/03-sidechain-mixer)
-- [04 — VCF](https://github.com/shmoergh/moduleur/tree/main/modules/04-vcf)
-- [05 — ADSR & VCA](https://github.com/shmoergh/moduleur/tree/main/modules/05-adsr-vca)
-- [06 — Analog Bitcrusher / S&H + LFO + Output](https://github.com/shmoergh/moduleur/tree/main/modules/06-utils-output)
-- [07 — Brain](https://github.com/shmoergh/moduleur/tree/main/modules/07-brain)
-- [08 — Default patch](https://github.com/shmoergh/moduleur/tree/main/modules/08-default-patch)
+- [Power supply](https://github.com/shmoergh/moduleur/tree/main/modules/01-psu)
+- [VCO](https://github.com/shmoergh/moduleur/tree/main/modules/02-vco)
+- [Mixer + sidechain compressor](https://github.com/shmoergh/moduleur/tree/main/modules/03-sidechain-mixer)
+- [VCF](https://github.com/shmoergh/moduleur/tree/main/modules/04-vcf)
+- [ADSR & VCA](https://github.com/shmoergh/moduleur/tree/main/modules/05-adsr-vca)
+- [Analog Bitcrusher / S&H + LFO + Output](https://github.com/shmoergh/moduleur/tree/main/modules/06-utils-output)
+- [Brain](https://github.com/shmoergh/moduleur/tree/main/modules/07-brain)
+- [Default patch](https://github.com/shmoergh/moduleur/tree/main/modules/08-default-patch)
 
 
 ## Enclosure
