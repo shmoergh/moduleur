@@ -37,7 +37,9 @@ Use a center positive 12V DC wall adapter to power the PSU.
 
 You can create connect your own ON/OFF switch and DC input components using the +/- terminals on the board. This is useful if you're building a custom enclosure and you want the ON/OFF switch and DC input on the enclosre, remote from the PSU. In this case, don't use the built-in DC jack socket and the ON/OFF button.
 
-<img width="2770" height="1190" alt="CleanShot 2025-12-19 at 12 09 50@2x" src="https://github.com/user-attachments/assets/3026b1ba-f590-43ed-8a73-1654c2629321" />
+<img src="https://github.com/user-attachments/assets/f3625acb-17bf-4ffa-a1e0-d62cb7e2c9ca" />
+
+
 
 
 ## 🧪 License
