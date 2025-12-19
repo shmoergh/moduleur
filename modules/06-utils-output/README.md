@@ -29,7 +29,18 @@ Combined analog bitcrusher, LFO and an output interface with overdrive in a sing
 
 ## Module specific instructions
 
-TK
+### LFO pot value
+
+The range of the LFO depends on the value of the frequency pot. The recommended pot value goes from 200kΩ (higher minimum frequency) to 1M (lower minimum frequency). We recommend using a logarithmic pot so that you have more control on low frequencies. We found the sweet spot by using a 500kΩ pot.
+
+### Setting the minimum LFO frequency
+
+In order to charge the main cap of the LFO you'll need to make sure there's _some_ input current on the integrator (U201B). This is the role of the R206 resistor. The lower the value of this resistor the lower frequencies you can achieve with the LFO. Too low values however can make the output latch, we found the sweet spot at around 220Ω.
+
+### Setting the maximum output level
+
+1. Turn drive all the way down
+2. Use RV_LINE_OUT_LVL1 trimmer on the Core board to set the maximum output level. You typically want to set it so that it works well with external gear on line level. [More info about line level values](https://en.wikipedia.org/wiki/Line_level)
 
 <br>
 
