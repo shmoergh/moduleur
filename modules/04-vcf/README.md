@@ -27,7 +27,28 @@ Dual mode Eurorack compatible diode filter based on the famous Synthacon Steiner
 
 ## Module specific instructions
 
-TK
+### Shielding
+
+Diode-ladder filters are extremely sensitive because they work in a very low voltage range. Any noise coming from the outside world can cause humming and buzzing, especially if the noise source is around the diodes. To overcome this, we highly recommend to put the module in a fully shielded enclosure or case. Additionally we added an optional EMI shield above the diodes using standard Harwin GMI shield clips and shield:
+
+<img src="https://github.com/user-attachments/assets/74f0cb2a-2fbb-466b-859d-de37cedab7ed" />
+
+- [Harwin GMI clips](https://mou.sr/44w0zrg) (2x)
+- [15x20mm Harwin EMI shield can](https://mou.sr/44pU5KB) (1x)
+
+_Note: we never needed to use the above shielding because the Moduleur is in a fully shielded enclosure. This part of the circuit is a non-tested fallback._
+
+**What if my case is not shielded?**
+
+You can still achieve great shielding by using a grounded copper plate that covers the Core module from the back (essentially a 3th layer in the PCB stack). 
+
+### Taming the resonance
+
+The resonance of the filter can be quite heavy. If you want to tame the resonance, crank the reso pot to the max and  use the RV_MAX_RESO1 trimmer on the Core board to set the maximum resonance.
+
+### Balance
+
+The RV_BALANCE1 trimmer might be needed to reduce the low-end hum of the filter. We never really needed it, it's there for safety reasons.
 
 <br>
 
