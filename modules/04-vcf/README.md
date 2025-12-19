@@ -50,6 +50,17 @@ The resonance of the filter can be quite heavy. If you want to tame the resonanc
 
 The RV_BALANCE1 trimmer might be needed to reduce the low-end hum of the filter. We never really needed it, it's there for safety reasons.
 
+### Setting the curve of CV attenuverters
+
+CV1 and CV2 has two attenuverters on their inputs. You can set the curve of the pots by using different values for certain resistors on the UI board. Recommended values range from 10kΩ (more logarithmic) to 1M (more linear):
+
+- For CV1: R4 & R5
+- For CV2: R10 & R11
+
+### Setting the lower limit of cutoff
+
+You can set the lowest control voltage of the Cutoff pot to 0V or -12V using the JP1 jumper. -12V can be cool if you know you'll want to use very strong control voltages, however we still recommend to use 0V.
+
 <br>
 
 ## Photos
