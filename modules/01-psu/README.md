@@ -29,11 +29,15 @@ There's a single board for each version, the boards have only through-hole (THT)
 
 ## Module specific instructions
 
-There're no specific build instructions for this module. Easy-peasy.
+### Powering the PSU
 
-## Photos
+Use a center positive 12V DC wall adapter to power the PSU.
 
-![IMG_2939](https://github.com/user-attachments/assets/093e68c2-3c0d-4f67-8883-82444be80754)
+### Wired DC input and ON/OFF switch
+
+You can create connect your own ON/OFF switch and DC input components using the +/- terminals on the board. This is useful if you're building a custom enclosure and you want the ON/OFF switch and DC input on the enclosre, remote from the PSU. In this case, don't use the built-in DC jack socket and the ON/OFF button.
+
+<img width="2770" height="1190" alt="CleanShot 2025-12-19 at 12 09 50@2x" src="https://github.com/user-attachments/assets/3026b1ba-f590-43ed-8a73-1654c2629321" />
 
 
 ## 🧪 License
