@@ -68,7 +68,7 @@ This option makes a fix gain for INPUT 4, so you won't be able to amplify line l
 - You need to build one from the above options to make the sidechain compressor work.
 - Option 1 is the recommended option to build, but feel free to experiment with Option 2 too.
 - If you're more interested how the above options work, examine the Core circuit
-- **R3 is 20kΩ on the UI board, however we found that simply shorting it makes the circuit work more reliably (essentially absolutely turning off compression)**
+- **R3 is 20kΩ on the UI board, however we found that simply shorting R2 instead makes the circuit work more reliably (essentially absolutely turning off compression)**
 
 ### Tuning
 
