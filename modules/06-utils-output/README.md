@@ -42,6 +42,12 @@ In order to charge the main cap of the LFO you'll need to make sure there's _som
 1. Turn drive all the way down
 2. Use RV_LINE_OUT_LVL1 trimmer on the Core board to set the maximum output level. You typically want to set it so that it works well with external gear on line level. [More info about line level values](https://en.wikipedia.org/wiki/Line_level)
 
+### Selecting between line out or headphones out
+
+You can use the main output to connect to line out or headphones out using the JP1 jumper on the Core board.
+
+**⚠️ Use stereo cable on the output if you're using headphones** The output is dual-mono, which means that the right and left channel are connected. If you use a mono cable for the output then you'll esentially ground both output channels.
+
 <br>
 
 ## Photos
