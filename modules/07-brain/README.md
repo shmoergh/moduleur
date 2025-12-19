@@ -36,7 +36,34 @@ Brain is a universal digital module for the Shmøergh Moduleur which enables the
 
 ## Module specific instructions
 
-TK
+### Soldering the Raspberry Pi Pico board
+
+You can solder the Pico to the Core board directly or using pin headers. If you solder directly then you'll need a very thin USB cable to be able to connect to the original micro USB port of the Pico.
+
+### USB-C connection — EXPERIMENTAL
+
+As it's listed on page 7 of the [Pico data sheet](https://pip-assets.raspberrypi.com/categories/610-raspberry-pi-pico/documents/RP-008307-DS-1-pico-datasheet.pdf?disposition=inline), you can use test points to connect to the board's USB, as well as control the BOOTSEL button remotely. This allowed us to add an USB-C connection and a dedicated BOOTSEL button, available without taking the enclosure backplate off.
+
+To connect the external USB-C connector and BOOTSEL button to the Pico you have two options:
+
+1. Solder the Pico using pin headers and use wires to connect up TP1, TP2, TP3 and TP6 (BOOTSEL) between the Core board and the Pico
+2. Solder the Pico directly to the Core board directly and _solder through_ the dedicated TP1, TP2, TP3 and TP6 plated holes
+
+⚠️ **NOTE — So far the only tested method 1 which worked perfectly.**
+
+<img src="https://github.com/user-attachments/assets/ee17834d-8982-42ac-9f7f-c02c82b4da5b" />
+
+
+### Tuning the CV output
+
+The DAC outpus of the Brain module can output maximum 4095mV. These are amplified to maximum 10V — to match Eurorack voltage ranges — using the U4A and U5A op-amps. To get a precise output (e.g. for pitch CV control) you need to tune the Brain outputs:
+
+1. Connect your MIDI controller to the Brain MIDI input
+2. Plug a jack in OUT 1 and connect it to a multimeter (measure voltage)
+3. Play a C10 note. This is supposed to output 10V on OUT 1
+4. Use the trimmer RV_CV_GAIN1 to tune the output to exactly 10V
+
+**⚠️ NOTE - firmware needs to be updated so that OUT 2 can also be tuned.**
 
 <br>
 
