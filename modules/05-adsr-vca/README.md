@@ -44,6 +44,12 @@ It's likely that you need to turn down the base volume of the VCA using the RV_V
 
 It's a very common way to use an ADSR together with a VCA. To save on cables you can default the ADSR's output to the VCA's CV input by shorting the JP_DEFAULT_ENV_TO_VCA1 jumper.
 
+### R1 resistor should be a short
+
+As marked in the schematics, in the current version the R1 resistor is included for testing/experimental purposes only. You need to short this connection:
+
+<img src="https://github.com/user-attachments/assets/387a6766-47ae-4c9f-a614-88f580e55c90" />
+
 <br>
 
 ## Photos
