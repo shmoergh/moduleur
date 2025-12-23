@@ -59,7 +59,7 @@ To connect the external USB-C connector and BOOTSEL button to the Pico you have 
 
 If you choose this option, make sure you solder the Pico to the bottom side of the Core board like shown here: 
 
-<img src="https://github.com/user-attachments/assets/d3fcfcb4-0316-4a1b-bf50-241cc616ff06" />
+<img src="https://github.com/user-attachments/assets/e214a1a2-473b-4ac0-83c0-41b2918bc2f9" />
 
 
 ### Tuning the CV output
@@ -72,6 +72,12 @@ The DAC outpus of the Brain module can output maximum 4095mV. These are amplifie
 4. Use the trimmer RV_CV_GAIN1 to tune the output to exactly 10V
 
 **⚠️ NOTE - firmware needs to be updated so that OUT 2 can also be tuned.**
+
+### Development with Picoprobe
+
+The most efficient and probably the cheapest way to develop firmware for the brain is to use a second Pico board as a debug probe, as described in the [official documentation](https://pip-assets.raspberrypi.com/categories/610-raspberry-pi-pico/documents/RP-008276-DS-1-getting-started-with-pico.pdf?disposition=inline) (from page 17). To connect up the PicoProbe board to the Pico on the Core board you need to solder pin headers to the Pico board's DEBUG connections (SWCLK, GND, SWDIO) and also use the J_DEV1 pin header, which is directly connected to the UART RX and TX on pins 1 and 2. If you're housing the Brain module in the Moduleur enclosure we recommend (1) using right angle pin headers and (2) soldering the Pico board's DEBUG headers _oriented to the inside_ of the board, so it fits the space:
+
+![picoprobe](https://github.com/user-attachments/assets/dcca157c-cd6d-4622-b6da-d79ba3f59b40)
 
 <br>
 
