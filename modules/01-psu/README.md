@@ -29,6 +29,18 @@ There's a single board for each version, the boards have only through-hole (THT)
 
 ## Module specific instructions
 
+### Orientation guide for the Moduleur enclosure
+
+If you're building for the Moduleur enclosure, you need to solder the power connectors on the _bottom_ side of the PCB (ie. the opposite of where the on/off switch and the DC/DC converter is), with the connector pointing to the large cutout on the PCB:
+
+<img src="https://github.com/user-attachments/assets/16765d66-fab6-4d0c-b477-4db1ae6c498d" />
+
+<img src="https://github.com/user-attachments/assets/c1de3578-8825-4b52-af8e-95f9a901c45f" />
+
+
+![psu-orientation](https://github.com/user-attachments/assets/9a18d5d9-96bd-42d8-89b1-822f050a2927)
+
+
 ### Powering the PSU
 
 Use a center positive 12V DC wall adapter to power the PSU.
