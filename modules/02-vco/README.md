@@ -73,14 +73,15 @@ To make soldering a bit easier, the alternate names of the temp.co. components a
 
 As with all analog VCO you need to go through a tuning process to make sure it tracks with 1V/octave. Here's how to tune this VCO:
 
-0. Connect a keyboard with CV output to the VCO. We recommend an Arturia Keystep, Beatstep Pro, Korg NT1 or similar.
-1. Turn HI-FREQ pot all the way down. You can play a very high pitch note on the keyboard and turn the knob until the pitch goes down.
-2. Play C1 on keyboard. Use the BIAS trimmer to set the frequency to C1 (32.703Hz)
-3. Play C4 and use BIAS trimmer to set the frequency to C4 (261.63Hz)
-4. Play C1 and use WIDTH trimmer to tune it to 32.703Hz
-5. Loop steps 3 + 4
-6. When C1 and C4 are in tune, play C7 and use the HI-FREQ trimmer to make up the pitch for higher frequencies.
-7. Go back to step 3 & 4 to adjust tuning for lower frequencies, then go to step 6 again, until you get to a reasonable end result.
+0. Turn the Octave (main tune) knob all the way down and the Fine tune knob in the middle.
+1. Connect a keyboard with CV output to the VCO. We recommend an Arturia Keystep, Beatstep Pro, Korg NT1 or similar.
+2. Turn HI-FREQ pot all the way down. You can play a very high pitch note on the keyboard and turn the knob until the pitch goes down.
+3. Play C1 on keyboard. Use the BIAS trimmer to set the frequency to C1 (32.703Hz)
+4. Play C4 and use BIAS trimmer to set the frequency to C4 (261.63Hz)
+5. Play C1 and use WIDTH trimmer to tune it to 32.703Hz
+6. Loop steps 3 + 4
+7. When C1 and C4 are in tune, play C7 and use the HI-FREQ trimmer to make up the pitch for higher frequencies.
+8. Go back to step 3 & 4 to adjust tuning for lower frequencies, then go to step 6 again, until you get to a reasonable end result.
 
 Note that the tuning of the VCO is limited to about 7 or 8 octaves.
 
