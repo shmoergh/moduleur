@@ -56,11 +56,12 @@ To connect the external USB-C connector and BOOTSEL button to the Pico you have 
   
 **Option 3:** Solder the Pico directly to the Core board directly and _solder through_ the dedicated TP1, TP2, TP3 and TP6 plated holes
 
-⚠️ **NOTE — So far the only tested method 1 which worked perfectly.**
-
 If you choose this option, make sure you solder the Pico to the bottom side of the Core board like shown here: 
 
 <img src="https://github.com/user-attachments/assets/e214a1a2-473b-4ac0-83c0-41b2918bc2f9" />
+
+
+⚠️ **NOTE — So far only Option 1 is tested.**
 
 
 ### Tuning the CV output
