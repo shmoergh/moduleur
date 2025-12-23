@@ -2371,13 +2371,27 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "R1 is Only for testing\nThere's a similar resistor on the core\nboard, this one is here for testing\ncrosstalk. If the one on the core board\nworks, this should be shorted (and \nremoved on the next version of this board)."
+	(text "There's a similar resistor on the core\nboard, this one is here for testing\ncrosstalk. If the one on the core board\nworks, this should be shorted."
 		(exclude_from_sim no)
-		(at 67.31 99.06 0)
+		(at 67.31 100.33 0)
 		(effects
 			(font
 				(size 1.5 1.5)
 				(thickness 0.1875)
+				(color 255 0 255 1)
+			)
+			(justify left)
+		)
+		(uuid "10851b9b-9571-4593-b0e5-d9d4daf7d336")
+	)
+	(text "R1 is Only for testing"
+		(exclude_from_sim no)
+		(at 67.31 92.71 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
 				(color 255 0 255 1)
 			)
 			(justify left)
