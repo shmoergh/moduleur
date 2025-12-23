@@ -62,6 +62,13 @@ This is a through hole component, very widely available. For this setup, you nee
 **Which one should you choose?**
 The two setups are almost identical but **option 1** (using the PTS) is a little bit more accurate. If you can solder SMD components and you have a bit more budget then we recommend that option.
 
+**Temperature compensation component help**
+
+To make soldering a bit easier, the alternate names of the temp.co. components are marked on the PCB:
+
+<img src="https://github.com/user-attachments/assets/84030754-7be8-41ba-bbeb-c32182ff3850" />
+
+
 ### Tuning
 
 As with all analog VCO you need to go through a tuning process to make sure it tracks with 1V/octave. Here's how to tune this VCO:
