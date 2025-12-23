@@ -41246,6 +41246,19 @@
 			(justify right bottom)
 		)
 	)
+	(gr_text "R_W1"
+		(at 139.748 66.098 0)
+		(layer "F.SilkS")
+		(uuid "2b91ac90-f550-4658-be28-381df6e8ca16")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "SAW INV"
 		(at 155.623 103.055 0)
 		(layer "F.SilkS")
@@ -41305,6 +41318,19 @@
 		(effects
 			(font
 				(size 1 0.75)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "R_D1"
+		(at 160.195 63.304 0)
+		(layer "F.SilkS")
+		(uuid "3b133b38-f222-4fff-9074-861aa8cf49ae")
+		(effects
+			(font
+				(size 0.8 0.8)
 				(thickness 0.15)
 				(bold yes)
 			)
@@ -41428,6 +41454,19 @@
 			(justify bottom)
 		)
 	)
+	(gr_text "R_D3"
+		(at 160.195 53.525 0)
+		(layer "F.SilkS")
+		(uuid "62a4caa9-84dc-458b-b35d-252f8c3835bc")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "CV IN"
 		(at 127.508 102.87 0)
 		(layer "F.SilkS")
@@ -41493,6 +41532,19 @@
 			(justify bottom)
 		)
 	)
+	(gr_text "R_W2"
+		(at 145.844 66.098 0)
+		(layer "F.SilkS")
+		(uuid "92311bad-9317-4c6e-98cd-81561bd41f82")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "RESET"
 		(at 134 97.79 0)
 		(layer "F.SilkS")
@@ -41517,6 +41569,19 @@
 				(bold yes)
 			)
 			(justify bottom)
+		)
+	)
+	(gr_text "R_D2"
+		(at 160.195 56.7 0)
+		(layer "F.SilkS")
+		(uuid "9fb142a7-1866-4b5a-8c9e-621a1d551479")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "GND"
@@ -41595,6 +41660,19 @@
 				(bold yes)
 			)
 			(justify bottom)
+		)
+	)
+	(gr_text "R_FB"
+		(at 160.195 60.129 0)
+		(layer "F.SilkS")
+		(uuid "d07b738a-ee4f-4131-8461-b0215feb47ae")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "WIDTH 2"
