@@ -54,9 +54,7 @@ To connect the external USB-C connector and BOOTSEL button to the Pico you have 
 
 **Option 2:** You can also use pin headers and sockets to connect the Pico to the Core board. Make sure you use low profile sockets and matching headers in this case, otherwise if you're building for the Moduleur enclosure, the brain module won't fit the height of the case. (Example [socket](https://mou.sr/48U4sKo) and [header](https://mou.sr/4p6XDd6) — Note: this is UNTESTED)
   
-**Option 3:** Solder the Pico directly to the Core board directly and _solder through_ the dedicated TP1, TP2, TP3 and TP6 plated holes
-
-If you choose this option, make sure you solder the Pico to the bottom side of the Core board like shown here: 
+**Option 3:** Solder the Pico directly to the Core board directly and _solder through_ the dedicated TP1, TP2, TP3 and TP6 plated holes. If you choose this option, make sure you solder the Pico to the bottom side of the Core board like shown here: 
 
 <img src="https://github.com/user-attachments/assets/e214a1a2-473b-4ac0-83c0-41b2918bc2f9" />
 
