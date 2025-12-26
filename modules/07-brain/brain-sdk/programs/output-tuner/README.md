@@ -1,6 +1,6 @@
 # Output tuner for Brain module
 
-To stay in tune when using the Brain module as a MIDI to CV converter, it's essential that the CV output voltages of the Brain is precise. It's possible to fine tune the output voltages of the module with the `RV_CV_GAIN1` and `RV_CV_GAIN2` trimmers.
+To stay in tune when using the Brain module as a MIDI to CV converter, it's essential to generate precise CV output voltages. It's possible to fine tune the output voltages of the module with the `RV_CV_GAIN1` and `RV_CV_GAIN2` trimmers.
 
 This simple program generates 0-10V on both output which allows fine tuning the output voltages of the Brain module.
 
