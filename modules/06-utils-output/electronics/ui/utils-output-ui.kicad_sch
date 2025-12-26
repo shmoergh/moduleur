@@ -8871,7 +8871,7 @@
 				)
 			)
 		)
-		(property "Value" "PJ398SM"
+		(property "Value" "PJ366ST"
 			(at 170.815 109.22 0)
 			(effects
 				(font
@@ -8906,7 +8906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://www.thonk.co.uk/shop/thonkiconn/"
+		(property "Part URL" "https://www.thonk.co.uk/shop/3-5mm-jacks/"
 			(at 171.45 115.57 0)
 			(effects
 				(font
@@ -8933,7 +8933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part no." "PJ398SM"
+		(property "Part no." "PJ366ST"
 			(at 171.45 115.57 0)
 			(effects
 				(font
@@ -8942,7 +8942,16 @@
 				(hide yes)
 			)
 		)
-		(property "Note" ""
+		(property "Note" "Stereo jack"
+			(at 171.45 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
 			(at 171.45 115.57 0)
 			(effects
 				(font

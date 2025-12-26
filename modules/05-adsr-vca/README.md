@@ -17,16 +17,40 @@ TBD
 - [Core board](./electronics/core/) — Contains all active circuitry and handles the complete audio, CV, and logic processing for the module.
 - [UI board](./electronics/ui/) — Hosts all panel-mounted controls and connectors, providing the physical interface to the module’s Core PCB.
 
-## How to Build
 
-Follow the [Build guide](https://www.shmoergh.com/moduleur-build-guide)
+## How to build
 
-**TLDR;**
-- Gerber files for JLCPCB ordering are in each board's `production` folder
-- BOM is also available in the respective `production` folder.
-- The full BOM is in the module's root dir. All THT components are available at Mouser
-- Use the KiCad schematic and PCB layout for soldering reference
-- **Before connecting any modules**, always make sure there are no shorts between ±12V and ground.
+[**Follow the build guide &rarr;**](https://github.com/shmoergh/moduleur/wiki)
+
+<br>
+
+## Module specific instructions
+
+### Setting the envelope output voltage
+
+You can set the [maximum] output voltage of the envelope using the RV_OUT_GAIN1 trimmer on the Core board. Recommended value is 8V.
+
+### Setting the base volume of the VCA
+
+1. Plug in a VCO to the VCA input
+2. Connect the output of the VCA to an oscilloscope. Alternatively you can also connect it to the input of the Output module
+3. Use the RV_VCA_BIAS2 trimmer to set turn down the volume of the VCA just so that there's nothing on the output. This will make the VCA work in a way that even the smallest control voltages will cause audible gain increase without any crosstalk.
+
+### What if I have crosstalk?
+
+It's likely that you need to turn down the base volume of the VCA using the RV_VCA_BIAS2 trimmer on the Core board.
+
+### Defaulting the ADSR output to VCA CV input
+
+It's a very common way to use an ADSR together with a VCA. To save on cables you can default the ADSR's output to the VCA's CV input by shorting the JP_DEFAULT_ENV_TO_VCA1 jumper.
+
+### R1 resistor should be a short
+
+As marked in the schematics, in the current version the R1 resistor is included for testing/experimental purposes only. You need to short this connection:
+
+<img src="https://github.com/user-attachments/assets/387a6766-47ae-4c9f-a614-88f580e55c90" />
+
+<br>
 
 ## Photos
 
@@ -40,4 +64,4 @@ Open source licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/b
 
 Feel free to fork, build, and tweak.
 
-[Disclaimer](https://github.com/shmoergh/moduleur)
+[Disclaimer](https://github.com/shmoergh/moduleur/blob/main/DISCLAIMER.md)

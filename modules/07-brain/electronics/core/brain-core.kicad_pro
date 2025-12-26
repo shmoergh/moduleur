@@ -76,10 +76,6 @@
           ""
         ],
         [
-          "duplicate_footprints|133652000|116009000|422ddaeb-42ba-496b-97b1-15af4c6756fb|8ac9be66-a987-4523-9df1-82395ec334e9",
-          ""
-        ],
-        [
           "duplicate_footprints|175943000|93022000|79064e43-c91f-4b5f-ba5e-584d16e84755|8ac9be66-a987-4523-9df1-82395ec334e9",
           ""
         ],
@@ -89,10 +85,6 @@
         ],
         [
           "extra_footprint|132255000|150426000|b7d5d369-d3f7-441c-bff8-586a933020fc|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "extra_footprint|133652000|116009000|422ddaeb-42ba-496b-97b1-15af4c6756fb|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -132,7 +124,7 @@
           ""
         ],
         [
-          "unconnected_items|134795000|88074000|F.Cu|4|41135e58-e436-4b93-ba1a-b3f16326a845|141e77fc-0378-40cd-b49d-6bebf126aa62",
+          "unconnected_items|134795000|88074000|F.Cu|4|41135e58-e436-4b93-ba1a-b3f16326a845|c87c6692-8bfe-430b-88e3-7c16c346583c",
           "This is fine - connected on the UI board"
         ]
       ],
@@ -714,7 +706,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "${PROJECTNAME}-full-bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",

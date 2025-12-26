@@ -18,18 +18,40 @@ This is the power supply unit for the Hog Moduleur, but it can be used in any Eu
 
 ## 🛠️ How to Build
 
-- Gerber files for JLCPCB ordering are in the [`electronics/production`](./electronics/production) folder
-- BOM is also in the [`electronics/production`](./electronics/production) folder. All components are available at Mouser
-- Use the KiCad schematic and PCB layout for soldering reference
-- **Before connecting any modules**, always measure the output voltages to confirm ±12V is stable
+1. [8 output for Eurorack](./electronics/eurorack-8-out/). Designed for small Eurorack cases and standalone synth builds. Output current depends on the regulator used (see above).
+2. [4 output for Moduleur enclosure](./electronics/moduleur-enclosure/). Designed for the Shmøergh Moduleur enclosure
 
-⚠️ This is a DIY-friendly project but assumes you know how to solder, read schematics, and handle basic electronics safely.
+## Boards
 
-## 📷 Photos
+There's a single board for each version, the boards have only through-hole (THT) components.
 
-<img width="2968" height="1866" alt="CleanShot 2025-07-13 at 12 34 50@2x" src="https://github.com/user-attachments/assets/e8117d95-726b-40f4-b03a-bdb1c461af79" />
+## How to build
 
-![IMG_2939](https://github.com/user-attachments/assets/093e68c2-3c0d-4f67-8883-82444be80754)
+[**Follow the build guide &rarr;**](https://github.com/shmoergh/moduleur/wiki)
+
+## Module specific instructions
+
+### Orientation guide for the Moduleur enclosure
+
+If you're building for the Moduleur enclosure, you need to solder the power connectors on the _bottom_ side of the PCB (ie. the opposite of where the on/off switch and the DC/DC converter is), with the connector pointing to the large cutout on the PCB:
+
+<img src="https://github.com/user-attachments/assets/16765d66-fab6-4d0c-b477-4db1ae6c498d" />
+
+<img src="https://github.com/user-attachments/assets/c1de3578-8825-4b52-af8e-95f9a901c45f" />
+
+
+![psu-orientation](https://github.com/user-attachments/assets/9a18d5d9-96bd-42d8-89b1-822f050a2927)
+
+
+### Powering the PSU
+
+Use a center positive 12V DC wall adapter to power the PSU.
+
+### Wired DC input and ON/OFF switch
+
+You can create connect your own ON/OFF switch and DC input components using the +/- terminals on the board. This is useful if you're building a custom enclosure and you want the ON/OFF switch and DC input on the enclosre, remote from the PSU. In this case, don't use the built-in DC jack socket and the ON/OFF button.
+
+<img src="https://github.com/user-attachments/assets/8a47af6c-7f09-4a46-a498-9523f7f692ce" />
 
 
 
@@ -39,8 +61,4 @@ Open source licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/b
 
 Feel free to fork, build, and tweak.
 
-[Disclaimer](https://github.com/shmoergh/hog-moduleur)
-
----
-
-🐖 [Shmøergh](https://shmoergh.com) — Fucking cool electronic instruments from Budaørs, HU.
+[Disclaimer](https://github.com/shmoergh/moduleur/blob/main/DISCLAIMER.md)

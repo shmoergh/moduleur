@@ -5468,16 +5468,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 156.21 139.7 0)
+		(at 156.21 142.24 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c4effaf1-255c-49a9-9649-ed9d18748a21")
 		(property "Reference" "J_DEV1"
-			(at 158.75 139.6999 0)
+			(at 158.75 142.2401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5486,7 +5486,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 158.75 142.2399 0)
+			(at 158.75 139.7001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5494,8 +5494,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 156.21 139.7 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
+			(at 156.21 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5504,7 +5504,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 139.7 0)
+			(at 156.21 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5513,7 +5513,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 156.21 139.7 0)
+			(at 156.21 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5522,7 +5522,7 @@
 			)
 		)
 		(property "Part No." ""
-			(at 156.21 139.7 0)
+			(at 156.21 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5530,8 +5530,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/3IruU3e"
-			(at 156.21 139.7 0)
+		(property "Part URL" "https://mou.sr/4avMlMe"
+			(at 156.21 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5540,7 +5540,7 @@
 			)
 		)
 		(property "Vendor" ""
-			(at 156.21 139.7 0)
+			(at 156.21 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5549,7 +5549,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 156.21 139.7 0)
+			(at 156.21 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5557,8 +5557,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part no." "200-HTSW10207TS"
-			(at 156.21 139.7 0)
+		(property "Mouser Part no." "200-HTSW11008FSRA "
+			(at 156.21 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
