@@ -4,7 +4,7 @@ Basic MIDI to CV converter for the Brain module.
 
 ## Install
 
-Flash the u2f file from the program root to the Pico board.
+Flash the u2f file from the program root to Brain.
 
 ## Usage
 
