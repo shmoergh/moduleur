@@ -22,6 +22,13 @@ Brain is a universal digital module for the Shmøergh Moduleur which enables the
 - 12HP Eurorack compatible design
 - Reverse polarity protection
 
+## Programs
+
+As of today the following programs are available for the Brain module:
+
+- [MIDI2CV](https://github.com/shmoergh/moduleur/tree/main/modules/07-brain/brain-sdk/programs/midi2cv) - Basic MIDI to CV converter
+- [Output tuner](https://github.com/shmoergh/moduleur/tree/main/modules/07-brain/brain-sdk/programs/output-tuner) - Helper program to fine tune the outputs of the Brain module. Also can be used to tune VCOs.
+
 ## Boards
 
 - [Core board](./electronics/core/) — Contains all active circuitry and handles the complete audio, CV, and logic processing for the module.
