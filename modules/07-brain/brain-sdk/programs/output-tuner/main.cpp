@@ -15,29 +15,10 @@ using brain::ui::Led;
 const uint LED_PINS[] = {
 	BRAIN_LED_1, BRAIN_LED_2, BRAIN_LED_3, BRAIN_LED_4, BRAIN_LED_5, BRAIN_LED_6};
 
-int voltage = 0;
-
-void onButtonDownPressed() {
-	printf("Down pressed\n");
-	int nextVoltage = voltage - 1;
-	if (nextVoltage < 0) {
-		nextVoltage = 10;
-	}
-	voltage = nextVoltage;
-}
-
-void onButtonUpPressed() {
-	printf("Up pressed\n");
-	int nextVoltage = voltage + 1;
-	if (nextVoltage > 10) {
-		nextVoltage = 0;
-	}
-	voltage = nextVoltage;
-}
-
 int main() {
 	stdio_init_all();
 
+	int voltage = 0;
 	AudioCvOut g_dac;
 	brain::ui::Led leds[6] = {brain::ui::Led(LED_PINS[0]), brain::ui::Led(LED_PINS[1]),
 		brain::ui::Led(LED_PINS[2]), brain::ui::Led(LED_PINS[3]), brain::ui::Led(LED_PINS[4]),
@@ -58,9 +39,22 @@ int main() {
 	}
 	sleep_ms(200);
 
-	// Setup button callback
-	buttonDown.setOnRelease(onButtonDownPressed);
-	buttonUp.setOnRelease(onButtonUpPressed);
+	// Setup button callbacks
+	buttonDown.setOnRelease([&]() {
+		int nextVoltage = voltage - 1;
+		if (nextVoltage < 0) {
+			nextVoltage = 10;
+		}
+		voltage = nextVoltage;
+	});
+
+	buttonUp.setOnRelease([&]() {
+		int nextVoltage = voltage + 1;
+		if (nextVoltage > 10) {
+			nextVoltage = 0;
+		}
+		voltage = nextVoltage;
+	});
 
 	// Init DAC
 	if (!g_dac.init()) {
@@ -83,6 +77,12 @@ int main() {
 
 	printf("Setting all LEDs to ON\n");
 	for (uint i = 0; i < 6; i++) {
+		leds[i].on();
+	}
+	sleep_ms(1000);
+
+	printf("Setting all LEDs to OFF\n");
+	for (uint i = 0; i < 6; i++) {
 		leds[i].off();
 	}
 	sleep_ms(200);
@@ -92,6 +92,15 @@ int main() {
 		buttonUp.update();
 		g_dac.setVoltage(brain::io::AudioCvOutChannel::kChannelA, float(voltage));
 		g_dac.setVoltage(brain::io::AudioCvOutChannel::kChannelB, float(voltage));
+
+		// Set LED (binary) to actual voltage
+		for (uint i = 0; i < 6; i++) {
+			if (voltage & (1 << i)) {
+				leds[i].on();
+			} else {
+				leds[i].off();
+			}
+		}
 	}
 
 	return 0;
