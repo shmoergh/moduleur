@@ -6,7 +6,7 @@ This simple program generates 0-10V on both output which allows fine tuning the 
 
 ## Install
 
-Flash the u2f file from the program root to the Pico board.
+Flash the u2f file from the program root to Brain.
 
 ## Usage
 
