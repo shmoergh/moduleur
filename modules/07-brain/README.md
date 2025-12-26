@@ -71,14 +71,7 @@ To connect the external USB-C connector and BOOTSEL button to the Pico you have 
 
 ### Tuning the CV output
 
-The DAC outpus of the Brain module can output maximum 4095mV. These are amplified to maximum 10V — to match Eurorack voltage ranges — using the U4A and U5A op-amps. To get a precise output (e.g. for pitch CV control) you need to tune the Brain outputs:
-
-1. Connect your MIDI controller to the Brain MIDI input
-2. Plug a jack in OUT 1 and connect it to a multimeter (measure voltage)
-3. Play a C10 note. This is supposed to output 10V on OUT 1
-4. Use the trimmer RV_CV_GAIN1 to tune the output to exactly 10V
-
-**⚠️ NOTE - firmware needs to be updated so that OUT 2 can also be tuned.**
+The DAC outputs of the Brain module can directly generate maximum 4095mV. These are amplified to maximum 10V — to match Eurorack voltage ranges — using the U4A and U5A op-amps. To get a precise output (e.g. for pitch CV control) you need to tune the Brain outputs using the [Output tuner](https://github.com/shmoergh/moduleur/tree/main/modules/07-brain/brain-sdk/programs/output-tuner) program (see more in its readme).
 
 ### Development with Picoprobe
 
