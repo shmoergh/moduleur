@@ -88,6 +88,8 @@ class Button {
 	std::function<void()> on_long_press_;  ///< Callback for long press events
 
 	bool long_press_triggered_;	 ///< Flag to prevent multiple long press events
+	bool last_state_;  ///< Last debounced state for edge detection
+	absolute_time_t last_change_time_;  ///< Timestamp of last state change for debouncing
 };
 
 }  // namespace brain::ui

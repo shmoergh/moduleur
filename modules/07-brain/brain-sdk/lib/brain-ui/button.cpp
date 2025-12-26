@@ -27,6 +27,8 @@ void Button::init(bool pull_up) {
 	last_release_time_ = get_absolute_time();
 	last_tap_time_ = get_absolute_time();
 	long_press_triggered_ = false;
+	last_state_ = gpio_get(gpio_pin_);
+	last_change_time_ = get_absolute_time();
 }
 
 void Button::update() {
@@ -34,12 +36,10 @@ void Button::update() {
 	absolute_time_t now = get_absolute_time();
 
 	// Debounce logic
-	static bool last_state = false;
-	static absolute_time_t last_change_time = 0;
-	if (current_state != last_state) {
-		if (absolute_time_diff_us(last_change_time, now) / 1000 >= debounce_ms_) {
-			last_state = current_state;
-			last_change_time = now;
+	if (current_state != last_state_) {
+		if (absolute_time_diff_us(last_change_time_, now) / 1000 >= debounce_ms_) {
+			last_state_ = current_state;
+			last_change_time_ = now;
 			if (!current_state) {
 				// Pressed (active low)
 				last_press_time_ = now;
