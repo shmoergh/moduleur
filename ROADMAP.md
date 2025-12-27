@@ -20,6 +20,10 @@ Let's add a bias pot to the VCA. This would enable the VCA to be used as an atte
 
 <img width="1525" height="1026" alt="image" src="https://github.com/user-attachments/assets/d6039073-23fe-4c6b-a674-52c2000b8da8" />
 
+#### Add optional passive LPF on VCA CV input
+
+Right now there's a subtle clicking noise when using very fast times on the VCA. Adding a 1ms (10kΩ + 100nF) LPF on the VCA's CV input makes it go away for the price of almost inaudibly slower attack/release times.
+
 ## Brain ideas
 
 #### Use 2 pots and 3 buttons
