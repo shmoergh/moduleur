@@ -7,13 +7,15 @@ We made an enclosure design to house all the components in one single box and al
 
 ## Full Moduleur Enclosure - WIP
 
+<img src="https://github.com/shmoergh/moduleur/tree/main/enclosure/enclosure-full.png" />
+
 The full enclosure is a combination of custom and ready-made parts. It is built around two Bosch 10x40 aluminum t-slot rails with four aluminum plates and a bunch of plastic fixtures and steel/brass screws and nuts. This allows for a rigid and extendable structure.
 
 The full enclosure consists of the following parts:
 ### Metal plates
 - 1  - Top Panel - 256x320mm
 - 1  - Side Panel - 40x320mm
-- 1  - Side Panel with USB - 40x320mm
+- 1  - Side Panel with holes for the Brain module’s USB connectors - 40x320mm
 - 1  - Bottom Panel - 256x320mm
 ### 3D printed fixtures
 - 2  - Corner fixtures - right
@@ -61,6 +63,8 @@ These will have alternatives and compatible/licenced versions so you don't have 
 ---
 
 ## Design-your-own-box solution - Top Panel only
+
+<img src="https://github.com/shmoergh/moduleur/tree/main/enclosure/enclosure-top.png" />
 
 In this version you can design your own box and attach the original Moduleur top panel to it. note: There's plenty of space on the top/bottom due to the lack of the 10mm Bosch rails in this one, but the top panel only counts with sides that are only 1.5mm thick. Make sure you add to the plate if you have thicker sides (like a wooden/plastic box perhaps)
 
