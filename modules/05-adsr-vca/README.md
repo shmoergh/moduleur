@@ -26,8 +26,6 @@ _Solution:_ the VCA_CV input needs a 200kΩ resistor from the UI board.
 
 **If you've ordered it before Dec 30, 2025 you need to apply the following hack**
 
-<img width="1822" height="1924" alt="CleanShot 2025-12-30 at 07 38 00@2x" src="https://github.com/user-attachments/assets/cdd4b310-3a71-46ee-91e4-1c803d384bae" />
-
 1. Cut the VCA CV trace. It's the one coming from TIP of the J_VCA_CV1 jack. Probably the safest place to cut it is at the base of the jack. Once cut, check with a multimeter that there's no connection between the tip of the J_VCA_CV1 and the VCA_CV of the J3 header.
 
 <img width="1682" height="1778" alt="CleanShot 2025-12-30 at 08 21 10@2x" src="https://github.com/user-attachments/assets/c4105803-19e4-4e3a-b95b-53b676e1ee90" />
