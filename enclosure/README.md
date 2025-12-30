@@ -7,7 +7,7 @@ We made an enclosure design to house all the components in one single box and al
 
 ## Full Moduleur Enclosure - WIP
 
-<img src="https://github.com/shmoergh/moduleur/tree/main/enclosure/enclosure-full.png" />
+<img src="https://github.com/shmoergh/moduleur/tree/main/enclosure/enclosure-full.jpg" />
 
 The full enclosure is a combination of custom and ready-made parts. It is built around two Bosch 10x40 aluminum t-slot rails with four aluminum plates and a bunch of plastic fixtures and steel/brass screws and nuts. This allows for a rigid and extendable structure.
 
@@ -64,7 +64,7 @@ These will have alternatives and compatible/licenced versions so you don't have 
 
 ## Design-your-own-box solution - Top Panel only
 
-<img src="https://github.com/shmoergh/moduleur/tree/main/enclosure/enclosure-top.png" />
+<img src="https://github.com/shmoergh/moduleur/tree/main/enclosure/enclosure-top.jpg" />
 
 In this version you can design your own box and attach the original Moduleur top panel to it. note: There's plenty of space on the top/bottom due to the lack of the 10mm Bosch rails in this one, but the top panel only counts with sides that are only 1.5mm thick. Make sure you add to the plate if you have thicker sides (like a wooden/plastic box perhaps)
 
