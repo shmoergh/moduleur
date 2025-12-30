@@ -23,8 +23,8 @@ The full enclosure consists of the following parts:
 - 2  - Bosch Strut Profiles 10x40 - 253mm (We recommend to get them cut to length by the supplier)
 - 4  - Bosch Slot6 M4 nuts (We recommend ordering more than you need to experiment with accessories)
 ### Screws
-- 2  - M4 hex nuts - 7.1mm side-to-side
-- 8  - M3 square nuts - 5.5x5.5mm
+- 2  - M4 hex nuts - 7mm side-to-side
+- 4  - M3 square nuts - 5x5mm
 - 4  - M3 hex spacers - 10mm, 4.6mm side-to-side
 - 5  - M3 hex spacers - 40mm, 4.6mm side-to-side
 - 14 - M4 machine screws - 10mm
@@ -34,7 +34,7 @@ The full enclosure consists of the following parts:
 
 ## Files, Links
 
-The entire enclosure was designed in OnShape and you can just use OnShape to copy and edit if you'd like. [Link](TBD)
+The entire enclosure was designed in OnShape and you can just use OnShape to copy and edit if you'd like. (Link TBD)
 
 ### Metal plates
 - TBD
