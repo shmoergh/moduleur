@@ -1,10 +1,62 @@
 # Shmøergh Moduleur Enclosure
 
-We made an enclosure design to house all the components in one single box. This is a highly technological solution that is not really suited for DIY we'll just share the enclosure top, so you can design your own box and use the holes and labels that perfectly line up. We'll also share a 3D STEP file so you can just print a top plate on your 3D printer. (well, if you have a pretty big one)
+We made an enclosure design to house all the components in one single box and allow for attachments, hacks. This is a highly technological solution that is not really suited for DIY so we'll also share the enclosure top separately, so you can design your own box and use the holes and labels that perfectly line up. We'll also share a 3D STEP file so you can just print a top panel on your 3D printer. (well, if you have a pretty big one)
 
-The enclosure was designed in OnShape and you can just use OnShape to copy and edit if you'd like. [OnShape Link](https://cad.onshape.com/documents/9d6c9c68a853f8e66f1137da/w/ce10bd0a67826e1d42122627/e/09bb41061e596c896e897ed1?renderMode=0&uiState=6935dd5b243446fa8660a6cd)
+---
 
-## Files
+## Full Moduleur Enclosure - WIP
+
+The full enclosure is a combination of custom and ready-made parts. It is built around two Bosch 10x40 aluminum t-slot rails with four aluminum plates and a bunch of plastic fixtures and steel/brass screws and nuts. This allows for a rigid and extendable structure.
+
+The full enclosure consists of the following parts:
+### Metal plates
+- 1  - Top Panel - 256x320mm
+- 1  - Side Panel - 40x320mm
+- 1  - Side Panel with USB - 40x320mm
+- 1  - Bottom Panel - 256x320mm
+### 3D printed fixtures
+- 2  - Corner fixtures - right
+- 2  - Corner fixtures - left
+- 2  - Side fixtures
+### Rails
+- 2  - Bosch Strut Profiles 10x40 - 253mm
+- 4  - Bosch Slot6 M4 nuts
+### Screws
+- 2  - M4 hex nuts
+- 4  - M3 hex spacers - 10mm, 4.6mm side-to-side
+- 5  - M3 hex spacers - 40mm, 4.6mm side-to-side
+- 14 - M4 machine screws - 10mm
+- 42 - M3 machine screws - 10mm
+- 4  - Rubber feet with M3 machine screws
+
+## Files, Links
+
+The entire enclosure was designed in OnShape and you can just use OnShape to copy and edit if you'd like. [Link](TBD)
+
+### Metal plates
+- TBD
+### 3D printed parts
+- TBD
+### Rails
+These will have alternatives and compatible/licenced versions so you don't have to buy directly from Bosch. We source these from [Motedis](https://www.motedis.com/en/Profile-40x10-B-Type-slot-6) in Europe.
+- [Bosch Strut Profiles 10x40](https://store.boschrexroth.com/en/hu/p/strut-profile-3842526817) - best is to get them cut to length (253mm) by the supplier
+- [Bosch Slot6 M4 nut](https://store.boschrexroth.com/en/hu/p/t-nut-3842536599)
+### Screws
+- TBD
+
+## Building
+
+[Read the build guide &rarr;](https://github.com/shmoergh/moduleur/wiki) *WIP*
+
+---
+
+## Design-your-own-box solution - Top Panel only
+
+In this version you can design your own box and attach the original Moduleur top panel to it. note: There's plenty of space on the top/bottom due to the lack of the 10mm Bosch rails in this one, but the top panel only counts with sides that are only 1.5mm thick. Make sure you add to the plate if you have thicker sides (like a wooden/plastic box perhaps)
+
+## Files, Links
+
+The top panel was designed in OnShape and you can just use OnShape to copy and edit if you'd like. [Link](https://cad.onshape.com/documents/9d6c9c68a853f8e66f1137da/w/ce10bd0a67826e1d42122627/e/09bb41061e596c896e897ed1?renderMode=0&uiState=6935dd5b243446fa8660a6cd)
 
 - [Enclosure top 3D STEP file](https://github.com/shmoergh/moduleur/tree/main/enclosure/shmoergh-moduleur-panel-assembly-top.step)
 - [Enclosure top label prints in PDF](https://github.com/shmoergh/moduleur/tree/main/enclosure/shmoergh-moduleur-panel-assembly-top.pdf)
