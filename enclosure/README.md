@@ -36,12 +36,12 @@ The full enclosure consists of the following parts:
 
 The entire enclosure was designed in OnShape and you can just use OnShape to copy and edit if you'd like. (Link TBD)
 
-### Metal plates
+### Metal plates (STEP)
 - [Top Panel](https://github.com/shmoergh/moduleur/tree/main/enclosure/panels/shmoergh-moduleur-panel-assembly-top.step)
 - [Side Panel](https://github.com/shmoergh/moduleur/tree/main/enclosure/panels/shmoergh-moduleur-panel-assembly-side.step)
 - [Side Panel with USB](https://github.com/shmoergh/moduleur/tree/main/enclosure/panels/shmoergh-moduleur-panel-assembly-side-USB.step)
 - [Bottom Panel](https://github.com/shmoergh/moduleur/tree/main/enclosure/panels/shmoergh-moduleur-panel-assembly-bottom.step)
-### Fixtures
+### Fixtures (STEP)
 - [Corner fixture - right](https://github.com/shmoergh/moduleur/tree/main/enclosure/fixtures/bosch-block-right.step)
 - [Corner fixture - left](https://github.com/shmoergh/moduleur/tree/main/enclosure/fixtures/bosch-block-left.step)
 - [Side fixture](https://github.com/shmoergh/moduleur/tree/main/enclosure/fixtures/bosch-block-side.step)
