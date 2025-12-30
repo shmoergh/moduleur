@@ -81,11 +81,11 @@ The most efficient and probably the cheapest way to develop firmware for the bra
 
 <br>
 
-## Firmware development
+## Firmware development with the Brain SDK
 
-The Brain SDK is a firmware and library collection for the Raspberry Pi Pico, designed to speed up the development. It provides reusable components for I/O, UI, DSP, and more, along with example programs and scripts to streamline project setup and prototyping.
+The Brain SDK is a firmware and library collection for the Raspberry Pi Pico/Pico 2, designed to speed up the development. It provides reusable components for I/O, UI, DSP, and more, along with example programs and scripts to streamline project setup and prototyping.
 
-[Brain SDK](./brain-sdk/)
+[Brain SDK](https://github.com/shmoergh/brain-sdk)
 
 ## Photos
 
