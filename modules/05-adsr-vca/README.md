@@ -17,24 +17,24 @@ A combined, Eurorack compatible envelope generator and voltage controlled amplif
 - [Core board](./electronics/core/) — Contains all active circuitry and handles the complete audio, CV, and logic processing for the module.
 - [UI board](./electronics/ui/) — Hosts all panel-mounted controls and connectors, providing the physical interface to the module’s Core PCB.
 
-# 🐛 FIX FOR BOARDS ORDERED BEFORE Dec 30, 2025 
+# 🐛 FIX FOR v1.0 UI BOARDS
 
 There's a bug in the first released version of the UI board. 
 
 _Sympthom:_ the VCA is too hot.
 _Solution:_ the VCA_CV input needs a 200kΩ resistor from the UI board.
 
-**If you've ordered it before Dec 30, 2025 you need to apply the following hack**
+**If you've ordered the UI board before Dec 30, 2025 (v1.0) you need to apply the following hack.** The bug is fixed for v1.1 boards, ordered after Dec 30, 2025 (specifically [this commit](https://github.com/shmoergh/moduleur/commit/2fd56e93e86553611255dfd17caee376619ceb9c)).
 
 1. Cut the VCA CV trace. It's the one coming from TIP of the J_VCA_CV1 jack. Probably the safest place to cut it is at the base of the jack. Once cut, check with a multimeter that there's no connection between the tip of the J_VCA_CV1 and the VCA_CV of the J3 header.
 
-<img width="1682" height="1778" alt="CleanShot 2025-12-30 at 08 21 10@2x" src="https://github.com/user-attachments/assets/c4105803-19e4-4e3a-b95b-53b676e1ee90" />
+<img src="https://github.com/user-attachments/assets/c4105803-19e4-4e3a-b95b-53b676e1ee90" />
 
 2. Solder a 200kΩ resistor between the tip of J_VCA_CV1 and VCA_CV (of the J3 header)
 
-<img width="1680" height="1784" alt="CleanShot 2025-12-30 at 08 25 44@2x" src="https://github.com/user-attachments/assets/2b335dd8-b46f-4f9a-a372-ece1d6e2de22" />
+<img src="https://github.com/user-attachments/assets/d79271df-40e7-47ce-917c-6b64e254b99e" />
 
-<img width="1248" height="1570" alt="CleanShot 2025-12-30 at 08 27 12@2x" src="https://github.com/user-attachments/assets/75719988-aabc-424d-b65a-0702a5363710" />
+<img src="https://github.com/user-attachments/assets/75719988-aabc-424d-b65a-0702a5363710" />
 
 
 ## How to build
