@@ -37,7 +37,10 @@ The full enclosure consists of the following parts:
 The entire enclosure was designed in OnShape and you can just use OnShape to copy and edit if you'd like. (Link TBD)
 
 ### Metal plates
-- TBD
+- [Top Panel](https://github.com/shmoergh/moduleur/tree/main/enclosure/panels/shmoergh-moduleur-panel-assembly-top.step)
+- [Side Panel](https://github.com/shmoergh/moduleur/tree/main/enclosure/panels/shmoergh-moduleur-panel-assembly-side.step)
+- [Side Panel with USB](https://github.com/shmoergh/moduleur/tree/main/enclosure/panels/shmoergh-moduleur-panel-assembly-side-USB.step)
+- [Bottom Panel](https://github.com/shmoergh/moduleur/tree/main/enclosure/panels/shmoergh-moduleur-panel-assembly-bottom.step)
 ### Fixtures
 - [Corner fixture - right](https://github.com/shmoergh/moduleur/tree/main/enclosure/fixtures/bosch-block-right.step)
 - [Corner fixture - left](https://github.com/shmoergh/moduleur/tree/main/enclosure/fixtures/bosch-block-left.step)
@@ -66,8 +69,8 @@ In this version you can design your own box and attach the original Moduleur top
 
 The top panel was designed in OnShape and you can just use OnShape to copy and edit if you'd like. [Link](https://cad.onshape.com/documents/9d6c9c68a853f8e66f1137da/w/ce10bd0a67826e1d42122627/e/09bb41061e596c896e897ed1?renderMode=0&uiState=6935dd5b243446fa8660a6cd)
 
-- [Enclosure top 3D STEP file](https://github.com/shmoergh/moduleur/tree/main/enclosure/shmoergh-moduleur-panel-assembly-top.step)
-- [Enclosure top label prints in PDF](https://github.com/shmoergh/moduleur/tree/main/enclosure/shmoergh-moduleur-panel-assembly-top.pdf)
-- [Enclosure top label prints in EPS](https://github.com/shmoergh/moduleur/tree/main/enclosure/shmoergh-moduleur-panel-assembly-top.eps)
-- [Enclosure top labels and holes in PDF](https://github.com/shmoergh/moduleur/tree/main/enclosure/shmoergh-moduleur-panel-assembly-top-with-holes.pdf)
-- [Enclosure top labels and holes in EPS](https://github.com/shmoergh/moduleur/tree/main/enclosure/shmoergh-moduleur-panel-assembly-top-with-holes.eps)
+- [Enclosure top 3D STEP file](https://github.com/shmoergh/moduleur/tree/main/enclosure/panels/shmoergh-moduleur-panel-assembly-top.step)
+- [Enclosure top label prints in PDF](https://github.com/shmoergh/moduleur/tree/main/enclosure/print/shmoergh-moduleur-panel-assembly-top.pdf)
+- [Enclosure top label prints in EPS](https://github.com/shmoergh/moduleur/tree/main/enclosure/print/shmoergh-moduleur-panel-assembly-top.eps)
+- [Enclosure top labels and holes in PDF](https://github.com/shmoergh/moduleur/tree/main/enclosure/print/shmoergh-moduleur-panel-assembly-top-with-holes.pdf)
+- [Enclosure top labels and holes in EPS](https://github.com/shmoergh/moduleur/tree/main/enclosure/print/shmoergh-moduleur-panel-assembly-top-with-holes.eps)
