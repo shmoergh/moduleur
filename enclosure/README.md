@@ -2,6 +2,7 @@
 
 We made an enclosure design to house all the components in one single box and allow for attachments, hacks. This is a highly technological solution that is not really suited for DIY so we'll also share the enclosure top separately, so you can design your own box and use the holes and labels that perfectly line up. We'll also share a 3D STEP file so you can just print a top panel on your 3D printer. (well, if you have a pretty big one)
 
+
 ---
 
 ## Full Moduleur Enclosure - WIP
@@ -19,15 +20,17 @@ The full enclosure consists of the following parts:
 - 2  - Corner fixtures - left
 - 2  - Side fixtures
 ### Rails
-- 2  - Bosch Strut Profiles 10x40 - 253mm
-- 4  - Bosch Slot6 M4 nuts
+- 2  - Bosch Strut Profiles 10x40 - 253mm (We recommend to get them cut to length by the supplier)
+- 4  - Bosch Slot6 M4 nuts (We recommend ordering more than you need to experiment with accessories)
 ### Screws
-- 2  - M4 hex nuts
+- 2  - M4 hex nuts - 7.1mm side-to-side
+- 8  - M3 square nuts - 5.5x5.5mm
 - 4  - M3 hex spacers - 10mm, 4.6mm side-to-side
 - 5  - M3 hex spacers - 40mm, 4.6mm side-to-side
 - 14 - M4 machine screws - 10mm
-- 42 - M3 machine screws - 10mm
+- 50 - M3 machine screws - 10mm
 - 4  - Rubber feet with M3 machine screws
+
 
 ## Files, Links
 
@@ -35,24 +38,29 @@ The entire enclosure was designed in OnShape and you can just use OnShape to cop
 
 ### Metal plates
 - TBD
-### 3D printed parts
-- TBD
+### Fixtures
+- [Corner fixture - right](https://github.com/shmoergh/moduleur/tree/main/enclosure/fixtures/bosch-block-right.step)
+- [Corner fixture - left](https://github.com/shmoergh/moduleur/tree/main/enclosure/fixtures/bosch-block-left.step)
+- [Side fixture](https://github.com/shmoergh/moduleur/tree/main/enclosure/fixtures/bosch-block-side.step)
 ### Rails
 These will have alternatives and compatible/licenced versions so you don't have to buy directly from Bosch. We source these from [Motedis](https://www.motedis.com/en/Profile-40x10-B-Type-slot-6) in Europe.
-- [Bosch Strut Profiles 10x40](https://store.boschrexroth.com/en/hu/p/strut-profile-3842526817) - best is to get them cut to length (253mm) by the supplier
+- [Bosch Strut Profiles 10x40](https://store.boschrexroth.com/en/hu/p/strut-profile-3842526817) - [STEP file](https://github.com/shmoergh/moduleur/tree/main/enclosure/bosch/bosch-10X40.stp) in 253mm length for reference
 - [Bosch Slot6 M4 nut](https://store.boschrexroth.com/en/hu/p/t-nut-3842536599)
 ### Screws
 - TBD
 
+
 ## Building
 
 [Read the build guide &rarr;](https://github.com/shmoergh/moduleur/wiki) *WIP*
+
 
 ---
 
 ## Design-your-own-box solution - Top Panel only
 
 In this version you can design your own box and attach the original Moduleur top panel to it. note: There's plenty of space on the top/bottom due to the lack of the 10mm Bosch rails in this one, but the top panel only counts with sides that are only 1.5mm thick. Make sure you add to the plate if you have thicker sides (like a wooden/plastic box perhaps)
+
 
 ## Files, Links
 
