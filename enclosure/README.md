@@ -25,13 +25,13 @@ The full enclosure consists of the following parts:
 - 2  - Bosch Strut Profiles 10x40 - 253mm (We recommend to get them cut to length by the supplier)
 - 4  - Bosch Slot6 M4 nuts (We recommend ordering more than you need to experiment with accessories)
 ### Screws
+- 14 - M4 hex socket screws - 10mm
+- 50 - M3 hex socket screws - 8mm
+- 4  - Rubber feet with M3 screws
 - 2  - M4 hex nuts - 7mm side-to-side
 - 4  - M3 square nuts - 5x5mm
-- 4  - M3 hex spacers - 10mm, 4.6mm side-to-side
-- 5  - M3 hex spacers - 40mm, 4.6mm side-to-side
-- 14 - M4 machine screws - 10mm
-- 50 - M3 machine screws - 10mm
-- 4  - Rubber feet with M3 machine screws
+- 4  - M3 female threaded hex spacers (standoffs) - 10mm, 4.6mm side-to-side
+- 5  - M3 female threaded hex spacers (standoffs) - 40mm, 4.6mm side-to-side
 
 
 ## Files, Links
@@ -52,7 +52,17 @@ These will have alternatives and compatible/licenced versions so you don't have 
 - [Bosch Strut Profiles 10x40](https://store.boschrexroth.com/en/hu/p/strut-profile-3842526817) - [STEP file](https://github.com/shmoergh/moduleur/tree/main/enclosure/bosch/bosch-10X40.stp) in 253mm length for reference
 - [Bosch Slot6 M4 nut](https://store.boschrexroth.com/en/hu/p/t-nut-3842536599)
 ### Screws
-- TBD
+We use [DIN 912](https://boltbase.com/blog/socket-cap-screws-your-complete-guide-to-din-912/) (or ISO 4762 if that's what you can find), *hex socket, head cap* screws in different two distinct sizes:
+- M4 x 0.5 x 10mm (knurled head ones look nice too)
+- M3 x 0.5 x 8mm
+any grade is fine, we used grade 8.8 ones (it is not necessary to use stronger for this)
+you can use any finish to your liking, they are widely available in black steel, zinc-plated and stainless versions
+pro-tip: go to a local screws&bolts shop and they will sort you out
+### Feet
+TBD
+### Nuts
+TBD
+### Spacers
 
 
 ## Building
