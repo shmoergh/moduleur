@@ -52,7 +52,7 @@ These will have alternatives and compatible/licenced versions so you don't have 
 - [Bosch Strut Profiles 10x40](https://store.boschrexroth.com/en/hu/p/strut-profile-3842526817) - [STEP file](https://github.com/shmoergh/moduleur/tree/main/enclosure/bosch/bosch-10X40.stp) in 253mm length for reference
 - [Bosch Slot6 M4 nut](https://store.boschrexroth.com/en/hu/p/t-nut-3842536599)
 ### Screws
-We use [DIN 912](https://boltbase.com/blog/socket-cap-screws-your-complete-guide-to-din-912/) (or ISO 4762 if that's what you can find), *hex socket, head cap* screws in different two distinct sizes:
+We use [DIN 912](https://boltbase.com/blog/socket-cap-screws-your-complete-guide-to-din-912/) (or ISO 4762 if that's what you can find), *hex socket, head cap* screws in two distinct sizes:
 - M4 x 0.5 x 10mm (knurled head ones look nice too)
 - M3 x 0.5 x 8mm
 any grade is fine, we used grade 8.8 ones (it is not necessary to use stronger for this)
