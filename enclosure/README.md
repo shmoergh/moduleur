@@ -76,5 +76,5 @@ The top panel was designed in OnShape and you can just use OnShape to copy and e
 - [Enclosure top 3D STEP file](https://github.com/shmoergh/moduleur/tree/main/enclosure/panels/shmoergh-moduleur-panel-assembly-top.step)
 - [Enclosure top label prints in PDF](https://github.com/shmoergh/moduleur/tree/main/enclosure/print/shmoergh-moduleur-panel-assembly-top.pdf)
 - [Enclosure top label prints in EPS](https://github.com/shmoergh/moduleur/tree/main/enclosure/print/shmoergh-moduleur-panel-assembly-top.eps)
-- [Enclosure top labels and holes in PDF](https://github.com/shmoergh/moduleur/tree/main/enclosure/print/shmoergh-moduleur-panel-assembly-top-with-holes.pdf)
-- [Enclosure top labels and holes in EPS](https://github.com/shmoergh/moduleur/tree/main/enclosure/print/shmoergh-moduleur-panel-assembly-top-with-holes.eps)
+- [Enclosure top labels and holes in PDF](https://github.com/shmoergh/moduleur/tree/main/enclosure/print/shmoergh-moduleur-panel-assembly-top-with-holes.pdf) (you can use this as a drill guide too)
+- [Enclosure top labels and holes in EPS](https://github.com/shmoergh/moduleur/tree/main/enclosure/print/shmoergh-moduleur-panel-assembly-top-with-holes.eps) (you can use this as a drill guide too)
