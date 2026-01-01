@@ -34,6 +34,13 @@ As of today the following programs are available for the Brain module:
 - [Core board](./electronics/core/) — Contains all active circuitry and handles the complete audio, CV, and logic processing for the module.
 - [UI board](./electronics/ui/) — Hosts all panel-mounted controls and connectors, providing the physical interface to the module’s Core PCB.
 
+# 🐛 FIX FOR v1.0 UI BOARDS
+
+_Sympthom:_ The Pulse output couples to the Pulse input resulting in having the pulse output on the pulse input unwantedly.
+
+_Fix:_ Solder a 10kΩ pull down resistor to the Pulse input jack.
+
+**If you've ordered the UI board before Jan 01, 2026 (v1.0) you need to apply the above fix.** The is fixed for v1.1 boards, ordered after Jan 1, 2026.
 
 ## How to build
 
@@ -60,8 +67,8 @@ To connect the external USB-C connector and BOOTSEL button to the Pico you have 
 ![IMG_8047](https://github.com/user-attachments/assets/a706d4bb-ffdc-42f1-ae92-0723b7452b8a)
 
 **Option 2:** You can also use pin headers and sockets to connect the Pico to the Core board. Make sure you use low profile sockets and matching headers in this case, otherwise if you're building for the Moduleur enclosure, the brain module won't fit the height of the case. (Example [socket](https://mou.sr/48U4sKo) and [header](https://mou.sr/4p6XDd6) — Note: this is UNTESTED)
-  
-**Option 3:** Solder the Pico directly to the Core board directly and _solder through_ the dedicated TP1, TP2, TP3 and TP6 plated holes. If you choose this option, make sure you solder the Pico to the bottom side of the Core board like shown here: 
+
+**Option 3:** Solder the Pico directly to the Core board directly and _solder through_ the dedicated TP1, TP2, TP3 and TP6 plated holes. If you choose this option, make sure you solder the Pico to the bottom side of the Core board like shown here:
 
 <img src="https://github.com/user-attachments/assets/e214a1a2-473b-4ac0-83c0-41b2918bc2f9" />
 
