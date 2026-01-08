@@ -1317,7 +1317,7 @@
 				)
 			)
 		)
-		(property "Part No." ""
+		(property "Part No." "200-MTSW12009TS500 "
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1330,7 +1330,7 @@
 				)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4afsn8k"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1343,7 +1343,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2817,7 +2817,7 @@
 				)
 			)
 		)
-		(property "Part No." ""
+		(property "Part No." "200-MTSW12009TS500 "
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2830,7 +2830,7 @@
 				)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4afsn8k"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2843,7 +2843,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3587,7 +3587,7 @@
 				)
 			)
 		)
-		(property "Part No." ""
+		(property "Part No." "200-MTSW12009TS500 "
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3600,7 +3600,7 @@
 				)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4afsn8k"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3613,7 +3613,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5822,7 +5822,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Part No." ""
+		(property "Part No." "200-MTSW12009TS500 "
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -5836,7 +5836,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4afsn8k"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -5850,7 +5850,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6609,7 +6609,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Part No." ""
+		(property "Part No." "200-MTSW12009TS500 "
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6623,7 +6623,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4afsn8k"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6637,7 +6637,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7212,7 +7212,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Part No." ""
+		(property "Part No." "200-MTSW12009TS500 "
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7226,7 +7226,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4afsn8k"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7240,7 +7240,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -8135,7 +8135,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Part No." ""
+		(property "Part No." "200-MTSW12009TS500 "
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -8149,7 +8149,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4afsn8k"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -8163,7 +8163,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")

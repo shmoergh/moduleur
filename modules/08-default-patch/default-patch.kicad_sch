@@ -1822,16 +1822,6 @@
 	)
 	(wire
 		(pts
-			(xy 150.7886 92.71) (xy 165.1 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00d3c2b9-8d3c-4bb6-9d6a-2d5b9059f3bc")
-	)
-	(wire
-		(pts
 			(xy 83.82 100.33) (xy 114.3 100.33)
 		)
 		(stroke
@@ -1902,6 +1892,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 92.71) (xy 140.97 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f141995-83db-4c7d-a677-f72b7bddf6ea")
+	)
+	(wire
+		(pts
 			(xy 118.11 110.49) (xy 118.11 123.19)
 		)
 		(stroke
@@ -1929,16 +1929,6 @@
 			(type default)
 		)
 		(uuid "29de0b0a-c8da-43c6-b2f1-0ec0c5590549")
-	)
-	(wire
-		(pts
-			(xy 121.92 92.71) (xy 140.6286 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b1c3c1c-2f5b-4253-a1d2-b31858e271ac")
 	)
 	(wire
 		(pts
@@ -2379,6 +2369,16 @@
 			(type default)
 		)
 		(uuid "93be54b9-0a69-4bf6-872c-02a7f64b1d57")
+	)
+	(wire
+		(pts
+			(xy 151.13 92.71) (xy 165.1 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "954c65d0-36ef-4789-9488-9f44d9f58566")
 	)
 	(wire
 		(pts
@@ -3960,7 +3960,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 145.7086 92.71 0)
+		(at 146.05 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3968,7 +3968,7 @@
 		(dnp no)
 		(uuid "87dcff53-eea8-4977-ace3-29d1196e6294")
 		(property "Reference" "JP6"
-			(at 141.8986 91.44 0)
+			(at 142.24 91.44 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -3976,7 +3976,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Bridged"
-			(at 146.9786 91.44 0)
+			(at 147.32 91.44 0)
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -3984,7 +3984,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 145.7086 92.71 0)
+			(at 146.05 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3993,7 +3993,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 145.7086 92.71 0)
+			(at 146.05 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4002,7 +4002,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 145.7086 92.71 0)
+			(at 146.05 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4011,7 +4011,7 @@
 			)
 		)
 		(property "Part No." ""
-			(at 145.7086 92.71 0)
+			(at 146.05 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4020,7 +4020,7 @@
 			)
 		)
 		(property "Part URL" ""
-			(at 145.7086 92.71 0)
+			(at 146.05 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4029,7 +4029,7 @@
 			)
 		)
 		(property "Vendor" ""
-			(at 145.7086 92.71 0)
+			(at 146.05 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4038,7 +4038,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 145.7086 92.71 0)
+			(at 146.05 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)

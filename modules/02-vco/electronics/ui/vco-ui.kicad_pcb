@@ -273,6 +273,19 @@
 				)
 			)
 		)
+		(property "Note" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a2dc760-f8e1-4397-90e4-920a5753501b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/25360233-60d0-408c-95f8-57fc18c5cc1a")
 		(sheetname "/")
 		(sheetfile "vco-ui.kicad_sch")
@@ -893,6 +906,19 @@
 				)
 			)
 		)
+		(property "Note" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a79af92-4c58-4321-b4f8-a62bfbbd458c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/4812ba72-d06c-46e8-a233-81cec8c49ae0")
 		(sheetname "/")
@@ -1412,6 +1438,19 @@
 				)
 			)
 		)
+		(property "Note" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d48b6c1-d5a3-437c-87cb-50e1c5c54341")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Jack*")
 		(path "/c70a5a87-da99-428e-b616-400af408d6be")
 		(sheetname "/")
@@ -1843,6 +1882,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4d7cab0b-9952-46db-9bf4-e8ed0d3cc96b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Note" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5299a18c-a56e-42c2-9cec-3d8a80993c3f")
 			(effects
 				(font
 					(size 1 1)
@@ -2367,6 +2419,19 @@
 				)
 			)
 		)
+		(property "Note" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3382d282-4185-4ca8-9afa-88e17bbf728d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/b58159f9-6099-4790-9dea-dc3fe143c5fa")
 		(sheetname "/")
@@ -2668,6 +2733,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6be5b647-e334-4819-be1d-9be37974b1c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Note" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51ebcf3e-c7f7-43c6-a957-29e3f4713062")
 			(effects
 				(font
 					(size 1 1)
@@ -3101,6 +3179,19 @@
 				)
 			)
 		)
+		(property "Note" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e05035e-3689-4641-b73c-6b018b67ff5e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/4f740bec-ab1b-436c-92f8-dd6c7877c025")
 		(sheetname "/")
@@ -3250,6 +3341,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ca7dd97c-cb6f-4dab-b9e9-da9ad48f09d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Note" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "870308d7-ab21-4b72-a999-2b02488264f4")
 			(effects
 				(font
 					(size 1 1)
@@ -3683,6 +3787,19 @@
 				)
 			)
 		)
+		(property "Note" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "132eeef8-c1e3-412e-94a3-cd0a33a8aa17")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/b920fbf4-9d20-423f-9ca7-e454e940c1aa")
 		(sheetname "/")
@@ -3832,6 +3949,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d9f0295f-580e-493f-8156-9651724bd060")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Note" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e811f507-9a0f-447a-9458-bd5ac4ae2e0d")
 			(effects
 				(font
 					(size 1 1)
@@ -4259,6 +4389,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9be89244-111c-43c3-9d8a-04b27cbc469d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Note" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7dafd35-31e9-4d23-a4b6-13bf8c8f503c")
 			(effects
 				(font
 					(size 1 1)
@@ -4714,6 +4857,19 @@
 				)
 			)
 		)
+		(property "Note" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69f5a43f-a551-4ec1-8175-6e3e3d57b2ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Jack*")
 		(path "/230fdca0-3f04-42b9-be06-e544b96ac619")
 		(sheetname "/")
@@ -5140,6 +5296,19 @@
 				)
 			)
 		)
+		(property "Note" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4a59651-7a80-41ec-8b5a-292f0ce7ee36")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/6951e5e7-e911-4785-b3cf-89164ec0b2fc")
 		(sheetname "/")
@@ -5274,6 +5443,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "78cde061-cc3b-41b1-b44f-2b49de2501f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Note" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd2c62f2-8f55-4f8a-885b-be40916f46c1")
 			(effects
 				(font
 					(size 1 1)
@@ -5416,6 +5598,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "05725461-5303-440b-92a7-406842e9a8fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Note" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bd13fee9-0abc-446f-bc94-9feea37e08a3")
 			(effects
 				(font
 					(size 1 1)
@@ -5869,6 +6064,19 @@
 				)
 			)
 		)
+		(property "Note" "Knurled Shaft"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a1e806b4-cc51-41b2-b351-917e2a59fd7d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Potentiometer*")
 		(path "/d6e67475-0d8e-48ac-a196-5e86f28f555f")
 		(sheetname "/")
@@ -6146,6 +6354,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "31b3a4e6-061d-40bb-832f-dc56e000ee1f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Note" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6af40e5b-8a66-4533-9eeb-80634c2976e9")
 			(effects
 				(font
 					(size 1 1)
@@ -6467,6 +6688,19 @@
 				)
 			)
 		)
+		(property "Note" "Knurled Shaft"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6778263f-ae15-4253-b6e9-3191402f56d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Potentiometer*")
 		(path "/d92799e6-b50c-4b96-8772-cd8b4caa5ae0")
 		(sheetname "/")
@@ -6744,6 +6978,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "67bf1495-3824-4b61-a250-9a73a368dca0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Note" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d64a3cad-9def-4466-972a-3e3fee7b39c2")
 			(effects
 				(font
 					(size 1 1)
@@ -7065,6 +7312,19 @@
 				)
 			)
 		)
+		(property "Note" "Knurled Shaft"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11da4f64-5457-4fa8-8065-3d81b8a914dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Potentiometer*")
 		(path "/828c386d-894f-43b6-a54e-a38250cbe417")
 		(sheetname "/")
@@ -7342,6 +7602,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0fc09613-76c3-4fe2-80dd-81a47a65df54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Note" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b38865de-9c4e-4da6-b99f-cf6d37817831")
 			(effects
 				(font
 					(size 1 1)
@@ -7651,6 +7924,19 @@
 				)
 			)
 		)
+		(property "Note" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f1574111-df69-4d86-9f3b-5ca5625c5c62")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/d7921906-0db7-40ab-b982-a3907ae1dfdc")
 		(sheetname "/")
@@ -7952,6 +8238,19 @@
 				)
 			)
 		)
+		(property "Note" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4bc6903c-fa2c-49d4-9f3d-b0b0cea4d80a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/49c20fbe-19db-4e89-9978-ad9bce81c97b")
 		(sheetname "/")
@@ -8087,6 +8386,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4acbcc62-e8ed-4840-8520-27dc21332fbf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Note" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "03593432-261c-40c7-8999-81302321d5f1")
 			(effects
 				(font
 					(size 1 1)
@@ -8403,6 +8715,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6b0ef3df-7283-4693-bfe7-86b905be9295")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Note" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d73df2a9-daa9-4632-959f-c9cd1059b249")
 			(effects
 				(font
 					(size 1 1)
@@ -8969,6 +9294,19 @@
 				)
 			)
 		)
+		(property "Note" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "46e88de2-13db-42b2-ac26-1b49f13ce0b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/ef8bec6c-d5e8-40fd-8df7-931560dd0e35")
 		(sheetname "/")
@@ -9275,6 +9613,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b5cc92bd-e3e0-4b5e-903c-9f7175f1e3eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Note" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6bd8791c-f4ef-4ee7-9d73-ee18f498581e")
 			(effects
 				(font
 					(size 1 1)
@@ -10072,6 +10423,20 @@
 				(justify mirror)
 			)
 		)
+		(property "Note" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ceed026e-1ba6-4efc-802b-a48111fd9c91")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/5bcbafd4-ff94-4205-82af-8a4e0a8ddef3")
 		(sheetname "/")
@@ -10401,6 +10766,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b60b6038-7ea0-49f2-be79-d170856feba3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Note" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3e922b4c-dbca-425b-ab03-6e600ed5badb")
 			(effects
 				(font
 					(size 1 1)
@@ -10794,6 +11173,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "6e43e001-1a13-4056-bc33-379c98d25367")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Note" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "88145b06-1be4-4ce2-b6e7-f319e5de4498")
 			(effects
 				(font
 					(size 1 1)
@@ -11440,6 +11833,20 @@
 				(justify mirror)
 			)
 		)
+		(property "Note" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "29396fed-6f2e-47db-bd14-135adda12f8a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/438ce122-d8bf-4878-9d0d-963bd2ddbd91")
 		(sheetname "/")
@@ -11923,6 +12330,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "06576750-e6c6-40d6-9aeb-4a7ac12067b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Note" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6e6e0869-80a1-4fd1-a1ad-d89217a911c4")
 			(effects
 				(font
 					(size 1 1)

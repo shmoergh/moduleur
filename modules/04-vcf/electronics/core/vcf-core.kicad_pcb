@@ -774,7 +774,7 @@
 				)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1963,7 +1963,7 @@
 				)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2419,7 +2419,7 @@
 				)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3459,7 +3459,7 @@
 				)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6802,7 +6802,7 @@
 				)
 			)
 		)
-		(property "Part URL" "https://mou.sr/472flJF"
+		(property "Part URL" "https://mou.sr/455uZSu"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6867,7 +6867,7 @@
 				)
 			)
 		)
-		(property "Part no." "667-EEA-GA1V470B "
+		(property "Part no." "80-ESK475M035AC3AA "
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6880,7 +6880,7 @@
 				)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8722,7 +8722,7 @@
 				)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8898,7 +8898,7 @@
 				)
 			)
 		)
-		(property "Part URL" "https://mou.sr/4g5F5Xb"
+		(property "Part URL" "https://mou.sr/48MjAbl"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8963,7 +8963,7 @@
 				)
 			)
 		)
-		(property "Part no." "80-R82EC1470DQ50K "
+		(property "Part no." "80-R82CC4100AA60J "
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8976,7 +8976,7 @@
 				)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9456,7 +9456,7 @@
 				)
 			)
 		)
-		(property "Part URL" "https://mou.sr/40bhVZG"
+		(property "Part URL" "https://mou.sr/4puxA0F"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9495,7 +9495,7 @@
 				)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9547,7 +9547,7 @@
 				)
 			)
 		)
-		(property "Part no." "474-PRT-09280"
+		(property "Part no." "200-SSW10401TMS"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10902,7 +10902,7 @@
 				)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11890,7 +11890,7 @@
 				)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14423,7 +14423,7 @@
 				)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17265,7 +17265,7 @@
 				)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20274,7 +20274,7 @@
 				)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23886,7 +23886,7 @@
 				)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26441,7 +26441,7 @@
 				)
 			)
 		)
-		(property "Part URL" "https://mou.sr/3OVlmh2"
+		(property "Part URL" "https://mou.sr/4oMQfnb"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26506,7 +26506,7 @@
 				)
 			)
 		)
-		(property "Part no." "531-PT6KH104A1010PM "
+		(property "Part no." "774-06TR4AA104CP"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26519,7 +26519,7 @@
 				)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
