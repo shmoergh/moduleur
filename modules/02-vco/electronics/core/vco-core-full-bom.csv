@@ -5,7 +5,7 @@
 "C10","22p","1","","Capacitor_SMD:C_0603_1608Metric","C1653","","","JLCPCB","YES"
 "C11","47p","1","","Capacitor_SMD:C_0603_1608Metric","C1671","","","JLCPCB","YES"
 "C20","33p","1","","Capacitor_SMD:C_0603_1608Metric","C1663","","","JLCPCB","YES"
-"C23,C24","100u","2","","Capacitor_SMD:CP_Elec_6.3x7.7","C2836437","","","JLCPCB","YES"
+"C23,C24","100u","2","","Capacitor_SMD:CP_Elec_6.3x7.7","C2836442","","","JLCPCB","YES"
 "C28","1u","1","","Capacitor_SMD:C_0603_1608Metric","C15849","","","JLCPCB","YES"
 "C29","470n","1","","Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2","","80-R82DC3470DQ60K","https://mou.sr/4lPhH2D","Mouser","YES"
 "D1,D2,D3","1N4148","3","","Diode_SMD:D_SOD-123","C81598","","","JLCPCB","YES"

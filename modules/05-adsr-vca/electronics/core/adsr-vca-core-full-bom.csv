@@ -3,7 +3,7 @@
 "C3","1","10n","","Capacitor_SMD:C_0603_1608Metric","C57112","","","JLCPCB","YES"
 "C4","1","10u","","Capacitor_SMD:CP_Elec_5x5.4","C30110","","","JLCPCB","YES"
 "C7,C8","2","47p","","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","C1671","","","JLCPCB","YES"
-"C9,C10","2","100u","","Capacitor_SMD:CP_Elec_6.3x7.7","C2836437","","","JLCPCB","YES"
+"C9,C10","2","100u","","Capacitor_SMD:CP_Elec_6.3x7.7","C2836442","","","JLCPCB","YES"
 "D1,D2,D3","3","1N4148","","Diode_SMD:D_SOD-123","C81598","","","JLCPCB","YES"
 "D4,D5","2","1N5817","","Diode_SMD:D_SOD-323","C5190152","","","JLCPCB","YES"
 "H1,H2,H3,H4","4","MountingHole","Excluded from BOM","MountingHole:MountingHole_3.2mm_M3_DIN965_Pad","","","","-",""

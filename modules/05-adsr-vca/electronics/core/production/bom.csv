@@ -1,6 +1,6 @@
 ﻿Designator,Footprint,Quantity,Value,LCSC Part #
 "C1, C2, C5, C6",0603,4,100n,C14663
-"C10, C9",CP_Elec_6.3x7.7,2,100u,C2836437
+"C10, C9",CP_Elec_6.3x7.7,2,100u,C2836442
 C3,0603,1,10n,C57112
 C4,CP_Elec_5x5.4,1,10u,C30110
 "C7, C8",0603,2,47p,C1671

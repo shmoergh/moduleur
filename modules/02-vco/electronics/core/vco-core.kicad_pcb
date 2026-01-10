@@ -5218,7 +5218,7 @@
 			)
 		)
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*")
-		(path "/8bc1c38c-66cf-4d37-87f2-6eda8e5acaa7/ec6218f1-2962-4aea-a140-7e51ff38a35d")
+		(path "/8bc1c38c-66cf-4d37-87f2-6eda8e5acaa7/b602a0cb-e6a5-4abc-8b91-4c6132470b49")
 		(sheetname "/Power/")
 		(sheetfile "sheets/power.kicad_sch")
 		(attr smd)
@@ -17696,7 +17696,7 @@
 			)
 		)
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*")
-		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/64d08092-2399-499e-80ec-8b9eaa2c0744")
+		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/ca031c53-f063-4402-a95f-f5cd4f96eb59")
 		(sheetname "/Raw oscillator/")
 		(sheetfile "sheets/raw-oscillator.kicad_sch")
 		(attr smd)
@@ -32682,7 +32682,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2836437"
+		(property "LCSC" "C2836442"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33805,7 +33805,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2836437"
+		(property "LCSC" "C2836442"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")

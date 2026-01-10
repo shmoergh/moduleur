@@ -4,7 +4,7 @@
 "C2","1","330n","","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","C188679","","","JLCPCB","YES"
 "C1","1","10u","","Capacitor_SMD:CP_Elec_4x5.4","C46550410","","","JLCPCB","YES"
 "C18","1","10u","","Capacitor_SMD:C_0603_1608Metric","C19702","","","JLCPCB","YES"
-"C4,C5","2","100u","","Capacitor_SMD:CP_Elec_6.3x7.7","C2836437","","","JLCPCB","YES"
+"C4,C5","2","100u","","Capacitor_SMD:CP_Elec_6.3x7.7","C2836442","","","JLCPCB","YES"
 "R6","1","120","","Resistor_SMD:R_0603_1608Metric","C22787","","","JLCPCB","YES"
 "R12,R22,R23,R34,R35","5","1k","","Resistor_SMD:R_0603_1608Metric","C21190","","","JLCPCB","YES"
 "R5","1","2.2k","","Resistor_SMD:R_0603_1608Metric","C4190","","","JLCPCB","YES"

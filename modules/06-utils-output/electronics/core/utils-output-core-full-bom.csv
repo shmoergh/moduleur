@@ -1,6 +1,6 @@
 "Reference","Qty","Value","Exclude from BOM","Footprint","LCSC","Mouser Part no.","Part URL","Vendor","CHECKED"
 "C1,C2,C3,C4,C10,C11,C12,C13,C201,C202","10","100n","","Capacitor_SMD:C_0603_1608Metric","C14663","","","JLCPCB","YES"
-"C8,C9","2","100u","","Capacitor_SMD:CP_Elec_6.3x7.7","C2836437","","","JLCPCB","YES"
+"C8,C9","2","100u","","Capacitor_SMD:CP_Elec_6.3x7.7","C2836442","","","JLCPCB","YES"
 "C14","1","10u","","Capacitor_SMD:CP_Elec_5x5.4","C4747971","","","JLCPCB","YES"
 "C15","1","100p","","Capacitor_SMD:C_0603_1608Metric","C14858","","","JLCPCB","YES"
 "C16,C17","2","100n (foil)","","Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2","","80-MMK5104J50J01L16 ","https://mou.sr/4iTinUl","Mouser","YES"

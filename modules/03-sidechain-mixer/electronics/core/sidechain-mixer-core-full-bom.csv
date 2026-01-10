@@ -2,7 +2,7 @@
 "C1,C2,C3,C4,C5,C6,C7,C8","8","100n","","Capacitor_SMD:C_0603_1608Metric","C14663","","","JLCPCB","YES"
 "C9","1","10u","","Capacitor_SMD:CP_Elec_5x5.4","C30110","","","JLCPCB","YES"
 "C10,C11,C12,C13,C14","5","47p","","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","C1671","","","JLCPCB","YES"
-"C23,C24","2","100u","","Capacitor_SMD:CP_Elec_6.3x7.7","C2836437","","","JLCPCB","YES"
+"C23,C24","2","100u","","Capacitor_SMD:CP_Elec_6.3x7.7","C2836442","","","JLCPCB","YES"
 "D1,D2","2","1N4148","","Diode_SMD:D_SOD-123","C81598","","","JLCPCB","YES"
 "D6,D7","2","1N5817","","Diode_SMD:D_SOD-323","C5190152","","","JLCPCB","YES"
 "J1,J6","2","Conn_01x04","","Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical","","200-HTSW10407TS ","https://mou.sr/3UfnMcJ","Mouser","YES"
