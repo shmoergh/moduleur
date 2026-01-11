@@ -1,0 +1,3 @@
+# Shmøergh Moduleur / FR4 Enclosure
+
+WORK IN PROGRESS! DO NOT ORDER THESE PANELS YET
