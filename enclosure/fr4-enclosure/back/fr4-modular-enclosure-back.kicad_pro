@@ -451,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "fr4-modular-enclosure.kicad_pro",
+    "filename": "fr4-modular-enclosure-back.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -609,6 +609,11 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "3248abdb-cd46-4fd9-9a05-2eb41a709a06",
+      "Root"
+    ]
+  ],
   "text_variables": {}
 }
