@@ -3567,6 +3567,12 @@
 		(uuid "c24ac635-db6e-4162-8ae7-425c15c6b09d")
 	)
 	(junction
+		(at 250.19 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01e2bd72-bbac-40b1-acd5-c346379c4340")
+	)
+	(junction
 		(at 250.19 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4225,6 +4231,16 @@
 			(type default)
 		)
 		(uuid "652a77e7-eaa3-483c-b635-3f14d0ec70eb")
+	)
+	(wire
+		(pts
+			(xy 242.57 82.55) (xy 250.19 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "706e6bad-479f-44c1-9eea-bfa63c56826a")
 	)
 	(wire
 		(pts
@@ -5118,6 +5134,28 @@
 			)
 		)
 	)
+	(global_label "GLIDED_PITCH_OUT"
+		(shape output)
+		(at 242.57 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3c392322-a599-42a8-a7c8-947582d05c97")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 221.9862 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TRI"
 		(shape output)
 		(at 213.36 121.92 180)
@@ -5316,7 +5354,7 @@
 			)
 		)
 	)
-	(global_label "PWM_DEFAULT"
+	(global_label "GLIDED_PITCH_OUT"
 		(shape output)
 		(at 217.17 93.98 180)
 		(fields_autoplaced yes)
@@ -5328,7 +5366,7 @@
 		)
 		(uuid "88092c02-d98b-4832-8720-9f16f17c0261")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.122 93.98 0)
+			(at 196.5862 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5995,7 +6033,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Shmoergh_Custom_Footprints:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
+		(property "Footprint" "Shmoergh_Custom_Footprints:Jack_3.5mm_PJ301xPJ342"
 			(at 264.16 82.55 0)
 			(effects
 				(font
@@ -6050,6 +6088,15 @@
 			)
 		)
 		(property "Part no." "PJ398SM"
+			(at 264.16 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
 			(at 264.16 82.55 0)
 			(effects
 				(font
@@ -6103,7 +6150,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Shmoergh_Custom_Footprints:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
+		(property "Footprint" "Shmoergh_Custom_Footprints:Jack_3.5mm_PJ301xPJ342"
 			(at 185.42 134.62 0)
 			(effects
 				(font
@@ -6158,6 +6205,15 @@
 			)
 		)
 		(property "Part no." "PJ398SM"
+			(at 185.42 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
 			(at 185.42 134.62 0)
 			(effects
 				(font
@@ -6337,7 +6393,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Shmoergh_Custom_Footprints:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
+		(property "Footprint" "Shmoergh_Custom_Footprints:Jack_3.5mm_PJ301xPJ342"
 			(at 144.78 55.88 0)
 			(effects
 				(font
@@ -6392,6 +6448,15 @@
 			)
 		)
 		(property "Part no." "PJ398SM"
+			(at 144.78 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
 			(at 144.78 55.88 0)
 			(effects
 				(font
@@ -7377,7 +7442,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Shmoergh_Custom_Footprints:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
+		(property "Footprint" "Shmoergh_Custom_Footprints:Jack_3.5mm_PJ301xPJ342"
 			(at 50.8 102.87 0)
 			(effects
 				(font
@@ -7432,6 +7497,15 @@
 			)
 		)
 		(property "Part no." "PJ398SM"
+			(at 50.8 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
 			(at 50.8 102.87 0)
 			(effects
 				(font
@@ -9872,7 +9946,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Shmoergh_Custom_Footprints:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
+		(property "Footprint" "Shmoergh_Custom_Footprints:Jack_3.5mm_PJ301xPJ342"
 			(at 109.22 102.87 0)
 			(effects
 				(font
@@ -9927,6 +10001,15 @@
 			)
 		)
 		(property "Part no." "PJ398SM"
+			(at 109.22 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
 			(at 109.22 102.87 0)
 			(effects
 				(font
@@ -9980,7 +10063,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Shmoergh_Custom_Footprints:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
+		(property "Footprint" "Shmoergh_Custom_Footprints:Jack_3.5mm_PJ301xPJ342"
 			(at 133.35 134.62 0)
 			(effects
 				(font
@@ -10035,6 +10118,15 @@
 			)
 		)
 		(property "Part no." "PJ398SM"
+			(at 133.35 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
 			(at 133.35 134.62 0)
 			(effects
 				(font

@@ -64,34 +64,6 @@
           "Should be fine as it's a mounting hole"
         ],
         [
-          "duplicate_footprints|127937000|117025000|ed9905e4-c3c9-4e0f-b271-cf24db9e0047|6801b5d7-bacc-4e0e-9a3b-41b6249b1b92",
-          ""
-        ],
-        [
-          "duplicate_footprints|145971000|105087000|ee176ae6-61ac-41bc-bedd-ff8fcc41bc53|6801b5d7-bacc-4e0e-9a3b-41b6249b1b92",
-          ""
-        ],
-        [
-          "duplicate_footprints|146479000|129598000|145947f9-bfdf-4fd1-94be-83321dbe97aa|6801b5d7-bacc-4e0e-9a3b-41b6249b1b92",
-          ""
-        ],
-        [
-          "duplicate_footprints|157274000|48572000|9699c592-13f2-4dc9-9f25-f7ce87be5d14|6801b5d7-bacc-4e0e-9a3b-41b6249b1b92",
-          ""
-        ],
-        [
-          "duplicate_footprints|163624000|126169000|6a0583b0-4477-4db8-9fbd-b1460f4ce94b|6801b5d7-bacc-4e0e-9a3b-41b6249b1b92",
-          ""
-        ],
-        [
-          "duplicate_footprints|167815000|50350000|9051bf24-3e84-471d-8a3b-5123fbd7ad2e|6801b5d7-bacc-4e0e-9a3b-41b6249b1b92",
-          ""
-        ],
-        [
-          "duplicate_footprints|168958000|73337000|6e81d2b1-5cc7-46f6-a7fa-c6f8d41349ba|6801b5d7-bacc-4e0e-9a3b-41b6249b1b92",
-          ""
-        ],
-        [
           "extra_footprint|127937000|117025000|ed9905e4-c3c9-4e0f-b271-cf24db9e0047|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -542,7 +514,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "vco-ui.kicad_pro",
+    "filename": "vco-ui-glide.kicad_pro",
     "version": 3
   },
   "net_settings": {
