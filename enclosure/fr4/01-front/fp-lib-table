@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "graphics-footprints")(type "KiCad")(uri "${MODULEUR_ROOT_DIR}/enclosure/fr4-enclosure/lib/graphics-footprints.pretty")(options "")(descr ""))
+)
