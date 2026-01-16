@@ -1,6 +1,6 @@
 # Shmøergh Moduleur / VCF
 
-Dual mode Eurorack compatible diode filter based on the famous Synthacon Steiner-Parker circuit.
+Dual mode Eurorack compatible analog multimode diode filter.
 
 ## Features
 
@@ -40,7 +40,7 @@ _Note: we never needed to use the above shielding because the Moduleur is in a f
 
 **What if my case is not shielded?**
 
-You can still achieve great shielding by using a grounded copper plate that covers the Core module from the back (essentially a 3th layer in the PCB stack). 
+You can still achieve great shielding by using a grounded copper plate that covers the Core module from the back (essentially a 3th layer in the PCB stack).
 
 ### Taming the resonance
 
