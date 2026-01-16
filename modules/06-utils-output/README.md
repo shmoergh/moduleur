@@ -30,7 +30,7 @@ Combined analog bitcrusher, LFO and an output interface with overdrive in a sing
 
 <img width="2918" height="2208" alt="CleanShot 2026-01-16 at 09 37 14@2x" src="https://github.com/user-attachments/assets/40952028-f7cf-4530-a445-c676e3d9876a" />
 
-If you ordered the board before 16 Jan 2026 we recommend soldering this manually to the Q1 transistor on the back of the UI board (see 3D render above). Note that the module works perfectly without this tweak, it's just an improvement on the LED.
+If you ordered the board before 16 Jan 2026 we recommend soldering this manually to the Q1 transistor on the back of the UI board (see 3D render above). Note that the module works perfectly without this tweak, it's just an improvement on the LED. This improvement is included in the UI board version v1.1 and above. 
 
 
 ## How to build
