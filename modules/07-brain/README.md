@@ -62,17 +62,20 @@ You can solder the Pico to the Core board directly or using pin headers. If you 
 
 ### USB-C connection — EXPERIMENTAL
 
-As it's listed on page 7 of the [Pico data sheet](https://pip-assets.raspberrypi.com/categories/610-raspberry-pi-pico/documents/RP-008307-DS-1-pico-datasheet.pdf?disposition=inline), you can use test points to connect to the board's USB, as well as control the BOOTSEL button remotely. This allowed us to add an USB-C connection and a dedicated BOOTSEL button, available without taking the enclosure backplate off.
+As it's listed on page 7 of the [Pico data sheet](https://pip-assets.raspberrypi.com/categories/610-raspberry-pi-pico/documents/RP-008307-DS-1-pico-datasheet.pdf?disposition=inline), you can use the test points on the Pico board to connect to its USB, as well as control the BOOTSEL button remotely. This allowed us to add an USB-C connection and a dedicated BOOTSEL button, available without taking the enclosure backplate off.
 
-To connect the external USB-C connector and BOOTSEL button to the Pico you have two options:
+**To use the external USB-C connector and BOOTSEL button, you'll need to connect the Pico's TP1, TP2, TP3 and TP6 test points to dedicated pins of the USB-C and Bootsel button on the Brain's Core board.**
+
+To do this, you have two options:
 
 <img src="https://github.com/user-attachments/assets/ee17834d-8982-42ac-9f7f-c02c82b4da5b" />
 
-**Option 1:** Solder the Pico using pin headers and use wires to connect up TP1, TP2, TP3 and TP6 (BOOTSEL) between the Core board and the Pico. In this case you can lead through wires on the PCB hole as you can see on this photo:
+**Option 1:**
+- Solder the Pico to the Brain Core **using pin headers**. The point is to leave some gap between the Pico and the Brain Core board so that you can lead **wires** through the hole in the center of the Core board to connect up the Pico's TP1, TP2, TP3 and TP6 (BOOTSEL) testpoints:
 
 ![IMG_8047](https://github.com/user-attachments/assets/a706d4bb-ffdc-42f1-ae92-0723b7452b8a)
 
-**Option 2:** You can also use pin headers and sockets to connect the Pico to the Core board. Make sure you use low profile sockets and matching headers in this case, otherwise if you're building for the Moduleur enclosure, the brain module won't fit the height of the case. (Example [socket](https://mou.sr/48U4sKo) and [header](https://mou.sr/4p6XDd6) — Note: this is UNTESTED)
+**Option 2:** You can also use pin headers and sockets to connect the Pico to the Core board — this way you can take replace the Pico board in the future, if you need to for some reason. Make sure you use low profile sockets and matching headers in this case, otherwise if you're building for the Moduleur enclosure, the brain module won't fit the height of the case. (Example [socket](https://mou.sr/48U4sKo) and [header](https://mou.sr/4p6XDd6) — Note: this is UNTESTED)
 
 **Option 3:** Solder the Pico directly to the Core board directly and _solder through_ the dedicated TP1, TP2, TP3 and TP6 plated holes. If you choose this option, make sure you solder the Pico to the bottom side of the Core board like shown here:
 
