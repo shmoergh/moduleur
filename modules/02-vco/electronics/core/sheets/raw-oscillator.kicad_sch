@@ -3154,7 +3154,7 @@
 		)
 		(uuid "728169dc-1224-4d9d-ad4e-3f93122c29ba")
 	)
-	(text "The following temperature compensation setups are supported in the schematics.\nV1 is a copy of Befaco's Even VCO compensation which uses a 1206 SMD component \n(PTS120602B100RP100). V2 is by Norht Coast Synthesis and it uses a THT NTC component \n(NTCLE203E3103FB0). Ref:\nhttps://befaco.org/docs/Even_VCO/Even_VCO_V0_3_3_Schematic.pdf\nhttps://northcoastsynthesis.com/news/temperature-compensation-with-ntc-thermistors/\n\nX: don't place component\nShort: short component\nUse multi-turn precision trimmers."
+	(text "The following temperature compensation setups are supported in the schematics.\nV1 uses a 1206 SMD component (PTS120602B100RP100). V2 uses a THT NTC component \n(NTCLE203E3103FB0). Both works pretty much the same, they're here as a fallback\nfor potential components shortage.\n\nX: don't place component\nShort: short component\nUse multi-turn precision trimmers."
 		(exclude_from_sim no)
 		(at 24.13 203.2 0)
 		(effects
