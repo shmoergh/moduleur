@@ -19,7 +19,7 @@ See [enclosure-bom.csv](enclosure-bom.csv) for the complete bill of materials.
 
 ## Build guide
 
-1. Order FR4 panels from JLCPCB (see note for Using Bosch rails)
+1. Order FR4 panels from JLCPCB — [Here's how](https://github.com/shmoergh/moduleur/wiki/Ordering-PCBs#ui-boards). It's literally the same process as ordering through-hole UI boards. (See [note here](https://github.com/shmoergh/moduleur/tree/main/enclosure#note-using-bosch-rails) if you're about to use Bosch rails)
 2. Print all 3D printed parts from the BOM
 3. Get all non 3D printed parts from the BOM
 4. Use the above figure for assembly
