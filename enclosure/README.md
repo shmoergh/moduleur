@@ -7,9 +7,10 @@ We made an enclosure design to house all the components in one single box and al
 The DIY enclosure consists of the following building blocks:
 
 - FR4 panels (front, back, left and right sides). These panels are essentially PCBs without components, featuring silkscreen printing so you don't need to worry about labeling — you just need to order them from JLCPCB just like you would with the PCB of any other module.
-- 3D printed top and bottom side blocks
-- 3D printed internal parts
-- Screws, nuts and spacers.
+- 3D printed parts
+  - Top and bottom side blocks
+  - Internal parts (fixtures)
+- Screws, threaded inserts, nuts and spacers.
 
 TK: exploded figure of enclosure
 
