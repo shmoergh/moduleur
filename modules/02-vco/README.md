@@ -79,7 +79,7 @@ To make soldering a bit easier, the alternate names of the temp.co. components a
 
 You'll need to tune the wave shapes and the oscillator frequency to be musically in tune.
 
-### Tuning the wave shapes
+#### Tuning the wave shapes
 
 First we'll set the correct bias to all waveforms as well as the shape of the triangle wave. There are two trimmers you'll need to use: RV_SAW_BIAS1 ("SAW BIAS" on the Core board silkscreen), and RV_TRI_BIAS1 ("TRI BIAS" on the board.). You'll need an oscilloscope for this.
 
