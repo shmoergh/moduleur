@@ -100,7 +100,7 @@ You should be good once the triangle output is:
 As with all analog VCO you need to go through a tuning process to make sure it tracks with 1V/octave. Here's how:
 
 0. Turn the Octave (main tune) knob all the way down and the Fine tune knob in the middle.
-1. Connect a keyboard with CV output to the VCO. We recommend an Arturia Keystep, Beatstep Pro, Korg NT1 or similar. Or if you have the [Brain module](https://github.com/shmoergh/moduleur/tree/main/modules/07-brain) done, you can use the MIDI to CV converter firmware and a MIDI keyboard too.
+1. Connect a keyboard with CV output to the VCO. We recommend an Arturia Keystep, Beatstep Pro, Korg NT1 or similar. Or if you have the [Brain module](https://github.com/shmoergh/moduleur/tree/main/modules/07-brain) done, you can use the [MIDI to CV converter firmware](https://github.com/shmoergh/brain-basic-midi2cv) and a MIDI keyboard too.
 2. Turn HI-FREQ pot all the way down. You can play a very high pitch note on the keyboard and turn the knob until the pitch goes down.
 3. Play C1 on keyboard. Use the BIAS trimmer to set the frequency to C1 (32.703Hz)
 4. Play C4 and use BIAS trimmer to set the frequency to C4 (261.63Hz)
