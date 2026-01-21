@@ -2934,7 +2934,7 @@
 		)
 		(uuid eb710b0c-edd6-4389-a2cd-56c06cbe5db3)
 	)
-	(text "ONLY ONE OF THESE J111's\nSHOULD BE SOLDERED.\n\nQ215 is a THT footprint\nfor J111 to provide \nalternative to SMD."
+	(text "ONLY ONE OF THESE J111's\nSHOULD BE SOLDERED.\n\nQ3 is a THT footprint\nfor J111 to provide \nalternative to SMD."
 		(exclude_from_sim no)
 		(at 173.482 33.528 0)
 		(effects
