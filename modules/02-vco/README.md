@@ -109,7 +109,7 @@ As with all analog VCO you need to go through a tuning process to make sure it t
 7. When C1 and C4 are in tune, play C7 and use the HI-FREQ trimmer to make up the pitch for higher frequencies.
 8. Go back to step 3 & 4 to adjust tuning for lower frequencies, then go to step 6 again, until you get to a reasonable end result.
 
-Note that the tuning of the VCO is limited to about 7 or 8 octaves.
+Note that the VCO is limited to about 7 or 8 octaves. Beyond that, the pitch starts to drift.
 
 <br>
 
