@@ -26,7 +26,7 @@ Eurorack compatible VCO for the Shmøergh Moduleur.
 
 ## Module specific instructions
 
-## Q3 vs Q4 transistor (J111)
+### Q3 vs Q4 transistor (J111)
 
 As commented on the Core board, **you only need either Q3 or Q4**: if you got Q4 assembled by JLCPCB then do not solder Q3. The J111 JFET is not a super-common component and sometimes it's out of stock at JLCPCB — to prepare for the potential shortage we added a THT footprint too so you can source and solder it manually easily.
 
