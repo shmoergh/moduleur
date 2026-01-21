@@ -30,6 +30,8 @@ Eurorack compatible VCO for the Shmøergh Moduleur.
 
 As commented on the Core board, **you only need either Q3 or Q4**: if you got Q4 assembled by JLCPCB then do not solder Q3. The J111 JFET is not a super-common component and sometimes it's out of stock at JLCPCB — to prepare for the potential shortage we added a THT footprint too so you can source and solder it manually easily.
 
+<img src="https://github.com/user-attachments/assets/68fe3f13-9a6b-495f-b3b6-4341b9d74848" />
+
 ### Temperature compensation
 
 All analog VCOs have a way to compensate temperature drifts. You can read about the background of this in this fantastic series of posts on Xonik.no: [part 1](https://www.xonik.no/theory/vco/expo_converter_1.html), [part 2](https://www.xonik.no/theory/vco/expo_converter_2.html), [part 3](https://www.xonik.no/theory/vco/reference_current.html).
@@ -75,16 +77,27 @@ To make soldering a bit easier, the alternate names of the temp.co. components a
 
 ### Tuning
 
-You'll need to tune the waveshapers and the oscillator frequency to be musically in tune.
+You'll need to tune the wave shapes and the oscillator frequency to be musically in tune.
 
-### Tuning the waveshapers
+### Tuning the wave shapes
 
+First we'll set the correct bias to all waveforms as well as the shape of the triangle wave. There are two trimmers you'll need to use: RV_SAW_BIAS1 ("SAW BIAS" on the Core board silkscreen), and RV_TRI_BIAS1 ("TRI BIAS" on the board.). You'll need an oscilloscope for this.
 
+1. Connect the oscilloscope to the Triangle output. Make sure your oscilloscope is in DC coupling.
+2. The triangle is generated from the sawtooth wave. In order to have a nice symmetric triangle you need to adjust the saw bias. Use the SAW BIAS trimmer to adjust the symmetry of the Triangle waveshape (and implicitly the bias of the saw wave).
+3. The triangle now should be symmetric but most likely not centered around 0V. To move it on the Y axis, use the TRI BIAS trimmer.
+
+You should be good once the triangle output is:
+
+- A nice triangle
+- Oscillates around 0V
+
+<img src="https://github.com/user-attachments/assets/f98bb0a7-5077-434a-8b48-4e402b2187b3" />
 
 
 #### Frequency tuning
 
-As with all analog VCO you need to go through a tuning process to make sure it tracks with 1V/octave. Here's how to tune this VCO:
+As with all analog VCO you need to go through a tuning process to make sure it tracks with 1V/octave. Here's how:
 
 0. Turn the Octave (main tune) knob all the way down and the Fine tune knob in the middle.
 1. Connect a keyboard with CV output to the VCO. We recommend an Arturia Keystep, Beatstep Pro, Korg NT1 or similar.
