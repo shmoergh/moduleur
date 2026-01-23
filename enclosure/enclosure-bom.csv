@@ -9,8 +9,8 @@ Corner fixtures – right,3D printed,2,See in `3d_print` folder
 Side fixtures,3D printed,2,See in `3d_print` folder
 M4 hex socket screws - L: 8mm,Screw,10,https://www.amazon.com/BNUOK-120pcs-Socket-Threads-Spanner/dp/B0DYSRGFXQ/ref=sr_1_1_sspa?crid=28G23T8VX8GDB&dib=eyJ2IjoiMSJ9.CiDiHgut4tf3rVgy4gHDD3aaNpv1u1wURR9WJ44A_K2k3C7Tozu_j0a94nkNXtxY3MJFLLYo2ceuqcioHkRsnGoIyzVxVnienvzDn95pXAU1lEGSpPWneFi0c2vUG2nYAmhGosXra79fxGFkrg-IV4sbrt3D92zcWO30GeYmpSM40yhIwmeUY02ENX7ZIUqEfLijH8EVYN3_e1pB8RlmDMBH3QPwilce0qp8Q3h1jvM.TaHj6kIVEyzWGINtfHNyOr4tBbqwTehjx06yOSEucWk&dib_tag=se&keywords=black%2Bm3x8%2Bhex%2Bscrews&qid=1768770826&sprefix=black%2Bm3x8%2Bhex%2Bscrews%2Caps%2C216&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1
 M3 hex socket screws - L: 8mm,Screw,60,https://www.amazon.com/BNUOK-120pcs-Socket-Threads-Spanner/dp/B0DJQGPRPV/ref=sr_1_1_sspa?crid=28G23T8VX8GDB&dib=eyJ2IjoiMSJ9.CiDiHgut4tf3rVgy4gHDD3aaNpv1u1wURR9WJ44A_K2k3C7Tozu_j0a94nkNXtxY3MJFLLYo2ceuqcioHkRsnGoIyzVxVnienvzDn95pXAU1lEGSpPWneFi0c2vUG2nYAmhGosXra79fxGFkrg-IV4sbrt3D92zcWO30GeYmpSM40yhIwmeUY02ENX7ZIUqEfLijH8EVYN3_e1pB8RlmDMBH3QPwilce0qp8Q3h1jvM.TaHj6kIVEyzWGINtfHNyOr4tBbqwTehjx06yOSEucWk&dib_tag=se&keywords=black%2Bm3x8%2Bhex%2Bscrews&qid=1768770826&sprefix=black%2Bm3x8%2Bhex%2Bscrews%2Caps%2C216&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1
-M3 threaded insert for 3D printing — L: 5.7mm,Threaded insert,4,https://www.3djake.com/3djake/threaded-inserts-50-piece-set?sai=9419
-M4 threaded insert for 3D printing — L: 8.1mm,Threaded insert,8,https://www.3djake.com/cnc-kitchen/threaded-inserts-m4-standard?sai=15448
+M3 threaded insert for 3D printing — L: 5.7mm,Threaded insert,4,Hole size on parts = 4mm — https://www.3djake.com/3djake/threaded-inserts-50-piece-set?sai=9419
+M4 threaded insert for 3D printing — L: 8.1mm,Threaded insert,8,Hole size on parts = 5.6mm — https://www.3djake.com/cnc-kitchen/threaded-inserts-m4-standard?sai=15448
 Rubber feet with M3 screws,Feet,4,https://www.hestore.hu/prod_10049775.html?lang=en#
 M4 hex nuts - 7mm side-to-side,Nut,2,https://www.hestore.hu/prod_10023120.html?lang=en
 M3 square nuts - 5x5mm,Nut,4,https://www.amazon.com/dp/B0BD2N9KTV/ref=sspa_dk_hqp_detail_aax_0?sp_csd=d2lkZ2V0TmFtZT1zcF9ocXBfc2hhcmVk&th=1
@@ -19,3 +19,4 @@ M3 square nuts - 5x5mm,Nut,4,https://www.amazon.com/dp/B0BD2N9KTV/ref=sspa_dk_hq
 ---,,,
 
 "[OPTIONAL] 10x40 Bosch Rails - L:253mm",Rail,2,https://store.boschrexroth.com/en/hu/p/strut-profile-3842526817
+
