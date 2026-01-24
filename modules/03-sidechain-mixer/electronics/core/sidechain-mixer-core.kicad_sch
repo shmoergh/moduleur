@@ -2590,7 +2590,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6b8ac4e3-205b-4930-8232-43668fd70f11")
 		(property "Reference" "J8"
@@ -2693,6 +2693,15 @@
 			)
 		)
 		(property "Hestore" ""
+			(at 215.9 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
 			(at 215.9 45.72 0)
 			(effects
 				(font

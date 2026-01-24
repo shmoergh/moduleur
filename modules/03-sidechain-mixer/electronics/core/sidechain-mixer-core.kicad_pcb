@@ -2141,7 +2141,7 @@
 		(path "/6b8ac4e3-205b-4930-8232-43668fd70f11")
 		(sheetname "/")
 		(sheetfile "sidechain-mixer-core.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start -1.38 -1.38)
 			(end 0 -1.38)

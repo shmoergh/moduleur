@@ -1,7 +1,7 @@
 "Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint","Datasheet","Part no.","Part URL","Vendor","Note"
 "J1","1","Conn_02x03_Odd_Even","","","","Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical","~","200-SSW10301TD","https://mou.sr/3GIDVEr","Mouser",""
 "J2","1","Conn_02x05_Odd_Even","","","","Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical","~","200-SSW10501TD","https://mou.sr/4lVCZM9","Mouser",""
-"J3,J7","2","Conn_01x04","","","","Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical","~","200-SSW10401TMS","https://mou.sr/4kxE3Vr","Mouser",""
+"J3,J7","2","Conn_01x04","","","","Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical","~","200-SSW10401TMS","https://mou.sr/4kxE3Vr","Mouser",""
 "J4","1","Conn_01x02","","","","Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical","~","200-SSW10201TS","https://mou.sr/4lBvdHe","Mouser",""
 "J5","1","Conn_01x06","","","","Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical","~","200-SSW10601TS","https://mou.sr/4lnf48h","Mouser",""
 "J_IN1,J_IN2,J_IN3,J_IN4,J_OUT1","5","PJ398SM","","","","Shmoergh_Custom_Footprints:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles","~","PJ398SM","https://www.thonk.co.uk/shop/thonkiconn/","Thonk",""
