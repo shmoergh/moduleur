@@ -17216,7 +17216,7 @@
 		(path "/6ff443e5-1c3a-475b-aeb5-e69fc859b6b5")
 		(sheetname "/")
 		(sheetfile "utils-output-core.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start -1.38 -1.38)
 			(end 0 -1.38)
