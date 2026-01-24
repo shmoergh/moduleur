@@ -3487,7 +3487,7 @@
 		(path "/ac40672d-2090-489c-b4a2-c85fd103b55d")
 		(sheetname "/")
 		(sheetfile "adsr-vca-core.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 1.33 -1.33)
 			(end 1.33 0)

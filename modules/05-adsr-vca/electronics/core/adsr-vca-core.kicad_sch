@@ -2300,7 +2300,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ac40672d-2090-489c-b4a2-c85fd103b55d")
 		(property "Reference" "J4"
@@ -2394,6 +2394,15 @@
 			)
 		)
 		(property "Mouser Part no." "200-SSW10601TMS"
+			(at 215.9 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
 			(at 215.9 40.64 0)
 			(effects
 				(font
