@@ -6453,7 +6453,7 @@
 				)
 			)
 		)
-		(property "Value" "PJ398SM-STEREO"
+		(property "Value" "PJ366ST"
 			(at 0 -1.48 180)
 			(layer "F.Fab")
 			(uuid "c2100d6e-064e-4f7c-91fe-3b8d4fb4bc2b")
@@ -6529,7 +6529,7 @@
 				)
 			)
 		)
-		(property "Part no." "PJ398SM"
+		(property "Part no." "PJ366ST Stereo"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6548,6 +6548,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ed3e6278-00f8-4ad8-a5c1-5bf5b1e87999")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part No." ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "84a5f1da-de79-475b-9a0b-9387933af438")
 			(effects
 				(font
 					(size 1 1)

@@ -5,7 +5,7 @@
 "J4,J6","2","Conn_02x02_Odd_Even","","","","Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical","~","200-SSW10206TD","https://mou.sr/4eSbYqI","Mouser",""
 "J7","1","Conn_02x05_Odd_Even","","","","Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical","~","200-SSW10501TD","https://mou.sr/4lVCZM9","Mouser",""
 "J_AUDIO_CV_IN1,J_AUDIO_CV_IN2,J_AUDIO_CV_OUT1,J_AUDIO_CV_OUT2,J_PULSE_IN1,J_PULSE_OUT1","6","PJ398SM","","","","Shmoergh_Custom_Footprints:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles","~","PJ398SM","https://www.thonk.co.uk/shop/thonkiconn/","Thonk",""
-"J_MIDI1","1","PJ398SM-STEREO","","","","Shmoergh_Custom_Footprints:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles","~","PJ398SM","https://www.thonk.co.uk/shop/thonkiconn/","Thonk",""
+"J_MIDI1","1","PJ366ST","","","","Shmoergh_Custom_Footprints:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles","~","PJ366ST Stereo","https://www.thonk.co.uk/shop/thonkiconn/","Thonk",""
 "Q1,Q2,Q3,Q4,Q5,Q6","6","2N3904","","","","Package_TO_SOT_THT:TO-92_Inline_Wide","https://www.onsemi.com/pub/Collateral/2N3903-D.PDF","637-2N3904","https://mou.sr/4febysZ","Mouser",""
 "R1","1","1k","","","","Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~","603-MFR-25FRE52-1K","https://mou.sr/4afrY5O","Mouser",""
 "R2","1","10k","","","","Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~","603-MFR25SFTF52-10K ","https://mou.sr/4po4TSn","Mouser",""

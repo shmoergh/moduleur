@@ -6046,7 +6046,7 @@
 				)
 			)
 		)
-		(property "Value" "PJ398SM-STEREO"
+		(property "Value" "PJ366ST"
 			(at 50.165 31.75 0)
 			(effects
 				(font
@@ -6108,7 +6108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part no." "PJ398SM"
+		(property "Part no." "PJ366ST Stereo"
 			(at 50.8 38.1 0)
 			(effects
 				(font
@@ -6118,6 +6118,15 @@
 			)
 		)
 		(property "Note" ""
+			(at 50.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
 			(at 50.8 38.1 0)
 			(effects
 				(font
