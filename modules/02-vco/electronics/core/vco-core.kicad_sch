@@ -2872,7 +2872,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6b8ac4e3-205b-4930-8232-43668fd70f11")
 		(property "Reference" "J8"
