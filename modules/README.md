@@ -7,7 +7,7 @@
 Each module has a dedicated BOM. We also created a full BOM if you want to order all modules at once:
 
 - [Full BOM](https://docs.google.com/spreadsheets/d/1Qo4ZxYgp-tBQ1XDLqPfu5fhcQhO-8mitsnlWUWIVU-8/edit?usp=sharing) — Contains only the BOM for the modules. For the enclosure, check the [enclosure BOM](https://github.com/shmoergh/moduleur/blob/main/enclosure/enclosure-bom.csv).
-- [Mouser cart](https://www.mouser.com/Tools/SavedCart/Share?AccessID=c0d90ac4fa) — Last update: 24 Jan 2026
+- [Mouser cart](https://www.mouser.com/Tools/SavedCart/Share?AccessID=7d2d54395b) — Last update: 24 Jan 2026
 
 ---
 
