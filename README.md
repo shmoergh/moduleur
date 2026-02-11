@@ -10,6 +10,8 @@ This repository reflects ongoing hardware and firmware development, and module r
 
 Follow progress at [shmoergh.com](https://www.shmoergh.com/moduleur/)
 
+Join the [Shmøergh Discord channel](https://discord.gg/2q7EmK3H).
+
 ![moduleur-bp](https://github.com/user-attachments/assets/bd80d225-350d-44ae-b68d-8cad4bbadadd#gh-light-mode-only)
 ![moduleur-bp](https://github.com/user-attachments/assets/a9fdfeb7-7ad8-4782-806b-18bf5c98be53#gh-dark-mode-only)
 
