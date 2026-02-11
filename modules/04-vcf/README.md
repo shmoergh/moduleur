@@ -61,12 +61,6 @@ CV1 and CV2 has two attenuverters on their inputs. You can set the curve of the 
 
 You can set the lowest control voltage of the Cutoff pot to 0V or -12V using the JP1 jumper. -12V can be cool if you know you'll want to use very strong control voltages, however we still recommend to use 0V.
 
-<br>
-
-## Photos
-
-<img width="2050" height="2050" alt="image" src="https://github.com/user-attachments/assets/690c2f28-b742-4235-9632-a4d1070735f8" />
-
 
 ## License
 
