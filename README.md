@@ -15,7 +15,7 @@ Follow progress at [shmoergh.com](https://www.shmoergh.com/moduleur/)
 
 ## Community
 
-Join the [Shmøergh Discord channel](https://discord.gg/2q7EmK3H).
+Join the [Shmøergh Discord server](https://discord.gg/2q7EmK3H).
 
 ## Building
 
