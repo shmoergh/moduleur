@@ -11,6 +11,113 @@
 		(company "Shmøergh")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
@@ -2606,6 +2713,12 @@
 		(uuid "5ac990d3-5392-40c9-9a1a-a8af22733571")
 	)
 	(junction
+		(at 149.86 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c62279f-ad8a-41c0-9a67-35fcb52c4696")
+	)
+	(junction
 		(at 30.48 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3120,16 +3233,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 118.11) (xy 158.75 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f6fccfe-2ce2-417a-ad9d-4d56b7317ba7")
-	)
-	(wire
-		(pts
 			(xy 257.81 60.96) (xy 260.35 60.96)
 		)
 		(stroke
@@ -3412,6 +3515,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 118.11) (xy 158.75 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b762978e-9ac2-4f14-97cd-9ed116e69d89")
+	)
+	(wire
+		(pts
 			(xy 50.8 40.64) (xy 50.8 43.18)
 		)
 		(stroke
@@ -3582,6 +3695,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 118.11) (xy 146.05 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4ef71b3-abfa-4b06-b2b4-7bc09ac3ea2d")
+	)
+	(wire
+		(pts
 			(xy 260.35 55.88) (xy 257.81 55.88)
 		)
 		(stroke
@@ -3732,6 +3855,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 107.95) (xy 149.86 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eed4304e-cd9d-448e-9208-068082feac79")
+	)
+	(wire
+		(pts
 			(xy 45.72 182.88) (xy 48.26 182.88)
 		)
 		(stroke
@@ -3806,7 +3939,7 @@
 	)
 	(global_label "VCA_OUT"
 		(shape output)
-		(at 154.94 118.11 180)
+		(at 146.05 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3816,7 +3949,7 @@
 		)
 		(uuid "17d30fe4-e3c1-430e-8b1b-55969eb77c07")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.9114 118.11 0)
+			(at 135.0214 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8781,6 +8914,108 @@
 			(project "adsr-vca-ui"
 				(path "/ab333f71-eefa-415f-b212-ebe7a942b1c8"
 					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 149.86 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dce3f850-ab23-40a5-994c-1783cf0f9fd5")
+		(property "Reference" "TP1"
+			(at 144.78 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 139.7 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+			(at 154.94 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 149.86 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
+			(at 149.86 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" ""
+			(at 149.86 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 149.86 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 149.86 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c99f53ed-85d9-4841-91a1-2981fa0f8785")
+		)
+		(instances
+			(project ""
+				(path "/ab333f71-eefa-415f-b212-ebe7a942b1c8"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
