@@ -1726,6 +1726,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 60.96) (xy 220.98 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92937b6a-bbe0-46ae-bc95-462d42868e6f")
+	)
+	(wire
+		(pts
 			(xy 137.16 58.42) (xy 137.16 66.04)
 		)
 		(stroke
@@ -1927,7 +1937,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 60.96) (xy 210.82 60.96)
+			(xy 198.12 60.96) (xy 205.74 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2077,7 +2087,7 @@
 	)
 	(hierarchical_label "OUT"
 		(shape output)
-		(at 210.82 60.96 0)
+		(at 220.98 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5004,6 +5014,137 @@
 			(project "adsr-vca-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/c6cac276-2f32-41b3-9c97-03c30aa61119"
 					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 209.55 60.96 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d35e1e68-eef7-4edd-a59c-1b6077e18514")
+		(property "Reference" "R15"
+			(at 209.55 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 209.55 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 209.55 62.738 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 209.55 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 209.55 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 209.55 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 209.55 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
+			(at 209.55 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" ""
+			(at 209.55 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 209.55 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 209.55 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ace20923-6ef5-4747-91a4-5fa840b05dde")
+		)
+		(pin "2"
+			(uuid "73ef3b2c-567c-4ba9-8347-c883e4c4323f")
+		)
+		(instances
+			(project "adsr-vca-core"
+				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/c6cac276-2f32-41b3-9c97-03c30aa61119"
+					(reference "R15")
 					(unit 1)
 				)
 			)
