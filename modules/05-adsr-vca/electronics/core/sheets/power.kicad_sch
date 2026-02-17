@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "f4fa20e2-10af-4308-a7ea-b28e4cb6c577")
 	(paper "A4")
+	(title_block
+		(title "ADSR + VCA")
+		(date "2026-02-17")
+		(company "Shmøergh")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names

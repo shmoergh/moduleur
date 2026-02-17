@@ -6,7 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "ADSR + VCA")
-		(date "2025-12-11")
+		(date "2026-02-17")
+		(rev "v1.2")
 		(company "Shmøergh")
 	)
 	(lib_symbols

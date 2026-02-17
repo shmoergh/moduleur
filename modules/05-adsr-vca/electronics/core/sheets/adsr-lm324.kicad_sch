@@ -5,8 +5,8 @@
 	(uuid "0e96a73d-e97d-4d81-81f2-a6be6a46c2e6")
 	(paper "A4")
 	(title_block
-		(title "Hog Moduelur — ADSR")
-		(date "2025-08-03")
+		(title "ADSR + VCA")
+		(date "2026-02-17")
 		(rev "v0.1")
 		(company "Shmøergh")
 	)

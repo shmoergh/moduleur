@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "b6050267-35ad-440f-adce-310d3e01aa91")
 	(paper "A4")
+	(title_block
+		(title "ADSR + VCA")
+		(date "2026-02-17")
+		(company "Shmøergh")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:TL072"
 			(pin_names
