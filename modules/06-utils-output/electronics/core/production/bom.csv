@@ -9,7 +9,7 @@ C203,C_Rect_L7.0mm_W2.5mm_P5.00mm,1,3.3n (foil),
 "D1, D2",D_SOD-323,2,1N5817,C5190152
 "D15, D16, D3, D4",D_SOD-123,4,1N4148,C81598
 D_LIM_N1,LED_D3.0mm,1,Red LED,
-D_LIM_P1,LED_D5.0mm,1,Red LED,
+D_LIM_P1,PinHeader_1x02_P2.54mm_Vertical,1,Red LED,
 J1,PinHeader_1x06_P2.54mm_Vertical,1,Conn_01x06,
 "J2, J5",PinHeader_2x03_P2.54mm_Vertical,2,Conn_02x03_Odd_Even,
 J3,PinHeader_1x02_P2.54mm_Vertical,1,Conn_01x02,

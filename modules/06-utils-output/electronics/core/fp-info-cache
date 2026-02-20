@@ -1,4 +1,4 @@
-26314289149849451
+26316697818713940
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96137,6 +96137,13 @@ SW_PB400EEQR1BLK
 0
 4
 4
+Shmoergh_Custom_Footprints
+SW_SLW-171175-7A-N-D
+
+
+0
+8
+8
 Shmoergh_Custom_Footprints
 SW_SR2512F-2x5-rotary
 <b>2POLE6WAY_1</b><br>
