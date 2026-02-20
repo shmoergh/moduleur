@@ -561,9 +561,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "About 5.1V pulses"
+	(text "About 5V pulses"
 		(exclude_from_sim no)
-		(at 209.55 77.47 0)
+		(at 208.28 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -648,6 +648,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 80.01) (xy 228.6 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b7d9cff-ec32-48e6-812e-a893557ff766")
+	)
+	(wire
+		(pts
 			(xy 209.55 83.82) (xy 209.55 80.01)
 		)
 		(stroke
@@ -698,7 +708,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 80.01) (xy 215.9 80.01)
+			(xy 209.55 80.01) (xy 217.17 80.01)
 		)
 		(stroke
 			(width 0)
@@ -758,7 +768,7 @@
 	)
 	(hierarchical_label "PULSE_OUT"
 		(shape output)
-		(at 215.9 80.01 0)
+		(at 228.6 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -799,6 +809,155 @@
 			(justify right)
 		)
 		(uuid "aaa02cf4-0982-4624-b8a0-7f1494e6f6d4")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 220.98 80.01 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c1ec2af-b56e-4fde-851c-1589194a86ec")
+		(property "Reference" "R13"
+			(at 220.98 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 220.98 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 220.98 78.232 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 220.98 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 220.98 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
+			(at 220.98 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" ""
+			(at 220.98 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 220.98 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 220.98 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 220.98 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 220.98 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 220.98 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f15919ba-eeb6-42c3-88fb-9db2c02b1ef7")
+		)
+		(pin "2"
+			(uuid "633799dc-e851-48ee-b6c8-beb8963f31ef")
+		)
+		(instances
+			(project "brain-core"
+				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/b082d257-9358-41e3-a203-3f08ae6b6f5f"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+12V")
