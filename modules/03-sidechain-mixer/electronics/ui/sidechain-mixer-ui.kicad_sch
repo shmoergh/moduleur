@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Hog Moduleur Sidechain Mixer UI")
-		(date "2025-07-06")
-		(rev "v0.1")
+		(date "2026-02-21")
+		(rev "v1.0")
 		(company "Shmøergh")
 	)
 	(lib_symbols

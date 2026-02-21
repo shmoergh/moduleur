@@ -41298,7 +41298,7 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "SHMØERGH MODULEUR\nVCO V1.0 2025 DEC"
+	(gr_text "SHMØERGH MODULEUR\nVCO V1.0"
 		(at 179.9 92.2 90)
 		(layer "F.SilkS")
 		(uuid "36a71b0e-6997-4d50-9cd1-6ea1f268863b")

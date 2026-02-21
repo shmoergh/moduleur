@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "1c2c9018-3c16-4fa6-b30e-8ffca391bb62")
 	(paper "A4")
+	(title_block
+		(title "Moduleur VCO core")
+		(date "2026-02-21")
+		(rev "v1.0")
+		(company "Shmøergh")
+	)
 	(lib_symbols
 		(symbol "4xxx:4040"
 			(pin_names

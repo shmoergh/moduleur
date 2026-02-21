@@ -5,9 +5,9 @@
 	(uuid "874127a2-4b98-419d-ae34-c1a0e8e0f14d")
 	(paper "User" 297 230)
 	(title_block
-		(title "Hog Moduleur PSU")
-		(date "2025-06-04")
-		(rev "0.1")
+		(title "Moduleur PSU")
+		(date "2026-02-21")
+		(rev "1.0")
 		(company "Shmøergh")
 	)
 	(lib_symbols

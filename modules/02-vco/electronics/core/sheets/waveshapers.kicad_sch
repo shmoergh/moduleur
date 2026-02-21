@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "21209885-0574-4f1a-a153-13b6f7d17b06")
 	(paper "User" 310 240)
+	(title_block
+		(title "Moduleur VCO core")
+		(date "2026-02-21")
+		(rev "v1.0")
+		(company "Shmøergh")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:TL072"
 			(pin_names

@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "e6a5c169-97fc-465d-baf1-63dc6d92ac4e")
 	(paper "User" 350 230)
+	(title_block
+		(title "Moduleur Mixer & sidechain compressor")
+		(date "2025-12-11")
+		(rev "v1.0")
+		(company "Shmøergh")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:TL072"
 			(pin_names
