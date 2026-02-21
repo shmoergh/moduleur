@@ -7,7 +7,7 @@
 	(title_block
 		(title "ADSR + VCA")
 		(date "2026-02-17")
-		(rev "v0.1")
+		(rev "v1.2")
 		(company "Shmøergh")
 	)
 	(lib_symbols
