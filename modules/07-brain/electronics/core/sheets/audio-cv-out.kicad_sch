@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "d0be8f9e-cbf6-43b2-ba02-2a902bc75120")
 	(paper "User" 350 210)
+	(title_block
+		(title "Brain Core")
+		(date "2026-02-21")
+		(rev "v1.1")
+		(company "Shmøergh")
+	)
 	(lib_symbols
 		(symbol "+5V_1"
 			(power)

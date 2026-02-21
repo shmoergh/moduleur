@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "c1d1a4f5-c069-4ea7-8a5b-c5432b224024")
 	(paper "A4")
+	(title_block
+		(title "Brain Core")
+		(date "2026-02-21")
+		(rev "v1.1")
+		(company "Shmøergh")
+	)
 	(lib_symbols
 		(symbol "Device:R"
 			(pin_numbers

@@ -5,9 +5,9 @@
 	(uuid "ab333f71-eefa-415f-b212-ebe7a942b1c8")
 	(paper "A4")
 	(title_block
-		(title "Moduleur Brain")
-		(date "2025-12-11")
-		(rev "v1.0")
+		(title "Brain UI")
+		(date "2026-02-21")
+		(rev "v1.1")
 		(company "Shmøergh")
 	)
 	(lib_symbols

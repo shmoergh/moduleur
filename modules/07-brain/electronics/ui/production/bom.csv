@@ -5,7 +5,7 @@
 "J4, J6",PinSocket_2x02_P2.54mm_Vertical,2,Conn_02x02_Odd_Even,
 J7,PinSocket_2x05_P2.54mm_Vertical,1,Conn_02x05_Odd_Even,
 "J_AUDIO_CV_IN1, J_AUDIO_CV_IN2, J_AUDIO_CV_OUT1, J_AUDIO_CV_OUT2, J_PULSE_IN1, J_PULSE_OUT1",Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles,6,PJ398SM,
-J_MIDI1,Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles,1,PJ398SM-STEREO,
+J_MIDI1,Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles,1,PJ366ST,
 "Q1, Q2, Q3, Q4, Q5, Q6",TO-92_Inline_Wide,6,2N3904,
 R1,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,1,1k,
 "R10, R13, R14, R5, R6, R9",R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,6,4.7k,
