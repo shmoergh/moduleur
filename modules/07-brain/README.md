@@ -24,10 +24,7 @@ Brain is a universal digital module for the Shmøergh Moduleur which enables the
 
 ## Programs
 
-As of today the following programs are available for the Brain module:
-
-- [Basic MIDI2CV](https://github.com/shmoergh/brain-basic-midi2cv) - Basic MIDI to CV converter with selectable MIDI and output channels
-- [Output tuner](https://github.com/shmoergh/brain-output-tuner) - Helper program to fine tune the outputs of the Brain module. Also can be used to tune VCOs.
+&rarr; [Brain firmwares](https://github.com/shmoergh/brain-firmwares)
 
 ## Boards
 
