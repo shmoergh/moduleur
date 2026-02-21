@@ -51,13 +51,15 @@ You can create connect your own ON/OFF switch and DC input components using the 
 
 <img src="https://github.com/user-attachments/assets/8a47af6c-7f09-4a46-a498-9523f7f692ce" />
 
-
 ## License
 
 Open source licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
 
+Feel free to fork, build, and tweak.
+
+[Disclaimer](https://github.com/shmoergh/moduleur/blob/main/DISCLAIMER.md)
+
 ## Latest module version
 
 v1.0
-[Disclaimer](https://github.com/shmoergh/moduleur/blob/main/DISCLAIMER.md)
 
