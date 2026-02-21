@@ -118,10 +118,10 @@ Note that the VCO is limited to about 7-8 octaves. Beyond that, expect the pitch
 <img width="514" height="1026" alt="image" src="https://github.com/user-attachments/assets/495d5f72-3f07-4e4c-9331-40a09e54a261" />
 
 
-## 🧪 License
+## License
 
 Open source licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
 
-Feel free to fork, build, and tweak.
+## Latest module version
 
-[Disclaimer](https://github.com/shmoergh/moduleur/blob/main/DISCLAIMER.md)
+v1.0
