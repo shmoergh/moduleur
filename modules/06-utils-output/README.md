@@ -67,10 +67,14 @@ You can use the main output to connect to line out or headphones out using the J
 <img width="514" height="1026" alt="image" src="https://github.com/user-attachments/assets/a37591e3-6dfc-4b86-a04c-dddc251890db" />
 
 
-## 🧪 License
+## License
 
 Open source licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
 
 Feel free to fork, build, and tweak.
 
 [Disclaimer](https://github.com/shmoergh/moduleur/blob/main/DISCLAIMER.md)
+
+## Latest module version
+
+v1.1
