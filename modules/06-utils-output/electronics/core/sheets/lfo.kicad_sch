@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "6e6710fc-2a5e-4a21-b08e-97ab0c171e8f")
 	(paper "A4")
+	(title_block
+		(title "Utils / Output Core")
+		(date "2026-02-21")
+		(rev "v1.1")
+		(company "Shmøergh")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:TL072"
 			(pin_names
