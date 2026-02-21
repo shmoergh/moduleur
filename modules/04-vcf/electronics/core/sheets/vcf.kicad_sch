@@ -5,8 +5,9 @@
 	(uuid "3bfbbbcd-bb76-4f0d-9608-103c8e76a068")
 	(paper "User" 350 210)
 	(title_block
-		(title "Diode VCF")
-		(date "2025-12-11")
+		(title "Moduleur VCF")
+		(date "2026-02-21")
+		(rev "v1.0")
 		(company "Shmøergh")
 	)
 	(lib_symbols
