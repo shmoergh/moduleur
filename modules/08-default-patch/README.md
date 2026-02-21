@@ -29,4 +29,8 @@ Open source licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/b
 
 Feel free to fork, build, and tweak.
 
-[Disclaimer](https://github.com/shmoergh/moduleur)
+[Disclaimer](https://github.com/shmoergh/moduleur/blob/main/DISCLAIMER.md)
+
+## Latest module version
+
+v1.0
