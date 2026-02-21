@@ -77,10 +77,14 @@ As marked in the schematics, in the current version the R1 resistor is included 
 
 
 
-## 🧪 License
+## License
 
 Open source licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
 
 Feel free to fork, build, and tweak.
 
 [Disclaimer](https://github.com/shmoergh/moduleur/blob/main/DISCLAIMER.md)
+
+## Latest module version
+
+v1.2
