@@ -17248,7 +17248,7 @@
 			)
 		)
 		(property ki_fp_filters "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*")
-		(path "/ab337492-f07a-4675-9a14-453f63abdb23/9592c849-b1d2-4ca2-b184-e7504f5a876d")
+		(path "/ab337492-f07a-4675-9a14-453f63abdb23/e107b7b0-e36e-45a9-9f2e-a3e1d1d71fce")
 		(sheetname "/ADSR — LM324/")
 		(sheetfile "sheets/adsr-lm324.kicad_sch")
 		(attr smd)
