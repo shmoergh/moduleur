@@ -113,10 +113,6 @@ Note that the VCO is limited to about 7-8 octaves. Beyond that, expect the pitch
 
 <br>
 
-## Photos
-
-<img width="514" height="1026" alt="image" src="https://github.com/user-attachments/assets/495d5f72-3f07-4e4c-9331-40a09e54a261" />
-
 
 ## License
 
