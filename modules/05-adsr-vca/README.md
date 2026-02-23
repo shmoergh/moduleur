@@ -55,14 +55,6 @@ As marked in the schematics, in the current version the R1 resistor is included 
 
 <img src="https://github.com/user-attachments/assets/387a6766-47ae-4c9f-a614-88f580e55c90" />
 
-<br>
-
-## Photos
-
-<img width="514" height="1026" alt="image" src="https://github.com/user-attachments/assets/2bb78d36-697c-4b73-af51-c886a1c99531" />
-
-
-
 ## License
 
 Open source licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
