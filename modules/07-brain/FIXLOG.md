@@ -4,7 +4,7 @@ This document tracks known issues found in specific PCB revisions and how to cor
 
 ## 🐛 Feb 22, 2026 FIX
 
-**If you ordered the UI board before Feb 22, 2026 you need to apply the above fix.** The is fixed for v1.2 boards, ordered after Feb 22, 2026.
+**If you ordered the Core board before Feb 22, 2026 you need to apply the above fix.** The is fixed for v1.2 Core boards, ordered after Feb 22, 2026.
 
 #### Affected boards
 
@@ -16,7 +16,7 @@ The pulse output transistor is not protected from large incoming currents.
 
 #### Solution
 
-On the UI board:
+On the Brain UI board:
 
 1. Cut the trace coming from the TIP of the J_PULSE_OUT1 jack.
 2. Solder a 1kΩ resistor between the TIP of J_PULSE_OUT1 jack and the PULSE_OUT pin of the J6 header. For this you'll need insulated wire coming from the back of the board (the jack's tip) to the front of the board (J6 header).
