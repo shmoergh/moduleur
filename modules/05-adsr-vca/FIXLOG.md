@@ -7,6 +7,9 @@ If you are building from anything other than the latest revision in this reposit
 
 **If you ordered the Core board before Feb 22, 2026 you need to apply the following fix manually.** The bug is fixed on the Core boards on Feb 22, 2026.
 
+#### Affected boards
+v1.1 and earlier
+
 #### Sympthom 
 The VCA output is not protected against input currents.
 
@@ -22,6 +25,9 @@ Add a 1kΩ resistor between the output jack and the output connection on the UI 
 ## 🐛 Dec 30, 2025 FIX
 
 **If you ordered the UI board before Dec 30, 2025 (v1.0) you need to apply the following fix manually.** The bug is fixed for UI boards, ordered after Dec 30, 2025 (specifically [this commit](https://github.com/shmoergh/moduleur/commit/2fd56e93e86553611255dfd17caee376619ceb9c)).
+
+#### Affected boards
+v1.0 and earlier
 
 #### Sympthom
 
