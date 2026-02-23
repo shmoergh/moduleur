@@ -7,7 +7,7 @@
 	(title_block
 		(title "Brain UI")
 		(date "2026-02-21")
-		(rev "v1.1")
+		(rev "v1.2")
 		(company "Shmøergh")
 	)
 	(lib_symbols
