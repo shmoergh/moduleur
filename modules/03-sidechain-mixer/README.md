@@ -102,10 +102,6 @@ This makes sure that if there's not sidechain compression, the mixer works trans
 
 <br>
 
-## Photos
-
-<img width="514" height="1026" alt="image" src="https://github.com/user-attachments/assets/4ea768fc-9d2d-4bcb-8eba-64f1a004cd3c" />
-
 
 ## License
 
