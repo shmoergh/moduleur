@@ -90,11 +90,6 @@ The Brain SDK is a firmware and library collection for the Raspberry Pi Pico/Pic
 
 [Brain SDK](https://github.com/shmoergh/brain-sdk)
 
-## Photos
-
-<img width="514" height="1026" alt="image" src="https://github.com/user-attachments/assets/4a3b6dea-2e2e-4952-b58d-fd4deb45d461" />
-
-
 
 ## License
 
