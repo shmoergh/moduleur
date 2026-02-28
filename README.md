@@ -61,9 +61,16 @@ Font used on PCBs: https://departuremono.com
 
 Simulations made in [CircuitJS](https://www.falstad.com/circuit/circuitjs.html)
 
-## Legal/Notes
+## ⚠️ Build Smart
 
-[DISCLAIMER](/DISCLAIMER.md)
+Moduleur is an open-source DIY electronics project intended for experienced builders.
 
-[SAFETY & INTENDED USE NOTICE](/SAFETY.md)
+Although it operates from low-voltage DC power, incorrect assembly, wiring, or component selection can result in equipment damage or safety risks.
 
+By building this project, you accept full responsibility for safe assembly and operation.
+
+Please read the full safety notice and disclaimer before proceeding:
+
+👉 [Safety & Intended Use](SAFETY.md)
+
+👉 [Full Disclaimer](DISCLAIMER.md)
