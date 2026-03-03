@@ -661,6 +661,24 @@
           "label": "Note",
           "name": "Note",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "CHECKED",
+          "name": "CHECKED",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field4",
+          "name": "Field4",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser",
+          "name": "Mouser",
+          "show": false
         }
       ],
       "filter_string": "",
