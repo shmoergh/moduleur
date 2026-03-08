@@ -7,7 +7,7 @@
 	(title_block
 		(title "Moduleur VCO UI")
 		(date "2025-12-11")
-		(rev "v1.0")
+		(rev "1")
 		(company "Shmøergh")
 	)
 	(lib_symbols
