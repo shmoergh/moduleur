@@ -7,7 +7,7 @@
 	(title_block
 		(title "Utils / Output Core")
 		(date "2026-02-21")
-		(rev "v1.1")
+		(rev "2")
 		(company "Shmøergh")
 	)
 	(lib_symbols

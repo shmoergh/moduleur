@@ -60,11 +60,11 @@
       ],
       "drc_exclusions": [
         [
-          "duplicate_footprints|144500000|149500000|4949be3f-ba33-4bed-bf4b-204d69180aeb|4e84a21b-402e-4ac1-beb8-2f80e6e002e5",
+          "duplicate_footprints|142000000|101500000|4e84a21b-402e-4ac1-beb8-2f80e6e002e5|4949be3f-ba33-4bed-bf4b-204d69180aeb",
           ""
         ],
         [
-          "duplicate_footprints|170863000|71686000|921ad4fc-6852-49e6-aa33-c4b7b8562c53|4e84a21b-402e-4ac1-beb8-2f80e6e002e5",
+          "duplicate_footprints|170863000|71686000|921ad4fc-6852-49e6-aa33-c4b7b8562c53|4949be3f-ba33-4bed-bf4b-204d69180aeb",
           ""
         ],
         [
