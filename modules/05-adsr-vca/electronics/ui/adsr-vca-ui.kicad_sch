@@ -6,118 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "ADSR + VCA UI")
-		(date "2026-02-21")
-		(rev "v1.2")
+		(date "2026-03-07")
+		(rev "v1.3")
 		(company "Shmøergh")
 	)
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
@@ -2630,7 +2523,7 @@
 		)
 		(uuid 3d08fdde-590d-40a7-87c1-8f19d5d89f59)
 	)
-	(text "There's a similar resistor on the core\nboard, this one is here for testing\ncrosstalk. If the one on the core board\nworks, this should be shorted."
+	(text "There's a similar resistor on the core\nboard, R1 and R6 are here for testing\npurposes. Should be shorted."
 		(exclude_from_sim no)
 		(at 67.31 100.33 0)
 		(effects
@@ -2643,7 +2536,7 @@
 		)
 		(uuid "10851b9b-9571-4593-b0e5-d9d4daf7d336")
 	)
-	(text "R1 is Only for testing"
+	(text "R1 & R6 is Only for testing"
 		(exclude_from_sim no)
 		(at 67.31 92.71 0)
 		(effects
@@ -2711,12 +2604,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ac990d3-5392-40c9-9a1a-a8af22733571")
-	)
-	(junction
-		(at 149.86 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7c62279f-ad8a-41c0-9a67-35fcb52c4696")
 	)
 	(junction
 		(at 30.48 182.88)
@@ -2888,7 +2775,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 120.65) (xy 158.75 120.65)
+			(xy 152.4 102.87) (xy 156.21 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3047,6 +2934,17 @@
 			(type default)
 		)
 		(uuid "3d2646c1-f3a4-4998-ad68-7f244ef66b5f")
+	)
+	(polyline
+		(pts
+			(xy 135.89 92.71) (xy 101.6 92.71)
+		)
+		(stroke
+			(width 0.5)
+			(type solid)
+			(color 255 0 255 1)
+		)
+		(uuid "40b105e0-f7be-4934-a352-28a422b2e40e")
 	)
 	(wire
 		(pts
@@ -3363,13 +3261,23 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 125.73) (xy 163.83 123.19)
+			(xy 161.29 107.95) (xy 161.29 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8bea0a8c-45b2-4b0a-8229-5408dfd21ca7")
+	)
+	(wire
+		(pts
+			(xy 135.89 100.33) (xy 130.81 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "907a527e-a1ab-418d-9ec3-152371bcb951")
 	)
 	(wire
 		(pts
@@ -3512,16 +3420,6 @@
 			(type default)
 		)
 		(uuid "b4cd1be7-bc43-4ff8-8741-81ebb8b3d729")
-	)
-	(wire
-		(pts
-			(xy 149.86 118.11) (xy 158.75 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b762978e-9ac2-4f14-97cd-9ed116e69d89")
 	)
 	(wire
 		(pts
@@ -3695,7 +3593,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 118.11) (xy 146.05 118.11)
+			(xy 143.51 100.33) (xy 156.21 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3855,16 +3753,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 107.95) (xy 149.86 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eed4304e-cd9d-448e-9208-068082feac79")
-	)
-	(wire
-		(pts
 			(xy 45.72 182.88) (xy 48.26 182.88)
 		)
 		(stroke
@@ -3939,7 +3827,7 @@
 	)
 	(global_label "VCA_OUT"
 		(shape output)
-		(at 146.05 118.11 180)
+		(at 130.81 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3949,7 +3837,7 @@
 		)
 		(uuid "17d30fe4-e3c1-430e-8b1b-55969eb77c07")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.0214 118.11 0)
+			(at 119.7814 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3961,7 +3849,7 @@
 	)
 	(global_label "VCA_OUT_DEFAULT"
 		(shape input)
-		(at 154.94 120.65 180)
+		(at 152.4 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3971,7 +3859,7 @@
 		)
 		(uuid "1a3b3836-0677-4760-95ac-5bdcc3829e31")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.0214 120.65 0)
+			(at 132.4814 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4959,7 +4847,7 @@
 	)
 	(symbol
 		(lib_id "Shmoergh-Custom-Components:AudioJack2_Thonkiconn_S")
-		(at 163.83 118.11 0)
+		(at 161.29 100.33 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4968,7 +4856,7 @@
 		(dnp no)
 		(uuid "230fdca0-3f04-42b9-be06-e544b96ac619")
 		(property "Reference" "J_VCA_OUT1"
-			(at 163.83 109.22 0)
+			(at 161.29 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4976,7 +4864,7 @@
 			)
 		)
 		(property "Value" "PJ398SM"
-			(at 163.83 111.76 0)
+			(at 161.29 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4984,7 +4872,7 @@
 			)
 		)
 		(property "Footprint" "Shmoergh_Custom_Footprints:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
-			(at 163.83 118.11 0)
+			(at 161.29 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4993,7 +4881,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 118.11 0)
+			(at 161.29 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5002,7 +4890,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Grounded Sleeve"
-			(at 163.83 118.11 0)
+			(at 161.29 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5011,7 +4899,7 @@
 			)
 		)
 		(property "Part URL" "https://www.thonk.co.uk/shop/thonkiconn/"
-			(at 163.83 118.11 0)
+			(at 161.29 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5020,7 +4908,7 @@
 			)
 		)
 		(property "Vendor" "Thonk"
-			(at 163.83 118.11 0)
+			(at 161.29 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5029,7 +4917,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 163.83 118.11 0)
+			(at 161.29 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5038,7 +4926,7 @@
 			)
 		)
 		(property "Part no." "PJ398SM"
-			(at 163.83 118.11 0)
+			(at 161.29 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5047,7 +4935,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 163.83 118.11 0)
+			(at 161.29 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5321,7 +5209,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 163.83 125.73 0)
+		(at 161.29 107.95 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5331,7 +5219,7 @@
 		(fields_autoplaced yes)
 		(uuid "36ed2308-e856-4319-939e-25746e1cfbcc")
 		(property "Reference" "#PWR016"
-			(at 163.83 132.08 0)
+			(at 161.29 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5340,7 +5228,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 163.83 130.81 0)
+			(at 161.29 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5348,7 +5236,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 125.73 0)
+			(at 161.29 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5357,7 +5245,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 125.73 0)
+			(at 161.29 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5366,7 +5254,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 125.73 0)
+			(at 161.29 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7697,6 +7585,128 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 139.7 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c59afef-5f21-43a9-9d12-3b1c55f6a01c")
+		(property "Reference" "R6"
+			(at 139.7 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 139.7 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 139.7 102.108 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 139.7 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
+			(at 139.7 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "https://mou.sr/3MWzgkZ"
+			(at 139.7 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Mouser"
+			(at 139.7 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 139.7 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "603-MFR-25FRF52-47K"
+			(at 139.7 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 139.7 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0930d0f-b8c4-4fb9-8145-b19438ccd179")
+		)
+		(pin "2"
+			(uuid "db9a38ec-395c-48b0-8764-351d8fa80cef")
+		)
+		(instances
+			(project "adsr-vca-ui"
+				(path "/ab333f71-eefa-415f-b212-ebe7a942b1c8"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 106.68 36.83 0)
 		(mirror x)
@@ -8501,7 +8511,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "0"
 			(at 62.23 113.03 90)
 			(effects
 				(font
@@ -8914,108 +8924,6 @@
 			(project "adsr-vca-ui"
 				(path "/ab333f71-eefa-415f-b212-ebe7a942b1c8"
 					(reference "#PWR0102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 149.86 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dce3f850-ab23-40a5-994c-1783cf0f9fd5")
-		(property "Reference" "TP1"
-			(at 144.78 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 139.7 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
-			(at 154.94 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 149.86 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 149.86 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" ""
-			(at 149.86 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 149.86 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 149.86 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c99f53ed-85d9-4841-91a1-2981fa0f8785")
-		)
-		(instances
-			(project ""
-				(path "/ab333f71-eefa-415f-b212-ebe7a942b1c8"
-					(reference "TP1")
 					(unit 1)
 				)
 			)

@@ -6,8 +6,8 @@
 	(paper "User" 297 230)
 	(title_block
 		(title "Moduleur PSU")
-		(date "2026-02-21")
-		(rev "1.0")
+		(date "2026-03-08")
+		(rev "1.1")
 		(company "Shmøergh")
 	)
 	(lib_symbols
@@ -1523,174 +1523,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -1981,6 +1813,294 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:1.5KExxA"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1.5KExxA"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-201AE_P15.24mm_Horizontal"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/88301/15ke.pdf"
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1500W unidirectional TVS diode, DO-201AE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transient voltage suppressor TRANSZORB®"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D?DO?201AE*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1.5KExxA_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1.5KExxA_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:1N5822"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N5822"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/88526/1n5820.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "40V 3A Schottky Barrier Rectifier Diode, DO-201AD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?201AD*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N5822_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N5822_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3550,10 +3670,10 @@
 		(uuid "19dade1a-011c-4ca2-ae5b-72124736d11f")
 	)
 	(junction
-		(at 99.06 71.12)
+		(at 67.31 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2d8051fa-47e3-46c8-a997-5fa01633f7ac")
+		(uuid "23cb178f-baaf-404d-8660-a673f29cde3f")
 	)
 	(junction
 		(at 162.56 153.67)
@@ -3638,6 +3758,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "671fac85-9a6c-42f0-b279-704696b32ab5")
+	)
+	(junction
+		(at 67.31 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69f0789b-b805-4cfa-a21d-0de78464aadb")
 	)
 	(junction
 		(at 195.58 140.97)
@@ -3834,7 +3960,7 @@
 		(uuid "48d234d2-b7ed-4a50-8729-45e29cb469e4")
 	)
 	(no_connect
-		(at 68.58 76.2)
+		(at 55.88 76.2)
 		(uuid "517c54a3-1ec8-456c-ab32-ee1b919bf354")
 	)
 	(no_connect
@@ -3913,16 +4039,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 71.12) (xy 99.06 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06c409de-8c0f-47ad-979a-7897821c0632")
-	)
-	(wire
-		(pts
 			(xy 91.44 146.05) (xy 102.87 146.05)
 		)
 		(stroke
@@ -3970,6 +4086,16 @@
 			(type default)
 		)
 		(uuid "0edd0148-da30-4d8c-bf04-d0aabfe28fe9")
+	)
+	(wire
+		(pts
+			(xy 63.5 91.44) (xy 67.31 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fc6a61d-d934-4260-abb8-977252c5894c")
 	)
 	(wire
 		(pts
@@ -4063,7 +4189,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 73.66) (xy 68.58 73.66)
+			(xy 72.39 73.66) (xy 67.31 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4263,6 +4389,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 91.44) (xy 63.5 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4610845a-6d89-48ac-886a-f13daaec7125")
+	)
+	(wire
+		(pts
 			(xy 175.26 138.43) (xy 179.07 138.43)
 		)
 		(stroke
@@ -4320,6 +4456,26 @@
 			(type default)
 		)
 		(uuid "511e512c-93a0-471e-8218-2ab99ddc6288")
+	)
+	(wire
+		(pts
+			(xy 67.31 91.44) (xy 90.17 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "569aca78-5ee6-4b01-ae6c-401c7dd43aaa")
+	)
+	(wire
+		(pts
+			(xy 67.31 73.66) (xy 67.31 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57651379-9968-4c80-ab9a-668bb24d7497")
 	)
 	(wire
 		(pts
@@ -4493,16 +4649,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 78.74) (xy 68.58 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7760329f-6bca-4fd5-b7dc-fd68808bf577")
-	)
-	(wire
-		(pts
 			(xy 129.54 143.51) (xy 129.54 153.67)
 		)
 		(stroke
@@ -4613,6 +4759,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 78.74) (xy 55.88 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a7c4495-7cf4-425b-a2bd-6fd0ee541b6a")
+	)
+	(wire
+		(pts
 			(xy 168.91 151.13) (xy 201.93 151.13)
 		)
 		(stroke
@@ -4630,6 +4786,16 @@
 			(type default)
 		)
 		(uuid "8ed483e2-ff90-4d48-8514-3fa103549aca")
+	)
+	(wire
+		(pts
+			(xy 67.31 73.66) (xy 55.88 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ff339d5-7722-41e3-ae28-f06b9b174d99")
 	)
 	(wire
 		(pts
@@ -4753,23 +4919,13 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 71.12) (xy 101.6 71.12)
+			(xy 95.25 71.12) (xy 101.6 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "af4254a3-2ecf-4f5b-b98c-3b0d15262f37")
-	)
-	(wire
-		(pts
-			(xy 69.85 78.74) (xy 69.85 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b020ba64-cc1b-49c1-ae2d-2a0bae55e470")
 	)
 	(wire
 		(pts
@@ -4993,16 +5149,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 91.44) (xy 69.85 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d65d7e25-bbb9-4e03-beb8-5fd894067d8c")
-	)
-	(wire
-		(pts
 			(xy 191.77 138.43) (xy 195.58 138.43)
 		)
 		(stroke
@@ -5090,6 +5236,16 @@
 			(type default)
 		)
 		(uuid "e1a1ff0a-b563-4ebc-8088-a990bc15111a")
+	)
+	(wire
+		(pts
+			(xy 67.31 86.36) (xy 67.31 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e20ac011-1863-4e17-83b3-400746a1fc5b")
 	)
 	(wire
 		(pts
@@ -5514,6 +5670,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 236.22 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "48e477a0-074a-4b0f-9d76-4980f3660e3b")
 		)
@@ -5638,6 +5803,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 44.45 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "psu"
 				(path "/874127a2-4b98-419d-ae34-c1a0e8e0f14d"
@@ -5714,6 +5888,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1.5KExxA")
+		(at 67.31 82.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1072f75e-c8c3-49c6-98ab-eb36a4ee4e8c")
+		(property "Reference" "D5"
+			(at 69.85 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.5KE36A"
+			(at 69.85 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-201AE_P15.24mm_Horizontal"
+			(at 62.23 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88301/15ke.pdf"
+			(at 67.31 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1500W unidirectional TVS diode, DO-201AE"
+			(at 67.31 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." "576-1.5KE36A "
+			(at 67.31 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "https://mou.sr/4rCTjnz"
+			(at 67.31 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Mouser"
+			(at 67.31 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 67.31 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 67.31 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "98ab2377-6fe8-4adc-9d97-49aea0a551e6")
+		)
+		(pin "1"
+			(uuid "316a1726-286c-424b-8851-3447111714dd")
+		)
+		(instances
+			(project ""
+				(path "/874127a2-4b98-419d-ae34-c1a0e8e0f14d"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "-12V_1")
 		(lib_id "power:-12V")
 		(at 67.31 156.21 180)
@@ -5775,6 +6064,120 @@
 			(project "psu"
 				(path "/874127a2-4b98-419d-ae34-c1a0e8e0f14d"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N5822")
+		(at 105.41 71.12 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f140933-79fe-4fe3-8394-ebf07220b2d7")
+		(property "Reference" "D2"
+			(at 105.7275 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N5822"
+			(at 105.7275 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+			(at 105.41 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88526/1n5820.pdf"
+			(at 105.41 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 3A Schottky Barrier Rectifier Diode, DO-201AD"
+			(at 105.41 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." "863-1N5822G "
+			(at 105.41 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "https://mou.sr/4bASSnN"
+			(at 105.41 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Mouser"
+			(at 105.41 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 105.41 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 105.41 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8e787ea0-ce2d-44bb-ab5b-f39502ca5087")
+		)
+		(pin "1"
+			(uuid "dc6e8249-41a2-4dbe-88bd-beed39c535b1")
+		)
+		(instances
+			(project ""
+				(path "/874127a2-4b98-419d-ae34-c1a0e8e0f14d"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -6062,6 +6465,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 222.25 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 222.25 71.12 0)
 			(effects
 				(font
@@ -6428,6 +6840,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 85.09 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5483e762-f9e3-4aa3-bd1c-f34c37adea34")
 		)
@@ -6549,6 +6970,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 157.48 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0cdbfef4-ecc9-4153-9160-736b8ce8f66c")
 		)
@@ -6662,6 +7092,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 20.32 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 20.32 195.58 0)
 			(effects
 				(font
@@ -6902,6 +7341,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 120.65 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fb7538b3-be36-4c7c-abb5-1ac243dfd039")
 		)
@@ -6954,128 +7402,6 @@
 			(project "psu"
 				(path "/874127a2-4b98-419d-ae34-c1a0e8e0f14d"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 105.41 71.12 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d5bd58b-305c-4a80-a81f-9ce554aa2187")
-		(property "Reference" "D2"
-			(at 105.41 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 105.41 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
-			(at 105.41 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 105.41 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 105.41 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 105.41 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." "637-1N4001 "
-			(at 105.41 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" "https://mou.sr/3DfEJyK"
-			(at 105.41 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Mouser"
-			(at 105.41 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 105.41 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ffb1c296-6824-42f4-8908-3b061ccb1e1e")
-		)
-		(pin "2"
-			(uuid "949c81f4-b559-4417-84bb-63bdda95fe08")
-		)
-		(instances
-			(project ""
-				(path "/874127a2-4b98-419d-ae34-c1a0e8e0f14d"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -7190,121 +7516,19 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 20.32 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "power-supply"
 				(path "/874127a2-4b98-419d-ae34-c1a0e8e0f14d"
 					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 99.06 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "64602fa5-5814-4d55-8f8e-5b402838fb3c")
-		(property "Reference" "TP1"
-			(at 97.79 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 93.98 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
-			(at 104.14 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 104.14 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 99.06 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 99.06 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 99.06 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." "N/A"
-			(at 99.06 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" "N/A"
-			(at 99.06 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "N/A"
-			(at 99.06 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b28f1a86-0ade-47ee-9b3d-0bdc446748ca")
-		)
-		(instances
-			(project "power-supply"
-				(path "/874127a2-4b98-419d-ae34-c1a0e8e0f14d"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -7403,6 +7627,15 @@
 		)
 		(property "Vendor" "N/A"
 			(at 175.26 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 175.26 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7580,6 +7813,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 208.28 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "063ff3a6-f48f-4c5d-9757-a95e42b56f5a")
 		)
@@ -7745,6 +7987,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 44.45 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 44.45 201.93 0)
 			(effects
 				(font
@@ -7998,6 +8249,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 157.48 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a1d009d7-3fab-4082-916a-568b0eab7d2a")
 		)
@@ -8125,6 +8385,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 175.26 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "15fec389-1f12-4e5d-bd7b-5c5fbd9a50f8")
 		)
@@ -8229,6 +8498,15 @@
 			)
 		)
 		(property "Vendor" "N/A"
+			(at 99.06 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 99.06 91.44 0)
 			(effects
 				(font
@@ -8356,6 +8634,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 132.08 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0b01bcaa-905a-4357-b1e3-f9bcf0158343")
 		)
@@ -8373,7 +8660,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Barrel_Jack_Switch")
-		(at 60.96 76.2 0)
+		(at 48.26 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8382,7 +8669,7 @@
 		(fields_autoplaced yes)
 		(uuid "bce6f00f-b2a5-4bcc-a5bf-83003e94c1c8")
 		(property "Reference" "J1"
-			(at 60.96 67.31 0)
+			(at 48.26 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8390,7 +8677,7 @@
 			)
 		)
 		(property "Value" "Barrel_Jack_Switch"
-			(at 60.96 69.85 0)
+			(at 48.26 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8398,7 +8685,7 @@
 			)
 		)
 		(property "Footprint" "Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002"
-			(at 62.23 77.216 0)
+			(at 49.53 77.216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8407,7 +8694,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 77.216 0)
+			(at 49.53 77.216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8416,7 +8703,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 60.96 76.2 0)
+			(at 48.26 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8425,7 +8712,7 @@
 			)
 		)
 		(property "Part No." "710-694106301002 "
-			(at 60.96 76.2 0)
+			(at 48.26 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8434,7 +8721,7 @@
 			)
 		)
 		(property "Part URL" "https://mou.sr/4a9ckVQ"
-			(at 60.96 76.2 0)
+			(at 48.26 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8443,7 +8730,7 @@
 			)
 		)
 		(property "Vendor" "Mouser"
-			(at 60.96 76.2 0)
+			(at 48.26 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8452,7 +8739,16 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 60.96 76.2 0)
+			(at 48.26 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 48.26 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8645,6 +8941,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 222.25 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3db10bb4-a00e-4e40-8544-407ce991b298")
 		)
@@ -8741,6 +9046,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 186.69 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 186.69 138.43 0)
 			(effects
 				(font
@@ -8973,6 +9287,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 236.22 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f3c369ce-aa61-4e25-921a-e1ffd67c6296")
 		)
@@ -9069,6 +9392,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 153.67 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 153.67 138.43 0)
 			(effects
 				(font
@@ -9349,6 +9681,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 86.36 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 86.36 138.43 0)
 			(effects
 				(font
@@ -9647,6 +9988,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 208.28 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "40eff5f9-f360-4450-9c46-6bcc24acf457")
 		)
@@ -9812,6 +10162,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 233.68 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 233.68 137.16 0)
 			(effects
 				(font

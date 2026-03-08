@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Brain UI")
-		(date "2026-02-21")
-		(rev "v1.2")
+		(date "2026-03-07")
+		(rev "v1.3")
 		(company "Shmøergh")
 	)
 	(lib_symbols
@@ -1273,6 +1273,173 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:1N4148"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100V 0.15A standard switching diode, DO-35"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?35*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4148_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -1351,6 +1518,113 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -2395,6 +2669,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "R15 only for \ntesting purposes"
+		(exclude_from_sim no)
+		(at 151.13 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3328ecce-7d8e-4a47-bed6-9a987283dbf6")
+	)
 	(text "UI power connection"
 		(exclude_from_sim no)
 		(at 31.75 170.18 0)
@@ -2541,7 +2825,7 @@
 		(uuid "e715f5ce-7471-4901-8c36-8522c1bca905")
 	)
 	(no_connect
-		(at 120.65 100.33)
+		(at 140.97 125.73)
 		(uuid "ef44d4eb-4c73-4c57-b53f-c60ec4ad9f6e")
 	)
 	(no_connect
@@ -2974,6 +3258,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 123.19) (xy 152.4 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62aeef33-021c-4c3d-9bf6-2a8a7a31c4c8")
+	)
+	(wire
+		(pts
 			(xy 110.49 140.97) (xy 110.49 144.78)
 		)
 		(stroke
@@ -3041,6 +3335,16 @@
 			(type default)
 		)
 		(uuid "6a9991d5-0387-4e6a-94f9-0b5063b3dd15")
+	)
+	(wire
+		(pts
+			(xy 144.78 123.19) (xy 140.97 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e0d9a6a-cfc7-453b-82df-4e3c606ed7c1")
 	)
 	(wire
 		(pts
@@ -3334,7 +3638,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 97.79) (xy 120.65 97.79)
+			(xy 168.91 123.19) (xy 163.83 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3454,7 +3758,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 102.87) (xy 115.57 105.41)
+			(xy 135.89 128.27) (xy 135.89 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3608,7 +3912,7 @@
 	)
 	(global_label "PULSE_OUT"
 		(shape output)
-		(at 123.19 97.79 0)
+		(at 168.91 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3618,7 +3922,7 @@
 		)
 		(uuid "1bac2717-e214-44dc-b63d-328736d76aaa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.7585 97.79 0)
+			(at 182.4785 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4443,6 +4747,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148")
+		(at 160.02 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0107a866-faff-4449-802d-1926784b785e")
+		(property "Reference" "D7"
+			(at 160.02 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 160.02 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 160.02 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 160.02 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 160.02 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 160.02 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 160.02 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b832032d-d492-4c9a-9434-14a6471937f6")
+		)
+		(pin "1"
+			(uuid "fb4dad9d-f48f-447e-9125-ba2ab83fd93c")
+		)
+		(instances
+			(project ""
+				(path "/ab333f71-eefa-415f-b212-ebe7a942b1c8"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 250.19 113.03 0)
 		(unit 1)
@@ -5152,7 +5542,7 @@
 	)
 	(symbol
 		(lib_id "Shmoergh-Custom-Components:AudioJack2_Thonkiconn_S")
-		(at 115.57 97.79 0)
+		(at 135.89 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5161,7 +5551,7 @@
 		(fields_autoplaced yes)
 		(uuid "39371ebe-b3c0-4e89-b97b-0f95b4928acd")
 		(property "Reference" "J_PULSE_OUT1"
-			(at 114.935 88.9 0)
+			(at 135.255 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5169,7 +5559,7 @@
 			)
 		)
 		(property "Value" "PJ398SM"
-			(at 114.935 91.44 0)
+			(at 135.255 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5177,7 +5567,7 @@
 			)
 		)
 		(property "Footprint" "Shmoergh_Custom_Footprints:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
-			(at 115.57 97.79 0)
+			(at 135.89 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5186,7 +5576,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 97.79 0)
+			(at 135.89 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5195,7 +5585,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Grounded Sleeve"
-			(at 115.57 97.79 0)
+			(at 135.89 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5204,7 +5594,7 @@
 			)
 		)
 		(property "Part URL" "https://www.thonk.co.uk/shop/thonkiconn/"
-			(at 115.57 97.79 0)
+			(at 135.89 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5213,7 +5603,7 @@
 			)
 		)
 		(property "Vendor" "Thonk"
-			(at 115.57 97.79 0)
+			(at 135.89 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5222,7 +5612,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 115.57 97.79 0)
+			(at 135.89 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5231,7 +5621,7 @@
 			)
 		)
 		(property "Part no." "PJ398SM"
-			(at 115.57 97.79 0)
+			(at 135.89 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5240,7 +5630,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 115.57 97.79 0)
+			(at 135.89 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6155,7 +6545,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 200.66 160.02 0)
+		(at 267.97 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -6164,7 +6554,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f740bec-ab1b-436c-92f8-dd6c7877c025")
 		(property "Reference" "H2"
-			(at 203.2 158.7499 0)
+			(at 270.51 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6173,7 +6563,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 203.2 161.2899 0)
+			(at 270.51 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6182,7 +6572,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 200.66 160.02 0)
+			(at 267.97 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6191,7 +6581,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.66 160.02 0)
+			(at 267.97 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6200,7 +6590,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 200.66 160.02 0)
+			(at 267.97 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6209,7 +6599,7 @@
 			)
 		)
 		(property "Part URL" ""
-			(at 200.66 160.02 0)
+			(at 267.97 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6218,7 +6608,7 @@
 			)
 		)
 		(property "Vendor" "-"
-			(at 200.66 160.02 0)
+			(at 267.97 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6227,7 +6617,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 200.66 160.02 0)
+			(at 267.97 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6236,7 +6626,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 200.66 160.02 0)
+			(at 267.97 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6248,6 +6638,145 @@
 			(project "vco-ui"
 				(path "/ab333f71-eefa-415f-b212-ebe7a942b1c8"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 123.19 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5371e805-de1d-4ba5-a633-fa075b94dc36")
+		(property "Reference" "R15"
+			(at 148.59 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 148.59 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 148.59 121.412 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 148.59 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 148.59 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
+			(at 148.59 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "https://mou.sr/4po4TSn"
+			(at 148.59 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Mouser"
+			(at 148.59 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 148.59 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "603-MFR25SFTF52-10K "
+			(at 148.59 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 148.59 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83f7b6d5-e24f-4cca-9bc9-6e16f10f0eb0")
+		)
+		(pin "2"
+			(uuid "828f9a1e-11ef-4ae6-bcb5-e09c7f9cf7eb")
+		)
+		(instances
+			(project "brain-ui"
+				(path "/ab333f71-eefa-415f-b212-ebe7a942b1c8"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -6453,7 +6982,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 179.07 160.02 0)
+		(at 246.38 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -6462,7 +6991,7 @@
 		(fields_autoplaced yes)
 		(uuid "6951e5e7-e911-4785-b3cf-89164ec0b2fc")
 		(property "Reference" "H1"
-			(at 181.61 158.7499 0)
+			(at 248.92 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6471,7 +7000,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 181.61 161.2899 0)
+			(at 248.92 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6480,7 +7009,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 179.07 160.02 0)
+			(at 246.38 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6489,7 +7018,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.07 160.02 0)
+			(at 246.38 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6498,7 +7027,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 179.07 160.02 0)
+			(at 246.38 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6507,7 +7036,7 @@
 			)
 		)
 		(property "Part URL" ""
-			(at 179.07 160.02 0)
+			(at 246.38 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6516,7 +7045,7 @@
 			)
 		)
 		(property "Vendor" "-"
-			(at 179.07 160.02 0)
+			(at 246.38 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6525,7 +7054,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 179.07 160.02 0)
+			(at 246.38 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6534,7 +7063,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 179.07 160.02 0)
+			(at 246.38 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7215,7 +7744,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 115.57 105.41 0)
+		(at 135.89 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7224,7 +7753,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a732efa-d151-44fc-a134-3aa1a01af53e")
 		(property "Reference" "#PWR014"
-			(at 115.57 111.76 0)
+			(at 135.89 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7233,7 +7762,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 115.57 110.49 0)
+			(at 135.89 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7241,7 +7770,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 105.41 0)
+			(at 135.89 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7250,7 +7779,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 105.41 0)
+			(at 135.89 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7259,7 +7788,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 105.41 0)
+			(at 135.89 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8041,8 +8570,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 220.98 160.02 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 246.38 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -8051,7 +8580,7 @@
 		(fields_autoplaced yes)
 		(uuid "b920fbf4-9d20-423f-9ca7-e454e940c1aa")
 		(property "Reference" "H3"
-			(at 223.52 158.7499 0)
+			(at 248.92 152.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8060,7 +8589,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 223.52 161.2899 0)
+			(at 248.92 154.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8069,7 +8598,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 220.98 160.02 0)
+			(at 246.38 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8078,7 +8607,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 220.98 160.02 0)
+			(at 246.38 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8086,8 +8615,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 220.98 160.02 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 246.38 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8096,7 +8625,7 @@
 			)
 		)
 		(property "Part URL" ""
-			(at 220.98 160.02 0)
+			(at 246.38 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8105,7 +8634,7 @@
 			)
 		)
 		(property "Vendor" "-"
-			(at 220.98 160.02 0)
+			(at 246.38 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8114,7 +8643,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 220.98 160.02 0)
+			(at 246.38 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8123,13 +8652,25 @@
 			)
 		)
 		(property "Note" ""
-			(at 220.98 160.02 0)
+			(at 246.38 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "Part No." ""
+			(at 246.38 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7dbd65f7-b3cd-45ad-9fbe-6e8a6742a59e")
 		)
 		(instances
 			(project "vco-ui"
@@ -8460,7 +9001,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 241.3 160.02 0)
+		(at 266.7 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -8469,7 +9010,7 @@
 		(fields_autoplaced yes)
 		(uuid "be661c8d-8882-4b60-9ba0-c7be95a626ba")
 		(property "Reference" "H4"
-			(at 243.84 158.7499 0)
+			(at 269.24 158.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8478,7 +9019,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 243.84 161.2899 0)
+			(at 269.24 161.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8487,7 +9028,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 241.3 160.02 0)
+			(at 266.7 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8496,7 +9037,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 241.3 160.02 0)
+			(at 266.7 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8505,7 +9046,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 241.3 160.02 0)
+			(at 266.7 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8514,7 +9055,7 @@
 			)
 		)
 		(property "Part URL" ""
-			(at 241.3 160.02 0)
+			(at 266.7 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8523,7 +9064,7 @@
 			)
 		)
 		(property "Vendor" "-"
-			(at 241.3 160.02 0)
+			(at 266.7 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8532,7 +9073,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 241.3 160.02 0)
+			(at 266.7 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8541,7 +9082,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 241.3 160.02 0)
+			(at 266.7 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9173,6 +9714,72 @@
 			(project "vco-ui"
 				(path "/ab333f71-eefa-415f-b212-ebe7a942b1c8"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 246.38 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4388202-4148-4ad4-8e8b-d4ac6bb9a968")
+		(property "Reference" "#PWR022"
+			(at 246.38 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 246.38 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 246.38 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16059dfe-b97e-4872-8dba-87c4d65f6c5e")
+		)
+		(instances
+			(project ""
+				(path "/ab333f71-eefa-415f-b212-ebe7a942b1c8"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)

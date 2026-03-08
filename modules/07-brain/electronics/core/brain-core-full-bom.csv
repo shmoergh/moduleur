@@ -6,7 +6,7 @@
 "C18","1","10u","","Capacitor_SMD:C_0603_1608Metric","C19702","","","JLCPCB","YES"
 "C4,C5","2","100u","","Capacitor_SMD:CP_Elec_6.3x7.7","C2836442","","","JLCPCB","YES"
 "R6","1","120","","Resistor_SMD:R_0603_1608Metric","C22787","","","JLCPCB","YES"
-"R12,R22,R23,R34,R35","5","1k","","Resistor_SMD:R_0603_1608Metric","C21190","","","JLCPCB","YES"
+"R12,R13,R22,R23,R34,R35","6","1k","","Resistor_SMD:R_0603_1608Metric","C21190","","","JLCPCB","YES"
 "R5","1","2.2k","","Resistor_SMD:R_0603_1608Metric","C4190","","","JLCPCB","YES"
 "R2,R7","2","3.3k","","Resistor_SMD:R_0603_1608Metric","C22978","","","JLCPCB","YES"
 "R36,R37","2","5.1k","","Resistor_SMD:R_0603_1608Metric","C23186","","","JLCPCB","YES"

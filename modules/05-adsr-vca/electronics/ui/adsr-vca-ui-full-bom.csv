@@ -8,7 +8,7 @@
 "J_ENV_OUT1,J_GATE1,J_VCA_CV1,J_VCA_IN1,J_VCA_OUT1","5","PJ398SM","","","","Shmoergh_Custom_Footprints:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles","~","PJ398SM","https://www.thonk.co.uk/shop/thonkiconn/","Thonk",""
 "Q1","1","2N3904","","","","Package_TO_SOT_THT:TO-92_Inline_Wide","https://www.onsemi.com/pub/Collateral/2N3903-D.PDF","637-2N3904","https://mou.sr/4febysZ","Mouser",""
 "Q2","1","2N3906","","","","Package_TO_SOT_THT:TO-92_Inline_Wide","https://www.onsemi.com/pub/Collateral/2N3906-D.PDF","637-2N3906","https://mou.sr/4a8lju1","Mouser",""
-"R1","1","100k","","","","Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~","603-MFR-25FRF52100K","https://mou.sr/4hEwI4G","Mouser",""
+"R1,R6","2","0","","","","Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~","603-MFR-25FRF52-47K,603-MFR-25FRF52100K","https://mou.sr/3MWzgkZ,https://mou.sr/4hEwI4G","Mouser",""
 "R2","1","47k","","","","Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~","603-MFR-25FRF52-47K","https://mou.sr/3MWzgkZ","Mouser",""
 "R3","1","4.7k","","","","Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~","603-MFR25SFTF52-4K7","https://mou.sr/4q072Ei","Mouser",""
 "R4","1","200k","","","","Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~","603-MFR-25FRF52200K ","https://mou.sr/4soIlUi","Mouser",""

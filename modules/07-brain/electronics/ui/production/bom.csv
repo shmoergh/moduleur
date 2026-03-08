@@ -1,5 +1,6 @@
 ﻿Designator,Footprint,Quantity,Value,LCSC Part #
 "D1, D2, D3, D4, D5, D6",LED_D3.0mm,6,LED,
+D7,D_DO-35_SOD27_P7.62mm_Horizontal,1,1N4148,
 "J1, J5, J8",PinSocket_2x03_P2.54mm_Vertical,3,Conn_02x03_Odd_Even,
 "J2, J3",PinSocket_1x02_P2.54mm_Vertical,2,Conn_01x02,
 "J4, J6",PinSocket_2x02_P2.54mm_Vertical,2,Conn_02x02_Odd_Even,
@@ -10,6 +11,7 @@ J_MIDI1,Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles,1,PJ366ST,
 R1,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,1,1k,
 "R10, R13, R14, R5, R6, R9",R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,6,4.7k,
 "R11, R12, R3, R4, R7, R8",R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,6,47k,C25803
+R15,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,1,0,
 R2,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,1,10k,
 "RV_POT1, RV_POT2, RV_POT3",Potentiometer_Bourns_Single-PTV09A,3,100k,
 U_BTN1,SPST_Circular_Pushbutton_LED,1,SW_SPST_Push_LED,
