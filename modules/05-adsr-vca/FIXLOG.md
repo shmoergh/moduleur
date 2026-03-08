@@ -8,9 +8,9 @@ If you are building from anything other than the latest revision in this reposit
 **If you ordered the Core board before Feb 22, 2026 you need to apply the following fix manually.** The bug is fixed on the Core boards on Feb 22, 2026.
 
 #### Affected boards
-v1.1 and earlier
+v1.1 (rev 2) and earlier
 
-#### Sympthom 
+#### Sympthom
 The VCA output is not protected against input currents.
 
 #### Solution
@@ -19,15 +19,15 @@ Add a 1kΩ resistor between the output jack and the output connection on the UI 
 1. Cut the VCA OUT trace. It's the trace on the top layer of the UI board, coming from the tip of the J_VCA_OUT1 jack. The safest is to just cut it at the base of the jack. Once cut, check with a multimeter short circuit mode that there's no connection between the jack's tip and the VCA_OUT pin of the J3 header.
 2. Solder a 1kΩ resistor between the tip of the J_VCA_OUT1 jack and the VCA_OUT of the J3 header. The jack's tip is accessible from the _bottom_ of the board, while the VCA_OUT pin of the J3 header is accessible on the _top_ of the board, so you'll need to use some **insulated wire** to get from the jack to the header.
 
-<img width="3060" height="2482" alt="image" src="https://github.com/user-attachments/assets/d6c7ec7c-0c0c-4858-8497-bb75c18beaf0" />
+<img alt="image" src="https://github.com/user-attachments/assets/d6c7ec7c-0c0c-4858-8497-bb75c18beaf0" />
 
 
 ## 🐛 Dec 30, 2025 FIX
 
-**If you ordered the UI board before Dec 30, 2025 (v1.0) you need to apply the following fix manually.** The bug is fixed for UI boards, ordered after Dec 30, 2025 (specifically [this commit](https://github.com/shmoergh/moduleur/commit/2fd56e93e86553611255dfd17caee376619ceb9c)).
+**If you ordered the UI board before Dec 30, 2025 (v1.0 / rev 1) you need to apply the following fix manually.** The bug is fixed for UI boards, ordered after Dec 30, 2025 (specifically [this commit](https://github.com/shmoergh/moduleur/commit/2fd56e93e86553611255dfd17caee376619ceb9c)).
 
 #### Affected boards
-v1.0 and earlier
+v1.0 (rev 1) and earlier
 
 #### Sympthom
 

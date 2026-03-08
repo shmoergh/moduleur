@@ -4,11 +4,11 @@ This document tracks known issues found in specific PCB revisions and how to cor
 
 ## 🐛 Feb 22, 2026 FIX
 
-**If you ordered the Core board before Feb 22, 2026 you need to apply the above fix.** The is fixed for v1.2 Core boards, ordered after Feb 22, 2026.
+**If you ordered the Core board before Feb 22, 2026 you need to apply the above fix.** The is fixed for v1.2 (rev 3) Core boards, ordered after Feb 22, 2026.
 
 #### Affected boards
 
-v1.1 and earlier
+v1.1 (rev 2) and earlier
 
 #### Sympthom
 
@@ -26,11 +26,11 @@ On the Brain UI board:
 
 ## 🐛 Jan 1, 2026 FIX
 
-**If you ordered the UI board before Jan 01, 2026 you need to apply the above fix.** The is fixed for v1.1 boards, ordered after Jan 1, 2026.
+**If you ordered the UI board before Jan 01, 2026 you need to apply the above fix.** The is fixed for v1.1 (rev 2) boards, ordered after Jan 1, 2026.
 
 #### Affected boards
 
-v1.0 and earlier
+v1.0 (rev 1) and earlier
 
 #### Sympthom
 
