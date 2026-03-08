@@ -60,39 +60,67 @@
       ],
       "drc_exclusions": [
         [
-          "duplicate_footprints|127937000|138361000|85ed682f-512a-4276-9c72-a65fe232cea2|35270ab2-31ad-421e-a344-7a1954a0df89",
+          "courtyards_overlap|157076000|82129000|13fdc7a8-05be-4ce5-a794-8a3d6184b06a|bf1dd2b0-9eed-4bfc-a959-6b9a22a15fca",
           ""
         ],
         [
-          "duplicate_footprints|137462000|126804000|4025691c-b2f6-4b8b-a4e3-8e17c8312f35|35270ab2-31ad-421e-a344-7a1954a0df89",
+          "courtyards_overlap|157409074|66000000|00d23dbf-fdc6-4899-b7f8-08c875812044|bf1dd2b0-9eed-4bfc-a959-6b9a22a15fca",
           ""
         ],
         [
-          "duplicate_footprints|166672000|71178000|a329dd76-a130-4382-bef2-fd3bb37d5814|35270ab2-31ad-421e-a344-7a1954a0df89",
+          "duplicate_footprints|145844000|65082000|dcffb331-dcf2-41fb-8009-768f9d65df43|8c4ab78c-6737-4995-bdd8-270944d8bb65",
           ""
         ],
         [
-          "duplicate_footprints|178229000|141917000|4e74ff71-2500-4832-a8d1-d593ce3668ba|35270ab2-31ad-421e-a344-7a1954a0df89",
+          "duplicate_footprints|159433000|54795000|0114937b-5c11-4638-a599-08f0528ca891|8c4ab78c-6737-4995-bdd8-270944d8bb65",
           ""
         ],
         [
-          "extra_footprint|127556000|77274000|35270ab2-31ad-421e-a344-7a1954a0df89|00000000-0000-0000-0000-000000000000",
+          "duplicate_footprints|166037000|102293000|9df2e1f8-0748-4fc7-9e74-782243f70e26|8c4ab78c-6737-4995-bdd8-270944d8bb65",
           ""
         ],
         [
-          "extra_footprint|127937000|138361000|85ed682f-512a-4276-9c72-a65fe232cea2|00000000-0000-0000-0000-000000000000",
+          "duplicate_footprints|170736000|98356000|c0357296-08c0-4557-9535-c44b4c553b98|8c4ab78c-6737-4995-bdd8-270944d8bb65",
           ""
         ],
         [
-          "extra_footprint|137462000|126804000|4025691c-b2f6-4b8b-a4e3-8e17c8312f35|00000000-0000-0000-0000-000000000000",
+          "duplicate_footprints|174038000|51070000|b10df968-c308-420e-80b6-75308b9f9949|2d977b20-56e8-42ae-aaf6-7097252fadf7",
           ""
         ],
         [
-          "extra_footprint|166672000|71178000|a329dd76-a130-4382-bef2-fd3bb37d5814|00000000-0000-0000-0000-000000000000",
+          "duplicate_footprints|180388000|100134000|e49e73da-9528-4359-a3e7-a2509485b4de|2d977b20-56e8-42ae-aaf6-7097252fadf7",
           ""
         ],
         [
-          "extra_footprint|178229000|141917000|4e74ff71-2500-4832-a8d1-d593ce3668ba|00000000-0000-0000-0000-000000000000",
+          "extra_footprint|125143000|51197000|2d977b20-56e8-42ae-aaf6-7097252fadf7|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "extra_footprint|145844000|65082000|dcffb331-dcf2-41fb-8009-768f9d65df43|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "extra_footprint|159433000|54795000|0114937b-5c11-4638-a599-08f0528ca891|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "extra_footprint|166037000|102293000|9df2e1f8-0748-4fc7-9e74-782243f70e26|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "extra_footprint|170736000|98356000|c0357296-08c0-4557-9535-c44b4c553b98|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "extra_footprint|174038000|51070000|b10df968-c308-420e-80b6-75308b9f9949|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "extra_footprint|176705000|55303000|8c4ab78c-6737-4995-bdd8-270944d8bb65|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "extra_footprint|180388000|100134000|e49e73da-9528-4359-a3e7-a2509485b4de|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -514,7 +542,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "brain-ui.kicad_pro",
+    "filename": "adsr-vca-core.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -532,16 +560,20 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "track_width": 0.508,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
         "wire_width": 6
       }
     ],
     "meta": {
       "version": 4
     },
-    "net_colors": null,
+    "net_colors": {
+      "+12V": "rgb(221, 133, 0)",
+      "-12V": "rgb(0, 194, 194)",
+      "GND": "rgba(0, 132, 0, 0.376)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },
@@ -550,7 +582,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "plot/",
+      "plot": "plot",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -598,7 +630,7 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -610,7 +642,7 @@
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -622,12 +654,36 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FT Rotation Offset",
+          "name": "FT Rotation Offset",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field4",
+          "name": "Field4",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Hestore",
+          "name": "Hestore",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
           "show": true
         },
         {
           "group_by": false,
-          "label": "Part no.",
-          "name": "Part no.",
+          "label": "Mouser Part no.",
+          "name": "Mouser Part no.",
           "show": true
         },
         {
@@ -638,14 +694,26 @@
         },
         {
           "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "Vendor",
           "name": "Vendor",
           "show": true
         },
         {
           "group_by": false,
-          "label": "LCSC",
-          "name": "LCSC",
+          "label": "Arwill",
+          "name": "Arwill",
           "show": false
         },
         {
@@ -662,38 +730,26 @@
         },
         {
           "group_by": false,
+          "label": "CHECKED",
+          "name": "CHECKED",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Part No.",
           "name": "Part No.",
           "show": false
         },
         {
           "group_by": false,
-          "label": "Field4",
-          "name": "Field4",
+          "label": "Part no.",
+          "name": "Part no.",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser",
-          "name": "Mouser",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Note",
-          "name": "Note",
-          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": false,
+      "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
@@ -726,6 +782,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "schematics/",
     "space_save_all_events": true,
@@ -740,12 +804,20 @@
   },
   "sheets": [
     [
-      "ab333f71-eefa-415f-b212-ebe7a942b1c8",
+      "8e2e31f3-eed5-4de1-966c-f4162758c735",
       "Root"
     ],
     [
-      "9f96a3d0-be0b-48ed-95c1-63dc6d4e5d49",
-      "LEDs"
+      "ab337492-f07a-4675-9a14-453f63abdb23",
+      "ADSR — LM324"
+    ],
+    [
+      "c6cac276-2f32-41b3-9c97-03c30aa61119",
+      "VCA"
+    ],
+    [
+      "8bc1c38c-66cf-4d37-87f2-6eda8e5acaa7",
+      "Power"
     ]
   ],
   "text_variables": {}
