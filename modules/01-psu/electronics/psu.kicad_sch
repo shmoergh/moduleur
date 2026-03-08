@@ -7,7 +7,7 @@
 	(title_block
 		(title "Moduleur PSU")
 		(date "2026-03-08")
-		(rev "1.1")
+		(rev "3")
 		(company "Shmøergh")
 	)
 	(lib_symbols
@@ -2421,7 +2421,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:Jumper_2_Bridged"
+		(symbol "Jumper:Jumper_2_Open"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2433,15 +2433,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "JP"
-				(at 0 1.905 0)
+				(at 0 2.794 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Jumper_2_Bridged"
-				(at 0 -2.54 0)
+			(property "Value" "Jumper_2_Open"
+				(at 0 -2.286 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2466,7 +2466,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Jumper, 2-pole, closed/bridged"
+			(property "Description" "Jumper, 2-pole, open"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2493,7 +2493,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Jumper_2_Bridged_0_0"
+			(symbol "Jumper_2_Open_0_0"
 				(circle
 					(center -2.032 0)
 					(radius 0.508)
@@ -2517,11 +2517,11 @@
 					)
 				)
 			)
-			(symbol "Jumper_2_Bridged_0_1"
+			(symbol "Jumper_2_Open_0_1"
 				(arc
-					(start -1.524 0.254)
-					(mid 0 0.762)
-					(end 1.524 0.254)
+					(start -1.524 1.27)
+					(mid 0 1.778)
+					(end 1.524 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -2531,7 +2531,7 @@
 					)
 				)
 			)
-			(symbol "Jumper_2_Bridged_1_1"
+			(symbol "Jumper_2_Open_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -3794,12 +3794,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "852d5296-1e70-402a-8b96-0fe62f9da8fd")
-	)
-	(junction
-		(at 99.06 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8936db8e-f81a-44ea-8155-af823ab7e249")
 	)
 	(junction
 		(at 175.26 143.51)
@@ -8407,258 +8401,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 99.06 91.44 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b4bef145-267f-487c-84a0-c90d0146d4c5")
-		(property "Reference" "TP2"
-			(at 101.6 93.4719 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 101.6 96.0119 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
-			(at 93.98 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 93.98 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 99.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 99.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 99.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." "N/A"
-			(at 99.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" "N/A"
-			(at 99.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "N/A"
-			(at 99.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 99.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ee361aa1-0091-4707-8c2d-7485e531697a")
-		)
-		(instances
-			(project "power-supply"
-				(path "/874127a2-4b98-419d-ae34-c1a0e8e0f14d"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 132.08 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bc939270-24b6-4e2e-91a6-0bf1a51d451d")
-		(property "Reference" "JP1"
-			(at 132.08 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper_2_Open"
-			(at 132.08 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm"
-			(at 132.08 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 132.08 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 132.08 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 132.08 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 132.08 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." "N/A"
-			(at 132.08 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" "N/A"
-			(at 132.08 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "N/A"
-			(at 132.08 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 132.08 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 132.08 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0b01bcaa-905a-4357-b1e3-f9bcf0158343")
-		)
-		(pin "2"
-			(uuid "1e6b336b-4550-42a4-a0fc-eee00e022d2d")
-		)
-		(instances
-			(project "power-supply"
-				(path "/874127a2-4b98-419d-ae34-c1a0e8e0f14d"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Barrel_Jack_Switch")
 		(at 48.26 76.2 0)
 		(unit 1)
@@ -9461,6 +9203,110 @@
 			(project "psu"
 				(path "/874127a2-4b98-419d-ae34-c1a0e8e0f14d"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 132.08 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e28ff27c-208b-4169-8704-067fe458308d")
+		(property "Reference" "JP1"
+			(at 132.08 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Open"
+			(at 132.08 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 132.08 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 132.08 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
+			(at 132.08 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" ""
+			(at 132.08 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 132.08 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 132.08 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5dad201b-5562-4dd6-869c-5dfb3467a279")
+		)
+		(pin "2"
+			(uuid "ac5d14dd-ccc9-48e9-97d2-9b23736ce8ef")
+		)
+		(instances
+			(project ""
+				(path "/874127a2-4b98-419d-ae34-c1a0e8e0f14d"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
