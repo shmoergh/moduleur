@@ -113,7 +113,7 @@ Note that the VCO is limited to about 7-8 octaves. Beyond that, expect the pitch
 
 ### Normalization
 
-`JP2` and `JP3` jumpers They connect CV and FM to GND respectively to avoid noise on these inputs. They are used for Eurorack use normalization if needed.
+`JP2` and `JP3` jumpers on the UI board connect CV and FM to GND respectively to avoid noise on these inputs. They are used for Eurorack use normalization if needed.
 
 👉 **IMPORTANT:** If you're using the default patch board, DO NOT connect these jumpers otherwise your CV inputs will be tied to GND all the time resulting in pitch CV not working on one or both of the VCOs.
 
