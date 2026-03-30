@@ -111,6 +111,14 @@ As with all analog VCO you need to go through a tuning process to make sure it t
 
 Note that the VCO is limited to about 7-8 octaves. Beyond that, expect the pitch to drift.
 
+### Normalization
+
+`JP2` and `JP3` jumpers They connect CV and FM to GND respectively to avoid noise on these inputs. They are used for Eurorack use normalization if needed.
+
+👉 **IMPORTANT:** If you're using the default patch board, DO NOT connect these jumpers otherwise your CV inputs will be tied to GND all the time resulting in pitch CV not working on one or both of the VCOs.
+
+<img width="1418" height="994" alt="CleanShot 2026-03-30 at 10 14 48@2x" src="https://github.com/user-attachments/assets/b1d1f9be-6bc8-4b62-820f-fb4352fdacac" />
+
 <br>
 
 
