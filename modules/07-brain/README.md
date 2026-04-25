@@ -71,12 +71,28 @@ To do this, you have two options:
 
 ⚠️ **NOTE — So far only Option 1 is tested.**
 
+## Calibrating the CV outputs
+The DAC outputs of the Brain module directly generate up to 4095 mV. These are amplified to 0–10 V — to match Eurorack voltage ranges — by the U4A and U5A op-amps. Because the output stage isn't built around precision components, every assembled Brain has small differences in gain and offset that need to be tuned out before the CV outputs can be trusted for pitch tracking or anything else that demands accuracy.
 
-### Tuning the CV output
+**Calibration happens in two stages, in this order:**
 
-The DAC outputs of the Brain module can directly generate maximum 4095mV. These are amplified to maximum 10V — to match Eurorack voltage ranges — using the U4A and U5A op-amps. To get a precise output (e.g. for pitch CV control) you need to tune the Brain outputs using the [Output tuner](https://github.com/shmoergh/moduleur/tree/main/modules/07-brain/brain-sdk/programs/output-tuner) program (see more in its readme).
+### 1. Hardware calibration
 
-### Development with Picoprobe
+Adjusts the trimmers `RV_CV_GAIN1` and `RV_CV_GAIN2` that sets the overall gain of the output stages. The goal is to get roughly 1 V per step across the output range. This is a coarse, mechanical adjustment — turn a screw, watch a multimeter — and you typically only do it once per board (or again after any rework on the output op-amps or trimmers).
+
+Use the [Brain diagnostics firmware](https://github.com/shmoergh/brain-diagnostics) for this. Flash it onto the Brain, press Button A to advance to Test 14 (CV output hardware-trimmer calibration), and follow the procedure in that repo's README. 
+
+### 2. Software calibration
+
+Once the analog gain is roughly right, software calibration compensates for the residual drift of op-amp offsets, DAC non-linearity, and the small per-step error that the trimmer can't reach. The result is a calibration table stored in a reserved sector of the Pico's flash. Firmwares **built on the Brain SDK** can load this table on boot and apply it to their CV outputs.
+
+Use the [Brain CV tuner firmware](https://github.com/shmoergh/brain-cv-tuner) for this. Flash it onto the Brain after hardware calibration is done, follow its README to step through and measure each whole-volt point, and the resulting table gets written on the Pico board. Once that's done, you can flash your real firmware back; the calibration data survives subsequent flashes as long as the firmware uses the Brain SDK and reserves the storage sectors at link time (see the Brain SDK's ["Preserving calibration data"](https://github.com/shmoergh/brain-sdk/blob/main/docs/PRESERVING_CV_CALIBRATION.md) doc to learn more).
+
+The order matters. If you run software calibration first and then turn the hardware trimmer, the software calibration numbers become stale and you'll have to redo them. Always trim the hardware first, then run software calibration on top.
+
+After both stages, the Brain's CV outputs will hit the asked-for voltage to within a fraction of a millivolt across the full range — accurate enough for 1 V/octave pitch tracking and any other CV use you care about.
+
+## Development with Picoprobe
 
 The most efficient and probably the cheapest way to develop firmware for the brain is to use a second Pico board as a debug probe, as described in the [official documentation](https://pip-assets.raspberrypi.com/categories/610-raspberry-pi-pico/documents/RP-008276-DS-1-getting-started-with-pico.pdf?disposition=inline) (from page 17). To connect up the PicoProbe board to the Pico on the Core board you need to solder pin headers to the Pico board's DEBUG connections (SWCLK, GND, SWDIO) and also use the J_DEV1 pin header, which is directly connected to the UART RX and TX on pins 1 and 2. If you're housing the Brain module in the Moduleur enclosure we recommend (1) using right angle pin headers and (2) soldering the Pico board's DEBUG headers _oriented to the inside_ of the board, so it fits the space:
 
