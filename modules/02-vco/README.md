@@ -60,7 +60,7 @@ The PTS1206 is an SMD component so be prepared with your soldering skills. For t
 
 Here's the equivalent network of the temperature compensation if you're using PTS120601B100RP100:
 
-<img width="2840" height="1780" alt="CleanShot 2026-04-26 at 06 48 44@2x" src="https://github.com/user-attachments/assets/7a313ef0-6540-45fc-b09c-d0f81ac9d3d2" />
+<img width="3312" height="1730" alt="CleanShot 2026-04-26 at 06 47 58@2x" src="https://github.com/user-attachments/assets/9b988a0b-a7cb-4058-962e-bc4bbbd58052" />
 
 
 #### Option 2: Using a NTCLE203E3103FB0 NTC thermistor
@@ -75,7 +75,8 @@ This is a through hole component, very widely available. For this setup, you nee
 - TH2: do not place component
 - R_W2: 500Ω trimmer
 
-<img width="2918" height="1816" alt="CleanShot 2026-04-26 at 06 49 45@2x" src="https://github.com/user-attachments/assets/0bae2b40-7d46-4c52-8ebc-68ffca7cf993" />
+<img width="2918" height="1816" alt="CleanShot 2026-04-26 at 06 49 45@2x" src="https://github.com/user-attachments/assets/55a3f224-12ce-46ba-9bba-e199dda4bbd2" />
+
 
 **Which one should you choose?**
 The two setups are almost identical but **option 1** (using the PTS) is a little bit more accurate. If you can solder SMD components and you have a bit more budget then we recommend that option.
