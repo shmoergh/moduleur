@@ -32,11 +32,19 @@ As commented on the Core board, **you only need either Q3 or Q4**: if you got Q4
 
 <img src="https://github.com/user-attachments/assets/68fe3f13-9a6b-495f-b3b6-4341b9d74848" />
 
+### D4 & D5 diodes
+
+These diodes are supposed to clamp the pulse width modulation signal so that it stays withing audible range. You can skip these, they're here for legacy reasons and will be removed in the next version.
+
+<img width="3682" height="1662" alt="CleanShot 2026-04-26 at 06 59 10@2x" src="https://github.com/user-attachments/assets/edf6f538-5996-4ec9-9a34-496a00d2ec0e" />
+
 ### Temperature compensation
 
 All analog VCOs have a way to compensate temperature drifts. You can read about the background of this in this fantastic series of posts on Xonik.no: [part 1](https://www.xonik.no/theory/vco/expo_converter_1.html), [part 2](https://www.xonik.no/theory/vco/expo_converter_2.html), [part 3](https://www.xonik.no/theory/vco/reference_current.html).
 
 We had quite some trouble in the past finding components for temperature compensation (the classic tempco resistors are almost impossible to obtain). So we designed the Moduleur VCO in a way that there are two ways for temperature compensation, **but you need to build only one of them**.
+
+<img width="2886" height="462" alt="CleanShot 2025-12-15 at 21 54 36@2x" src="https://github.com/user-attachments/assets/11ce48d1-4398-466c-8a67-4195195a958e" />
 
 #### Option 1: Using a PTS120601B100RP100 temperature sensor
 The PTS1206 is an SMD component so be prepared with your soldering skills. For this the following resistors and trimmers should be soldered (find these in the KiCAD file):
@@ -50,6 +58,11 @@ The PTS1206 is an SMD component so be prepared with your soldering skills. For t
 - TH2: PTS120601B100RP100 (https://mou.sr/4g7SsGi) temperature sensor
 - R_W2: do not place component
 
+Here's the equivalent network of the temperature compensation if you're using PTS120601B100RP100:
+
+<img width="2840" height="1780" alt="CleanShot 2026-04-26 at 06 48 44@2x" src="https://github.com/user-attachments/assets/7a313ef0-6540-45fc-b09c-d0f81ac9d3d2" />
+
+
 #### Option 2: Using a NTCLE203E3103FB0 NTC thermistor
 This is a through hole component, very widely available. For this setup, you need to use the following values/components:
 
@@ -62,8 +75,7 @@ This is a through hole component, very widely available. For this setup, you nee
 - TH2: do not place component
 - R_W2: 500Ω trimmer
 
-<img width="2886" height="462" alt="CleanShot 2025-12-15 at 21 54 36@2x" src="https://github.com/user-attachments/assets/11ce48d1-4398-466c-8a67-4195195a958e" />
-
+<img width="2918" height="1816" alt="CleanShot 2026-04-26 at 06 49 45@2x" src="https://github.com/user-attachments/assets/0bae2b40-7d46-4c52-8ebc-68ffca7cf993" />
 
 **Which one should you choose?**
 The two setups are almost identical but **option 1** (using the PTS) is a little bit more accurate. If you can solder SMD components and you have a bit more budget then we recommend that option.
