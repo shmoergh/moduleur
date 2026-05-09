@@ -8,7 +8,6 @@ import { Minimap } from "./components/Minimap";
 import { PassSwitcher } from "./components/PassSwitcher";
 import { ResetAll } from "./components/ResetAll";
 import { Viewer } from "./components/Viewer";
-import { SLOTS } from "./data/slots";
 import { useAppStore } from "./store/useAppStore";
 
 function App() {
@@ -40,16 +39,9 @@ function App() {
   return (
     <div className="grid h-screen grid-rows-[auto_1fr] gap-3 bg-surface p-3 text-ink">
       <header className="grid grid-cols-3 items-center">
-        <div className="flex items-baseline gap-3">
-          <h1 className="text-lg text-ink">
-            Moduleur <span className="text-accent">BOMmap</span>
-          </h1>
-          <span className="text-xs text-muted">
-            {isSoldering
-              ? `${SLOTS.length} boards · ${tab} pass`
-              : "Calibration guide"}
-          </span>
-        </div>
+        <h1 className="text-lg text-ink">
+          Moduleur <span className="text-accent">BUILDER 3000™</span>
+        </h1>
         <div className="justify-self-center">
           <PassSwitcher />
         </div>
