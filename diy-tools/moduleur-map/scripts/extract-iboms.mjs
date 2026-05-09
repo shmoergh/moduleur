@@ -118,6 +118,65 @@ ${tag}
 <style>
 tr.bommap-hl { background: rgba(208, 64, 64, 0.18) !important; }
 tr.bommap-hl:hover { background: rgba(208, 64, 64, 0.26) !important; }
+
+/* Hide the top/bottom toggle — top is visible by default. */
+#toptoggle { display: none !important; }
+
+/* Title, revision and date as compact mono. */
+#title, #revision, #filedate {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace !important;
+  font-size: 11px !important;
+  font-weight: normal !important;
+  letter-spacing: 0 !important;
+  line-height: 1.4 !important;
+}
+#title {
+  font-size: 13px !important;
+  font-weight: 700 !important;
+}
+
+/* Small filter inputs, matched to toolbar button height; drop the ugly
+   filter-icon background and tighten the left padding. */
+#reflookup, #filter {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace !important;
+  font-size: 11px !important;
+  height: 28px !important;
+  padding: 6px 10px !important;
+  background-image: none !important;
+  box-sizing: border-box !important;
+}
+
+/* Keep BOM table headers on a single line; widen Placed + Quantity. */
+#bomtable th { white-space: nowrap !important; }
+#bomtable th[col_name="bom-checkbox"],
+#bomtable td.bom-checkbox {
+  min-width: 60px !important;
+  width: 60px !important;
+}
+#bomtable th[col_name="Quantity"] {
+  min-width: 70px !important;
+  width: 70px !important;
+}
+
+/* Hover dropdowns (settings, stats, save) in mono + smaller. */
+.menu-content,
+.menu-content * {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace !important;
+  font-size: 11px !important;
+}
+
+/* Compact toolbar buttons (and the copy-to-clipboard button next to filters). */
+#bomcontrols button,
+button#copy {
+  width: 28px !important;
+  height: 28px !important;
+  min-width: 28px !important;
+  padding: 0 !important;
+  background-size: 22px 22px !important;
+  background-position: center !important;
+  font-size: 11px !important;
+  line-height: 26px !important;
+}
 </style>
 <script>
 (function () {
