@@ -108,16 +108,61 @@ function extractComponents(pcbdata) {
 // applies on a fresh origin (which the bommap deploy is). Anyone who has
 // previously fiddled with these settings in this browser would need to clear
 // the `KiCad_HTML_BOM__*` keys from localStorage.
-function applyDefaults(html) {
-  let out = html
-    .replace(
-      /"checkboxes":\s*"Sourced,Placed"/,
-      '"checkboxes": "Placed"'
-    )
-    .replace(
-      /"mark_when_checked":\s*""/,
+// Footprint prefixes that we treat as SMD on the Core boards. Pre-checked
+// in iBom's "Placed" column on first load so the user only has to deal with
+// the THT components manually. Case-sensitive starts-with match.
+const SMD_PREFIXES = [
+  "C_0603",
+  "R_0603",
+  "D_SOD",     // covers D_SOD-123, D_SOD-323, D_SOD27 etc.
+  "SOIC_",
+  "SOT_",
+  "R_1206",
+  "C_Rect",
+  "SOP_",
+  "USB_C",
+  "Gyeszno",
+];
+
+function isSmdFootprint(fp) {
+  if (!fp) return false;
+  for (const p of SMD_PREFIXES) {
+    if (fp.startsWith(p)) return true;
+  }
+  return false;
+}
+
+function smdIndicesFromPcbdata(pcbdata) {
+  const fields = pcbdata.bom?.fields || {};
+  const out = [];
+  for (const [idxStr, row] of Object.entries(fields)) {
+    if (!Array.isArray(row)) continue;
+    const fp = row[1] || "";
+    if (isSmdFootprint(fp)) out.push(Number(idxStr));
+  }
+  return out.sort((a, b) => a - b);
+}
+
+function applyDefaults(html, opts = {}) {
+  const { presetPlacedIndices = [] } = opts;
+  let out = html.replace(
+    /"checkboxes":\s*"Sourced,Placed"/,
+    '"checkboxes": "Placed"'
+  );
+  // `mark_when_checked` may exist with any value, or be absent on older iBom
+  // versions. Replace the value if present; otherwise inject the field into
+  // the `var config = {...}` object literal.
+  if (/"mark_when_checked"\s*:/.test(out)) {
+    out = out.replace(
+      /"mark_when_checked":\s*"[^"]*"/,
       '"mark_when_checked": "Placed"'
     );
+  } else {
+    out = out.replace(
+      /(var\s+config\s*=\s*\{[^}]*?)(\s*\})/,
+      '$1, "mark_when_checked": "Placed"$2'
+    );
+  }
   // iBom reads from localStorage first, falling back to `config`. If a user
   // previously interacted with the iframe (toggling Sourced on, etc.), those
   // prefs sit in localStorage and override our new defaults. Wipe them right
@@ -191,11 +236,45 @@ button#copy {
 </style>
 <script>
 (function () {
-  // 1. Wipe stale prefs so the patched config defaults take effect.
+  // 1. Force defaults on first load (when keys are absent). We avoid wiping
+  //    here because iBom's init does
+  //      settings.markWhenChecked = readStorage('markWhenChecked') || '';
+  //    so a removed key falls back to '' (= "None"), not the patched config.
+  //    Set-if-absent lets the default win on first load and preserves any
+  //    explicit user changes on subsequent visits.
   if (typeof storagePrefix !== 'undefined') {
     try {
-      localStorage.removeItem(storagePrefix + 'bomCheckboxes');
-      localStorage.removeItem(storagePrefix + 'markWhenChecked');
+      var ckKey = storagePrefix + 'bomCheckboxes';
+      if (localStorage.getItem(ckKey) === null) {
+        localStorage.setItem(ckKey, 'Placed');
+      }
+      var mwKey = storagePrefix + 'markWhenChecked';
+      if (localStorage.getItem(mwKey) === null) {
+        localStorage.setItem(mwKey, 'Placed');
+      }
+      // One-shot migration: earlier extract scripts wiped this key on every
+      // load, which made iBom store '' (= "None"). Replace that bad state
+      // with our default once, then never touch it again.
+      var migKey = storagePrefix + 'bommap-mwc-migrated-v1';
+      if (localStorage.getItem(migKey) === null) {
+        if (localStorage.getItem(mwKey) === '') {
+          localStorage.setItem(mwKey, 'Placed');
+        }
+        localStorage.setItem(migKey, '1');
+      }
+    } catch (e) {}
+  }
+
+  // 1b. On the very first load (when 'checkbox_Placed' is absent), pre-tick
+  //     all SMD components so the user only has to deal with THT manually.
+  //     The list is precomputed at extract time as footprint indices.
+  var SMD_PRESET = ${JSON.stringify(presetPlacedIndices)};
+  if (typeof storagePrefix !== 'undefined' && SMD_PRESET.length) {
+    try {
+      var key = storagePrefix + 'checkbox_Placed';
+      if (localStorage.getItem(key) === null) {
+        localStorage.setItem(key, SMD_PRESET.join(','));
+      }
     } catch (e) {}
   }
 
@@ -315,7 +394,10 @@ async function main() {
       const pcbdata = await readPcbdata(html);
       const components = extractComponents(pcbdata);
       const meta = pcbdata.metadata || {};
-      sources[moduleId][pass] = { html, components, meta };
+      // Only pre-tick on the Core pass — UI boards are mostly THT panels.
+      const smdIndices =
+        pass === "core" ? smdIndicesFromPcbdata(pcbdata) : [];
+      sources[moduleId][pass] = { html, components, meta, smdIndices };
       out[pass][moduleId] = {
         title: meta.title || moduleId,
         revision: meta.revision || "",
@@ -335,11 +417,18 @@ async function main() {
     for (const pass of PASSES) {
       const src = sources[inst.module]?.[pass];
       if (!src) continue;
-      const html = withInstanceStorage(applyDefaults(src.html), inst.slug);
+      const presetPlacedIndices = src.smdIndices || [];
+      const html = withInstanceStorage(
+        applyDefaults(src.html, { presetPlacedIndices }),
+        inst.slug
+      );
       const outHtml = path.join(ibomsOutDir, `${inst.slug}-${pass}.html`);
       await fs.writeFile(outHtml, html);
+      const presetNote = presetPlacedIndices.length
+        ? ` smd-preset=${presetPlacedIndices.length}`
+        : "";
       console.log(
-        `  emit   ${pass.padEnd(4)} ${inst.slug.padEnd(8)} <- ${inst.module}`
+        `  emit   ${pass.padEnd(4)} ${inst.slug.padEnd(8)} <- ${inst.module}${presetNote}`
       );
     }
   }

@@ -1,4 +1,32 @@
-import type { AggregatedRow, BoardsJson, Pass, Slot } from "../types";
+import type { AggregatedRow, BoardsJson, Category, Pass, Slot } from "../types";
+
+// Bucket a row into a coarse category. Connectors are matched on `value`
+// (e.g. "Conn_01x06") because their footprint is just the physical socket
+// shape (PinSocket_…, PinHeader_…). Everything else is matched on footprint
+// prefix. All checks are case-insensitive.
+export function categoryOf(value: string, footprint: string): Category {
+  if (value.toLowerCase().startsWith("conn_")) return "Connectors";
+  const fp = footprint.toLowerCase();
+  if (fp.startsWith("c_")) return "Caps";
+  if (fp.startsWith("d_")) return "Diodes";
+  if (fp.startsWith("r_")) return "Resistors";
+  if (fp.startsWith("led_")) return "LEDs";
+  if (fp.startsWith("potentiometer_") || fp.startsWith("trim_")) return "Pots";
+  if (fp.startsWith("to-92_")) return "Transistors";
+  return "Misc";
+}
+
+export const CATEGORY_OPTIONS: Category[] = [
+  "All",
+  "Caps",
+  "Resistors",
+  "Diodes",
+  "LEDs",
+  "Pots",
+  "Transistors",
+  "Connectors",
+  "Misc",
+];
 
 export function aggregateForPass(
   boards: BoardsJson,

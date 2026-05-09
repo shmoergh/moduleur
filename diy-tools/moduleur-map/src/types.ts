@@ -38,6 +38,17 @@ export type BoardData = {
 
 export type BoardsJson = Record<Pass, Record<ModuleId, BoardData>>;
 
+export type Category =
+  | "All"
+  | "Caps"
+  | "Connectors"
+  | "Diodes"
+  | "LEDs"
+  | "Misc"
+  | "Pots"
+  | "Resistors"
+  | "Transistors";
+
 export type AggregatedRow = {
   key: string;
   value: string;
