@@ -256,10 +256,6 @@ button#copy {
       if (localStorage.getItem(clKey) === null) {
         localStorage.setItem(clKey, 'F');
       }
-      var hrKey = storagePrefix + 'highlightRowOnClick';
-      if (localStorage.getItem(hrKey) === null) {
-        localStorage.setItem(hrKey, 'true');
-      }
       // One-shot migration: earlier extract scripts wiped this key on every
       // load, which made iBom store '' (= "None"). Replace that bad state
       // with our default once, then never touch it again.
@@ -335,9 +331,12 @@ button#copy {
         }
       }
       tr.classList.toggle('bommap-hl', match);
-      // Hide SMD rows when toggle is off
+      // Hide rows that don't match the active selection, OR SMD rows when
+      // the toggle is off. When there's no selection (refs empty), only
+      // the SMD rule applies.
       var hide = false;
-      if (!showSmd && fpCol >= 0) {
+      if (refs.length > 0 && !match) hide = true;
+      if (!hide && !showSmd && fpCol >= 0) {
         var fpCell = tr.cells[fpCol];
         if (fpCell && isSmdFp(fpCell.textContent.trim())) hide = true;
       }
