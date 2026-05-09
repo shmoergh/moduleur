@@ -18,7 +18,7 @@ function App() {
         e.target instanceof HTMLTextAreaElement
       )
         return;
-      if (e.key >= "1" && e.key <= "8") {
+      if (e.key >= "1" && e.key <= "9") {
         setSelectedSlot(parseInt(e.key, 10) - 1);
       } else if (e.key === "c" || e.key === "C") {
         setPass("core");
@@ -48,8 +48,8 @@ function App() {
         <div className="flex flex-col gap-3 min-h-0">
           <Minimap />
           <div className="text-[11px] leading-relaxed text-muted">
-            Click a slot to view it. Click a component below to highlight the
-            boards that contain it. Keys: <kbd>1</kbd>–<kbd>8</kbd> slots,{" "}
+            Click a board to view it. Select a component on the right to highlight
+            the boards that contain it. Keys: <kbd>1</kbd>–<kbd>9</kbd> slots,{" "}
             <kbd>C</kbd>/<kbd>U</kbd> pass.
           </div>
         </div>

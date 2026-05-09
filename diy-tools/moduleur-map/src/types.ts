@@ -1,6 +1,7 @@
 export type Pass = "core" | "ui";
 
 export type ModuleId =
+  | "01-psu"
   | "02-vco"
   | "03-sidechain-mixer"
   | "04-vcf"
@@ -10,10 +11,17 @@ export type ModuleId =
 
 export type Slot = {
   index: number;
-  row: 0 | 1;
+  // 0 / 1 are the rig's two main rows; 2 is the PSU strip below the grid.
+  row: 0 | 1 | 2;
   col: 0 | 1 | 2 | 3;
   label: string;
   module: ModuleId;
+  // Unique per physical board. Two slots can share a `module` (e.g. VCO 1 +
+  // VCO 2) but their `slug` is always distinct so the iBom iframe instance
+  // gets its own localStorage namespace and "Placed" state.
+  slug: string;
+  // Render the tile spanning all 4 columns (used by the PSU row).
+  fullWidth?: boolean;
 };
 
 export type ComponentGroup = {

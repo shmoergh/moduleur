@@ -1,8 +1,13 @@
 #!/usr/bin/env node
-// Extracts BOM data from KiCad InteractiveHtmlBom (iBom) HTML files for the 6
-// Moduleur sound modules and writes:
-//   - public/iboms/<module>-<core|ui>.html  (verbatim copy for iframe embedding)
-//   - src/data/boards.json                  (clean BOM data for the React app)
+// Extracts BOM data from KiCad InteractiveHtmlBom (iBom) HTML files for the
+// Moduleur sound modules and writes, per physical board (slot):
+//   - public/iboms/<slug>-<core|ui>.html  (copy with isolated storagePrefix)
+//   - src/data/boards.json                (clean BOM data, keyed by module)
+//
+// Two physical instances share a single source module (VCO 1 + VCO 2 use
+// `02-vco`; VCA 1 + VCA 2 use `05-adsr-vca`). Each instance gets its own
+// HTML file with the iBom storagePrefix patched so the "Placed" checkbox
+// state lives in a separate localStorage namespace per board.
 
 import fs from "node:fs/promises";
 import path from "node:path";
@@ -14,14 +19,20 @@ const ROOT = path.resolve(__dirname, "..");
 const REPO_ROOT = path.resolve(ROOT, "..", "..");
 const MODULES_DIR = path.join(REPO_ROOT, "modules");
 
-const MODULES = [
-  "02-vco",
-  "03-sidechain-mixer",
-  "04-vcf",
-  "05-adsr-vca",
-  "06-utils-output",
-  "07-brain",
+// One entry per physical board. `slug` defines the iBom output filename and
+// the localStorage namespace; `module` points at the source iBom directory.
+const INSTANCES = [
+  { slug: "vco-1", module: "02-vco" },
+  { slug: "vco-2", module: "02-vco" },
+  { slug: "mixer", module: "03-sidechain-mixer" },
+  { slug: "vcf",   module: "04-vcf" },
+  { slug: "vca-1", module: "05-adsr-vca" },
+  { slug: "vca-2", module: "05-adsr-vca" },
+  { slug: "utils", module: "06-utils-output" },
+  { slug: "brain", module: "07-brain" },
+  { slug: "psu",   module: "01-psu" },
 ];
+const MODULES = [...new Set(INSTANCES.map((i) => i.module))];
 const PASSES = ["core", "ui"];
 
 const PCBDATA_RE =
@@ -262,21 +273,38 @@ function naturalRefSort(a, b) {
   return pa === pb ? na - nb : pa.localeCompare(pb);
 }
 
+// Append a slug into iBom's storagePrefix so each physical instance keeps
+// its own "Placed" / "bomCheckboxes" state. Example:
+//   'KiCad_HTML_BOM__' + ... + 'revision' + '__#'   (original)
+// becomes
+//   'KiCad_HTML_BOM__' + ... + 'revision' + '__bommap-vco-2__#'
+function withInstanceStorage(html, slug) {
+  return html.replace(
+    /(pcbdata\.metadata\.revision\s*\+\s*)'__#'/,
+    `$1'__bommap-${slug}__#'`
+  );
+}
+
 async function main() {
   const out = { core: {}, ui: {} };
   const ibomsOutDir = path.join(ROOT, "public", "iboms");
   await fs.mkdir(ibomsOutDir, { recursive: true });
 
+  // PSU is a single board with no core/ui split; its iBom lives under
+  // electronics/bom/ibom.html. We mirror its data into both passes so it
+  // shows up regardless of which pass the user is on.
+  const sourcePath = (moduleId, pass) =>
+    moduleId === "01-psu"
+      ? path.join(MODULES_DIR, moduleId, "electronics", "bom", "ibom.html")
+      : path.join(MODULES_DIR, moduleId, "electronics", pass, "bom", "ibom.html");
+
+  // 1) Parse each source module once and capture both the BOM data and the
+  //    raw HTML for later per-instance copies.
+  const sources = {}; // sources[moduleId][pass] = { html, components, meta }
   for (const moduleId of MODULES) {
+    sources[moduleId] = {};
     for (const pass of PASSES) {
-      const src = path.join(
-        MODULES_DIR,
-        moduleId,
-        "electronics",
-        pass,
-        "bom",
-        "ibom.html"
-      );
+      const src = sourcePath(moduleId, pass);
       let html;
       try {
         html = await fs.readFile(src, "utf8");
@@ -287,16 +315,31 @@ async function main() {
       const pcbdata = await readPcbdata(html);
       const components = extractComponents(pcbdata);
       const meta = pcbdata.metadata || {};
+      sources[moduleId][pass] = { html, components, meta };
       out[pass][moduleId] = {
         title: meta.title || moduleId,
         revision: meta.revision || "",
         components,
       };
-      const outHtml = path.join(ibomsOutDir, `${moduleId}-${pass}.html`);
-      await fs.writeFile(outHtml, applyDefaults(html));
       const refCount = components.reduce((n, c) => n + c.refs.length, 0);
       console.log(
-        `  ${pass.padEnd(4)} ${moduleId.padEnd(20)} groups=${String(components.length).padStart(3)}  refs=${refCount}`
+        `  parse  ${pass.padEnd(4)} ${moduleId.padEnd(20)} groups=${String(components.length).padStart(3)}  refs=${refCount}`
+      );
+    }
+  }
+
+  // 2) Emit one HTML file per (instance, pass) with a slug-scoped
+  //    storagePrefix so duplicated boards (VCO 1/2, VCA 1/2) track Placed
+  //    state independently.
+  for (const inst of INSTANCES) {
+    for (const pass of PASSES) {
+      const src = sources[inst.module]?.[pass];
+      if (!src) continue;
+      const html = withInstanceStorage(applyDefaults(src.html), inst.slug);
+      const outHtml = path.join(ibomsOutDir, `${inst.slug}-${pass}.html`);
+      await fs.writeFile(outHtml, html);
+      console.log(
+        `  emit   ${pass.padEnd(4)} ${inst.slug.padEnd(8)} <- ${inst.module}`
       );
     }
   }

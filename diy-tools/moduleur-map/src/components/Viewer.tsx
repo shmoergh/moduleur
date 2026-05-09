@@ -10,7 +10,7 @@ export function Viewer() {
   const selectedSlot = useAppStore((s) => s.selectedSlot);
   const selectedKey = useAppStore((s) => s.selectedKey);
   const slot = SLOTS[selectedSlot];
-  const src = `/iboms/${slot.module}-${pass}.html`;
+  const src = `/iboms/${slot.slug}-${pass}.html`;
   const iframeRef = useRef<HTMLIFrameElement | null>(null);
 
   const refs = useMemo(() => {

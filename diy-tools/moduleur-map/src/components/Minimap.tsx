@@ -20,7 +20,10 @@ export function Minimap() {
   }, [pass, selectedKey]);
 
   return (
-    <div className="grid grid-cols-4 grid-rows-2 gap-2">
+    <div className="grid grid-cols-4 gap-2">
+      <div className="col-span-4 flex h-12 items-center rounded border border-line bg-panel px-3">
+        <img src="/logo.svg" alt="Shmøergh" className="h-4 w-auto" />
+      </div>
       {SLOTS.map((slot) => {
         const isActive = slot.index === selectedSlot;
         const refs = highlightedSlots.get(slot.index);
@@ -30,7 +33,10 @@ export function Minimap() {
             key={slot.index}
             onClick={() => setSelectedSlot(slot.index)}
             className={
-              "relative rounded border px-2 py-2 text-left transition whitespace-nowrap " +
+              "relative rounded border px-2 text-left transition whitespace-nowrap " +
+              (slot.fullWidth
+                ? "col-span-4 h-12 "
+                : "h-[120px] flex flex-col py-2 ") +
               (isActive
                 ? "border-secondary bg-secondary-soft "
                 : "border-line bg-panel hover:bg-line-soft ") +
@@ -38,7 +44,7 @@ export function Minimap() {
             }
           >
             <div className="text-[10px] uppercase tracking-wider text-muted">
-              {slot.row + 1}-{slot.col + 1}
+              {slot.fullWidth ? `row ${slot.row + 1}` : `${slot.row + 1}-${slot.col + 1}`}
             </div>
             <div className="text-sm text-ink">{slot.label}</div>
             {isHighlighted && (
