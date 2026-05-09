@@ -23,12 +23,13 @@ export const SMD_FOOTPRINT_PREFIXES = [
   "C_0603",
   "R_0603",
   "D_SOD",
-  "SOIC_",
-  "SOT_",
+  "SOIC-",
+  "SOT-",
   "R_1206",
-  "SOP_",
+  "SOP-",
   "USB_C",
   "Gyeszno",
+  "CP_Elec",
 ] as const;
 
 export function isSmdFootprint(footprint: string): boolean {

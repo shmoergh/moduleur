@@ -115,12 +115,13 @@ const SMD_PREFIXES = [
   "C_0603",
   "R_0603",
   "D_SOD",     // covers D_SOD-123, D_SOD-323, D_SOD27 etc.
-  "SOIC_",
-  "SOT_",
+  "SOIC-",
+  "SOT-",
   "R_1206",
-  "SOP_",
+  "SOP-",
   "USB_C",
   "Gyeszno",
+  "CP_Elec",
 ];
 
 function isSmdFootprint(fp) {
@@ -420,9 +421,10 @@ async function main() {
       const pcbdata = await readPcbdata(html);
       const components = extractComponents(pcbdata);
       const meta = pcbdata.metadata || {};
-      // Only pre-tick on the Core pass — UI boards are mostly THT panels.
-      const smdIndices =
-        pass === "core" ? smdIndicesFromPcbdata(pcbdata) : [];
+      // Compute SMD indices for both passes — UI boards typically have no
+      // SMD parts so this is empty, but the parent Reset relies on the list
+      // (or its emptiness) for both Core and UI.
+      const smdIndices = smdIndicesFromPcbdata(pcbdata);
       sources[moduleId][pass] = { html, components, meta, smdIndices };
       out[pass][moduleId] = {
         title: meta.title || moduleId,
@@ -438,18 +440,36 @@ async function main() {
 
   // 2) Emit one HTML file per (instance, pass) with a slug-scoped
   //    storagePrefix so duplicated boards (VCO 1/2, VCA 1/2) track Placed
-  //    state independently.
+  //    state independently. Also build the presets manifest the parent
+  //    Reset uses to rewrite localStorage.
+  const presets = {};
   for (const inst of INSTANCES) {
+    presets[inst.slug] = {};
     for (const pass of PASSES) {
       const src = sources[inst.module]?.[pass];
       if (!src) continue;
-      const presetPlacedIndices = src.smdIndices || [];
+      // SMDs are only pre-checked on Core boards (UI panels are THT only).
+      const presetPlacedIndices = pass === "core" ? src.smdIndices : [];
       const html = withInstanceStorage(
         applyDefaults(src.html, { presetPlacedIndices }),
         inst.slug
       );
       const outHtml = path.join(ibomsOutDir, `${inst.slug}-${pass}.html`);
       await fs.writeFile(outHtml, html);
+      // The runtime storagePrefix iBom builds is
+      //   'KiCad_HTML_BOM__' + title + '__' + revision + '__bommap-<slug>__#'
+      const storagePrefix =
+        "KiCad_HTML_BOM__" +
+        (src.meta.title || "") +
+        "__" +
+        (src.meta.revision || "") +
+        "__bommap-" +
+        inst.slug +
+        "__#";
+      presets[inst.slug][pass] = {
+        storagePrefix,
+        smdIndices: presetPlacedIndices,
+      };
       const presetNote = presetPlacedIndices.length
         ? ` smd-preset=${presetPlacedIndices.length}`
         : "";
@@ -465,7 +485,11 @@ async function main() {
     path.join(dataDir, "boards.json"),
     JSON.stringify(out, null, 2)
   );
-  console.log("\nwrote src/data/boards.json");
+  await fs.writeFile(
+    path.join(dataDir, "presets.json"),
+    JSON.stringify(presets, null, 2)
+  );
+  console.log("\nwrote src/data/boards.json and src/data/presets.json");
 }
 
 main().catch((e) => {

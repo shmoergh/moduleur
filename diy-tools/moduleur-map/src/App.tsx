@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { ComponentList } from "./components/ComponentList";
 import { Minimap } from "./components/Minimap";
 import { PassSwitcher } from "./components/PassSwitcher";
+import { ResetAll } from "./components/ResetAll";
 import { Viewer } from "./components/Viewer";
 import { SLOTS } from "./data/slots";
 import { useAppStore } from "./store/useAppStore";
@@ -41,7 +42,10 @@ function App() {
             {SLOTS.length} boards · {pass} pass
           </span>
         </div>
-        <PassSwitcher />
+        <div className="flex items-center gap-2">
+          <ResetAll />
+          <PassSwitcher />
+        </div>
       </header>
 
       <div className="grid min-h-0 grid-cols-[300px_1fr_360px] gap-3">
