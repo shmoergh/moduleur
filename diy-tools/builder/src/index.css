@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Palette pulled from iBom's own CSS — keeps the app visually consistent
+   with the iframes it embeds. */
+:root {
+  --bg:           #eeeeee;  /* iBom light pcb bg */
+  --panel:        #ffffff;
+  --border:       #cfcdc4;
+  --border-soft:  #e3e1d6;
+  --text:         #1a1a1a;
+  --text-muted:   #6e6e6e;
+  --accent:       #d04040;  /* iBom pad-color-highlight (selection / refs) */
+  --accent-soft:  rgba(208, 64, 64, 0.12);
+  --secondary:    #44aaaa;  /* iBom silkscreen-polygon-color (active slot) */
+  --secondary-soft: rgba(68, 170, 170, 0.15);
+  --done:         #44a344;  /* iBom pad-color-highlight-marked */
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas,
+    "Liberation Mono", monospace;
+  background: var(--bg);
+  color: var(--text);
+}
+
+kbd {
+  font-family: inherit;
+  font-size: 0.75em;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  padding: 0 4px;
+}
