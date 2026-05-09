@@ -256,6 +256,10 @@ button#copy {
       if (localStorage.getItem(clKey) === null) {
         localStorage.setItem(clKey, 'F');
       }
+      var hrKey = storagePrefix + 'highlightRowOnClick';
+      if (localStorage.getItem(hrKey) === null) {
+        localStorage.setItem(hrKey, 'true');
+      }
       // One-shot migration: earlier extract scripts wiped this key on every
       // load, which made iBom store '' (= "None"). Replace that bad state
       // with our default once, then never touch it again.

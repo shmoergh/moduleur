@@ -33,7 +33,7 @@ function App() {
 
   return (
     <div className="grid h-screen grid-rows-[auto_1fr] gap-3 bg-surface p-3 text-ink">
-      <header className="flex items-center justify-between">
+      <header className="grid grid-cols-3 items-center">
         <div className="flex items-baseline gap-3">
           <h1 className="text-lg text-ink">
             Moduleur <span className="text-accent">BOMmap</span>
@@ -42,9 +42,11 @@ function App() {
             {SLOTS.length} boards · {pass} pass
           </span>
         </div>
-        <div className="flex items-center gap-2">
-          <ResetAll />
+        <div className="justify-self-center">
           <PassSwitcher />
+        </div>
+        <div className="justify-self-end">
+          <ResetAll />
         </div>
       </header>
 

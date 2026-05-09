@@ -42,13 +42,13 @@ export function isSmdFootprint(footprint: string): boolean {
 
 export const CATEGORY_OPTIONS: Category[] = [
   "All",
-  "Caps",
   "Resistors",
   "Diodes",
+  "Transistors",
+  "Caps",
+  "Connectors",
   "LEDs",
   "Pots",
-  "Transistors",
-  "Connectors",
   "Misc",
 ];
 

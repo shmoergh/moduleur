@@ -34,7 +34,7 @@ export function Viewer() {
 
   return (
     <div className="flex h-full flex-col overflow-hidden rounded border border-line bg-panel">
-      <div className="flex items-center justify-between border-b border-line-soft px-3 py-2 text-xs text-muted">
+      <div className="flex h-[2.8rem] items-center justify-between border-b border-line-soft px-3 text-xs text-muted">
         <span>
           <span className="text-ink">{slot.label}</span>{" "}
           <span className="text-muted">/ {slot.module} / {pass}</span>
