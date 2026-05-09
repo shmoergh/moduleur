@@ -7,13 +7,36 @@ import type { AggregatedRow, BoardsJson, Category, Pass, Slot } from "../types";
 export function categoryOf(value: string, footprint: string): Category {
   if (value.toLowerCase().startsWith("conn_")) return "Connectors";
   const fp = footprint.toLowerCase();
-  if (fp.startsWith("c_")) return "Caps";
+  if (fp.startsWith("c_") || fp.startsWith("cp_")) return "Caps";
   if (fp.startsWith("d_")) return "Diodes";
   if (fp.startsWith("r_")) return "Resistors";
   if (fp.startsWith("led_")) return "LEDs";
   if (fp.startsWith("potentiometer_") || fp.startsWith("trim_")) return "Pots";
   if (fp.startsWith("to-92_")) return "Transistors";
   return "Misc";
+}
+
+// Footprint prefixes that we treat as SMD. Keep this in sync with the same
+// list in scripts/extract-iboms.mjs (they can't share an import since the
+// build script is Node-only).
+export const SMD_FOOTPRINT_PREFIXES = [
+  "C_0603",
+  "R_0603",
+  "D_SOD",
+  "SOIC_",
+  "SOT_",
+  "R_1206",
+  "SOP_",
+  "USB_C",
+  "Gyeszno",
+] as const;
+
+export function isSmdFootprint(footprint: string): boolean {
+  if (!footprint) return false;
+  for (const p of SMD_FOOTPRINT_PREFIXES) {
+    if (footprint.startsWith(p)) return true;
+  }
+  return false;
 }
 
 export const CATEGORY_OPTIONS: Category[] = [

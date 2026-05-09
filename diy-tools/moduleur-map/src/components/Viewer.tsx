@@ -9,6 +9,7 @@ export function Viewer() {
   const pass = useAppStore((s) => s.pass);
   const selectedSlot = useAppStore((s) => s.selectedSlot);
   const selectedKey = useAppStore((s) => s.selectedKey);
+  const showSmd = useAppStore((s) => s.showSmd);
   const slot = SLOTS[selectedSlot];
   const src = `/iboms/${slot.slug}-${pass}.html`;
   const iframeRef = useRef<HTMLIFrameElement | null>(null);
@@ -21,15 +22,15 @@ export function Viewer() {
   }, [pass, selectedSlot, selectedKey]);
 
   const send = () => {
-    iframeRef.current?.contentWindow?.postMessage(
-      { type: "bommap:setRefs", refs },
-      "*"
-    );
+    const win = iframeRef.current?.contentWindow;
+    if (!win) return;
+    win.postMessage({ type: "bommap:setRefs", refs }, "*");
+    win.postMessage({ type: "bommap:setShowSmd", showSmd }, "*");
   };
 
   useEffect(() => {
     send();
-  }, [refs]);
+  }, [refs, showSmd]);
 
   return (
     <div className="flex h-full flex-col overflow-hidden rounded border border-line bg-panel">

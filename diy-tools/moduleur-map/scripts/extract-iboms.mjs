@@ -118,7 +118,6 @@ const SMD_PREFIXES = [
   "SOIC_",
   "SOT_",
   "R_1206",
-  "C_Rect",
   "SOP_",
   "USB_C",
   "Gyeszno",
@@ -174,6 +173,7 @@ ${tag}
 <style>
 tr.bommap-hl { background: rgba(208, 64, 64, 0.18) !important; }
 tr.bommap-hl:hover { background: rgba(208, 64, 64, 0.26) !important; }
+tr.bommap-hidden { display: none !important; }
 
 /* Hide the top/bottom toggle — top is visible by default. */
 #toptoggle { display: none !important; }
@@ -278,47 +278,73 @@ button#copy {
     } catch (e) {}
   }
 
-  // 2. Cross-board highlight: parent posts the refs to highlight on this
-  //    board, we add .bommap-hl to matching BOM rows.
+  // 2. Cross-board highlight + SMD hide: parent posts the refs to highlight
+  //    and a flag for whether SMD rows should be visible. We toggle
+  //    .bommap-hl / .bommap-hidden on matching BOM rows.
   var refs = [];
+  var showSmd = true; // default true so nothing is hidden until parent says so
+  var SMD_PREFIXES = ${JSON.stringify(SMD_PREFIXES)};
 
-  function getRefsCol() {
+  function getColIdx(name) {
     var head = document.getElementById('bomhead');
     if (!head) return -1;
     var ths = head.querySelectorAll('th');
+    name = name.toLowerCase();
     for (var i = 0; i < ths.length; i++) {
-      if (ths[i].textContent.trim().toLowerCase() === 'references') return i;
+      if (ths[i].textContent.trim().toLowerCase() === name) return i;
     }
     return -1;
+  }
+
+  function isSmdFp(fp) {
+    if (!fp) return false;
+    for (var i = 0; i < SMD_PREFIXES.length; i++) {
+      if (fp.indexOf(SMD_PREFIXES[i]) === 0) return true;
+    }
+    return false;
   }
 
   function apply() {
     var body = document.getElementById('bombody');
     if (!body) return;
-    var col = getRefsCol();
-    if (col < 0) return;
+    var refsCol = getColIdx('references');
+    var fpCol = getColIdx('footprint');
     var set = Object.create(null);
     for (var i = 0; i < refs.length; i++) set[refs[i]] = true;
     var rows = body.children;
     for (var r = 0; r < rows.length; r++) {
       var tr = rows[r];
-      var cell = tr.cells[col];
+      // Highlight matching refs
       var match = false;
-      if (cell) {
-        var tokens = cell.textContent.split(/[,\\s]+/);
-        for (var t = 0; t < tokens.length; t++) {
-          var tk = tokens[t].trim();
-          if (tk && set[tk]) { match = true; break; }
+      if (refsCol >= 0) {
+        var refCell = tr.cells[refsCol];
+        if (refCell) {
+          var tokens = refCell.textContent.split(/[,\\s]+/);
+          for (var t = 0; t < tokens.length; t++) {
+            var tk = tokens[t].trim();
+            if (tk && set[tk]) { match = true; break; }
+          }
         }
       }
       tr.classList.toggle('bommap-hl', match);
+      // Hide SMD rows when toggle is off
+      var hide = false;
+      if (!showSmd && fpCol >= 0) {
+        var fpCell = tr.cells[fpCol];
+        if (fpCell && isSmdFp(fpCell.textContent.trim())) hide = true;
+      }
+      tr.classList.toggle('bommap-hidden', hide);
     }
   }
 
   window.addEventListener('message', function (e) {
     var d = e.data || {};
-    if (d && d.type === 'bommap:setRefs') {
+    if (!d) return;
+    if (d.type === 'bommap:setRefs') {
       refs = Array.isArray(d.refs) ? d.refs : [];
+      apply();
+    } else if (d.type === 'bommap:setShowSmd') {
+      showSmd = !!d.showSmd;
       apply();
     }
   });
