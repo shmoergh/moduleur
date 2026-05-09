@@ -8,11 +8,11 @@ import {
   CATEGORY_OPTIONS,
   isSmdFootprint,
 } from "../lib/aggregate";
-import { useAppStore } from "../store/useAppStore";
+import { tabAsPass, useAppStore } from "../store/useAppStore";
 import type { BoardsJson, Category } from "../types";
 
 export function ComponentList() {
-  const pass = useAppStore((s) => s.pass);
+  const pass = useAppStore((s) => tabAsPass(s.tab));
   const selectedKey = useAppStore((s) => s.selectedKey);
   const setSelectedKey = useAppStore((s) => s.setSelectedKey);
   const search = useAppStore((s) => s.search);

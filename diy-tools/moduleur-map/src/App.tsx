@@ -1,4 +1,8 @@
 import { useEffect } from "react";
+import {
+  CalibrationCenter,
+  CalibrationSidebar,
+} from "./components/CalibrationView";
 import { ComponentList } from "./components/ComponentList";
 import { Minimap } from "./components/Minimap";
 import { PassSwitcher } from "./components/PassSwitcher";
@@ -9,8 +13,8 @@ import { useAppStore } from "./store/useAppStore";
 
 function App() {
   const setSelectedSlot = useAppStore((s) => s.setSelectedSlot);
-  const setPass = useAppStore((s) => s.setPass);
-  const pass = useAppStore((s) => s.pass);
+  const setTab = useAppStore((s) => s.setTab);
+  const tab = useAppStore((s) => s.tab);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -22,14 +26,16 @@ function App() {
       if (e.key >= "1" && e.key <= "9") {
         setSelectedSlot(parseInt(e.key, 10) - 1);
       } else if (e.key === "c" || e.key === "C") {
-        setPass("core");
+        setTab("core");
       } else if (e.key === "u" || e.key === "U") {
-        setPass("ui");
+        setTab("ui");
       }
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [setSelectedSlot, setPass]);
+  }, [setSelectedSlot, setTab]);
+
+  const isSoldering = tab === "core" || tab === "ui";
 
   return (
     <div className="grid h-screen grid-rows-[auto_1fr] gap-3 bg-surface p-3 text-ink">
@@ -39,14 +45,16 @@ function App() {
             Moduleur <span className="text-accent">BOMmap</span>
           </h1>
           <span className="text-xs text-muted">
-            {SLOTS.length} boards · {pass} pass
+            {isSoldering
+              ? `${SLOTS.length} boards · ${tab} pass`
+              : "Calibration guide"}
           </span>
         </div>
         <div className="justify-self-center">
           <PassSwitcher />
         </div>
         <div className="justify-self-end">
-          <ResetAll />
+          {isSoldering && <ResetAll />}
         </div>
       </header>
 
@@ -54,13 +62,22 @@ function App() {
         <div className="flex flex-col gap-3 min-h-0">
           <Minimap />
           <div className="text-[11px] leading-relaxed text-muted">
-            Click a board to view it. Select a component on the right to highlight
-            the boards that contain it. Keys: <kbd>1</kbd>–<kbd>9</kbd> slots,{" "}
-            <kbd>C</kbd>/<kbd>U</kbd> pass.
+            {isSoldering ? (
+              <>
+                Click a board to view it. Select a component on the right to
+                highlight the boards that contain it. Keys: <kbd>1</kbd>–
+                <kbd>9</kbd> slots, <kbd>C</kbd>/<kbd>U</kbd> pass.
+              </>
+            ) : (
+              <>
+                Click a board to jump to its calibration steps. Keys:{" "}
+                <kbd>1</kbd>–<kbd>9</kbd> slots.
+              </>
+            )}
           </div>
         </div>
-        <Viewer />
-        <ComponentList />
+        {isSoldering ? <Viewer /> : <CalibrationCenter />}
+        {isSoldering ? <ComponentList /> : <CalibrationSidebar />}
       </div>
     </div>
   );

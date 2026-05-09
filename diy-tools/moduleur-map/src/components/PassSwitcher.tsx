@@ -1,28 +1,29 @@
 import { useAppStore } from "../store/useAppStore";
-import type { Pass } from "../types";
+import type { Tab } from "../types";
 
-const PASSES: { id: Pass; label: string }[] = [
+const TABS: { id: Tab; label: string }[] = [
   { id: "core", label: "Core" },
   { id: "ui", label: "UI" },
+  { id: "calibration", label: "Calibration" },
 ];
 
 export function PassSwitcher() {
-  const pass = useAppStore((s) => s.pass);
-  const setPass = useAppStore((s) => s.setPass);
+  const tab = useAppStore((s) => s.tab);
+  const setTab = useAppStore((s) => s.setTab);
   return (
     <div className="inline-flex rounded border border-line overflow-hidden">
-      {PASSES.map((p) => (
+      {TABS.map((t) => (
         <button
-          key={p.id}
-          onClick={() => setPass(p.id)}
+          key={t.id}
+          onClick={() => setTab(t.id)}
           className={
             "px-4 py-1 text-sm transition " +
-            (pass === p.id
+            (tab === t.id
               ? "bg-ink text-panel"
               : "bg-panel text-ink hover:bg-surface")
           }
         >
-          {p.label}
+          {t.label}
         </button>
       ))}
     </div>

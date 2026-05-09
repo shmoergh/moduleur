@@ -1,12 +1,12 @@
 import { useMemo } from "react";
 import { SLOTS } from "../data/slots";
-import { useAppStore } from "../store/useAppStore";
+import { tabAsPass, useAppStore } from "../store/useAppStore";
 import boards from "../data/boards.json";
 import { aggregateForPass } from "../lib/aggregate";
 import type { BoardsJson } from "../types";
 
 export function Minimap() {
-  const pass = useAppStore((s) => s.pass);
+  const pass = useAppStore((s) => tabAsPass(s.tab));
   const selectedSlot = useAppStore((s) => s.selectedSlot);
   const selectedKey = useAppStore((s) => s.selectedKey);
   const setSelectedSlot = useAppStore((s) => s.setSelectedSlot);
@@ -38,7 +38,7 @@ export function Minimap() {
                 ? "col-span-4 h-12 "
                 : "h-[120px] flex flex-col py-2 ") +
               (isActive
-                ? "border-secondary bg-secondary-soft "
+                ? "border-[#0a0] bg-[#dceddb] "
                 : "border-line bg-panel hover:bg-line-soft ") +
               (isHighlighted ? "ring-2 ring-accent " : "")
             }

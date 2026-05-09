@@ -1,4 +1,5 @@
 export type Pass = "core" | "ui";
+export type Tab = "core" | "ui" | "calibration";
 
 export type ModuleId =
   | "01-psu"

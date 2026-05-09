@@ -2,11 +2,11 @@ import { useEffect, useMemo, useRef } from "react";
 import boards from "../data/boards.json";
 import { SLOTS } from "../data/slots";
 import { aggregateForPass } from "../lib/aggregate";
-import { useAppStore } from "../store/useAppStore";
+import { tabAsPass, useAppStore } from "../store/useAppStore";
 import type { BoardsJson } from "../types";
 
 export function Viewer() {
-  const pass = useAppStore((s) => s.pass);
+  const pass = useAppStore((s) => tabAsPass(s.tab));
   const selectedSlot = useAppStore((s) => s.selectedSlot);
   const selectedKey = useAppStore((s) => s.selectedKey);
   const showSmd = useAppStore((s) => s.showSmd);
