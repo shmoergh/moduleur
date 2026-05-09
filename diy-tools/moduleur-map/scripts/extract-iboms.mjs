@@ -145,10 +145,9 @@ function smdIndicesFromPcbdata(pcbdata) {
 
 function applyDefaults(html, opts = {}) {
   const { presetPlacedIndices = [] } = opts;
-  let out = html.replace(
-    /"checkboxes":\s*"Sourced,Placed"/,
-    '"checkboxes": "Placed"'
-  );
+  let out = html
+    .replace(/"checkboxes":\s*"Sourced,Placed"/, '"checkboxes": "Placed"')
+    .replace(/"layer_view":\s*"[^"]*"/, '"layer_view": "F"');
   // `mark_when_checked` may exist with any value, or be absent on older iBom
   // versions. Replace the value if present; otherwise inject the field into
   // the `var config = {...}` object literal.
@@ -252,6 +251,10 @@ button#copy {
       var mwKey = storagePrefix + 'markWhenChecked';
       if (localStorage.getItem(mwKey) === null) {
         localStorage.setItem(mwKey, 'Placed');
+      }
+      var clKey = storagePrefix + 'canvaslayout';
+      if (localStorage.getItem(clKey) === null) {
+        localStorage.setItem(clKey, 'F');
       }
       // One-shot migration: earlier extract scripts wiped this key on every
       // load, which made iBom store '' (= "None"). Replace that bad state
