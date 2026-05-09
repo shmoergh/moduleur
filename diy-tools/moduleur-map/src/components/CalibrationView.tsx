@@ -36,28 +36,27 @@ const SECTIONS: Section[] = [
   {
     id: "vco-2",
     title: "3. VCO 2",
-    items: ["Saw wave shape", "Triangle wave shape", "1V/oct tuning"],
+    items: ["Saw wave balance", "Triangle wave shape", "1V/oct tuning"],
   },
   {
     id: "mixer",
     title: "4. Mixer & sidechain compressor",
     items: [
-      "Mixer balance (0V reference)",
-      "Mixer base level",
-      "Side chain compressor attack",
-      "Side chain compressor release",
+      "Mixer base gain",
+      "Mixer balance",
+      "Sidechain attack and release times",
     ],
   },
   {
     id: "vcf",
     title: "5. Filter",
-    items: ["Max resonance", "Balance / recovery"],
+    items: ["Max resonance", "Filter balance and recovery"],
   },
   {
     id: "vca-1",
     title: "6. Envelope / VCA 1",
     items: [
-      "VCA balance (0V reference)",
+      "VCA balance",
       "VCA base gain",
       "Envelope gain",
     ],
@@ -66,7 +65,7 @@ const SECTIONS: Section[] = [
     id: "vca-2",
     title: "7. Envelope / VCA 2",
     items: [
-      "VCA balance (0V reference)",
+      "VCA balance",
       "VCA base gain",
       "Envelope gain",
     ],
@@ -74,7 +73,7 @@ const SECTIONS: Section[] = [
   {
     id: "utils",
     title: "8. Bitcrusher / LFO / Output",
-    items: ["Line level"],
+    items: ["Output level"],
   },
 ];
 
@@ -96,6 +95,27 @@ export function CalibrationCenter() {
   switch (slot.slug) {
     case "brain":
       body = <BrainCalibration />;
+      break;
+    case "vco-1":
+      body = <VcoCalibration sectionId="vco-1" title="VCO 1" />;
+      break;
+    case "vco-2":
+      body = <VcoCalibration sectionId="vco-2" title="VCO 2" />;
+      break;
+    case "mixer":
+      body = <MixerCalibration />;
+      break;
+    case "vcf":
+      body = <VcfCalibration />;
+      break;
+    case "vca-1":
+      body = <VcaCalibration sectionId="vca-1" title="Envelope / VCA 1" />;
+      break;
+    case "vca-2":
+      body = <VcaCalibration sectionId="vca-2" title="Envelope / VCA 2" />;
+      break;
+    case "utils":
+      body = <UtilsCalibration />;
       break;
     default:
       body = <PlaceholderBoard slot={slot} />;
@@ -293,6 +313,362 @@ function BrainCalibration() {
               output you'll use later on in the calibration process.
             </li>
           </ol>
+        </li>
+      </OL>
+    </article>
+  );
+}
+
+function VcoCalibration({
+  sectionId,
+  title,
+}: {
+  sectionId: string;
+  title: string;
+}) {
+  return (
+    <article className="mx-auto max-w-2xl">
+      <H1>{title}</H1>
+
+      <h2 className="mb-2 text-base text-ink">Calibration setup</h2>
+      <UL>
+        <li>Connect scope to VCO output</li>
+      </UL>
+
+      <hr className="my-5 border-t border-line-soft" />
+      <StepCheckbox sectionId={sectionId} label="Saw wave balance" />
+      <OL>
+        <li>Switch VCO output to sawtooth.</li>
+        <li>
+          Use trimmer <code className="rounded bg-surface px-1">SAW BIAS</code>{" "}
+          to move the saw wave on the Y axis (amplitude) until it oscillates
+          around 0V.
+        </li>
+      </OL>
+
+      <hr className="my-5 border-t border-line-soft" />
+      <StepCheckbox sectionId={sectionId} label="Triangle wave shape" />
+      <OL>
+        <li>Switch VCO output to triangle.</li>
+        <li>
+          Use the <code className="rounded bg-surface px-1">TRI BIAS</code>{" "}
+          trimmer to move the triangle to oscillate around 0V.
+        </li>
+        <li>
+          Use the <code className="rounded bg-surface px-1">SAW BIAS</code>{" "}
+          trimmer to fine tune the shape of the triangle (the triangle is
+          built up of the saw output and an inverse of that, that's why
+          changing the saw balance defines the shape of the triangle wave).
+        </li>
+      </OL>
+
+      <hr className="my-5 border-t border-line-soft" />
+      <StepCheckbox sectionId={sectionId} label="1V/oct tuning" />
+      <OL>
+        <li>Connect the VCO OUT to a tuner.</li>
+        <li>
+          Turn the OCTAVE (main tune) knob all the way down and the FINE
+          knob in the middle.
+        </li>
+        <li>
+          Connect a 1V/oct CV to the VCO PITCH input.
+          <p className="mt-1">
+            If you have calibrated the Brain module, use{" "}
+            <A href="https://github.com/shmoergh/le-controlleur">
+              Le Controlleur
+            </A>{" "}
+            firmware in MIDI mode and a MIDI keyboard, and connect OUT 1 to
+            the VCO PITCH input. (Make sure you set the Pitch CV Output
+            channel to OUT 1.)
+          </p>
+          <p className="mt-1">
+            Alternatively you can use a keyboard with 1V/oct CV output like
+            an Arturia Keystep, Beatstep Pro, Korg SQ1 or similar.
+          </p>
+        </li>
+        <li>
+          Turn <code className="rounded bg-surface px-1">HI-FREQ</code> pot
+          all the way down: play a very high pitch note on the keyboard and
+          turn the knob until the pitch stops going down.
+        </li>
+        <li>
+          Play C1 on keyboard. Use the{" "}
+          <code className="rounded bg-surface px-1">BIAS</code> trimmer to
+          set the frequency to C1 (32.703 Hz).
+        </li>
+        <li>
+          Play C4 and use the{" "}
+          <code className="rounded bg-surface px-1">BIAS</code> trimmer to
+          set the frequency to C4 (261.63 Hz).
+        </li>
+        <li>
+          Play C1 and use the{" "}
+          <code className="rounded bg-surface px-1">WIDTH</code> trimmer to
+          tune it to 32.703 Hz.
+        </li>
+        <li>Loop steps 3 + 4.</li>
+        <li>
+          When C1 and C4 are in tune, play C7 and use the{" "}
+          <code className="rounded bg-surface px-1">HI-FREQ</code> trimmer to
+          make up the pitch for higher frequencies.
+        </li>
+        <li>
+          Go back to step 3 &amp; 4 to adjust tuning for lower frequencies,
+          then go to step 6 again, until you get to a reasonable end result.
+        </li>
+      </OL>
+    </article>
+  );
+}
+
+function MixerCalibration() {
+  return (
+    <article className="mx-auto max-w-2xl">
+      <H1>Mixer & sidechain compressor</H1>
+
+      <h2 className="mb-2 text-base text-ink">Calibration setup</h2>
+      <UL>
+        <li>Connect VCO 1 out to IN 1</li>
+        <li>Connect VCO 2 out to IN 2</li>
+        <li>Connect VCO 1 sub to IN 3</li>
+        <li>
+          Connect an external sound source (ideally a drum machine) to IN 4
+        </li>
+        <li>Connect Mixer out to an oscilloscope</li>
+      </UL>
+
+      <hr className="my-5 border-t border-line-soft" />
+      <StepCheckbox sectionId="mixer" label="Mixer base gain" />
+      <P>
+        The mixer goes through a VCA which is used for the side chain
+        compressor. This step sets the base gain for the VCA so that there's
+        no bleed.
+      </P>
+      <OL>
+        <li>Turn IN 1, IN 2, IN 3 all the way up.</li>
+        <li>Turn output level all the way up.</li>
+        <li>
+          Use the <code className="rounded bg-surface px-1">BIAS</code>{" "}
+          trimmer to set the output so that the maximum amplitude is not
+          more than 10 Vpp (+/- 5 V) — from experience, this is pretty good
+          for side chain compression.
+        </li>
+      </OL>
+
+      <hr className="my-5 border-t border-line-soft" />
+      <StepCheckbox sectionId="mixer" label="Mixer balance" />
+      <OL>
+        <li>Turn all input levels all the way down.</li>
+        <li>
+          Turn output level all the way up → the output is a fix DC voltage
+          (no input waves should appear on the output).
+        </li>
+        <li>
+          Use the <code className="rounded bg-surface px-1">COMP</code>{" "}
+          trimmer to set the output (a DC signal) to 0 V — this makes sure
+          the mixer output will oscillate around 0 V.
+        </li>
+      </OL>
+
+      <hr className="my-5 border-t border-line-soft" />
+      <StepCheckbox
+        sectionId="mixer"
+        label="Sidechain attack and release times"
+      />
+      <OL>
+        <li>Turn IN 4 GAIN all the way down.</li>
+        <li>Turn IN 4 THRESHOLD all the way up.</li>
+        <li>
+          Turn Mixer OUT all the way down —{" "}
+          <strong>IMPORTANT:</strong> the output of the Mixer is now at
+          10 Vpp. Connecting it to a speaker system that expects line level
+          may damage it so be careful with the output level knob.
+        </li>
+        <li>Connect Mixer output to a speaker or audio interface.</li>
+        <li>
+          VERY SLOWLY turn up the OUT LEVEL of the Mixer to a point where
+          the input is not overdriven on your speaker/interface.
+        </li>
+        <li>
+          Press play on your external sound source (drum machine) — a good
+          old 4-on-the-floor with a punchy kick will do it.
+        </li>
+        <li>
+          Turn IN 4 all the way up → you should hear the drum machine on
+          the mixer output.
+        </li>
+        <li>You can turn up the GAIN to add more gain to IN 4.</li>
+        <li>
+          Turn the THRESHOLD pot down (setting the side chain compressor
+          threshold level).
+        </li>
+        <li>
+          Use trimmer <code className="rounded bg-surface px-1">ATTACK</code>{" "}
+          to set the attack time of the side chain compressor.
+        </li>
+        <li>
+          Use trimmer{" "}
+          <code className="rounded bg-surface px-1">RELEASE</code> to set
+          the release time of the side chain compressor.
+        </li>
+        <li>
+          If you want more compression you can turn the overall Mixer base
+          gain down a little, which will give more space for compression
+          (but less overall mixer output).
+        </li>
+      </OL>
+    </article>
+  );
+}
+
+function VcfCalibration() {
+  return (
+    <article className="mx-auto max-w-2xl">
+      <H1>Filter</H1>
+
+      <h2 className="mb-2 text-base text-ink">Calibration setup</h2>
+      <OL>
+        <li>Connect a saw output to LP IN of the filter.</li>
+        <li>Connect the filter output to an oscilloscope.</li>
+      </OL>
+
+      <hr className="my-5 border-t border-line-soft" />
+      <StepCheckbox sectionId="vcf" label="Max resonance" />
+      <P>
+        The resonance of the diode filter in the Moduleur is quite sensitive
+        in the higher ranges. It can easily choke, so we added a trimmer to
+        keep it usable.
+      </P>
+      <OL>
+        <li>Turn RESO to minimum.</li>
+        <li>
+          Turn CUTOFF to a position where you can see the low pass take
+          effect (smoothens the spikes of the sawtooth wave).
+        </li>
+        <li>
+          Turn RESO to maximum — it's likely that it's going to go to
+          self-oscillation, that's fine.
+        </li>
+        <li>
+          Use the <code className="rounded bg-surface px-1">MAX RESO</code>{" "}
+          trimmer to set the maximum resonance to your liking. Turn it to a
+          point so it does not choke (when it does, there's a supersonic
+          wave on the output with maximum amplitude). It's better to listen
+          to the output on a speaker / audio interface to calibrate to how
+          it sounds, instead of how it looks on the oscilloscope.
+        </li>
+      </OL>
+
+      <hr className="my-5 border-t border-line-soft" />
+      <StepCheckbox sectionId="vcf" label="Filter balance and recovery" />
+      <OL>
+        <li>
+          Turn the cutoff pot up and down fast and look at the oscilloscope.
+          Watch for how much time it takes the waveform to settle to
+          oscillate around 0 V (recovery time).
+        </li>
+        <li>
+          Use the <code className="rounded bg-surface px-1">BALANCE</code>{" "}
+          trimmer to set the recovery time to the minimum — ideally you
+          shouldn't see the whole wave move up and down in amplitude, just a
+          steady sawtooth.
+        </li>
+      </OL>
+    </article>
+  );
+}
+
+function VcaCalibration({
+  sectionId,
+  title,
+}: {
+  sectionId: string;
+  title: string;
+}) {
+  return (
+    <article className="mx-auto max-w-2xl">
+      <H1>{title}</H1>
+
+      <h2 className="mb-2 text-base text-ink">Calibration setup</h2>
+      <UL>
+        <li>Connect your MIDI keyboard to the Brain.</li>
+        <li>Use Brain's Le Controlleur firmware in MIDI to CV mode.</li>
+        <li>
+          Connect the Brain / PULSE OUT output to the Envelope's GATE input.
+        </li>
+        <li>
+          Connect one of the VCO's triangle wave from one of your
+          oscillators to VCA IN.
+        </li>
+        <li>Connect an oscilloscope to VCA OUT.</li>
+      </UL>
+
+      <hr className="my-5 border-t border-line-soft" />
+      <StepCheckbox sectionId={sectionId} label="VCA balance" />
+      <OL>
+        <li>
+          Use the <code className="rounded bg-surface px-1">VCA COMP</code>{" "}
+          trimmer to set the VCA OUT to 0 V (check it on scope).
+        </li>
+      </OL>
+
+      <hr className="my-5 border-t border-line-soft" />
+      <StepCheckbox sectionId={sectionId} label="VCA base gain" />
+      <OL>
+        <li>
+          Use the <code className="rounded bg-surface px-1">VCA BIAS</code>{" "}
+          trimmer to set the VCA gain so that on the VCA OUTPUT you just
+          don't see the input signal appear. This sets the 0 V baseline for
+          the VCA.
+        </li>
+      </OL>
+
+      <hr className="my-5 border-t border-line-soft" />
+      <StepCheckbox sectionId={sectionId} label="Envelope gain" />
+      <OL>
+        <li>Connect Envelope ENVELOPE output to VCA CONTROL input.</li>
+        <li>
+          Hold a note on the MIDI keyboard so a gate triggers the Envelope.
+        </li>
+        <li>Set ATTACK, DECAY and RELEASE to minimum.</li>
+        <li>Set SUSTAIN to maximum.</li>
+        <li>
+          Hold a note on the MIDI keyboard. You should see the VCO triangle
+          appear on the scope.
+        </li>
+        <li>
+          Use the <code className="rounded bg-surface px-1">ENV GAIN</code>{" "}
+          trimmer to set the VCA OUT to 10 Vpp (+/- 5 V) — same level as the
+          VCO triangle signal. This makes sure that the Envelope is
+          calibrated so that at max level the signal passes through with
+          uniform level.
+        </li>
+      </OL>
+    </article>
+  );
+}
+
+function UtilsCalibration() {
+  return (
+    <article className="mx-auto max-w-2xl">
+      <H1>Bitcrusher / LFO / Output</H1>
+
+      <h2 className="mb-2 text-base text-ink">Calibration setup</h2>
+      <UL>
+        <li>
+          Connect the VCO's triangle output to MAIN IN of the output module.
+        </li>
+        <li>Connect scope to the HEADPHONES of the output module.</li>
+      </UL>
+
+      <hr className="my-5 border-t border-line-soft" />
+      <StepCheckbox sectionId="utils" label="Output level" />
+      <OL>
+        <li>
+          Use the{" "}
+          <code className="rounded bg-surface px-1">LINE LEVEL</code>{" "}
+          trimmer to set the output to about ~3 Vpp (about{" "}
+          <A href="https://en.wikipedia.org/wiki/Line_level">line level</A>).
         </li>
       </OL>
     </article>
