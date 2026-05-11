@@ -10,16 +10,24 @@ export function Viewer() {
   const selectedSlot = useAppStore((s) => s.selectedSlot);
   const selectedKey = useAppStore((s) => s.selectedKey);
   const showSmd = useAppStore((s) => s.showSmd);
+  const experimental = useAppStore((s) => s.experimental);
   const slot = SLOTS[selectedSlot];
-  const src = `/iboms/${slot.slug}-${pass}.html`;
+  // Swap to the experimental iBom only when the toggle is on AND this exact
+  // (slot, pass) has an experimental variant on disk. Today that's just
+  // Utils UI; the check keeps us from 404-ing on other boards.
+  const useExperimental =
+    experimental &&
+    pass === "ui" &&
+    !!(boards as BoardsJson).experimental?.ui?.[slot.module];
+  const src = `/iboms/${slot.slug}-${pass}${useExperimental ? "-experimental" : ""}.html`;
   const iframeRef = useRef<HTMLIFrameElement | null>(null);
 
   const refs = useMemo(() => {
     if (!selectedKey) return [];
-    const rows = aggregateForPass(boards as BoardsJson, SLOTS, pass);
+    const rows = aggregateForPass(boards as BoardsJson, SLOTS, pass, experimental);
     const row = rows.find((r) => r.key === selectedKey);
     return row?.perSlot.find((p) => p.slotIndex === selectedSlot)?.refs ?? [];
-  }, [pass, selectedSlot, selectedKey]);
+  }, [pass, selectedSlot, selectedKey, experimental]);
 
   const send = () => {
     const win = iframeRef.current?.contentWindow;

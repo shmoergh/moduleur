@@ -9,6 +9,10 @@ type State = {
   search: string;
   category: Category;
   showSmd: boolean;
+  // Opt into experimental board variants where they exist (currently just
+  // the Utils UI). Affects which iBom is loaded and which BOM data feeds the
+  // component list.
+  experimental: boolean;
   // Calibration checkbox state, keyed by "<section-id>/<item-id>".
   calibrationDone: Record<string, boolean>;
   // Component-list checkbox state, keyed by "<pass>|<row.key>".
@@ -20,6 +24,7 @@ type State = {
   setSearch: (s: string) => void;
   setCategory: (c: Category) => void;
   setShowSmd: (v: boolean) => void;
+  setExperimental: (v: boolean) => void;
   toggleCalibrationItem: (key: string) => void;
   resetCalibration: () => void;
   toggleComponentItem: (key: string) => void;
@@ -35,6 +40,7 @@ export const useAppStore = create<State>()(
       search: "",
       category: "All",
       showSmd: false,
+      experimental: false,
       calibrationDone: {},
       componentDone: {},
 
@@ -44,6 +50,7 @@ export const useAppStore = create<State>()(
       setSearch: (search) => set({ search }),
       setCategory: (category) => set({ category, selectedKey: null }),
       setShowSmd: (showSmd) => set({ showSmd }),
+      setExperimental: (experimental) => set({ experimental, selectedKey: null }),
       toggleCalibrationItem: (key) =>
         set((s) => ({
           calibrationDone: {

@@ -55,11 +55,14 @@ export const CATEGORY_OPTIONS: Category[] = [
 export function aggregateForPass(
   boards: BoardsJson,
   slots: Slot[],
-  pass: Pass
+  pass: Pass,
+  experimental: boolean = false
 ): AggregatedRow[] {
   const merged = new Map<string, AggregatedRow>();
   for (const slot of slots) {
-    const board = boards[pass][slot.module];
+    const expBoard =
+      experimental && boards.experimental?.[pass]?.[slot.module];
+    const board = expBoard || boards[pass][slot.module];
     if (!board) continue;
     for (const c of board.components) {
       const key = `${c.value}|${c.footprint}`;

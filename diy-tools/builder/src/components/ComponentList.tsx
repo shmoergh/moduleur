@@ -21,12 +21,14 @@ export function ComponentList() {
   const setCategory = useAppStore((s) => s.setCategory);
   const showSmd = useAppStore((s) => s.showSmd);
   const setShowSmd = useAppStore((s) => s.setShowSmd);
+  const experimental = useAppStore((s) => s.experimental);
+  const setExperimental = useAppStore((s) => s.setExperimental);
   const componentDone = useAppStore((s) => s.componentDone);
   const toggleComponentItem = useAppStore((s) => s.toggleComponentItem);
 
   const rows = useMemo(
-    () => aggregateForPass(boards as BoardsJson, SLOTS, pass),
-    [pass]
+    () => aggregateForPass(boards as BoardsJson, SLOTS, pass, experimental),
+    [pass, experimental]
   );
 
   // Rows minus SMD if the toggle is off — used as the base for both the
@@ -84,6 +86,8 @@ export function ComponentList() {
           counts={counts}
           showSmd={showSmd}
           setShowSmd={setShowSmd}
+          experimental={experimental}
+          setExperimental={setExperimental}
         />
       </div>
       <div className="flex-1 overflow-y-auto">
@@ -154,14 +158,18 @@ function CategoryMenu({
   counts,
   showSmd,
   setShowSmd,
+  experimental,
+  setExperimental,
 }: {
   category: Category;
   setCategory: (c: Category) => void;
   counts: Record<Category, number>;
   showSmd: boolean;
   setShowSmd: (v: boolean) => void;
+  experimental: boolean;
+  setExperimental: (v: boolean) => void;
 }) {
-  const isFiltered = category !== "All" || showSmd;
+  const isFiltered = category !== "All" || showSmd || experimental;
   return (
     <DropdownMenu.Root>
       <DropdownMenu.Trigger asChild>
@@ -217,6 +225,17 @@ function CategoryMenu({
               ✓
             </DropdownMenu.ItemIndicator>
             <span>Show SMD components</span>
+          </DropdownMenu.CheckboxItem>
+          <DropdownMenu.CheckboxItem
+            checked={experimental}
+            onCheckedChange={(v) => setExperimental(!!v)}
+            onSelect={(e) => e.preventDefault()}
+            className="relative flex cursor-pointer select-none items-center gap-3 rounded px-2 py-1 pl-7 outline-none data-[highlighted]:bg-surface"
+          >
+            <DropdownMenu.ItemIndicator className="absolute left-2 inline-flex">
+              ✓
+            </DropdownMenu.ItemIndicator>
+            <span>Experimental</span>
           </DropdownMenu.CheckboxItem>
         </DropdownMenu.Content>
       </DropdownMenu.Portal>

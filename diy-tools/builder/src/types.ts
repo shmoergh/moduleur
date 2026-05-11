@@ -37,7 +37,11 @@ export type BoardData = {
   components: ComponentGroup[];
 };
 
-export type BoardsJson = Record<Pass, Record<ModuleId, BoardData>>;
+export type BoardsJson = Record<Pass, Record<ModuleId, BoardData>> & {
+  // Alternative iBoms exposed via the Experimental toggle. Only populated for
+  // (pass, module) pairs that have an experimental variant on disk.
+  experimental?: Partial<Record<Pass, Partial<Record<ModuleId, BoardData>>>>;
+};
 
 export type Category =
   | "All"

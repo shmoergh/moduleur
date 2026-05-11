@@ -10,14 +10,15 @@ export function Minimap() {
   const selectedSlot = useAppStore((s) => s.selectedSlot);
   const selectedKey = useAppStore((s) => s.selectedKey);
   const setSelectedSlot = useAppStore((s) => s.setSelectedSlot);
+  const experimental = useAppStore((s) => s.experimental);
 
   const highlightedSlots = useMemo(() => {
     if (!selectedKey) return new Map<number, string[]>();
-    const rows = aggregateForPass(boards as BoardsJson, SLOTS, pass);
+    const rows = aggregateForPass(boards as BoardsJson, SLOTS, pass, experimental);
     const row = rows.find((r) => r.key === selectedKey);
     if (!row) return new Map<number, string[]>();
     return new Map(row.perSlot.map((p) => [p.slotIndex, p.refs]));
-  }, [pass, selectedKey]);
+  }, [pass, selectedKey, experimental]);
 
   return (
     <div className="grid grid-cols-4 gap-2">

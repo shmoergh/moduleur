@@ -35,6 +35,20 @@ const INSTANCES = [
 const MODULES = [...new Set(INSTANCES.map((i) => i.module))];
 const PASSES = ["core", "ui"];
 
+// Experimental board variants. These are alternative iBom sources for a
+// specific (instance, pass) that the app can opt in to via a toggle. The
+// emitted HTML file gets a `-experimental` suffix on both the filename and
+// the storagePrefix so its "Placed" state is independent from the canonical
+// board's.
+const EXPERIMENTALS = [
+  {
+    slug: "utils",
+    pass: "ui",
+    moduleId: "06-utils-output",
+    sourceRel: ["experimental", "ui-l+r-out", "bom", "ibom.html"],
+  },
+];
+
 const PCBDATA_RE =
   /var\s+pcbdata\s*=\s*JSON\.parse\(\s*LZString\.decompressFromBase64\(\s*"([^"]+)"\s*\)\s*\)/;
 
@@ -398,7 +412,7 @@ function withInstanceStorage(html, slug) {
 }
 
 async function main() {
-  const out = { core: {}, ui: {} };
+  const out = { core: {}, ui: {}, experimental: { ui: {} } };
   const ibomsOutDir = path.join(ROOT, "public", "iboms");
   await fs.mkdir(ibomsOutDir, { recursive: true });
 
@@ -483,6 +497,53 @@ async function main() {
         `  emit   ${pass.padEnd(4)} ${inst.slug.padEnd(8)} <- ${inst.module}${presetNote}`
       );
     }
+  }
+
+  // 3) Emit experimental variants. Each is a parallel (slug, pass) iBom whose
+  //    "Placed" state is namespaced separately so toggling Experimental in the
+  //    app doesn't blow away the canonical board's progress.
+  for (const exp of EXPERIMENTALS) {
+    const src = path.join(MODULES_DIR, exp.moduleId, ...exp.sourceRel);
+    let html;
+    try {
+      html = await fs.readFile(src, "utf8");
+    } catch (e) {
+      console.warn(`! missing experimental: ${src}`);
+      continue;
+    }
+    const pcbdata = await readPcbdata(html);
+    const components = extractComponents(pcbdata);
+    const meta = pcbdata.metadata || {};
+    const smdIndices = exp.pass === "core" ? smdIndicesFromPcbdata(pcbdata) : [];
+    out.experimental[exp.pass][exp.moduleId] = {
+      title: meta.title || exp.moduleId,
+      revision: meta.revision || "",
+      components,
+    };
+    const expSlug = `${exp.slug}-experimental`;
+    const patched = withInstanceStorage(
+      applyDefaults(html, { presetPlacedIndices: smdIndices }),
+      expSlug
+    );
+    const outHtml = path.join(ibomsOutDir, `${exp.slug}-${exp.pass}-experimental.html`);
+    await fs.writeFile(outHtml, patched);
+    const storagePrefix =
+      "KiCad_HTML_BOM__" +
+      (meta.title || "") +
+      "__" +
+      (meta.revision || "") +
+      "__bommap-" +
+      expSlug +
+      "__#";
+    presets[exp.slug] = presets[exp.slug] || {};
+    presets[exp.slug][`${exp.pass}-experimental`] = {
+      storagePrefix,
+      smdIndices,
+    };
+    const refCount = components.reduce((n, c) => n + c.refs.length, 0);
+    console.log(
+      `  emit   ${exp.pass.padEnd(4)} ${expSlug.padEnd(20)} <- ${exp.moduleId} (experimental)  groups=${components.length} refs=${refCount}`
+    );
   }
 
   const dataDir = path.join(ROOT, "src", "data");
