@@ -11,6 +11,8 @@ type State = {
   showSmd: boolean;
   // Calibration checkbox state, keyed by "<section-id>/<item-id>".
   calibrationDone: Record<string, boolean>;
+  // Component-list checkbox state, keyed by "<pass>|<row.key>".
+  componentDone: Record<string, boolean>;
 
   setTab: (t: Tab) => void;
   setSelectedSlot: (i: number) => void;
@@ -20,6 +22,8 @@ type State = {
   setShowSmd: (v: boolean) => void;
   toggleCalibrationItem: (key: string) => void;
   resetCalibration: () => void;
+  toggleComponentItem: (key: string) => void;
+  resetComponents: () => void;
 };
 
 export const useAppStore = create<State>()(
@@ -32,6 +36,7 @@ export const useAppStore = create<State>()(
       category: "All",
       showSmd: false,
       calibrationDone: {},
+      componentDone: {},
 
       setTab: (tab) => set({ tab, selectedKey: null }),
       setSelectedSlot: (selectedSlot) => set({ selectedSlot }),
@@ -47,6 +52,14 @@ export const useAppStore = create<State>()(
           },
         })),
       resetCalibration: () => set({ calibrationDone: {} }),
+      toggleComponentItem: (key) =>
+        set((s) => ({
+          componentDone: {
+            ...s.componentDone,
+            [key]: !s.componentDone[key],
+          },
+        })),
+      resetComponents: () => set({ componentDone: {} }),
     }),
     { name: "bommap-state" }
   )

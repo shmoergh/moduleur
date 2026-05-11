@@ -1,5 +1,6 @@
 import * as AlertDialog from "@radix-ui/react-alert-dialog";
 import presets from "../data/presets.json";
+import { useAppStore } from "../store/useAppStore";
 
 type Preset = { storagePrefix: string; smdIndices: number[] };
 type PresetsJson = Record<string, Record<string, Preset>>;
@@ -25,8 +26,10 @@ function applyReset() {
 }
 
 export function ResetAll() {
+  const resetComponents = useAppStore((s) => s.resetComponents);
   const onConfirm = () => {
     applyReset();
+    resetComponents();
     // Reload every iframe so the "Placed" state in the UI matches storage.
     document
       .querySelectorAll("iframe")
@@ -59,6 +62,8 @@ export function ResetAll() {
             • SMD components → checked
             <br />
             • Everything else → unchecked
+            <br />
+            • Component list checkboxes → unchecked
             <br />
             <br />
             Your current progress will be lost.

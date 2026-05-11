@@ -21,6 +21,8 @@ export function ComponentList() {
   const setCategory = useAppStore((s) => s.setCategory);
   const showSmd = useAppStore((s) => s.showSmd);
   const setShowSmd = useAppStore((s) => s.setShowSmd);
+  const componentDone = useAppStore((s) => s.componentDone);
+  const toggleComponentItem = useAppStore((s) => s.toggleComponentItem);
 
   const rows = useMemo(
     () => aggregateForPass(boards as BoardsJson, SLOTS, pass),
@@ -88,30 +90,54 @@ export function ComponentList() {
         <ul className="divide-y divide-line-soft">
           {filtered.map((row) => {
             const isSelected = row.key === selectedKey;
+            const checkKey = `${pass}|${row.key}`;
+            const done = !!componentDone[checkKey];
             return (
               <li
                 key={row.key}
                 className={
-                  "cursor-pointer px-3 py-2 text-sm transition " +
+                  "flex cursor-pointer items-start gap-2 px-3 py-2 text-sm transition " +
                   (isSelected ? "bg-accent-soft " : "hover:bg-surface ")
                 }
                 onClick={() => setSelectedKey(isSelected ? null : row.key)}
               >
-                <div className="flex items-baseline gap-2">
-                  <span className="text-ink">
-                    {row.value || <em className="text-muted">(no value)</em>}
-                  </span>
-                  <span className="truncate text-xs text-muted">
-                    {row.footprint}
-                  </span>
-                </div>
-                <div className="mt-0.5 text-xs text-muted">
-                  {row.totalRefs}× across {row.perSlot.length} board
-                  {row.perSlot.length === 1 ? "" : "s"}
-                  {": "}
-                  {row.perSlot
-                    .map((p) => `${SLOTS[p.slotIndex].label} (${p.refs.length})`)
-                    .join(", ")}
+                <input
+                  type="checkbox"
+                  checked={done}
+                  onChange={() => toggleComponentItem(checkKey)}
+                  onClick={(e) => e.stopPropagation()}
+                  className="mt-0.5 h-4 w-4 shrink-0 accent-done"
+                  aria-label={`Mark ${row.value || row.footprint} as done`}
+                />
+                <div className="min-w-0 flex-1">
+                  <div className="flex items-baseline gap-2">
+                    <span
+                      className={done ? "text-muted line-through" : "text-ink"}
+                    >
+                      {row.value || <em className="text-muted">(no value)</em>}
+                    </span>
+                    <span
+                      className={
+                        "truncate text-xs " +
+                        (done ? "text-muted line-through" : "text-muted")
+                      }
+                    >
+                      {row.footprint}
+                    </span>
+                  </div>
+                  <div
+                    className={
+                      "mt-0.5 text-xs text-muted " +
+                      (done ? "line-through" : "")
+                    }
+                  >
+                    {row.totalRefs}× across {row.perSlot.length} board
+                    {row.perSlot.length === 1 ? "" : "s"}
+                    {": "}
+                    {row.perSlot
+                      .map((p) => `${SLOTS[p.slotIndex].label} (${p.refs.length})`)
+                      .join(", ")}
+                  </div>
                 </div>
               </li>
             );
