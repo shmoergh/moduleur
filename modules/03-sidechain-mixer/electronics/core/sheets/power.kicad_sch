@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Moduleur Mixer & sidechain compressor")
-		(date "2025-12-11")
-		(rev "1")
+		(date "2026-05-13")
+		(rev "2")
 		(company "Shmøergh")
 	)
 	(lib_symbols

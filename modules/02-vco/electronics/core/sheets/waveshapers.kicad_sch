@@ -6,8 +6,8 @@
 	(paper "User" 310 240)
 	(title_block
 		(title "Moduleur VCO core")
-		(date "2026-02-21")
-		(rev "1")
+		(date "2026-05-13")
+		(rev "2")
 		(company "Shmøergh")
 	)
 	(lib_symbols

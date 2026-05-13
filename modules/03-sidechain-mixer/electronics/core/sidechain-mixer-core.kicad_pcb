@@ -11460,7 +11460,7 @@
 			)
 		)
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*")
-		(path "/392b84ef-7d00-474b-a582-028beb91858c/34f242e0-f933-425b-a81f-6b4a9b5b7232")
+		(path "/392b84ef-7d00-474b-a582-028beb91858c/381a0549-09d5-49c5-ab4a-9992177fb6dd")
 		(sheetname "/Sidechain Mixer/")
 		(sheetfile "sheets/sc-mixer.kicad_sch")
 		(units
