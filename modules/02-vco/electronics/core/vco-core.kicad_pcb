@@ -13794,7 +13794,7 @@
 		(descr "SOT-363, SC-70-6")
 		(tags "SOT-363 SC-70-6")
 		(property "Reference" "Q1"
-			(at 0 -2 270)
+			(at 0 -2 90)
 			(layer "User.1")
 			(uuid "d7a237cd-2a03-4e0e-bd76-66cdecc88d76")
 			(effects
@@ -13816,7 +13816,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BC847BS.pdf"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d1f11e8b-8fbc-4da9-b13d-59f8e27f32b3")
@@ -13827,7 +13827,7 @@
 			)
 		)
 		(property "Description" "100mA IC, 45V Vce, Dual NPN/NPN Transistors, SOT-363"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "eae43163-3d70-448f-bd75-845a59a87e88")
@@ -13926,8 +13926,8 @@
 			(uuid "2c7a6320-2345-4b84-bb5b-ff112255a218")
 		)
 		(fp_circle
-			(center -0.381 -0.635)
-			(end -0.254 -0.635)
+			(center -1.6 -0.635)
+			(end -1.473 -0.635)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -16574,7 +16574,7 @@
 			)
 		)
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*")
-		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/64d08092-2399-499e-80ec-8b9eaa2c0744")
+		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/ca031c53-f063-4402-a95f-f5cd4f96eb59")
 		(sheetname "/Raw oscillator/")
 		(sheetfile "sheets/raw-oscillator.kicad_sch")
 		(units
