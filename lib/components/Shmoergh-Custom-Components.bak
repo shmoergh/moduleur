@@ -7142,7 +7142,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Shmoergh_Custom_Footprints:Gyeszno"
 			(at 0 0 0)
 			(effects
 				(font
