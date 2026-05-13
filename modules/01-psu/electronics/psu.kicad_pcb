@@ -352,6 +352,12 @@
 		(path "/9b949237-ce40-4122-9476-2328bb197787")
 		(sheetname "/")
 		(sheetfile "psu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "6" "2" "3" "4" "5")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -552,7 +558,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "DC_IN_+")
-			(pinfunction "+IN")
+			(pinfunction "+IN_1")
 			(pintype "power_in")
 			(uuid "869b34e5-edaa-4639-8cf1-6ef7152fda3e")
 		)
@@ -563,7 +569,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "DC_IN_-")
-			(pinfunction "-IN")
+			(pinfunction "-IN_2")
 			(pintype "power_in")
 			(uuid "68cc5db5-71f4-4981-99f0-892135992a0c")
 		)
@@ -574,7 +580,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+12V")
-			(pinfunction "+OUT")
+			(pinfunction "+OUT_3")
 			(pintype "power_out")
 			(uuid "47134304-761d-45d2-b5e5-95dd5b9fcb82")
 		)
@@ -585,7 +591,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Common")
+			(pinfunction "Common_4")
 			(pintype "power_out")
 			(uuid "159b6dd9-fe38-4f0b-9eba-81f6f013954c")
 		)
@@ -596,7 +602,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "-12V")
-			(pinfunction "-OUT")
+			(pinfunction "-OUT_5")
 			(pintype "power_out")
 			(uuid "8db97a5b-5a7f-4935-862e-67247d585a0c")
 		)
@@ -607,7 +613,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(IC1-Control-Pad6)")
-			(pinfunction "Control")
+			(pinfunction "Control_6")
 			(pintype "input+no_connect")
 			(uuid "8aa8156e-8eab-4d5d-990d-70f49bca90ab")
 		)
@@ -654,7 +660,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -747,6 +753,12 @@
 		(path "/30938869-2045-4baf-ae14-dde7099f8fa0")
 		(sheetname "/")
 		(sheetfile "psu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -983,7 +995,7 @@
 				(justify right)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1076,6 +1088,12 @@
 		(path "/7c2f1728-9a65-4c87-8b90-f5011633e02a")
 		(sheetname "/")
 		(sheetfile "psu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1711,7 +1729,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1830,7 +1848,13 @@
 		(path "/5f5aa999-07c4-4865-adc8-08b0d737cc7d")
 		(sheetname "/")
 		(sheetfile "psu.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -1902,7 +1926,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1997,6 +2021,12 @@
 		(path "/bce6f00f-b2a5-4bcc-a5bf-83003e94c1c8")
 		(sheetname "/")
 		(sheetfile "psu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2291,7 +2321,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2393,10 +2423,29 @@
 				)
 			)
 		)
+		(property "Part URL" "https://mou.sr/45uKc0N"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea66e7f4-8c9f-424a-ada5-12b58d21eafd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/c1fb43eb-2f06-431c-b532-94463ddbb46b")
 		(sheetname "/")
 		(sheetfile "psu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2530,7 +2579,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "K")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "69cd8354-c957-4129-805c-a7e5c56c5b32")
 		)
@@ -2541,7 +2590,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D3-A)")
-			(pinfunction "A")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "ea74c9c2-0ce8-4d60-82a2-455c1f779e80")
 		)
@@ -2586,7 +2635,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2688,10 +2737,29 @@
 				)
 			)
 		)
+		(property "Part URL" "https://mou.sr/45uKc0N"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5633f7bb-2381-46c2-994a-98feb5442338")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/f4ec6171-0d82-4757-a0e4-da2f2fb9b81d")
 		(sheetname "/")
 		(sheetfile "psu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2825,7 +2893,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "K")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "63a4943b-31c7-482b-a5fe-e93dc109afea")
 		)
@@ -2836,7 +2904,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D1-A)")
-			(pinfunction "A")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "a4500e16-d1fc-4068-bbdd-4669c8a87d37")
 		)
@@ -2974,6 +3042,12 @@
 		(path "/1f140933-79fe-4fe3-8394-ebf07220b2d7")
 		(sheetname "/")
 		(sheetfile "psu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3150,7 +3224,7 @@
 			(remove_unused_layers no)
 			(roundrect_rratio 0.078125)
 			(net "DC_IN_+")
-			(pinfunction "K")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "548e0040-d385-45eb-9e39-387f77bb1bf8")
 		)
@@ -3161,7 +3235,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D2-A)")
-			(pinfunction "A")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "03a539f9-c7f5-47ef-816f-18e8a2673363")
 		)
@@ -3208,7 +3282,7 @@
 				(justify right)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3301,6 +3375,12 @@
 		(path "/03a90c7e-44c9-44f7-b23c-4e3e82d2b94d")
 		(sheetname "/")
 		(sheetfile "psu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3537,7 +3617,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3645,7 +3725,13 @@
 		(path "/70813ca3-a344-42a3-b55b-1d7ed0213fad")
 		(sheetname "/")
 		(sheetfile "psu.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.2 1.2)
@@ -3745,7 +3831,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+12V")
-			(pinfunction "1")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "3d3729e1-577d-4d8a-a586-b88573130371")
 		)
@@ -3780,7 +3866,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3873,7 +3959,13 @@
 		(path "/8a178db2-b206-41ce-a7f3-f5696ffd4c2b")
 		(sheetname "/")
 		(sheetfile "psu.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -3915,7 +4007,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "1")
+			(pinfunction "1_1")
 			(pintype "input")
 			(zone_connect 2)
 			(uuid "6db99b7f-1aef-4bd9-b11e-1be7c69c8600")
@@ -3950,7 +4042,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4052,10 +4144,29 @@
 				)
 			)
 		)
+		(property "Part URL" "https://mou.sr/45uKc0N"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8568f50f-8ae7-435c-b622-df1f390bb71c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/d5d76fd6-e370-4225-afaa-771d77903f93")
 		(sheetname "/")
 		(sheetfile "psu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4189,7 +4300,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "-12V")
-			(pinfunction "K")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "314c2033-9da2-46f9-9d31-e0fc14ea6bb0")
 		)
@@ -4200,7 +4311,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D4-A)")
-			(pinfunction "A")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "cbeaf5c8-a592-41d3-a18b-41efe68becd7")
 		)
@@ -4247,7 +4358,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4355,7 +4466,13 @@
 		(path "/b1de1afd-9dc7-4234-b119-dc33b9781d27")
 		(sheetname "/")
 		(sheetfile "psu.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.2 1.2)
@@ -4455,7 +4572,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "-12V")
-			(pinfunction "1")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "fe606e26-8b86-4530-a2e3-a225b7b7147a")
 		)
@@ -4735,6 +4852,12 @@
 		(path "/41760717-cbe2-4b17-99a7-076873a807d4")
 		(sheetname "/")
 		(sheetfile "psu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2" "4")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5280,7 +5403,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5399,7 +5522,13 @@
 		(path "/0a8594fc-d68c-47f4-b232-bd12a5bb7186")
 		(sheetname "/")
 		(sheetfile "psu.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -5473,7 +5602,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5578,6 +5707,12 @@
 		(path "/fcec7d5b-fc4f-474f-83e6-bc01b10a6476")
 		(sheetname "/")
 		(sheetfile "psu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3")
+			)
+		)
 		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5719,7 +5854,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+12V")
-			(pinfunction "Pin_1")
+			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "024d95a7-bed5-416c-b4ef-4f246c42458f")
 		)
@@ -5730,7 +5865,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Pin_2")
+			(pinfunction "Pin_2_2")
 			(pintype "passive")
 			(uuid "43b25c1f-f197-4519-a276-bf056bfb1b69")
 		)
@@ -5741,7 +5876,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "-12V")
-			(pinfunction "Pin_3")
+			(pinfunction "Pin_3_3")
 			(pintype "passive")
 			(uuid "529e71f4-b2f8-4e0a-ad94-b1c6956a8a66")
 		)
@@ -5786,7 +5921,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5868,8 +6003,14 @@
 		(path "/e28ff27c-208b-4169-8704-067fe458308d")
 		(sheetname "/")
 		(sheetfile "psu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(zone_connect 1)
-		(attr exclude_from_pos_files allow_soldermask_bridges)
+		(attr allow_soldermask_bridges)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -0.15 -0.75)
@@ -6011,7 +6152,7 @@
 			(size 1 0.5)
 			(layers "F.Cu" "F.Mask")
 			(net "DC_IN_-")
-			(pinfunction "A")
+			(pinfunction "A_1")
 			(pintype "passive")
 			(zone_connect 2)
 			(thermal_bridge_angle 45)
@@ -6047,7 +6188,7 @@
 			(size 1 0.5)
 			(layers "F.Cu" "F.Mask")
 			(net "GND")
-			(pinfunction "B")
+			(pinfunction "B_2")
 			(pintype "passive")
 			(zone_connect 2)
 			(thermal_bridge_angle 45)
@@ -6110,7 +6251,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6229,7 +6370,13 @@
 		(path "/494a05b6-b388-44ec-95bd-711a148ebe6c")
 		(sheetname "/")
 		(sheetfile "psu.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -6302,7 +6449,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6410,7 +6557,13 @@
 		(path "/4820b761-83b6-4c1b-aed5-0d48b0b004fb")
 		(sheetname "/")
 		(sheetfile "psu.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.2 -1.2)
@@ -6510,7 +6663,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "1")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "d20525c6-41e9-493d-8dd2-d679c5bc7962")
 		)
@@ -6821,7 +6974,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -6917,10 +7070,32 @@
 				(justify mirror)
 			)
 		)
+		(property "Vendor" "Mouser"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "01e59205-320f-4b63-89bf-301fbc1c8dfa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/df0925ce-2d2e-4ee4-bdc1-bc6c0959150b")
 		(sheetname "/")
 		(sheetfile "psu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "5" "7" "9" "11" "13" "15" "2" "4" "6" "8" "10" "12" "14"
+					"16"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7354,7 +7529,7 @@
 			(remove_unused_layers no)
 			(roundrect_rratio 0.147059)
 			(net "-12V")
-			(pinfunction "Pin_1")
+			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "430efac5-175b-4804-8ad2-c0e9a238ba82")
 		)
@@ -7365,7 +7540,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "-12V")
-			(pinfunction "Pin_2")
+			(pinfunction "Pin_2_2")
 			(pintype "passive")
 			(uuid "726aa24e-4288-4c98-85c2-4a28c1f8ccc5")
 		)
@@ -7376,7 +7551,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Pin_3")
+			(pinfunction "Pin_3_3")
 			(pintype "passive")
 			(uuid "4c7c4ba8-9fe2-46fe-9a44-44698deac0cb")
 		)
@@ -7387,7 +7562,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Pin_4")
+			(pinfunction "Pin_4_4")
 			(pintype "passive")
 			(uuid "fc6fce61-0e8e-4d3a-b52d-395b5cf379fa")
 		)
@@ -7398,7 +7573,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Pin_5")
+			(pinfunction "Pin_5_5")
 			(pintype "passive")
 			(uuid "6688503a-5cac-4349-8f97-ed0bdfc5d981")
 		)
@@ -7409,7 +7584,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Pin_6")
+			(pinfunction "Pin_6_6")
 			(pintype "passive")
 			(uuid "40766973-5554-4d43-a70d-bf9442723326")
 		)
@@ -7420,7 +7595,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Pin_7")
+			(pinfunction "Pin_7_7")
 			(pintype "passive")
 			(uuid "716c0f38-c7d9-448b-a69e-3eaef420804b")
 		)
@@ -7431,7 +7606,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Pin_8")
+			(pinfunction "Pin_8_8")
 			(pintype "passive")
 			(uuid "1e863ee8-bd32-4317-8882-7d2e0e01284c")
 		)
@@ -7442,7 +7617,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+12V")
-			(pinfunction "Pin_9")
+			(pinfunction "Pin_9_9")
 			(pintype "passive")
 			(uuid "863567b6-ab68-4052-b55f-e782e02a5f02")
 		)
@@ -7453,7 +7628,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+12V")
-			(pinfunction "Pin_10")
+			(pinfunction "Pin_10_10")
 			(pintype "passive")
 			(uuid "252a064d-4c98-4004-968d-d74953425dce")
 		)
@@ -7464,7 +7639,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(J4-Pin_11-Pad11)")
-			(pinfunction "Pin_11")
+			(pinfunction "Pin_11_11")
 			(pintype "passive+no_connect")
 			(uuid "3ab893fa-b002-4b36-b675-5b6053287ed4")
 		)
@@ -7475,7 +7650,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(J4-Pin_12-Pad12)")
-			(pinfunction "Pin_12")
+			(pinfunction "Pin_12_12")
 			(pintype "passive+no_connect")
 			(uuid "ae4b3a85-b8ee-4127-bd0c-18cca59a988c")
 		)
@@ -7486,7 +7661,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(J4-Pin_13-Pad13)")
-			(pinfunction "Pin_13")
+			(pinfunction "Pin_13_13")
 			(pintype "passive+no_connect")
 			(uuid "69306837-0d34-4956-a132-3442b1de4c40")
 		)
@@ -7497,7 +7672,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(J4-Pin_14-Pad14)")
-			(pinfunction "Pin_14")
+			(pinfunction "Pin_14_14")
 			(pintype "passive+no_connect")
 			(uuid "d7769ccc-4793-426e-a42f-731d9afb785a")
 		)
@@ -7508,7 +7683,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(J4-Pin_15-Pad15)")
-			(pinfunction "Pin_15")
+			(pinfunction "Pin_15_15")
 			(pintype "passive+no_connect")
 			(uuid "3e6d1529-94fc-4503-bc9d-e7161022476a")
 		)
@@ -7519,7 +7694,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(J4-Pin_16-Pad16)")
-			(pinfunction "Pin_16")
+			(pinfunction "Pin_16_16")
 			(pintype "passive+no_connect")
 			(uuid "c082a23c-9205-4dcb-b845-728d3af4e6c5")
 		)
@@ -7666,6 +7841,12 @@
 		(path "/1072f75e-c8c3-49c6-98ab-eb36a4ee4e8c")
 		(sheetname "/")
 		(sheetfile "psu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7845,7 +8026,7 @@
 			(remove_unused_layers no)
 			(roundrect_rratio 0.096154)
 			(net "Net-(D5-A1)")
-			(pinfunction "A1")
+			(pinfunction "A1_1")
 			(pintype "passive")
 			(uuid "4d21c6db-e74b-4707-b169-7b89a1646e48")
 		)
@@ -7856,7 +8037,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "DC_IN_-")
-			(pinfunction "A2")
+			(pinfunction "A2_2")
 			(pintype "passive")
 			(uuid "f567f878-e00a-425b-acbb-e61601ad98e8")
 		)
@@ -8041,7 +8222,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -8137,10 +8318,32 @@
 				(justify mirror)
 			)
 		)
+		(property "Vendor" "Mouser"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c8e0e387-ea1e-4ab4-9dd4-25b6637f967e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/f2fe62d4-5914-4a6f-8039-13a6be798dca")
 		(sheetname "/")
 		(sheetfile "psu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "5" "7" "9" "11" "13" "15" "2" "4" "6" "8" "10" "12" "14"
+					"16"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8574,7 +8777,7 @@
 			(remove_unused_layers no)
 			(roundrect_rratio 0.147059)
 			(net "-12V")
-			(pinfunction "Pin_1")
+			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "2426f58e-e344-4589-82f1-afc01ddb1c82")
 		)
@@ -8585,7 +8788,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "-12V")
-			(pinfunction "Pin_2")
+			(pinfunction "Pin_2_2")
 			(pintype "passive")
 			(uuid "7324b43c-01d1-4eb0-aa76-52000edefb6a")
 		)
@@ -8596,7 +8799,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Pin_3")
+			(pinfunction "Pin_3_3")
 			(pintype "passive")
 			(uuid "23963a2c-7b35-4f32-813b-fe41e143d36b")
 		)
@@ -8607,7 +8810,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Pin_4")
+			(pinfunction "Pin_4_4")
 			(pintype "passive")
 			(uuid "97c6d845-f7c6-4273-aa99-f539c6f7ba0e")
 		)
@@ -8618,7 +8821,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Pin_5")
+			(pinfunction "Pin_5_5")
 			(pintype "passive")
 			(uuid "1e303c97-8633-4e72-943c-1acaa64a7348")
 		)
@@ -8629,7 +8832,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Pin_6")
+			(pinfunction "Pin_6_6")
 			(pintype "passive")
 			(uuid "d7babf55-b63d-4d88-9262-9385bf123704")
 		)
@@ -8640,7 +8843,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Pin_7")
+			(pinfunction "Pin_7_7")
 			(pintype "passive")
 			(uuid "c9e6b0fa-8aca-421c-ab29-cbd005b55eea")
 		)
@@ -8651,7 +8854,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Pin_8")
+			(pinfunction "Pin_8_8")
 			(pintype "passive")
 			(uuid "cbd75c26-833d-4f5b-9810-4838044f05b3")
 		)
@@ -8662,7 +8865,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+12V")
-			(pinfunction "Pin_9")
+			(pinfunction "Pin_9_9")
 			(pintype "passive")
 			(uuid "c067fc52-5737-4565-b91d-b363aad99392")
 		)
@@ -8673,7 +8876,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+12V")
-			(pinfunction "Pin_10")
+			(pinfunction "Pin_10_10")
 			(pintype "passive")
 			(uuid "213a9ad5-fe58-4970-aed3-2c57715c1740")
 		)
@@ -8684,7 +8887,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(J2-Pin_11-Pad11)")
-			(pinfunction "Pin_11")
+			(pinfunction "Pin_11_11")
 			(pintype "passive+no_connect")
 			(uuid "4065f7e1-cbe7-4a13-9951-1bb1fd7ebe06")
 		)
@@ -8695,7 +8898,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(J2-Pin_12-Pad12)")
-			(pinfunction "Pin_12")
+			(pinfunction "Pin_12_12")
 			(pintype "passive+no_connect")
 			(uuid "fa3a5b18-6a9e-4454-9bc7-b315d0645908")
 		)
@@ -8706,7 +8909,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(J2-Pin_13-Pad13)")
-			(pinfunction "Pin_13")
+			(pinfunction "Pin_13_13")
 			(pintype "passive+no_connect")
 			(uuid "74e6bb61-33ed-4542-9413-6c747933f566")
 		)
@@ -8717,7 +8920,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(J2-Pin_14-Pad14)")
-			(pinfunction "Pin_14")
+			(pinfunction "Pin_14_14")
 			(pintype "passive+no_connect")
 			(uuid "bd58f834-93ee-4fb9-a6e5-dcca6b9710cd")
 		)
@@ -8728,7 +8931,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(J2-Pin_15-Pad15)")
-			(pinfunction "Pin_15")
+			(pinfunction "Pin_15_15")
 			(pintype "passive+no_connect")
 			(uuid "1b6fae7c-d09e-4c1a-994d-13eec69217a3")
 		)
@@ -8739,7 +8942,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(J2-Pin_16-Pad16)")
-			(pinfunction "Pin_16")
+			(pinfunction "Pin_16_16")
 			(pintype "passive+no_connect")
 			(uuid "77a922c4-d10c-4e52-8b5d-c2129bdd4ed6")
 		)
@@ -8787,7 +8990,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -8883,10 +9086,32 @@
 				(justify mirror)
 			)
 		)
+		(property "Vendor" "Mouser"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "157d7337-1597-4171-8dcd-33ed54427092")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/c73c667d-6e84-481f-871e-2f5fec99600c")
 		(sheetname "/")
 		(sheetfile "psu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "5" "7" "9" "11" "13" "15" "2" "4" "6" "8" "10" "12" "14"
+					"16"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9320,7 +9545,7 @@
 			(remove_unused_layers no)
 			(roundrect_rratio 0.147059)
 			(net "-12V")
-			(pinfunction "Pin_1")
+			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "bd1073fe-4aa2-47b7-9c72-e7fd302054f9")
 		)
@@ -9331,7 +9556,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "-12V")
-			(pinfunction "Pin_2")
+			(pinfunction "Pin_2_2")
 			(pintype "passive")
 			(uuid "8269b4a6-3e34-4193-8e9c-5727cf920fb7")
 		)
@@ -9342,7 +9567,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Pin_3")
+			(pinfunction "Pin_3_3")
 			(pintype "passive")
 			(uuid "c7945370-f4e6-4ca9-a6a3-88e76ec2a60f")
 		)
@@ -9353,7 +9578,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Pin_4")
+			(pinfunction "Pin_4_4")
 			(pintype "passive")
 			(uuid "1649d7b6-4c15-4a3f-82fe-fe1678ccc072")
 		)
@@ -9364,7 +9589,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Pin_5")
+			(pinfunction "Pin_5_5")
 			(pintype "passive")
 			(uuid "aca02fa7-1697-4290-a01c-7b39dea266f0")
 		)
@@ -9375,7 +9600,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Pin_6")
+			(pinfunction "Pin_6_6")
 			(pintype "passive")
 			(uuid "692f761f-c183-4e67-bba3-b46df1717b35")
 		)
@@ -9386,7 +9611,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Pin_7")
+			(pinfunction "Pin_7_7")
 			(pintype "passive")
 			(uuid "9d6fbba3-99fc-492d-8329-4ad5dd9f7dbd")
 		)
@@ -9397,7 +9622,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Pin_8")
+			(pinfunction "Pin_8_8")
 			(pintype "passive")
 			(uuid "5abd2291-7a63-42d3-8f7f-a87568a7854d")
 		)
@@ -9408,7 +9633,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+12V")
-			(pinfunction "Pin_9")
+			(pinfunction "Pin_9_9")
 			(pintype "passive")
 			(uuid "6250a404-5dd3-441c-86ab-dd1a4000b2be")
 		)
@@ -9419,7 +9644,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+12V")
-			(pinfunction "Pin_10")
+			(pinfunction "Pin_10_10")
 			(pintype "passive")
 			(uuid "d929d363-f780-408b-8dc2-f5a60a4fa151")
 		)
@@ -9430,7 +9655,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(J5-Pin_11-Pad11)")
-			(pinfunction "Pin_11")
+			(pinfunction "Pin_11_11")
 			(pintype "passive+no_connect")
 			(uuid "0cdd9404-04b8-4a94-bbdd-ff09e6894946")
 		)
@@ -9441,7 +9666,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(J5-Pin_12-Pad12)")
-			(pinfunction "Pin_12")
+			(pinfunction "Pin_12_12")
 			(pintype "passive+no_connect")
 			(uuid "c6c2c50d-0bc0-4cff-bb3f-104a31a93778")
 		)
@@ -9452,7 +9677,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(J5-Pin_13-Pad13)")
-			(pinfunction "Pin_13")
+			(pinfunction "Pin_13_13")
 			(pintype "passive+no_connect")
 			(uuid "0321f584-157f-44fa-83fd-e5f9ac63bd09")
 		)
@@ -9463,7 +9688,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(J5-Pin_14-Pad14)")
-			(pinfunction "Pin_14")
+			(pinfunction "Pin_14_14")
 			(pintype "passive+no_connect")
 			(uuid "830837ef-51fe-4a45-8e39-569138a6c99a")
 		)
@@ -9474,7 +9699,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(J5-Pin_15-Pad15)")
-			(pinfunction "Pin_15")
+			(pinfunction "Pin_15_15")
 			(pintype "passive+no_connect")
 			(uuid "bc0d6239-85f7-4972-a3d9-48051355be5b")
 		)
@@ -9485,7 +9710,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(J5-Pin_16-Pad16)")
-			(pinfunction "Pin_16")
+			(pinfunction "Pin_16_16")
 			(pintype "passive+no_connect")
 			(uuid "492fb5e7-ff17-4a08-996e-65c342f3b409")
 		)
@@ -9533,7 +9758,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -9629,10 +9854,32 @@
 				(justify mirror)
 			)
 		)
+		(property "Vendor" "Mouser"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "dc72dab3-3179-4efd-badc-acbdab96af59")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/5bdfc89e-c63e-4db0-8974-0cf8018f6688")
 		(sheetname "/")
 		(sheetfile "psu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "5" "7" "9" "11" "13" "15" "2" "4" "6" "8" "10" "12" "14"
+					"16"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10066,7 +10313,7 @@
 			(remove_unused_layers no)
 			(roundrect_rratio 0.147059)
 			(net "-12V")
-			(pinfunction "Pin_1")
+			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "edd8a44b-8672-4e8e-ae1f-6e0cbace7a5d")
 		)
@@ -10077,7 +10324,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "-12V")
-			(pinfunction "Pin_2")
+			(pinfunction "Pin_2_2")
 			(pintype "passive")
 			(uuid "22f2f9ee-5bae-4d1e-a173-af5dc8b9a057")
 		)
@@ -10088,7 +10335,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Pin_3")
+			(pinfunction "Pin_3_3")
 			(pintype "passive")
 			(uuid "87f74f88-41f7-4d30-833c-26a6265fc536")
 		)
@@ -10099,7 +10346,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Pin_4")
+			(pinfunction "Pin_4_4")
 			(pintype "passive")
 			(uuid "e44efd18-7b58-4022-a9dc-f3046d4959a4")
 		)
@@ -10110,7 +10357,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Pin_5")
+			(pinfunction "Pin_5_5")
 			(pintype "passive")
 			(uuid "9057d0be-74f9-4964-be2a-1207989c287e")
 		)
@@ -10121,7 +10368,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Pin_6")
+			(pinfunction "Pin_6_6")
 			(pintype "passive")
 			(uuid "ed04bee5-b785-4909-b3af-956ee6d0ca88")
 		)
@@ -10132,7 +10379,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Pin_7")
+			(pinfunction "Pin_7_7")
 			(pintype "passive")
 			(uuid "c1c30f89-bec0-49e4-ab0d-7ecfe16daef8")
 		)
@@ -10143,7 +10390,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Pin_8")
+			(pinfunction "Pin_8_8")
 			(pintype "passive")
 			(uuid "66f4df8d-6e0a-4838-a928-d2bdc7fc50de")
 		)
@@ -10154,7 +10401,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+12V")
-			(pinfunction "Pin_9")
+			(pinfunction "Pin_9_9")
 			(pintype "passive")
 			(uuid "f71cee51-4d4a-48e8-ab81-e9c357dc5b19")
 		)
@@ -10165,7 +10412,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+12V")
-			(pinfunction "Pin_10")
+			(pinfunction "Pin_10_10")
 			(pintype "passive")
 			(uuid "47991e7b-cd31-4676-920c-02c98541baf2")
 		)
@@ -10176,7 +10423,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(J3-Pin_11-Pad11)")
-			(pinfunction "Pin_11")
+			(pinfunction "Pin_11_11")
 			(pintype "passive+no_connect")
 			(uuid "a92d69c7-81de-4335-ac1d-45b042d46bf6")
 		)
@@ -10187,7 +10434,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(J3-Pin_12-Pad12)")
-			(pinfunction "Pin_12")
+			(pinfunction "Pin_12_12")
 			(pintype "passive+no_connect")
 			(uuid "49f895ec-ac8e-4a70-ac1a-a761900c3e0d")
 		)
@@ -10198,7 +10445,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(J3-Pin_13-Pad13)")
-			(pinfunction "Pin_13")
+			(pinfunction "Pin_13_13")
 			(pintype "passive+no_connect")
 			(uuid "effced9c-9b11-430a-a84d-fbc69a41afe4")
 		)
@@ -10209,7 +10456,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(J3-Pin_14-Pad14)")
-			(pinfunction "Pin_14")
+			(pinfunction "Pin_14_14")
 			(pintype "passive+no_connect")
 			(uuid "eac912e7-40a2-4995-96bd-5ed2ae4bfd70")
 		)
@@ -10220,7 +10467,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(J3-Pin_15-Pad15)")
-			(pinfunction "Pin_15")
+			(pinfunction "Pin_15_15")
 			(pintype "passive+no_connect")
 			(uuid "452647b4-9401-445a-bec1-b539b142be25")
 		)
@@ -10231,7 +10478,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(J3-Pin_16-Pad16)")
-			(pinfunction "Pin_16")
+			(pinfunction "Pin_16_16")
 			(pintype "passive+no_connect")
 			(uuid "32b98e81-61cd-42f8-b042-8263b600a130")
 		)
@@ -11069,7 +11316,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "POWER SUPPLY — REV 3"
+	(gr_text "POWER SUPPLY — REV 4"
 		(at 39.116 80.518 90)
 		(layer "B.SilkS")
 		(uuid "6554bf8e-9873-4d03-a5e0-190603d52da5")
@@ -11082,7 +11329,7 @@
 			)
 			(justify left bottom mirror)
 		)
-		(render_cache "POWER SUPPLY — REV 3" 90
+		(render_cache "POWER SUPPLY — REV 4" 90
 			(polygon
 				(pts
 					(xy 37.327857 80.708875) (xy 38.861 80.708875) (xy 38.861 80.905613) (xy 38.288281 80.905613) (xy 38.288281 81.478332)
@@ -11325,37 +11572,19 @@
 			)
 			(polygon
 				(pts
-					(xy 37.518824 106.074472) (xy 37.715562 106.074472) (xy 37.715562 106.27121) (xy 37.518824 106.27121)
+					(xy 37.327857 106.647191) (xy 37.524686 106.647191) (xy 37.524686 106.838067) (xy 38.282419 106.838067)
+					(xy 38.282419 106.27121) (xy 37.900667 106.27121) (xy 37.900667 106.074472) (xy 38.479248 106.074472)
+					(xy 38.479248 106.838067) (xy 38.861 106.838067) (xy 38.861 107.034896) (xy 37.327857 107.034896)
 				)
 			)
 			(polygon
 				(pts
-					(xy 37.327857 106.265348) (xy 37.524686 106.265348) (xy 37.524686 106.843928) (xy 37.327857 106.843928)
+					(xy 37.518824 106.456315) (xy 37.715562 106.456315) (xy 37.715562 106.653053) (xy 37.518824 106.653053)
 				)
 			)
 			(polygon
 				(pts
-					(xy 37.518824 106.838067) (xy 37.906529 106.838067) (xy 37.906529 107.034896) (xy 37.518824 107.034896)
-				)
-			)
-			(polygon
-				(pts
-					(xy 37.900667 106.456315) (xy 38.097405 106.456315) (xy 38.097405 106.843928) (xy 37.900667 106.843928)
-				)
-			)
-			(polygon
-				(pts
-					(xy 38.091543 106.838067) (xy 38.670124 106.838067) (xy 38.670124 107.034896) (xy 38.091543 107.034896)
-				)
-			)
-			(polygon
-				(pts
-					(xy 38.664262 106.843928) (xy 38.664262 106.265348) (xy 38.861 106.265348) (xy 38.861 106.843928)
-				)
-			)
-			(polygon
-				(pts
-					(xy 38.670124 106.27121) (xy 38.473386 106.27121) (xy 38.473386 106.074472) (xy 38.670124 106.074472)
+					(xy 37.7097 106.265348) (xy 37.906529 106.265348) (xy 37.906529 106.462177) (xy 37.7097 106.462177)
 				)
 			)
 		)
@@ -11642,7 +11871,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "3.3"
+		(gr_text "129.9213"
 			(at 28.65 76.55 0)
 			(layer "Cmts.User")
 			(uuid "25edbbbf-9b34-4b9a-9f0b-744917d91884")
@@ -11680,7 +11909,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "250"
+		(gr_text "9842.5197"
 			(at 152 67.85 0)
 			(layer "Cmts.User")
 			(uuid "7c076b94-c11b-4f82-9601-d60f412d2ccb")
@@ -11718,7 +11947,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "32"
+		(gr_text "1259.8425"
 			(at 281.85 96 90)
 			(layer "Cmts.User")
 			(uuid "9310cd73-8c1b-4c05-a519-39f1c4c87458")
@@ -11756,7 +11985,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "3.3"
+		(gr_text "129.9213"
 			(at 21.35 81.65 90)
 			(layer "Cmts.User")
 			(uuid "a3605654-5439-4443-9fa9-d95338f4d845")
@@ -11794,7 +12023,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "4.5"
+		(gr_text "177.1654"
 			(at 20.7 69.1 0)
 			(layer "Cmts.User")
 			(uuid "c2479af2-ab06-40af-a438-16dcbfb39888")
@@ -11832,7 +12061,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "256"
+		(gr_text "10078.7402"
 			(at 152 61.85 0)
 			(layer "Cmts.User")
 			(uuid "d91ca243-3427-45b6-ba63-042012d6091a")
@@ -11871,7 +12100,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "10"
+		(gr_text "393.7008"
 			(locked yes)
 			(at 14.85 107 90)
 			(layer "User.2")
@@ -11910,7 +12139,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "1.5"
+		(gr_text "59.0551"
 			(at 18.85 79.25 90)
 			(layer "User.2")
 			(uuid "bb8f623a-6404-411d-830d-9bf3e40c571a")
@@ -11948,7 +12177,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "5.7"
+		(gr_text "224.4094"
 			(at 33.15 65.25 0)
 			(layer "User.4")
 			(uuid "cd97585e-f2da-417c-969d-d7dd6d655dc0")
