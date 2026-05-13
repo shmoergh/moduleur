@@ -7,7 +7,7 @@
 	(title_block
 		(title "ADSR + VCA")
 		(date "2026-05-13")
-		(rev "4")
+		(rev "5")
 		(company "Shmøergh")
 	)
 	(lib_symbols
@@ -791,6 +791,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:Jumper_2_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Bridged"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, closed/bridged"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_1"
+				(arc
+					(start -1.524 0.254)
+					(mid 0 0.762)
+					(end 1.524 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_BJT:BC847BS"
 			(pin_names
 				(offset 0)
@@ -1458,6 +1624,19 @@
 		)
 		(uuid "2653bf1e-6e68-472b-8895-a6fc9c16d1f2")
 	)
+	(text "RV_AMP_BALANCE1 -> Experimental + testing\nrelateed. DO NOT POPULATE / SOLDER"
+		(exclude_from_sim no)
+		(at 201.676 21.59 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.1875)
+				(color 255 0 255 1)
+			)
+			(justify left)
+		)
+		(uuid "b9d51aa1-5bb3-491e-882c-de7b162ef54f")
+	)
 	(text "There was a crosstalk issue because\nthe 100k resistor was too far from \nthe input pin header on the PCB. It's\nnow moved as close to it as possible\nso that the input signal is scaled down\ndrastically as it enters the board.\n\nNote that now there's a 100k resistor \non the UI board too for testing purposes. \nEither that OR R18 (on this board) should be \nused, so make sure to short one of them."
 		(exclude_from_sim no)
 		(at 38.1 46.99 0)
@@ -1476,6 +1655,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0dda41c7-5191-4513-a237-4c615549a773")
+	)
+	(junction
+		(at 212.09 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "100a8107-f8b6-4a9f-bcc3-a0284adaf1ed")
+	)
+	(junction
+		(at 189.23 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15e33983-ee58-4849-8c8b-6de0a335928d")
 	)
 	(junction
 		(at 139.7 100.33)
@@ -1544,10 +1735,22 @@
 		(uuid "854c899d-a061-4548-ad17-46122167bafa")
 	)
 	(junction
-		(at 198.12 60.96)
+		(at 177.8 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ad44e8ce-69b0-482b-aa73-f82fc2933e80")
+		(uuid "87f17fb4-ac66-4518-816c-fe3b9533860e")
+	)
+	(junction
+		(at 212.09 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "933aa9f1-f25f-4f12-9ba0-7284489cba76")
+	)
+	(junction
+		(at 212.09 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d3f1d57-98b1-4bb9-b594-dc4f96cfd94e")
 	)
 	(junction
 		(at 177.8 63.5)
@@ -1560,12 +1763,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2520bc2-0a95-4a0e-ad7a-420a467eeb2a")
-	)
-	(junction
-		(at 198.12 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f91ec8f7-4aa5-4b77-a04c-054f07e3b26a")
 	)
 	(wire
 		(pts
@@ -1586,6 +1783,16 @@
 			(type default)
 		)
 		(uuid "049dd587-d2b6-4ba9-a93a-095f1e4652fb")
+	)
+	(wire
+		(pts
+			(xy 177.8 25.4) (xy 177.8 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "085d40ce-6c91-44d6-9caa-6058c3e8fb0f")
 	)
 	(wire
 		(pts
@@ -1639,7 +1846,17 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 60.96) (xy 198.12 60.96)
+			(xy 191.77 25.4) (xy 189.23 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a221798-5772-400e-93c3-6871b3407f36")
+	)
+	(wire
+		(pts
+			(xy 195.58 60.96) (xy 212.09 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1770,7 +1987,17 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 38.1) (xy 198.12 48.26)
+			(xy 212.09 60.96) (xy 218.44 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e955eb3-f9a3-4a05-bfea-784c47653c4a")
+	)
+	(wire
+		(pts
+			(xy 212.09 38.1) (xy 212.09 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1790,6 +2017,26 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 20.32) (xy 195.58 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64473a49-dcb6-40e9-8e35-bc2d5d7f1680")
+	)
+	(wire
+		(pts
+			(xy 199.39 25.4) (xy 212.09 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66bcc97c-7c4e-4721-95aa-b57bae17a5d8")
+	)
+	(wire
+		(pts
 			(xy 154.94 83.82) (xy 154.94 76.2)
 		)
 		(stroke
@@ -1800,7 +2047,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 38.1) (xy 198.12 38.1)
+			(xy 191.77 38.1) (xy 212.09 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1871,13 +2118,23 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 48.26) (xy 198.12 48.26)
+			(xy 191.77 48.26) (xy 196.85 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8b990d78-0634-4f39-9118-35cbf54ea303")
+	)
+	(wire
+		(pts
+			(xy 212.09 25.4) (xy 212.09 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c54117f-d46f-46f3-aa7e-65ce892b8fe1")
 	)
 	(wire
 		(pts
@@ -1891,7 +2148,17 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 60.96) (xy 220.98 60.96)
+			(xy 195.58 20.32) (xy 189.23 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "908e7707-dcb3-43e0-ab63-5efb86f7d21b")
+	)
+	(wire
+		(pts
+			(xy 226.06 60.96) (xy 233.68 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1941,6 +2208,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 25.4) (xy 177.8 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a512cbf4-e791-40f2-9f40-8c8bd062da21")
+	)
+	(wire
+		(pts
 			(xy 111.76 110.49) (xy 120.65 110.49)
 		)
 		(stroke
@@ -1948,6 +2225,16 @@
 			(type default)
 		)
 		(uuid "a8ce9ccf-a1ab-4123-9ad6-06ded0b78260")
+	)
+	(wire
+		(pts
+			(xy 207.01 48.26) (xy 212.09 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac56f1b5-5ac8-4bb6-9d9f-9b978f2714d6")
 	)
 	(wire
 		(pts
@@ -2012,6 +2299,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 20.32) (xy 189.23 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c28c5167-ecff-472f-86f7-c2ebd95b6f38")
+	)
+	(wire
+		(pts
 			(xy 118.11 115.57) (xy 120.65 115.57)
 		)
 		(stroke
@@ -2052,7 +2349,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 48.26) (xy 198.12 60.96)
+			(xy 212.09 48.26) (xy 212.09 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2099,16 +2396,6 @@
 			(type default)
 		)
 		(uuid "d4e0d596-1678-48c8-9f42-9ca0dfe22c78")
-	)
-	(wire
-		(pts
-			(xy 198.12 60.96) (xy 205.74 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbec8b88-8aa0-40cc-90d7-820161ca9db9")
 	)
 	(wire
 		(pts
@@ -2252,7 +2539,7 @@
 	)
 	(hierarchical_label "OUT"
 		(shape output)
-		(at 220.98 60.96 0)
+		(at 233.68 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2356,6 +2643,86 @@
 			(project "adsr-vca-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/c6cac276-2f32-41b3-9c97-03c30aa61119"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 201.93 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15257b7b-1e5c-40c2-9554-aa506af62a18")
+		(property "Reference" "JP1"
+			(at 201.93 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Bridged"
+			(at 201.93 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm"
+			(at 201.93 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 201.93 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b38dee4b-ed84-4fe0-b0ae-53220eef958e")
+		)
+		(pin "2"
+			(uuid "51b7c81c-02f0-48d2-a8b2-d43656483725")
+		)
+		(instances
+			(project "adsr-vca-core"
+				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/c6cac276-2f32-41b3-9c97-03c30aa61119"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -5736,7 +6103,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 209.55 60.96 270)
+		(at 222.25 60.96 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -5747,7 +6114,7 @@
 		(dnp no)
 		(uuid "d35e1e68-eef7-4edd-a59c-1b6077e18514")
 		(property "Reference" "R15"
-			(at 209.55 57.15 90)
+			(at 222.25 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5757,7 +6124,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 209.55 54.61 90)
+			(at 222.25 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5767,7 +6134,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 209.55 62.738 90)
+			(at 222.25 62.738 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5778,7 +6145,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 60.96 0)
+			(at 222.25 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5789,7 +6156,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 209.55 60.96 0)
+			(at 222.25 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5800,7 +6167,7 @@
 			)
 		)
 		(property "LCSC" "C21190"
-			(at 209.55 60.96 90)
+			(at 222.25 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5811,7 +6178,7 @@
 			)
 		)
 		(property "CHECKED" "YES"
-			(at 209.55 60.96 90)
+			(at 222.25 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5822,7 +6189,7 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
-			(at 209.55 60.96 90)
+			(at 222.25 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5833,7 +6200,7 @@
 			)
 		)
 		(property "Part No." ""
-			(at 209.55 60.96 0)
+			(at 222.25 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5844,7 +6211,7 @@
 			)
 		)
 		(property "Part URL" ""
-			(at 209.55 60.96 0)
+			(at 222.25 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5855,7 +6222,7 @@
 			)
 		)
 		(property "Arwill" ""
-			(at 209.55 60.96 0)
+			(at 222.25 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5866,7 +6233,7 @@
 			)
 		)
 		(property "Hestore" ""
-			(at 209.55 60.96 0)
+			(at 222.25 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5886,6 +6253,157 @@
 			(project "adsr-vca-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/c6cac276-2f32-41b3-9c97-03c30aa61119"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Trim")
+		(at 195.58 25.4 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "d80ec163-d67c-4968-98e7-e9bb602de769")
+		(property "Reference" "RV_AMP_BALANCE1"
+			(at 203.708 27.94 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "500k-1M"
+			(at 199.39 30.48 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA6-H2,5_Horizontal"
+			(at 195.58 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Trim-potentiometer"
+			(at 195.58 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arwill" ""
+			(at 195.58 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Hestore" ""
+			(at 195.58 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Mouser"
+			(at 195.58 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 195.58 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part no." "774-06TR4AA103CP"
+			(at 195.58 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part URL" "https://mou.sr/44pTlq5"
+			(at 195.58 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ee806948-4719-4cdf-aed0-cabaa0c57f76")
+		)
+		(pin "3"
+			(uuid "ca2df8a0-405f-4f16-8537-d24cd095720c")
+		)
+		(pin "1"
+			(uuid "f1c68433-1a59-44fe-b605-3c4f3ac6892e")
+		)
+		(instances
+			(project "adsr-vca-core"
+				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/c6cac276-2f32-41b3-9c97-03c30aa61119"
+					(reference "RV_AMP_BALANCE1")
 					(unit 1)
 				)
 			)
