@@ -10,6 +10,7 @@ C4,CP_Elec_5x5.4,1,10u,C30110
 J4,PinSocket_1x06_P2.54mm_Vertical,1,Conn_01x06,
 J6,PinHeader_1x02_P2.54mm_Vertical,1,Conn_01x02,
 J7,IDC-Header_2x05_P2.54mm_Horizontal,1,Conn_02x05_Odd_Even,
+JP1,SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm,1,Jumper_2_Bridged,
 Q1,SOT-23,1,BC857,C20069137
 Q3,SOT-363_SC-70-6,1,BC847BS,C5380687
 R1,0603,1,22k,C31850
