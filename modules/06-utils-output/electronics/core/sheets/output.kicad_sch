@@ -2395,18 +2395,6 @@
 		)
 		(uuid "318233aa-55a5-4c08-a66e-6cbba04d69d7")
 	)
-	(text "Proto this! If works, replace with\nSMD variant."
-		(exclude_from_sim no)
-		(at 41.91 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 255 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "5a9422fe-9646-44f4-9963-cd4e52dc0062")
-	)
 	(text "Max line out level\nSet to 2.8Vpp"
 		(exclude_from_sim no)
 		(at 17.78 69.85 0)
@@ -3166,17 +3154,6 @@
 			(type default)
 		)
 		(uuid "9b4b7f3f-2147-40f1-b976-e3a63e56d1a2")
-	)
-	(polyline
-		(pts
-			(xy 53.34 52.07) (xy 57.15 39.37)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 255 0 255 1)
-		)
-		(uuid "9f6e96af-4552-4fd9-8876-862b0e61b6e5")
 	)
 	(wire
 		(pts
