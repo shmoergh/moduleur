@@ -1,0 +1,3089 @@
+{
+  "core": {
+    "02-vco": {
+      "title": "vco-core",
+      "revision": "",
+      "components": [
+        {
+          "value": "100n",
+          "footprint": "C_0603_1608Metric",
+          "refs": [
+            "C1",
+            "C2",
+            "C3",
+            "C4",
+            "C5",
+            "C6",
+            "C13",
+            "C14",
+            "C15",
+            "C16",
+            "C17",
+            "C18",
+            "C21",
+            "C22",
+            "C26",
+            "C27"
+          ]
+        },
+        {
+          "value": "100u",
+          "footprint": "CP_Elec_6.3x7.7",
+          "refs": [
+            "C23",
+            "C24"
+          ]
+        },
+        {
+          "value": "100p",
+          "footprint": "C_0603_1608Metric",
+          "refs": [
+            "C8"
+          ]
+        },
+        {
+          "value": "2.2nF (foil)",
+          "footprint": "C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2",
+          "refs": [
+            "C9"
+          ]
+        },
+        {
+          "value": "22p",
+          "footprint": "C_0603_1608Metric",
+          "refs": [
+            "C10"
+          ]
+        },
+        {
+          "value": "47p",
+          "footprint": "C_0603_1608Metric",
+          "refs": [
+            "C11"
+          ]
+        },
+        {
+          "value": "33p",
+          "footprint": "C_0603_1608Metric",
+          "refs": [
+            "C20"
+          ]
+        },
+        {
+          "value": "1u",
+          "footprint": "C_0603_1608Metric",
+          "refs": [
+            "C28"
+          ]
+        },
+        {
+          "value": "470n",
+          "footprint": "C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2",
+          "refs": [
+            "C29"
+          ]
+        },
+        {
+          "value": "100k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R1",
+            "R5",
+            "R15",
+            "R18",
+            "R21",
+            "R25",
+            "R27",
+            "R28",
+            "R29",
+            "R30",
+            "R37",
+            "R38",
+            "R40",
+            "R41",
+            "R43",
+            "R57"
+          ]
+        },
+        {
+          "value": "1k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R50",
+            "R52",
+            "R53",
+            "R54",
+            "R55"
+          ]
+        },
+        {
+          "value": "See t.comp. table",
+          "footprint": "R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+          "refs": [
+            "R3",
+            "R6",
+            "R7",
+            "R8"
+          ]
+        },
+        {
+          "value": "47k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R22",
+            "R32",
+            "R45",
+            "R46"
+          ]
+        },
+        {
+          "value": "220k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R31",
+            "R34",
+            "R44",
+            "R56"
+          ]
+        },
+        {
+          "value": "1M",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R4",
+            "R10",
+            "R13"
+          ]
+        },
+        {
+          "value": "150k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R2",
+            "R17"
+          ]
+        },
+        {
+          "value": "1.5k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R9",
+            "R11"
+          ]
+        },
+        {
+          "value": "10k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R14",
+            "R47"
+          ]
+        },
+        {
+          "value": "2.2k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R20",
+            "R33"
+          ]
+        },
+        {
+          "value": "15k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R23",
+            "R24"
+          ]
+        },
+        {
+          "value": "240k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R36",
+            "R39"
+          ]
+        },
+        {
+          "value": "510",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R12"
+          ]
+        },
+        {
+          "value": "22k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R16"
+          ]
+        },
+        {
+          "value": "330k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R19"
+          ]
+        },
+        {
+          "value": "27k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R26"
+          ]
+        },
+        {
+          "value": "2.2M",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R35"
+          ]
+        },
+        {
+          "value": "680",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R42"
+          ]
+        },
+        {
+          "value": "56k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R48"
+          ]
+        },
+        {
+          "value": "1N4148",
+          "footprint": "D_SOD-123",
+          "refs": [
+            "D1",
+            "D2",
+            "D3"
+          ]
+        },
+        {
+          "value": "1N5817",
+          "footprint": "D_SOD-323",
+          "refs": [
+            "D6",
+            "D7"
+          ]
+        },
+        {
+          "value": "TL072",
+          "footprint": "SOIC-8_3.9x4.9mm_P1.27mm",
+          "refs": [
+            "U1",
+            "U2",
+            "U4",
+            "U5",
+            "U6",
+            "U7",
+            "U8"
+          ]
+        },
+        {
+          "value": "LM311",
+          "footprint": "SOIC-8_3.9x4.9mm_P1.27mm",
+          "refs": [
+            "U3"
+          ]
+        },
+        {
+          "value": "CD4040BM96",
+          "footprint": "SOIC-16_3.9x9.9mm_P1.27mm",
+          "refs": [
+            "U9"
+          ]
+        },
+        {
+          "value": "LOGO",
+          "footprint": "Gyeszno",
+          "refs": [
+            "G***"
+          ]
+        },
+        {
+          "value": "MMBT5551",
+          "footprint": "SOT-23",
+          "refs": [
+            "Q5",
+            "Q7"
+          ]
+        },
+        {
+          "value": "100k (prec)",
+          "footprint": "Potentiometer_Bourns_3006P_Horizontal",
+          "refs": [
+            "R_BIAS1",
+            "RV_TRI_BIAS1"
+          ]
+        },
+        {
+          "value": "See t.comp. table",
+          "footprint": "Potentiometer_Bourns_3006P_Horizontal",
+          "refs": [
+            "R_WIDTH1",
+            "R_WIDTH2"
+          ]
+        },
+        {
+          "value": "BC847BS",
+          "footprint": "SOT-363_SC-70-6",
+          "refs": [
+            "Q1"
+          ]
+        },
+        {
+          "value": "MMBT3906",
+          "footprint": "SOT-23_Handsoldering",
+          "refs": [
+            "Q2"
+          ]
+        },
+        {
+          "value": "J111",
+          "footprint": "TO-92_Inline_Wide",
+          "refs": [
+            "Q3"
+          ]
+        },
+        {
+          "value": "MMBFJ111",
+          "footprint": "SOT-23",
+          "refs": [
+            "Q4"
+          ]
+        },
+        {
+          "value": "BC847",
+          "footprint": "SOT-23",
+          "refs": [
+            "Q6"
+          ]
+        },
+        {
+          "value": "2k (prec)",
+          "footprint": "Potentiometer_Bourns_3006P_Horizontal",
+          "refs": [
+            "R_HIFREQ1"
+          ]
+        },
+        {
+          "value": "10k (prec)",
+          "footprint": "Potentiometer_Bourns_3006P_Horizontal",
+          "refs": [
+            "RV_SAW_BIAS1"
+          ]
+        },
+        {
+          "value": "See t.comp. table",
+          "footprint": "TO-92-2",
+          "refs": [
+            "TH1"
+          ]
+        },
+        {
+          "value": "PTS120602B100RP100",
+          "footprint": "R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+          "refs": [
+            "TH2"
+          ]
+        },
+        {
+          "value": "Conn_01x04",
+          "footprint": "PinHeader_1x04_P2.54mm_Vertical",
+          "refs": [
+            "J1"
+          ]
+        },
+        {
+          "value": "Conn_02x05_Odd_Even",
+          "footprint": "PinHeader_2x05_P2.54mm_Vertical",
+          "refs": [
+            "J2"
+          ]
+        },
+        {
+          "value": "Conn_02x05_Odd_Even",
+          "footprint": "IDC-Header_2x05_P2.54mm_Horizontal",
+          "refs": [
+            "J3"
+          ]
+        },
+        {
+          "value": "Conn_01x02",
+          "footprint": "PinHeader_1x02_P2.54mm_Vertical",
+          "refs": [
+            "J4"
+          ]
+        },
+        {
+          "value": "Conn_02x03_Odd_Even",
+          "footprint": "PinHeader_2x03_P2.54mm_Vertical",
+          "refs": [
+            "J5"
+          ]
+        },
+        {
+          "value": "Conn_02x02_Counter_Clockwise",
+          "footprint": "PinHeader_2x02_P2.54mm_Vertical",
+          "refs": [
+            "J6"
+          ]
+        },
+        {
+          "value": "Conn_01x07",
+          "footprint": "PinHeader_1x07_P2.54mm_Vertical",
+          "refs": [
+            "J8"
+          ]
+        }
+      ]
+    },
+    "03-sidechain-mixer": {
+      "title": "sidechain-mixer-core",
+      "revision": "",
+      "components": [
+        {
+          "value": "100n",
+          "footprint": "C_0603_1608Metric",
+          "refs": [
+            "C1",
+            "C2",
+            "C3",
+            "C4",
+            "C5",
+            "C6",
+            "C7",
+            "C8"
+          ]
+        },
+        {
+          "value": "47p",
+          "footprint": "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+          "refs": [
+            "C10",
+            "C11",
+            "C12",
+            "C13",
+            "C14"
+          ]
+        },
+        {
+          "value": "100u",
+          "footprint": "CP_Elec_6.3x7.7",
+          "refs": [
+            "C23",
+            "C24"
+          ]
+        },
+        {
+          "value": "10u",
+          "footprint": "CP_Elec_5x5.4",
+          "refs": [
+            "C9"
+          ]
+        },
+        {
+          "value": "100k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R1",
+            "R2",
+            "R3",
+            "R4",
+            "R5",
+            "R6",
+            "R7",
+            "R9",
+            "R10",
+            "R16",
+            "R17"
+          ]
+        },
+        {
+          "value": "10k",
+          "footprint": "R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+          "refs": [
+            "R18",
+            "R19",
+            "R26",
+            "R28",
+            "R29"
+          ]
+        },
+        {
+          "value": "10k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R12",
+            "R21",
+            "R22"
+          ]
+        },
+        {
+          "value": "200k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R14",
+            "R15"
+          ]
+        },
+        {
+          "value": "470k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R23",
+            "R24"
+          ]
+        },
+        {
+          "value": "220",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R8"
+          ]
+        },
+        {
+          "value": "1k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R11"
+          ]
+        },
+        {
+          "value": "33k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R13"
+          ]
+        },
+        {
+          "value": "1N4148",
+          "footprint": "D_SOD-123",
+          "refs": [
+            "D1",
+            "D2"
+          ]
+        },
+        {
+          "value": "1N5817",
+          "footprint": "D_SOD-323",
+          "refs": [
+            "D6",
+            "D7"
+          ]
+        },
+        {
+          "value": "TL072",
+          "footprint": "SOIC-8_3.9x4.9mm_P1.27mm",
+          "refs": [
+            "U1",
+            "U2",
+            "U3",
+            "U4"
+          ]
+        },
+        {
+          "value": "LOGO",
+          "footprint": "Gyeszno",
+          "refs": [
+            "G***"
+          ]
+        },
+        {
+          "value": "10-100k",
+          "footprint": "Potentiometer_ACP_CA6-H2,5_Horizontal",
+          "refs": [
+            "RV_ATTACK1",
+            "RV_RELEASE1"
+          ]
+        },
+        {
+          "value": "BC847BS",
+          "footprint": "SOT-363_SC-70-6",
+          "refs": [
+            "Q1"
+          ]
+        },
+        {
+          "value": "100k",
+          "footprint": "Potentiometer_ACP_CA6-H2,5_Horizontal",
+          "refs": [
+            "RV_BIAS1"
+          ]
+        },
+        {
+          "value": "10k",
+          "footprint": "Potentiometer_ACP_CA6-H2,5_Horizontal",
+          "refs": [
+            "RV_COMP1"
+          ]
+        },
+        {
+          "value": "Conn_01x04",
+          "footprint": "PinHeader_1x04_P2.54mm_Vertical",
+          "refs": [
+            "J1",
+            "J6"
+          ]
+        },
+        {
+          "value": "Conn_02x05_Odd_Even",
+          "footprint": "PinHeader_2x05_P2.54mm_Vertical",
+          "refs": [
+            "J2"
+          ]
+        },
+        {
+          "value": "Conn_02x05_Odd_Even",
+          "footprint": "IDC-Header_2x05_P2.54mm_Horizontal",
+          "refs": [
+            "J3"
+          ]
+        },
+        {
+          "value": "Conn_01x02",
+          "footprint": "PinHeader_1x02_P2.54mm_Vertical",
+          "refs": [
+            "J4"
+          ]
+        },
+        {
+          "value": "Conn_02x03_Odd_Even",
+          "footprint": "PinHeader_2x03_P2.54mm_Vertical",
+          "refs": [
+            "J5"
+          ]
+        },
+        {
+          "value": "Conn_01x06",
+          "footprint": "PinHeader_1x06_P2.54mm_Vertical",
+          "refs": [
+            "J8"
+          ]
+        }
+      ]
+    },
+    "04-vcf": {
+      "title": "vcf-core",
+      "revision": "",
+      "components": [
+        {
+          "value": "100n",
+          "footprint": "C_0603_1608Metric",
+          "refs": [
+            "C1",
+            "C2",
+            "C3",
+            "C4",
+            "C5",
+            "C6",
+            "C8",
+            "C9",
+            "C15",
+            "C16"
+          ]
+        },
+        {
+          "value": "100u",
+          "footprint": "CP_Elec_6.3x7.7",
+          "refs": [
+            "C13",
+            "C17",
+            "C21",
+            "C22"
+          ]
+        },
+        {
+          "value": "1n (Foil)",
+          "footprint": "C_Rect_L7.0mm_W2.5mm_P5.00mm",
+          "refs": [
+            "C10",
+            "C12",
+            "C14"
+          ]
+        },
+        {
+          "value": "10n",
+          "footprint": "C_0603_1608Metric",
+          "refs": [
+            "C7"
+          ]
+        },
+        {
+          "value": "2.2u",
+          "footprint": "CP_Elec_4x5.7",
+          "refs": [
+            "C11"
+          ]
+        },
+        {
+          "value": "1u (foil)",
+          "footprint": "C_Rect_L7.0mm_W4.5mm_P5.00mm",
+          "refs": [
+            "C18"
+          ]
+        },
+        {
+          "value": "4.7u",
+          "footprint": "CP_Radial_D8.0mm_P5.00mm",
+          "refs": [
+            "C19"
+          ]
+        },
+        {
+          "value": "10u",
+          "footprint": "CP_Elec_4x5.4",
+          "refs": [
+            "C20"
+          ]
+        },
+        {
+          "value": "10k",
+          "footprint": "R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",
+          "refs": [
+            "R4",
+            "R6",
+            "R8",
+            "R29"
+          ]
+        },
+        {
+          "value": "1k",
+          "footprint": "R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",
+          "refs": [
+            "R18",
+            "R19",
+            "R23",
+            "R32"
+          ]
+        },
+        {
+          "value": "47k",
+          "footprint": "R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",
+          "refs": [
+            "R9",
+            "R26"
+          ]
+        },
+        {
+          "value": "1.5k",
+          "footprint": "R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",
+          "refs": [
+            "R13",
+            "R22"
+          ]
+        },
+        {
+          "value": "1M",
+          "footprint": "R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",
+          "refs": [
+            "R24",
+            "R27"
+          ]
+        },
+        {
+          "value": "100k",
+          "footprint": "R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",
+          "refs": [
+            "R30",
+            "R31"
+          ]
+        },
+        {
+          "value": "20k",
+          "footprint": "R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",
+          "refs": [
+            "R1"
+          ]
+        },
+        {
+          "value": "56k",
+          "footprint": "R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",
+          "refs": [
+            "R7"
+          ]
+        },
+        {
+          "value": "200k",
+          "footprint": "R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",
+          "refs": [
+            "R10"
+          ]
+        },
+        {
+          "value": "180k",
+          "footprint": "R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",
+          "refs": [
+            "R11"
+          ]
+        },
+        {
+          "value": "2.7k",
+          "footprint": "R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",
+          "refs": [
+            "R12"
+          ]
+        },
+        {
+          "value": "2.2k",
+          "footprint": "R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",
+          "refs": [
+            "R14"
+          ]
+        },
+        {
+          "value": "33k",
+          "footprint": "R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",
+          "refs": [
+            "R15"
+          ]
+        },
+        {
+          "value": "100",
+          "footprint": "R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",
+          "refs": [
+            "R16"
+          ]
+        },
+        {
+          "value": "390",
+          "footprint": "R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",
+          "refs": [
+            "R17"
+          ]
+        },
+        {
+          "value": "3.9k",
+          "footprint": "R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",
+          "refs": [
+            "R20"
+          ]
+        },
+        {
+          "value": "200",
+          "footprint": "R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",
+          "refs": [
+            "R21"
+          ]
+        },
+        {
+          "value": "22k",
+          "footprint": "R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",
+          "refs": [
+            "R25"
+          ]
+        },
+        {
+          "value": "220k",
+          "footprint": "R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",
+          "refs": [
+            "R28"
+          ]
+        },
+        {
+          "value": "1N4148",
+          "footprint": "D_SOD-123",
+          "refs": [
+            "D1",
+            "D2",
+            "D3",
+            "D4",
+            "D5",
+            "D6",
+            "D7",
+            "D8",
+            "D9",
+            "D10"
+          ]
+        },
+        {
+          "value": "1N5817",
+          "footprint": "D_SOD-323",
+          "refs": [
+            "D11",
+            "D12"
+          ]
+        },
+        {
+          "value": "TL072",
+          "footprint": "SOIC-8_3.9x4.9mm_P1.27mm",
+          "refs": [
+            "U1",
+            "U2",
+            "U3",
+            "U4"
+          ]
+        },
+        {
+          "value": "LOGO",
+          "footprint": "Gyeszno",
+          "refs": [
+            "G***"
+          ]
+        },
+        {
+          "value": "BC847BS",
+          "footprint": "SOT-363_SC-70-6",
+          "refs": [
+            "Q1"
+          ]
+        },
+        {
+          "value": "1k",
+          "footprint": "Potentiometer_ACP_CA6-H2,5_Horizontal",
+          "refs": [
+            "RV_BALANCE1"
+          ]
+        },
+        {
+          "value": "100k",
+          "footprint": "Potentiometer_ACP_CA6-H2,5_Horizontal",
+          "refs": [
+            "RV_MAX_RESO1"
+          ]
+        },
+        {
+          "value": "Conn_01x06",
+          "footprint": "PinHeader_1x06_P2.54mm_Vertical",
+          "refs": [
+            "J1"
+          ]
+        },
+        {
+          "value": "Conn_02x04_Counter_Clockwise",
+          "footprint": "PinHeader_2x04_P2.54mm_Vertical",
+          "refs": [
+            "J2"
+          ]
+        },
+        {
+          "value": "Conn_02x02_Counter_Clockwise",
+          "footprint": "PinHeader_2x02_P2.54mm_Vertical",
+          "refs": [
+            "J3"
+          ]
+        },
+        {
+          "value": "Conn_02x03_Odd_Even",
+          "footprint": "PinHeader_2x03_P2.54mm_Vertical",
+          "refs": [
+            "J6"
+          ]
+        },
+        {
+          "value": "Conn_01x02",
+          "footprint": "PinHeader_1x02_P2.54mm_Vertical",
+          "refs": [
+            "J7"
+          ]
+        },
+        {
+          "value": "Conn_02x05_Odd_Even",
+          "footprint": "IDC-Header_2x05_P2.54mm_Horizontal",
+          "refs": [
+            "J8"
+          ]
+        }
+      ]
+    },
+    "05-adsr-vca": {
+      "title": "adsr-vca-core",
+      "revision": "",
+      "components": [
+        {
+          "value": "100n",
+          "footprint": "C_0603_1608Metric",
+          "refs": [
+            "C1",
+            "C2",
+            "C5",
+            "C6"
+          ]
+        },
+        {
+          "value": "47p",
+          "footprint": "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+          "refs": [
+            "C7",
+            "C8"
+          ]
+        },
+        {
+          "value": "100u",
+          "footprint": "CP_Elec_6.3x7.7",
+          "refs": [
+            "C9",
+            "C10"
+          ]
+        },
+        {
+          "value": "10n",
+          "footprint": "C_0603_1608Metric",
+          "refs": [
+            "C3"
+          ]
+        },
+        {
+          "value": "10u",
+          "footprint": "CP_Elec_5x5.4",
+          "refs": [
+            "C4"
+          ]
+        },
+        {
+          "value": "1k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R2",
+            "R4",
+            "R9",
+            "R15",
+            "R17"
+          ]
+        },
+        {
+          "value": "10k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R10",
+            "R12",
+            "R23",
+            "R25",
+            "R26"
+          ]
+        },
+        {
+          "value": "100k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R8",
+            "R18",
+            "R22",
+            "R24"
+          ]
+        },
+        {
+          "value": "1M",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R5",
+            "R6",
+            "R7"
+          ]
+        },
+        {
+          "value": "47k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R3",
+            "R14"
+          ]
+        },
+        {
+          "value": "470k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R27",
+            "R28"
+          ]
+        },
+        {
+          "value": "22k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R1"
+          ]
+        },
+        {
+          "value": "4.7k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R11"
+          ]
+        },
+        {
+          "value": "15k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R13"
+          ]
+        },
+        {
+          "value": "220",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R20"
+          ]
+        },
+        {
+          "value": "33k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R21"
+          ]
+        },
+        {
+          "value": "200k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R29"
+          ]
+        },
+        {
+          "value": "1N4148",
+          "footprint": "D_SOD-123",
+          "refs": [
+            "D1",
+            "D2",
+            "D3"
+          ]
+        },
+        {
+          "value": "1N5817",
+          "footprint": "D_SOD-323",
+          "refs": [
+            "D4",
+            "D5"
+          ]
+        },
+        {
+          "value": "LM324",
+          "footprint": "SOIC-14_3.9x8.7mm_P1.27mm",
+          "refs": [
+            "U1"
+          ]
+        },
+        {
+          "value": "TL072",
+          "footprint": "SOIC-8_3.9x4.9mm_P1.27mm",
+          "refs": [
+            "U2"
+          ]
+        },
+        {
+          "value": "LOGO",
+          "footprint": "Gyeszno",
+          "refs": [
+            "G***"
+          ]
+        },
+        {
+          "value": "100k",
+          "footprint": "Potentiometer_ACP_CA6-H2,5_Horizontal",
+          "refs": [
+            "RV_OUT_GAIN1",
+            "RV_VCA_BIAS1"
+          ]
+        },
+        {
+          "value": "BC857",
+          "footprint": "SOT-23",
+          "refs": [
+            "Q1"
+          ]
+        },
+        {
+          "value": "BC847BS",
+          "footprint": "SOT-363_SC-70-6",
+          "refs": [
+            "Q3"
+          ]
+        },
+        {
+          "value": "10k",
+          "footprint": "Potentiometer_ACP_CA6-H2,5_Horizontal",
+          "refs": [
+            "RV_COMP1"
+          ]
+        },
+        {
+          "value": "Conn_02x03_Odd_Even",
+          "footprint": "PinHeader_2x03_P2.54mm_Vertical",
+          "refs": [
+            "J2",
+            "J3",
+            "J5",
+            "J8"
+          ]
+        },
+        {
+          "value": "Conn_01x06",
+          "footprint": "PinSocket_1x06_P2.54mm_Vertical",
+          "refs": [
+            "J4"
+          ]
+        },
+        {
+          "value": "Conn_01x02",
+          "footprint": "PinHeader_1x02_P2.54mm_Vertical",
+          "refs": [
+            "J6"
+          ]
+        },
+        {
+          "value": "Conn_02x05_Odd_Even",
+          "footprint": "IDC-Header_2x05_P2.54mm_Horizontal",
+          "refs": [
+            "J7"
+          ]
+        }
+      ]
+    },
+    "06-utils-output": {
+      "title": "utils-output-core",
+      "revision": "",
+      "components": [
+        {
+          "value": "100n",
+          "footprint": "C_0603_1608Metric",
+          "refs": [
+            "C1",
+            "C2",
+            "C3",
+            "C4",
+            "C10",
+            "C11",
+            "C12",
+            "C13",
+            "C201",
+            "C202"
+          ]
+        },
+        {
+          "value": "100u",
+          "footprint": "CP_Elec_6.3x7.7",
+          "refs": [
+            "C8",
+            "C9"
+          ]
+        },
+        {
+          "value": "100n (foil)",
+          "footprint": "C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2",
+          "refs": [
+            "C16",
+            "C17"
+          ]
+        },
+        {
+          "value": "10u",
+          "footprint": "CP_Elec_5x5.4",
+          "refs": [
+            "C14"
+          ]
+        },
+        {
+          "value": "100p",
+          "footprint": "C_0603_1608Metric",
+          "refs": [
+            "C15"
+          ]
+        },
+        {
+          "value": "1n (foil)",
+          "footprint": "C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2",
+          "refs": [
+            "C18"
+          ]
+        },
+        {
+          "value": "3.3n (foil)",
+          "footprint": "C_Rect_L7.0mm_W2.5mm_P5.00mm",
+          "refs": [
+            "C203"
+          ]
+        },
+        {
+          "value": "1k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R13",
+            "R17",
+            "R25",
+            "R208",
+            "R212"
+          ]
+        },
+        {
+          "value": "100k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R19",
+            "R21",
+            "R22",
+            "R23",
+            "R205"
+          ]
+        },
+        {
+          "value": "10k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R10",
+            "R18",
+            "R29",
+            "R211"
+          ]
+        },
+        {
+          "value": "4.7k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R11",
+            "R20"
+          ]
+        },
+        {
+          "value": "100",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R14",
+            "R15"
+          ]
+        },
+        {
+          "value": "1M",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R16",
+            "R209"
+          ]
+        },
+        {
+          "value": "33k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R1"
+          ]
+        },
+        {
+          "value": "150",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R12"
+          ]
+        },
+        {
+          "value": "22k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R24"
+          ]
+        },
+        {
+          "value": "5.1M",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R201"
+          ]
+        },
+        {
+          "value": "200k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R202"
+          ]
+        },
+        {
+          "value": "15k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R203"
+          ]
+        },
+        {
+          "value": "470k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R204"
+          ]
+        },
+        {
+          "value": "220",
+          "footprint": "R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+          "refs": [
+            "R206"
+          ]
+        },
+        {
+          "value": "12k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R207"
+          ]
+        },
+        {
+          "value": "2k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R210"
+          ]
+        },
+        {
+          "value": "1N4148",
+          "footprint": "D_SOD-123",
+          "refs": [
+            "D3",
+            "D4",
+            "D15",
+            "D16"
+          ]
+        },
+        {
+          "value": "1N5817",
+          "footprint": "D_SOD-323",
+          "refs": [
+            "D1",
+            "D2"
+          ]
+        },
+        {
+          "value": "TL072",
+          "footprint": "SOIC-8_3.9x4.9mm_P1.27mm",
+          "refs": [
+            "U1",
+            "U2",
+            "U5",
+            "U201"
+          ]
+        },
+        {
+          "value": "NE5532",
+          "footprint": "SOIC-8_3.9x4.9mm_P1.27mm",
+          "refs": [
+            "U4"
+          ]
+        },
+        {
+          "value": "LOGO",
+          "footprint": "Gyeszno",
+          "refs": [
+            "G***"
+          ]
+        },
+        {
+          "value": "Red LED",
+          "footprint": "LED_D3.0mm",
+          "refs": [
+            "D_LIM_N1"
+          ]
+        },
+        {
+          "value": "Red LED",
+          "footprint": "PinHeader_1x02_P2.54mm_Vertical",
+          "refs": [
+            "D_LIM_P1"
+          ]
+        },
+        {
+          "value": "2N3819",
+          "footprint": "TO-92_Inline_Wide",
+          "refs": [
+            "Q2"
+          ]
+        },
+        {
+          "value": "10k",
+          "footprint": "Potentiometer_ACP_CA6-H2,5_Horizontal",
+          "refs": [
+            "RV_LINE_OUT_LVL1"
+          ]
+        },
+        {
+          "value": "Conn_02x03_Odd_Even",
+          "footprint": "PinHeader_2x03_P2.54mm_Vertical",
+          "refs": [
+            "J2",
+            "J5"
+          ]
+        },
+        {
+          "value": "Conn_01x06",
+          "footprint": "PinHeader_1x06_P2.54mm_Vertical",
+          "refs": [
+            "J1"
+          ]
+        },
+        {
+          "value": "Conn_01x02",
+          "footprint": "PinHeader_1x02_P2.54mm_Vertical",
+          "refs": [
+            "J3"
+          ]
+        },
+        {
+          "value": "Conn_02x04_Odd_Even",
+          "footprint": "PinHeader_2x04_P2.54mm_Vertical",
+          "refs": [
+            "J4"
+          ]
+        },
+        {
+          "value": "Conn_02x05_Odd_Even",
+          "footprint": "PinHeader_2x05_P2.54mm_Vertical",
+          "refs": [
+            "J6"
+          ]
+        },
+        {
+          "value": "Conn_02x05_Odd_Even",
+          "footprint": "IDC-Header_2x05_P2.54mm_Horizontal",
+          "refs": [
+            "J7"
+          ]
+        }
+      ]
+    },
+    "07-brain": {
+      "title": "brain-core",
+      "revision": "",
+      "components": [
+        {
+          "value": "100n",
+          "footprint": "C_0603_1608Metric",
+          "refs": [
+            "C3",
+            "C6",
+            "C7",
+            "C8",
+            "C9",
+            "C12",
+            "C13",
+            "C14",
+            "C15",
+            "C16",
+            "C17",
+            "C19",
+            "C20"
+          ]
+        },
+        {
+          "value": "100u",
+          "footprint": "CP_Elec_6.3x7.7",
+          "refs": [
+            "C4",
+            "C5"
+          ]
+        },
+        {
+          "value": "22p",
+          "footprint": "C_0603_1608Metric",
+          "refs": [
+            "C10",
+            "C11"
+          ]
+        },
+        {
+          "value": "10u",
+          "footprint": "CP_Elec_4x5.4",
+          "refs": [
+            "C1"
+          ]
+        },
+        {
+          "value": "330n",
+          "footprint": "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+          "refs": [
+            "C2"
+          ]
+        },
+        {
+          "value": "10u",
+          "footprint": "C_0603_1608Metric",
+          "refs": [
+            "C18"
+          ]
+        },
+        {
+          "value": "100k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R1",
+            "R14",
+            "R15",
+            "R16",
+            "R17",
+            "R18",
+            "R19",
+            "R20",
+            "R21",
+            "R24",
+            "R26",
+            "R30",
+            "R31",
+            "R32",
+            "R33"
+          ]
+        },
+        {
+          "value": "1k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R12",
+            "R13",
+            "R22",
+            "R23",
+            "R34",
+            "R35"
+          ]
+        },
+        {
+          "value": "3.3k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R2",
+            "R7"
+          ]
+        },
+        {
+          "value": "47k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R8",
+            "R9"
+          ]
+        },
+        {
+          "value": "62k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R10",
+            "R11"
+          ]
+        },
+        {
+          "value": "120k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R25",
+            "R27"
+          ]
+        },
+        {
+          "value": "33k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R28",
+            "R29"
+          ]
+        },
+        {
+          "value": "5.1k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R36",
+            "R37"
+          ]
+        },
+        {
+          "value": "10k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R3"
+          ]
+        },
+        {
+          "value": "7.5k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R4"
+          ]
+        },
+        {
+          "value": "2.2k",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R5"
+          ]
+        },
+        {
+          "value": "120",
+          "footprint": "R_0603_1608Metric",
+          "refs": [
+            "R6"
+          ]
+        },
+        {
+          "value": "1N5817",
+          "footprint": "D_SOD-323",
+          "refs": [
+            "D1",
+            "D2",
+            "D3"
+          ]
+        },
+        {
+          "value": "BAT54S",
+          "footprint": "SOT-23",
+          "refs": [
+            "D5",
+            "D6"
+          ]
+        },
+        {
+          "value": "BAT54",
+          "footprint": "SOT-23",
+          "refs": [
+            "D4"
+          ]
+        },
+        {
+          "value": "TL072",
+          "footprint": "SOIC-8_3.9x4.9mm_P1.27mm",
+          "refs": [
+            "U4",
+            "U5",
+            "U8",
+            "U9",
+            "U11"
+          ]
+        },
+        {
+          "value": "LM7805_TO220",
+          "footprint": "TO-220-3_Horizontal_TabDown",
+          "refs": [
+            "U1"
+          ]
+        },
+        {
+          "value": "6N137",
+          "footprint": "SOP-8_6.605x9.655mm_P2.54mm",
+          "refs": [
+            "U2"
+          ]
+        },
+        {
+          "value": "Pico",
+          "footprint": "RaspberryPi_Pico_Common_Unspecified",
+          "refs": [
+            "U3"
+          ]
+        },
+        {
+          "value": "MCP4822",
+          "footprint": "SOIC-8_3.9x4.9mm_P1.27mm",
+          "refs": [
+            "U6"
+          ]
+        },
+        {
+          "value": "74HC4053B",
+          "footprint": "SOIC-16_3.9x9.9mm_P1.27mm",
+          "refs": [
+            "U7"
+          ]
+        },
+        {
+          "value": "74HC4051",
+          "footprint": "SOIC-16_3.9x9.9mm_P1.27mm",
+          "refs": [
+            "U10"
+          ]
+        },
+        {
+          "value": "SW_SPST",
+          "footprint": "SW_Tactile_SKHH_Angled",
+          "refs": [
+            "SW1"
+          ]
+        },
+        {
+          "value": "MMBT3904",
+          "footprint": "SOT-23",
+          "refs": [
+            "Q1",
+            "Q3",
+            "Q6",
+            "Q7"
+          ]
+        },
+        {
+          "value": "LOGO",
+          "footprint": "Gyeszno",
+          "refs": [
+            "G***"
+          ]
+        },
+        {
+          "value": "10k",
+          "footprint": "Potentiometer_ACP_CA6-H2,5_Horizontal",
+          "refs": [
+            "RV_CV_GAIN1",
+            "RV_CV_GAIN2"
+          ]
+        },
+        {
+          "value": "Conn_01x02",
+          "footprint": "PinHeader_1x02_P2.54mm_Horizontal",
+          "refs": [
+            "J_DEV1"
+          ]
+        },
+        {
+          "value": "USB_C_Receptacle_USB2.0_16P",
+          "footprint": "USB_C_Receptacle_HRO_TYPE-C-31-M-12",
+          "refs": [
+            "J_USB_C_EXTENSION1"
+          ]
+        },
+        {
+          "value": "Conn_02x03_Odd_Even",
+          "footprint": "PinHeader_2x03_P2.54mm_Vertical",
+          "refs": [
+            "J1",
+            "J4",
+            "J8"
+          ]
+        },
+        {
+          "value": "Conn_01x02",
+          "footprint": "PinHeader_1x02_P2.54mm_Vertical",
+          "refs": [
+            "J5",
+            "J9",
+            "J10"
+          ]
+        },
+        {
+          "value": "Conn_02x02_Odd_Even",
+          "footprint": "PinHeader_2x02_P2.54mm_Vertical",
+          "refs": [
+            "J2",
+            "J3"
+          ]
+        },
+        {
+          "value": "Conn_02x05_Odd_Even",
+          "footprint": "IDC-Header_2x05_P2.54mm_Horizontal",
+          "refs": [
+            "J6"
+          ]
+        },
+        {
+          "value": "Conn_02x05_Odd_Even",
+          "footprint": "PinHeader_2x05_P2.54mm_Vertical",
+          "refs": [
+            "J7"
+          ]
+        },
+        {
+          "value": "Conn_01x01",
+          "footprint": "PinHeader_1x01_P2.54mm_Vertical",
+          "refs": [
+            "J11"
+          ]
+        },
+        {
+          "value": "Conn_01x03",
+          "footprint": "PinHeader_1x03_P2.54mm_Vertical",
+          "refs": [
+            "J13"
+          ]
+        }
+      ]
+    },
+    "01-psu": {
+      "title": "psu",
+      "revision": "",
+      "components": [
+        {
+          "value": "1k",
+          "footprint": "R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+          "refs": [
+            "R1",
+            "R2",
+            "R3"
+          ]
+        },
+        {
+          "value": "LED",
+          "footprint": "LED_D3.0mm",
+          "refs": [
+            "D1",
+            "D3",
+            "D4"
+          ]
+        },
+        {
+          "value": "1N5822",
+          "footprint": "D_DO-201AD_P15.24mm_Horizontal",
+          "refs": [
+            "D2"
+          ]
+        },
+        {
+          "value": "1.5KE36A",
+          "footprint": "D_DO-201AE_P15.24mm_Horizontal",
+          "refs": [
+            "D5"
+          ]
+        },
+        {
+          "value": "LOGO",
+          "footprint": "Gyeszno",
+          "refs": [
+            "G***"
+          ]
+        },
+        {
+          "value": "ISOLATED_DC-DC_CONV",
+          "footprint": "Converter_DCDC_MeanWell_NSD10_DKMW_THT",
+          "refs": [
+            "IC1"
+          ]
+        },
+        {
+          "value": "Jumper_2_Open",
+          "footprint": "SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm",
+          "refs": [
+            "JP1"
+          ]
+        },
+        {
+          "value": "PB400EEQR1BLK",
+          "footprint": "SW_PB400EEQR1BLK",
+          "refs": [
+            "S1"
+          ]
+        },
+        {
+          "value": "Conn_02x08_Odd_Even",
+          "footprint": "IDC-Header_2x08_P2.54mm_Horizontal",
+          "refs": [
+            "J2",
+            "J3",
+            "J4",
+            "J5"
+          ]
+        },
+        {
+          "value": "Barrel_Jack_Switch",
+          "footprint": "BarrelJack_Wuerth_6941xx301002",
+          "refs": [
+            "J1"
+          ]
+        }
+      ]
+    }
+  },
+  "ui": {
+    "02-vco": {
+      "title": "vco-ui",
+      "revision": "",
+      "components": [
+        {
+          "value": "100k",
+          "footprint": "R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+          "refs": [
+            "R2",
+            "R3",
+            "R6"
+          ]
+        },
+        {
+          "value": "510k",
+          "footprint": "R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+          "refs": [
+            "R4",
+            "R5"
+          ]
+        },
+        {
+          "value": "220k",
+          "footprint": "R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+          "refs": [
+            "R7",
+            "R8"
+          ]
+        },
+        {
+          "value": "130k",
+          "footprint": "R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+          "refs": [
+            "R1"
+          ]
+        },
+        {
+          "value": "0203",
+          "footprint": "SR1712-0203",
+          "refs": [
+            "U1"
+          ]
+        },
+        {
+          "value": "LOGO",
+          "footprint": "Gyeszno",
+          "refs": [
+            "G***"
+          ]
+        },
+        {
+          "value": "PJ398SM",
+          "footprint": "Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles",
+          "refs": [
+            "J_CV1",
+            "J_EXTRA_OUT1",
+            "J_FM1",
+            "J_OUT1",
+            "J_PWM1",
+            "J_SYNC1"
+          ]
+        },
+        {
+          "value": "100k",
+          "footprint": "Potentiometer_Bourns_Single-PTV09A",
+          "refs": [
+            "RV_FINE1",
+            "RV_PWM1",
+            "RV_TUNE1"
+          ]
+        },
+        {
+          "value": "Jumper_2_Open",
+          "footprint": "PinHeader_1x02_P2.54mm_Horizontal",
+          "refs": [
+            "JP2",
+            "JP3"
+          ]
+        },
+        {
+          "value": "Jumper_3_Open",
+          "footprint": "PinHeader_1x03_P2.54mm_Horizontal",
+          "refs": [
+            "JP1"
+          ]
+        },
+        {
+          "value": "Conn_01x04",
+          "footprint": "PinSocket_1x04_P2.54mm_Vertical",
+          "refs": [
+            "J1"
+          ]
+        },
+        {
+          "value": "Conn_02x05_Odd_Even",
+          "footprint": "PinSocket_2x05_P2.54mm_Vertical",
+          "refs": [
+            "J2"
+          ]
+        },
+        {
+          "value": "Conn_02x03_Odd_Even",
+          "footprint": "PinSocket_2x03_P2.54mm_Vertical",
+          "refs": [
+            "J3"
+          ]
+        },
+        {
+          "value": "Conn_01x02",
+          "footprint": "PinSocket_1x02_P2.54mm_Vertical",
+          "refs": [
+            "J4"
+          ]
+        },
+        {
+          "value": "Conn_02x02_Counter_Clockwise",
+          "footprint": "PinSocket_2x02_P2.54mm_Vertical",
+          "refs": [
+            "J5"
+          ]
+        },
+        {
+          "value": "Conn_01x07",
+          "footprint": "PinSocket_1x07_P2.54mm_Vertical",
+          "refs": [
+            "J6"
+          ]
+        }
+      ]
+    },
+    "03-sidechain-mixer": {
+      "title": "sidechain-mixer-ui",
+      "revision": "",
+      "components": [
+        {
+          "value": "10k",
+          "footprint": "R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+          "refs": [
+            "R1"
+          ]
+        },
+        {
+          "value": "0",
+          "footprint": "R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+          "refs": [
+            "R2"
+          ]
+        },
+        {
+          "value": "20k",
+          "footprint": "R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+          "refs": [
+            "R3"
+          ]
+        },
+        {
+          "value": "LOGO",
+          "footprint": "Gyeszno",
+          "refs": [
+            "G***"
+          ]
+        },
+        {
+          "value": "PJ398SM",
+          "footprint": "Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles",
+          "refs": [
+            "J_IN1",
+            "J_IN2",
+            "J_IN3",
+            "J_IN4",
+            "J_OUT1"
+          ]
+        },
+        {
+          "value": "A100k",
+          "footprint": "Potentiometer_Bourns_Single-PTV09A",
+          "refs": [
+            "RV_IN4",
+            "RV_IN4_GAIN1",
+            "RV_MAIN_VOL1",
+            "RV_THRESHOLD1"
+          ]
+        },
+        {
+          "value": "A100k",
+          "footprint": "TRIM_PTA3043-2010CIA503",
+          "refs": [
+            "RV_IN1",
+            "RV_IN2",
+            "RV_IN3"
+          ]
+        },
+        {
+          "value": "Conn_01x04",
+          "footprint": "PinSocket_1x04_P2.54mm_Vertical",
+          "refs": [
+            "J3",
+            "J7"
+          ]
+        },
+        {
+          "value": "Conn_02x03_Odd_Even",
+          "footprint": "PinSocket_2x03_P2.54mm_Vertical",
+          "refs": [
+            "J1"
+          ]
+        },
+        {
+          "value": "Conn_02x05_Odd_Even",
+          "footprint": "PinSocket_2x05_P2.54mm_Vertical",
+          "refs": [
+            "J2"
+          ]
+        },
+        {
+          "value": "Conn_01x02",
+          "footprint": "PinSocket_1x02_P2.54mm_Vertical",
+          "refs": [
+            "J4"
+          ]
+        },
+        {
+          "value": "Conn_01x06",
+          "footprint": "PinSocket_1x06_P2.54mm_Vertical",
+          "refs": [
+            "J5"
+          ]
+        }
+      ]
+    },
+    "04-vcf": {
+      "title": "vcf-ui",
+      "revision": "",
+      "components": [
+        {
+          "value": "100n",
+          "footprint": "C_Disc_D5.0mm_W2.5mm_P2.50mm",
+          "refs": [
+            "C1",
+            "C2"
+          ]
+        },
+        {
+          "value": "100k",
+          "footprint": "R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+          "refs": [
+            "R6",
+            "R7",
+            "R8",
+            "R9",
+            "R12",
+            "R13",
+            "R14"
+          ]
+        },
+        {
+          "value": "10k-1M",
+          "footprint": "R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+          "refs": [
+            "R4",
+            "R5",
+            "R10",
+            "R11"
+          ]
+        },
+        {
+          "value": "6.8k",
+          "footprint": "R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+          "refs": [
+            "R1"
+          ]
+        },
+        {
+          "value": "3.3k",
+          "footprint": "R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+          "refs": [
+            "R2"
+          ]
+        },
+        {
+          "value": "220k",
+          "footprint": "R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+          "refs": [
+            "R3"
+          ]
+        },
+        {
+          "value": "TL072",
+          "footprint": "DIP-8_W7.62mm_LongPads",
+          "refs": [
+            "U1"
+          ]
+        },
+        {
+          "value": "LOGO",
+          "footprint": "Gyeszno",
+          "refs": [
+            "G***"
+          ]
+        },
+        {
+          "value": "PJ398SM",
+          "footprint": "Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles",
+          "refs": [
+            "J_CUTOFF1",
+            "J_CUTOFF2",
+            "J_HP1",
+            "J_LP1",
+            "J_OUT1"
+          ]
+        },
+        {
+          "value": "100k",
+          "footprint": "Potentiometer_Bourns_Single-PTV09A",
+          "refs": [
+            "RV_CUTOFF1",
+            "RV_CUTOFF2",
+            "RV_MAIN_CUTOFF1",
+            "RV_RESO1"
+          ]
+        },
+        {
+          "value": "10k",
+          "footprint": "Potentiometer_ACP_CA6-H2,5_Horizontal",
+          "refs": [
+            "RV_CUTOFF_BIAS1"
+          ]
+        },
+        {
+          "value": "Conn_02x03_Odd_Even",
+          "footprint": "PinSocket_2x03_P2.54mm_Vertical",
+          "refs": [
+            "J1"
+          ]
+        },
+        {
+          "value": "Conn_02x02_Counter_Clockwise",
+          "footprint": "PinSocket_2x02_P2.54mm_Vertical",
+          "refs": [
+            "J2"
+          ]
+        },
+        {
+          "value": "Conn_01x02",
+          "footprint": "PinSocket_1x02_P2.54mm_Vertical",
+          "refs": [
+            "J4"
+          ]
+        },
+        {
+          "value": "Conn_01x06",
+          "footprint": "PinSocket_1x06_P2.54mm_Vertical",
+          "refs": [
+            "J5"
+          ]
+        },
+        {
+          "value": "Conn_02x04_Odd_Even",
+          "footprint": "PinSocket_2x04_P2.54mm_Vertical",
+          "refs": [
+            "J6"
+          ]
+        }
+      ]
+    },
+    "05-adsr-vca": {
+      "title": "adsr-vca-ui",
+      "revision": "",
+      "components": [
+        {
+          "value": "100nF",
+          "footprint": "C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2",
+          "refs": [
+            "C1"
+          ]
+        },
+        {
+          "value": "0",
+          "footprint": "R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+          "refs": [
+            "R1",
+            "R6"
+          ]
+        },
+        {
+          "value": "47k",
+          "footprint": "R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+          "refs": [
+            "R2"
+          ]
+        },
+        {
+          "value": "4.7k",
+          "footprint": "R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+          "refs": [
+            "R3"
+          ]
+        },
+        {
+          "value": "200k",
+          "footprint": "R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+          "refs": [
+            "R4"
+          ]
+        },
+        {
+          "value": "10k",
+          "footprint": "R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+          "refs": [
+            "R5"
+          ]
+        },
+        {
+          "value": "Red LED",
+          "footprint": "LED_D3.0mm",
+          "refs": [
+            "D1"
+          ]
+        },
+        {
+          "value": "LOGO",
+          "footprint": "Gyeszno",
+          "refs": [
+            "G***"
+          ]
+        },
+        {
+          "value": "PJ398SM",
+          "footprint": "Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles",
+          "refs": [
+            "J_ENV_OUT1",
+            "J_GATE1",
+            "J_VCA_CV1",
+            "J_VCA_IN1",
+            "J_VCA_OUT1"
+          ]
+        },
+        {
+          "value": "A200k-1M",
+          "footprint": "Potentiometer_Bourns_Single-PTV09A",
+          "refs": [
+            "RV_ATTACK1",
+            "RV_DECAY1",
+            "RV_RELEASE1"
+          ]
+        },
+        {
+          "value": "Jumper_2_Open",
+          "footprint": "PinHeader_1x02_P2.54mm_Horizontal",
+          "refs": [
+            "JP_DEFAULT_ENV_TO_VCA1"
+          ]
+        },
+        {
+          "value": "2N3904",
+          "footprint": "TO-92_Inline_Wide",
+          "refs": [
+            "Q1"
+          ]
+        },
+        {
+          "value": "2N3906",
+          "footprint": "TO-92_Inline_Wide",
+          "refs": [
+            "Q2"
+          ]
+        },
+        {
+          "value": "10k",
+          "footprint": "TRIM_PTA4543-2015DPB103",
+          "refs": [
+            "RV_SUSTAIN1"
+          ]
+        },
+        {
+          "value": "Conn_02x03_Odd_Even",
+          "footprint": "PinSocket_2x03_P2.54mm_Vertical",
+          "refs": [
+            "J1",
+            "J3",
+            "J6",
+            "J8"
+          ]
+        },
+        {
+          "value": "Conn_01x02",
+          "footprint": "PinSocket_1x02_P2.54mm_Vertical",
+          "refs": [
+            "J4"
+          ]
+        },
+        {
+          "value": "Conn_01x06",
+          "footprint": "PinSocket_1x06_P2.54mm_Vertical",
+          "refs": [
+            "J5"
+          ]
+        }
+      ]
+    },
+    "06-utils-output": {
+      "title": "utils-output-ui",
+      "revision": "",
+      "components": [
+        {
+          "value": "47k",
+          "footprint": "R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+          "refs": [
+            "R1"
+          ]
+        },
+        {
+          "value": "4.7k",
+          "footprint": "R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+          "refs": [
+            "R2"
+          ]
+        },
+        {
+          "value": "100k",
+          "footprint": "R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+          "refs": [
+            "R3"
+          ]
+        },
+        {
+          "value": "SMAJ5.0CA",
+          "footprint": "D_SMA",
+          "refs": [
+            "D1"
+          ]
+        },
+        {
+          "value": "PJ398SM",
+          "footprint": "Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles",
+          "refs": [
+            "J_CRUSH_IN1",
+            "J_CRUSH_OUT1",
+            "J_CRUSH_TRIG1",
+            "J_LFO_SQR1",
+            "J_LFO_TRI1",
+            "J_MAIN_IN1"
+          ]
+        },
+        {
+          "value": "LOGO",
+          "footprint": "Gyeszno",
+          "refs": [
+            "G***"
+          ]
+        },
+        {
+          "value": "Red LED",
+          "footprint": "LED_D3.0mm",
+          "refs": [
+            "D_DRIVE1",
+            "D_LFO1"
+          ]
+        },
+        {
+          "value": "Red LED",
+          "footprint": "PinSocket_1x02_P2.54mm_Vertical",
+          "refs": [
+            "D_DRIVE_FROM_CORE1"
+          ]
+        },
+        {
+          "value": "PJ366ST",
+          "footprint": "Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles",
+          "refs": [
+            "J_MAIN_OUT1"
+          ]
+        },
+        {
+          "value": "2N3904",
+          "footprint": "TO-92_Inline_Wide",
+          "refs": [
+            "Q1"
+          ]
+        },
+        {
+          "value": "2N3906",
+          "footprint": "TO-92_Inline_Wide",
+          "refs": [
+            "Q2"
+          ]
+        },
+        {
+          "value": "A1M",
+          "footprint": "Potentiometer_Bourns_Single-PTV09A",
+          "refs": [
+            "RV_CRUSH1"
+          ]
+        },
+        {
+          "value": "100k",
+          "footprint": "Potentiometer_Bourns_Single-PTV09A",
+          "refs": [
+            "RV_DRIVE1"
+          ]
+        },
+        {
+          "value": "A20k",
+          "footprint": "Potentiometer_Bourns_Dual-PTV112-4",
+          "refs": [
+            "RV_LFO_AMOUNT1"
+          ]
+        },
+        {
+          "value": "A500k-1M",
+          "footprint": "Potentiometer_Bourns_Single-PTV09A",
+          "refs": [
+            "RV_LFO_RATE1"
+          ]
+        },
+        {
+          "value": "A10k",
+          "footprint": "Potentiometer_Bourns_Single-PTV09A",
+          "refs": [
+            "RV_MAIN_VOLUME1"
+          ]
+        },
+        {
+          "value": "Conn_02x03_Odd_Even",
+          "footprint": "PinSocket_2x03_P2.54mm_Vertical",
+          "refs": [
+            "J1",
+            "J7"
+          ]
+        },
+        {
+          "value": "Conn_01x01_Pin",
+          "footprint": "TestPoint_THTPad_D2.0mm_Drill1.0mm",
+          "refs": [
+            "J3",
+            "J8"
+          ]
+        },
+        {
+          "value": "Conn_02x04_Odd_Even",
+          "footprint": "PinSocket_2x04_P2.54mm_Vertical",
+          "refs": [
+            "J2"
+          ]
+        },
+        {
+          "value": "Conn_01x02",
+          "footprint": "PinSocket_1x02_P2.54mm_Vertical",
+          "refs": [
+            "J4"
+          ]
+        },
+        {
+          "value": "Conn_01x06",
+          "footprint": "PinSocket_1x06_P2.54mm_Vertical",
+          "refs": [
+            "J5"
+          ]
+        },
+        {
+          "value": "Conn_02x05_Odd_Even",
+          "footprint": "PinSocket_2x05_P2.54mm_Vertical",
+          "refs": [
+            "J6"
+          ]
+        }
+      ]
+    },
+    "07-brain": {
+      "title": "brain-ui",
+      "revision": "",
+      "components": [
+        {
+          "value": "47k",
+          "footprint": "R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+          "refs": [
+            "R3",
+            "R4",
+            "R7",
+            "R8",
+            "R11",
+            "R12"
+          ]
+        },
+        {
+          "value": "4.7k",
+          "footprint": "R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+          "refs": [
+            "R5",
+            "R6",
+            "R9",
+            "R10",
+            "R13",
+            "R14"
+          ]
+        },
+        {
+          "value": "1k",
+          "footprint": "R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+          "refs": [
+            "R1"
+          ]
+        },
+        {
+          "value": "10k",
+          "footprint": "R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+          "refs": [
+            "R2"
+          ]
+        },
+        {
+          "value": "0",
+          "footprint": "R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+          "refs": [
+            "R15"
+          ]
+        },
+        {
+          "value": "LED",
+          "footprint": "LED_D3.0mm",
+          "refs": [
+            "D1",
+            "D2",
+            "D3",
+            "D4",
+            "D5",
+            "D6"
+          ]
+        },
+        {
+          "value": "1N4148",
+          "footprint": "D_DO-35_SOD27_P7.62mm_Horizontal",
+          "refs": [
+            "D7"
+          ]
+        },
+        {
+          "value": "PJ398SM",
+          "footprint": "Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles",
+          "refs": [
+            "J_AUDIO_CV_IN1",
+            "J_AUDIO_CV_IN2",
+            "J_AUDIO_CV_OUT1",
+            "J_AUDIO_CV_OUT2",
+            "J_PULSE_IN1",
+            "J_PULSE_OUT1"
+          ]
+        },
+        {
+          "value": "2N3904",
+          "footprint": "TO-92_Inline_Wide",
+          "refs": [
+            "Q1",
+            "Q2",
+            "Q3",
+            "Q4",
+            "Q5",
+            "Q6"
+          ]
+        },
+        {
+          "value": "LOGO",
+          "footprint": "Gyeszno",
+          "refs": [
+            "G***"
+          ]
+        },
+        {
+          "value": "100k",
+          "footprint": "Potentiometer_Bourns_Single-PTV09A",
+          "refs": [
+            "RV_POT1",
+            "RV_POT2",
+            "RV_POT3"
+          ]
+        },
+        {
+          "value": "PJ366ST",
+          "footprint": "Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles",
+          "refs": [
+            "J_MIDI1"
+          ]
+        },
+        {
+          "value": "SW_SPST_Push_LED",
+          "footprint": "SPST_Circular_Pushbutton_LED",
+          "refs": [
+            "U_BTN1"
+          ]
+        },
+        {
+          "value": "SW_SPST_Push",
+          "footprint": "SPST_Circular_Pushbutton_LED",
+          "refs": [
+            "U_BTN2"
+          ]
+        },
+        {
+          "value": "Conn_02x03_Odd_Even",
+          "footprint": "PinSocket_2x03_P2.54mm_Vertical",
+          "refs": [
+            "J1",
+            "J5",
+            "J8"
+          ]
+        },
+        {
+          "value": "Conn_01x02",
+          "footprint": "PinSocket_1x02_P2.54mm_Vertical",
+          "refs": [
+            "J2",
+            "J3"
+          ]
+        },
+        {
+          "value": "Conn_02x02_Odd_Even",
+          "footprint": "PinSocket_2x02_P2.54mm_Vertical",
+          "refs": [
+            "J4",
+            "J6"
+          ]
+        },
+        {
+          "value": "Conn_02x05_Odd_Even",
+          "footprint": "PinSocket_2x05_P2.54mm_Vertical",
+          "refs": [
+            "J7"
+          ]
+        }
+      ]
+    },
+    "01-psu": {
+      "title": "psu",
+      "revision": "",
+      "components": [
+        {
+          "value": "1k",
+          "footprint": "R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+          "refs": [
+            "R1",
+            "R2",
+            "R3"
+          ]
+        },
+        {
+          "value": "LED",
+          "footprint": "LED_D3.0mm",
+          "refs": [
+            "D1",
+            "D3",
+            "D4"
+          ]
+        },
+        {
+          "value": "1N5822",
+          "footprint": "D_DO-201AD_P15.24mm_Horizontal",
+          "refs": [
+            "D2"
+          ]
+        },
+        {
+          "value": "1.5KE36A",
+          "footprint": "D_DO-201AE_P15.24mm_Horizontal",
+          "refs": [
+            "D5"
+          ]
+        },
+        {
+          "value": "LOGO",
+          "footprint": "Gyeszno",
+          "refs": [
+            "G***"
+          ]
+        },
+        {
+          "value": "ISOLATED_DC-DC_CONV",
+          "footprint": "Converter_DCDC_MeanWell_NSD10_DKMW_THT",
+          "refs": [
+            "IC1"
+          ]
+        },
+        {
+          "value": "Jumper_2_Open",
+          "footprint": "SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm",
+          "refs": [
+            "JP1"
+          ]
+        },
+        {
+          "value": "PB400EEQR1BLK",
+          "footprint": "SW_PB400EEQR1BLK",
+          "refs": [
+            "S1"
+          ]
+        },
+        {
+          "value": "Conn_02x08_Odd_Even",
+          "footprint": "IDC-Header_2x08_P2.54mm_Horizontal",
+          "refs": [
+            "J2",
+            "J3",
+            "J4",
+            "J5"
+          ]
+        },
+        {
+          "value": "Barrel_Jack_Switch",
+          "footprint": "BarrelJack_Wuerth_6941xx301002",
+          "refs": [
+            "J1"
+          ]
+        }
+      ]
+    }
+  },
+  "experimental": {
+    "ui": {
+      "06-utils-output": {
+        "title": "utils-output-ui",
+        "revision": "",
+        "components": [
+          {
+            "value": "100n",
+            "footprint": "C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+            "refs": [
+              "C1",
+              "C2",
+              "C3",
+              "C4"
+            ]
+          },
+          {
+            "value": "220",
+            "footprint": "R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+            "refs": [
+              "R4",
+              "R5",
+              "R14",
+              "R15"
+            ]
+          },
+          {
+            "value": "47k",
+            "footprint": "R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+            "refs": [
+              "R1"
+            ]
+          },
+          {
+            "value": "4.7k",
+            "footprint": "R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+            "refs": [
+              "R2"
+            ]
+          },
+          {
+            "value": "100k",
+            "footprint": "R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+            "refs": [
+              "R3"
+            ]
+          },
+          {
+            "value": "SMAJ5.0CA",
+            "footprint": "D_SMA",
+            "refs": [
+              "D1",
+              "D2"
+            ]
+          },
+          {
+            "value": "NE5532",
+            "footprint": "SOIC-8_3.9x4.9mm_P1.27mm",
+            "refs": [
+              "U1",
+              "U2"
+            ]
+          },
+          {
+            "value": "PJ398SM",
+            "footprint": "Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles",
+            "refs": [
+              "J_CRUSH_IN1",
+              "J_CRUSH_OUT1",
+              "J_CRUSH_TRIG1",
+              "J_LFO_SQR1",
+              "J_LFO_TRI1",
+              "J_MAIN_IN1"
+            ]
+          },
+          {
+            "value": "LOGO",
+            "footprint": "Gyeszno",
+            "refs": [
+              "G***"
+            ]
+          },
+          {
+            "value": "Red LED",
+            "footprint": "LED_D3.0mm",
+            "refs": [
+              "D_DRIVE1",
+              "D_LFO1"
+            ]
+          },
+          {
+            "value": "Red LED",
+            "footprint": "PinSocket_1x02_P2.54mm_Vertical",
+            "refs": [
+              "D_DRIVE_FROM_CORE1"
+            ]
+          },
+          {
+            "value": "PJ366ST",
+            "footprint": "Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles",
+            "refs": [
+              "J_MAIN_OUT1"
+            ]
+          },
+          {
+            "value": "2N3904",
+            "footprint": "TO-92_Inline_Wide",
+            "refs": [
+              "Q1"
+            ]
+          },
+          {
+            "value": "2N3906",
+            "footprint": "TO-92_Inline_Wide",
+            "refs": [
+              "Q2"
+            ]
+          },
+          {
+            "value": "A1M",
+            "footprint": "Potentiometer_Bourns_Single-PTV09A",
+            "refs": [
+              "RV_CRUSH1"
+            ]
+          },
+          {
+            "value": "100k",
+            "footprint": "Potentiometer_Bourns_Single-PTV09A",
+            "refs": [
+              "RV_DRIVE1"
+            ]
+          },
+          {
+            "value": "A20k",
+            "footprint": "Potentiometer_Bourns_Dual-PTV112-4",
+            "refs": [
+              "RV_LFO_AMOUNT1"
+            ]
+          },
+          {
+            "value": "A500k-1M",
+            "footprint": "Potentiometer_Bourns_Single-PTV09A",
+            "refs": [
+              "RV_LFO_RATE1"
+            ]
+          },
+          {
+            "value": "A10k",
+            "footprint": "Potentiometer_Bourns_Single-PTV09A",
+            "refs": [
+              "RV_MAIN_VOLUME1"
+            ]
+          },
+          {
+            "value": "Conn_02x03_Odd_Even",
+            "footprint": "PinSocket_2x03_P2.54mm_Vertical",
+            "refs": [
+              "J1",
+              "J7"
+            ]
+          },
+          {
+            "value": "Conn_01x01_Pin",
+            "footprint": "TestPoint_THTPad_D2.0mm_Drill1.0mm",
+            "refs": [
+              "J3",
+              "J8"
+            ]
+          },
+          {
+            "value": "Conn_02x04_Odd_Even",
+            "footprint": "PinSocket_2x04_P2.54mm_Vertical",
+            "refs": [
+              "J2"
+            ]
+          },
+          {
+            "value": "Conn_01x02",
+            "footprint": "PinSocket_1x02_P2.54mm_Vertical",
+            "refs": [
+              "J4"
+            ]
+          },
+          {
+            "value": "Conn_01x06",
+            "footprint": "PinSocket_1x06_P2.54mm_Vertical",
+            "refs": [
+              "J5"
+            ]
+          },
+          {
+            "value": "Conn_02x05_Odd_Even",
+            "footprint": "PinSocket_2x05_P2.54mm_Vertical",
+            "refs": [
+              "J6"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
