@@ -572,7 +572,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "vco-ui-full-bom.csv",
+    "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -637,9 +637,9 @@
         },
         {
           "group_by": false,
-          "label": "Part no.",
+          "label": "Part No.",
           "name": "Part no.",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -669,12 +669,6 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Part No.",
-          "name": "Part No.",
           "show": false
         },
         {

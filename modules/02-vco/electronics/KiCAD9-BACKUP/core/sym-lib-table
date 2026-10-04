@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "Shmoergh-Custom-Components")(type "KiCad")(uri "${MODULEUR_ROOT_DIR}/lib/components/Shmoergh-Custom-Components.kicad_sym")(options "")(descr ""))
-)
