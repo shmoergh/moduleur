@@ -8,3 +8,5 @@ This is an alternative UI board for Brain, which allows you to use a second puls
 2. Solder or connect the wire to the extra pulse out input on the UI board
 3. Use a stereo to left and right split cable from pulse out. Left is the original pulse out, right is the extra pulse out.
 4. Of course, in order to make this work, you need to update the firmware that you use on the Brain module. Currently the SDK doesn't support this, but you can simply set GPIO 22 as a digital output and drive according to your needs. Note that the circuitry inverts the pulse output, so in order to get a `high` on the output, you need to set the digital output to low.
+
+<img width="2454" height="1980" alt="CleanShot 2026-10-04 at 16 44 30@2x" src="https://github.com/user-attachments/assets/d148d80a-4312-47b5-b6f3-fd297d368f1b" />
