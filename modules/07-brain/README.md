@@ -9,8 +9,8 @@ Brain is a universal digital module for the Shmøergh Moduleur which enables the
 ## Features
 
 - Universal digital module based on Raspberry Pi Pico or Pico 2
-- Three buttons, one of them with LED
-- Two potmeters
+- Two buttons, one of them with LED
+- Three potmeters
 - Dedicated MIDI input with input protection
 - Six dimmable LED indicators
 - Two audio or CV inputs
