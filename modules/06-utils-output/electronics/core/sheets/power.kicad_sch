@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Utils / Output Core")
-		(date "2026-05-13")
-		(rev "3")
+		(date "2026-10-27")
+		(rev "4")
 		(company "Shmøergh")
 	)
 	(lib_symbols
