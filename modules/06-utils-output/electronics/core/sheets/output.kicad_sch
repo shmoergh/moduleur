@@ -2395,18 +2395,6 @@
 		)
 		(uuid "318233aa-55a5-4c08-a66e-6cbba04d69d7")
 	)
-	(text "Proto this! If works, replace with\nSMD variant."
-		(exclude_from_sim no)
-		(at 41.91 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 255 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "5a9422fe-9646-44f4-9963-cd4e52dc0062")
-	)
 	(text "Max line out level\nSet to 2.8Vpp"
 		(exclude_from_sim no)
 		(at 17.78 69.85 0)
@@ -2544,6 +2532,12 @@
 		(uuid "d1261b5b-e7d5-4af4-8418-2d4a8d819f15")
 	)
 	(junction
+		(at 58.42 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d16128ec-c44a-4ee8-bfdd-7d1d068bb828")
+	)
+	(junction
 		(at 40.64 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2590,6 +2584,26 @@
 			(type default)
 		)
 		(uuid "017520ac-5885-4066-a5b6-076c1209bc6c")
+	)
+	(wire
+		(pts
+			(xy 58.42 77.47) (xy 58.42 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0458c19d-1ceb-4ac3-8ea3-0177fff3c9d0")
+	)
+	(wire
+		(pts
+			(xy 58.42 60.96) (xy 59.69 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04fe0ade-04a4-423b-9657-e364a502af9a")
 	)
 	(wire
 		(pts
@@ -3133,24 +3147,13 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 60.96) (xy 59.69 60.96)
+			(xy 57.15 60.96) (xy 58.42 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9b4b7f3f-2147-40f1-b976-e3a63e56d1a2")
-	)
-	(polyline
-		(pts
-			(xy 53.34 52.07) (xy 57.15 39.37)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 255 0 255 1)
-		)
-		(uuid "9f6e96af-4552-4fd9-8876-862b0e61b6e5")
 	)
 	(wire
 		(pts
@@ -3271,6 +3274,16 @@
 			(type default)
 		)
 		(uuid "be31df3c-7138-4695-8827-8f7fb0190fc8")
+	)
+	(wire
+		(pts
+			(xy 58.42 60.96) (xy 58.42 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c26474ed-fc84-4752-a2a5-bf3135081f5d")
 	)
 	(wire
 		(pts
@@ -6757,6 +6770,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 58.42 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8066ea79-4f38-4774-b910-0a4b9e17be77")
+		(property "Reference" "#PWR029"
+			(at 58.42 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 58.42 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "33f4c751-76f0-43e9-b0ec-5bfef1edc239")
+		)
+		(instances
+			(project "utils-output-core"
+				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/41496549-080e-47b7-9088-5316bbc20ed8"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:TL072")
 		(at 210.82 60.96 0)
 		(mirror x)
@@ -9231,6 +9322,162 @@
 			(project "utils-output-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/41496549-080e-47b7-9088-5316bbc20ed8"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 58.42 71.12 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fce5e9b1-3f1e-46b5-ad89-279d8061d8c7")
+		(property "Reference" "R26"
+			(at 53.34 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 53.34 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 60.198 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25803"
+			(at 58.42 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 58.42 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part No." ""
+			(at 58.42 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part URL" ""
+			(at 58.42 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 58.42 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" ""
+			(at 58.42 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 58.42 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d0b01007-261b-471c-bfd5-83e6e87d1020")
+		)
+		(pin "2"
+			(uuid "1a62ea3c-faf6-4321-bd43-07a9720e28f3")
+		)
+		(instances
+			(project "utils-output-core"
+				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/41496549-080e-47b7-9088-5316bbc20ed8"
+					(reference "R26")
 					(unit 1)
 				)
 			)
