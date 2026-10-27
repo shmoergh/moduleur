@@ -1,6 +1,7 @@
 ## 🐛 Oct 27, 2026 FIX
 
-If you ordered the board before Oct 27, 2026 we recommend to apply this fix manually. Not critical.
+If you ordered the board before Oct 27, 2026 we recommend to apply this fix manually. Not critical. 
+This bug is fixed on boards ordered after Oct 27, 2026 ([commit](https://github.com/shmoergh/moduleur/commit/97e3414bef1bd9e8f7707d201a752b88319704db)).
 
 **Sympthom:** The main output of the Utils/Output module is not AC coupled correctly (ie. not oscillating around 0V).
 
